@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 /**
- * Cross-platform installer for the daily-brief pipeline.
+ * Cross-platform installer for the iris-nexus-brief pipeline.
  *
  * Per-platform scheduling:
  *   - Windows  →  Task Scheduler (via PowerShell Register-ScheduledTask)
  *                 + WakeToRun + wake timers in power plan
- *   - macOS    →  launchd plist at ~/Library/LaunchAgents/com.daily-brief.plist
+ *   - macOS    →  launchd plist at ~/Library/LaunchAgents/com.iris-nexus-brief.plist
  *   - Linux    →  user crontab entry
  *
  * Common:
- *   - Writes ~/.daily-brief-config recording the project's absolute path so
+ *   - Writes ~/.iris-nexus-brief-config recording the project's absolute path so
  *     slash commands and SKILL.md can locate it from any cwd
  *   - With --global, also links the project's .claude/skills + .claude/commands
  *     to the user-level ~/.claude/ so /run-daily etc. work in any Claude Code
@@ -63,7 +63,7 @@ if (!fs.existsSync(wrapperPath)) {
   throw new Error(`Expected wrapper at ${wrapperPath} — is this the project root?`);
 }
 
-console.log("=== daily-brief — install ===");
+console.log("=== iris-nexus-brief — install ===");
 console.log(`Project root: ${projectRoot}`);
 console.log(`Platform:     ${process.platform}`);
 console.log(`Trigger:      Daily at ${args.at} (local)`);
@@ -97,7 +97,7 @@ $principal = New-ScheduledTaskPrincipal \`
     -RunLevel Limited
 
 Register-ScheduledTask \`
-    -TaskName "DailyBrief" \`
+    -TaskName "IrisNexusBrief" \`
     -Action $action \`
     -Trigger $trigger \`
     -Settings $settings \`
@@ -105,7 +105,7 @@ Register-ScheduledTask \`
     -Description "Generate daily AI/finance/politics/trading digest" \`
     -Force | Out-Null
 
-Write-Host "[OK] Task 'DailyBrief' registered"
+Write-Host "[OK] Task 'IrisNexusBrief' registered"
 
 # Enable wake timers in active power plan (needed for WakeToRun on battery)
 $ALLOW_WAKE_TIMERS = "BD3B718A-0680-4D9D-8AB2-E1D2B4AC806D"
@@ -120,7 +120,7 @@ try {
 }
 `;
 
-  const tmpScript = path.join(os.tmpdir(), `daily-brief-install-${Date.now()}.ps1`);
+  const tmpScript = path.join(os.tmpdir(), `iris-nexus-brief-install-${Date.now()}.ps1`);
   fs.writeFileSync(tmpScript, psScript, "utf8");
   try {
     execSync(`powershell.exe -NoProfile -ExecutionPolicy Bypass -File "${tmpScript}"`, {
@@ -135,7 +135,7 @@ try {
 
 function installMacOS(at) {
   const [hour, minute] = at.split(":").map(Number);
-  const label = "com.daily-brief";
+  const label = "com.iris-nexus-brief";
   const logOut = path.join(projectRoot, "logs", "launchd.out.log");
   const logErr = path.join(projectRoot, "logs", "launchd.err.log");
   fs.mkdirSync(path.dirname(logOut), { recursive: true });
@@ -187,7 +187,7 @@ function installMacOS(at) {
 
 function installLinux(at) {
   const [hour, minute] = at.split(":");
-  const marker = "# daily-brief";
+  const marker = "# iris-nexus-brief";
   const logOut = path.join(projectRoot, "logs", "cron.log");
   fs.mkdirSync(path.dirname(logOut), { recursive: true });
 
@@ -200,7 +200,7 @@ function installLinux(at) {
     existing = list.stdout;
   }
 
-  // Strip any prior daily-brief line
+  // Strip any prior iris-nexus-brief line
   const filtered = existing
     .split("\n")
     .filter((line) => !line.includes(marker))
@@ -246,9 +246,9 @@ function installUserLevelSkill() {
   const userClaude = path.join(os.homedir(), ".claude");
   const userSkillsDir = path.join(userClaude, "skills");
   const userCmdsDir = path.join(userClaude, "commands");
-  const userSkill = path.join(userSkillsDir, "daily-brief");
+  const userSkill = path.join(userSkillsDir, "iris-nexus-brief");
 
-  const projSkill = path.join(projectRoot, ".claude", "skills", "daily-brief");
+  const projSkill = path.join(projectRoot, ".claude", "skills", "iris-nexus-brief");
   const projRunCmd = path.join(projectRoot, ".claude", "commands", "run-daily.md");
   const projCheckCmd = path.join(projectRoot, ".claude", "commands", "check-daily.md");
 
@@ -295,7 +295,7 @@ if (process.platform === "win32") {
 }
 
 // Always write config so slash commands can locate the project from any cwd
-const configPath = path.join(os.homedir(), ".daily-brief-config");
+const configPath = path.join(os.homedir(), ".iris-nexus-brief-config");
 fs.writeFileSync(configPath, projectRoot, "utf8");
 console.log(`[OK] config: ${configPath} = ${projectRoot}`);
 

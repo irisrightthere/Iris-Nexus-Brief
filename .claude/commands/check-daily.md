@@ -7,7 +7,7 @@ Show the current state of the daily pipeline. Just gather and report, don't ask 
 ## Step 0: locate the project root (cross-platform)
 
 ```bash
-node -e "const fs=require('fs'),os=require('os'),path=require('path');const cfg=path.join(os.homedir(),'.daily-brief-config');if(fs.existsSync(cfg)){process.chdir(fs.readFileSync(cfg,'utf8').trim());console.log(process.cwd())}else if(fs.existsSync('package.json')){console.log(process.cwd())}else{console.error('daily-brief not installed');process.exit(1)}"
+node -e "const fs=require('fs'),os=require('os'),path=require('path');const cfg=path.join(os.homedir(),'.iris-nexus-brief-config');if(fs.existsSync(cfg)){process.chdir(fs.readFileSync(cfg,'utf8').trim());console.log(process.cwd())}else if(fs.existsSync('package.json')){console.log(process.cwd())}else{console.error('iris-nexus-brief not installed');process.exit(1)}"
 ```
 
 cd into the printed path before running anything else.
@@ -18,9 +18,9 @@ Run these and summarize:
 
 **Scheduled task state**
 
-- **Windows**: `Get-ScheduledTaskInfo -TaskName DailyBrief | Format-List LastRunTime, LastTaskResult, NextRunTime, NumberOfMissedRuns`
-- **macOS**: `launchctl list | grep com.daily-brief`  (PID + last exit code)
-- **Linux**: `crontab -l | grep daily-brief`  (just confirms the entry exists; cron doesn't track per-job last-run)
+- **Windows**: `Get-ScheduledTaskInfo -TaskName IrisNexusBrief | Format-List LastRunTime, LastTaskResult, NextRunTime, NumberOfMissedRuns`
+- **macOS**: `launchctl list | grep com.iris-nexus-brief`  (PID + last exit code)
+- **Linux**: `crontab -l | grep iris-nexus-brief`  (just confirms the entry exists; cron doesn't track per-job last-run)
 
 If the task/job isn't registered: tell the user to run `node scripts/install.mjs --global`.
 
@@ -48,4 +48,4 @@ Short status:
 - 🔢 Sonnet 5h-window utilization
 - ⚠ Anomalies (failed run, missing today's file when expected, quota near limit)
 
-If healthy, keep it short. If something's wrong, propose the diagnostic next step from the `daily-brief` skill's flow.
+If healthy, keep it short. If something's wrong, propose the diagnostic next step from the `iris-nexus-brief` skill's flow.

@@ -6,10 +6,10 @@ Run the daily digest **right now**. Don't ask for confirmation — the user expl
 
 ## Step 0: locate the project root (cross-platform, works from any cwd)
 
-Read the path from `~/.daily-brief-config` (written by `install.mjs`). Use a small Node one-liner so it works on Windows / macOS / Linux:
+Read the path from `~/.iris-nexus-brief-config` (written by `install.mjs`). Use a small Node one-liner so it works on Windows / macOS / Linux:
 
 ```bash
-node -e "const fs=require('fs'),os=require('os'),path=require('path');const cfg=path.join(os.homedir(),'.daily-brief-config');if(fs.existsSync(cfg)){process.chdir(fs.readFileSync(cfg,'utf8').trim());console.log(process.cwd())}else if(fs.existsSync('package.json')){console.log(process.cwd())}else{console.error('daily-brief not installed. Run bootstrap or: node scripts/install.mjs --global');process.exit(1)}"
+node -e "const fs=require('fs'),os=require('os'),path=require('path');const cfg=path.join(os.homedir(),'.iris-nexus-brief-config');if(fs.existsSync(cfg)){process.chdir(fs.readFileSync(cfg,'utf8').trim());console.log(process.cwd())}else if(fs.existsSync('package.json')){console.log(process.cwd())}else{console.error('iris-nexus-brief not installed. Run bootstrap or: node scripts/install.mjs --global');process.exit(1)}"
 ```
 
 That command prints the resolved project root. cd into it before running anything else:
@@ -22,16 +22,16 @@ If the Node check exits non-zero, the user hasn't installed yet — tell them to
 
 **Windows**:
 ```powershell
-Start-ScheduledTask -TaskName DailyBrief
+Start-ScheduledTask -TaskName IrisNexusBrief
 Start-Sleep -Seconds 3
-Get-ScheduledTaskInfo -TaskName DailyBrief | Format-List LastRunTime, LastTaskResult
+Get-ScheduledTaskInfo -TaskName IrisNexusBrief | Format-List LastRunTime, LastTaskResult
 ```
 Confirm `LastTaskResult = 267009` (running).
 
 **macOS**:
 ```bash
-launchctl start com.daily-brief
-# Status: launchctl list | grep daily-brief
+launchctl start com.iris-nexus-brief
+# Status: launchctl list | grep iris-nexus-brief
 ```
 
 **Linux** (cron, no manual trigger — just run the wrapper directly):
@@ -67,4 +67,4 @@ If failed:
 
 Chrome (or system default browser) opens automatically on success — `run-daily.mjs` calls `npm run open` at the end.
 
-Project context for diagnostics is in the `daily-brief` skill — load it if needed.
+Project context for diagnostics is in the `iris-nexus-brief` skill — load it if needed.

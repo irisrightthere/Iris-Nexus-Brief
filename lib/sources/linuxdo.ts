@@ -5,7 +5,7 @@ import { V2EX_OFF_TOPIC_RE } from "./v2ex";
 
 const HEADERS: Record<string, string> = {
   "User-Agent":
-    "Mozilla/5.0 (compatible; DailyBriefBot/1.0; +https://github.com/leiting-eric/DailyBrief)",
+    "Mozilla/5.0 (compatible; IrisNexusBot/1.0; +https://github.com/irisrightthere/Iris-Nexus-Brief)",
   Accept:
     "application/atom+xml, application/rss+xml, application/xml, text/xml, */*",
   "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
@@ -40,7 +40,7 @@ async function fetchFeed(url: string) {
  * Uses LinuxDo's public Discourse RSS feeds — the same URLs that any RSS
  * reader subscribes to. RSS is the syndication protocol the site exposes
  * to third-party aggregators, so this fetcher identifies itself honestly
- * as `DailyBriefBot/1.0` (no UA spoofing).
+ * as `IrisNexusBot/1.0` (no UA spoofing).
  *
  * Strategy: try /top.rss?period=daily first (matches "today's hot"
  * semantics), fall back to /latest.rss when /top fails.

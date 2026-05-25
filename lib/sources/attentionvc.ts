@@ -100,7 +100,7 @@ export async function fetchAttentionVc(
   const url = `${BASE}?window=3d&category=ai&lang=en&limit=30`;
   const res = await fetch(url, {
     headers: {
-      "User-Agent": "Mozilla/5.0 (compatible; DailyBriefBot/1.0)",
+      "User-Agent": "Mozilla/5.0 (compatible; IrisNexusBot/1.0)",
       Accept: "application/json",
     },
     signal: AbortSignal.timeout(15_000),

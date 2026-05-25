@@ -154,10 +154,10 @@ Get-ScheduledTaskInfo -TaskName DailyBrief | Format-List LastRunTime, LastTaskRe
 
 ```bash
 # macOS
-launchctl list | grep com.daily-brief
+launchctl list | grep com.iris-nexus-brief
 
 # Linux (cron doesn't track per-job state, so just inspect cron + log)
-crontab -l | grep daily-brief
+crontab -l | grep iris-nexus-brief
 ```
 
 **Tail today's log** (date = local time, not UTC):

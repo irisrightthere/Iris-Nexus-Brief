@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 /**
- * One-line installer for the daily-brief digest pipeline. Cross-platform.
+ * One-line installer for the iris-nexus-brief digest pipeline. Cross-platform.
  *
- *   curl -sSL https://raw.githubusercontent.com/leiting-eric/DailyBrief/main/bootstrap.mjs | node
+ *   curl -sSL https://raw.githubusercontent.com/irisrightthere/Iris-Nexus-Brief/main/bootstrap.mjs | node
  *
  * On Windows PowerShell:
- *   irm https://raw.githubusercontent.com/leiting-eric/DailyBrief/main/bootstrap.mjs | node -
+ *   irm https://raw.githubusercontent.com/irisrightthere/Iris-Nexus-Brief/main/bootstrap.mjs | node -
  *
  * Default behavior:
- *   - Clones the repo to ~/daily-brief (or %USERPROFILE%\daily-brief on Windows)
+ *   - Clones the repo to ~/iris-nexus-brief (or %USERPROFILE%\iris-nexus-brief on Windows)
  *   - npm install
  *   - node scripts/install.mjs --global
  *
- * After install: /run-daily, /check-daily, and the daily-brief skill all work
+ * After install: /run-daily, /check-daily, and the iris-nexus-brief skill all work
  * from any Claude Code session.
  *
  * Custom options:
@@ -24,8 +24,8 @@ import os from "node:os";
 import path from "node:path";
 import { execSync, spawnSync } from "node:child_process";
 
-const REPO_DEFAULT = "https://github.com/leiting-eric/DailyBrief.git";
-const TARGET_DEFAULT = path.join(os.homedir(), "daily-brief");
+const REPO_DEFAULT = "https://github.com/irisrightthere/Iris-Nexus-Brief.git";
+const TARGET_DEFAULT = path.join(os.homedir(), "iris-nexus-brief");
 const AT_DEFAULT = "16:00";
 
 function parseArgs(argv) {
@@ -48,7 +48,7 @@ function parseArgs(argv) {
 const args = parseArgs(process.argv.slice(2));
 
 if (args.help) {
-  console.log(`daily-brief bootstrap installer
+  console.log(`iris-nexus-brief bootstrap installer
 
 Usage:
   node bootstrap.mjs [options]
@@ -62,7 +62,7 @@ Options:
   process.exit(0);
 }
 
-console.log("=== daily-brief bootstrap ===");
+console.log("=== iris-nexus-brief bootstrap ===");
 console.log(`Platform: ${process.platform}`);
 console.log(`Repo:     ${args.repo}`);
 console.log(`Target:   ${args.target}`);
@@ -162,7 +162,7 @@ console.log("  - Claude Code users — open Claude Code anywhere, type:  /run-da
 if (process.platform === "win32") {
   console.log("  - Or:  Start-ScheduledTask -TaskName DailyBrief");
 } else if (process.platform === "darwin") {
-  console.log("  - Or:  launchctl start com.daily-brief");
+  console.log("  - Or:  launchctl start com.iris-nexus-brief");
 } else {
   console.log("  - Or wait until the cron trigger fires");
 }

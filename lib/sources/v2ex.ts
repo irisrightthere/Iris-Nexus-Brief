@@ -49,7 +49,7 @@ interface V2exTopic {
 }
 
 const HEADERS = {
-  "User-Agent": "Mozilla/5.0 (compatible; DailyBriefBot/1.0)",
+  "User-Agent": "Mozilla/5.0 (compatible; IrisNexusBot/1.0)",
   Accept: "application/json",
 } as const;
 

@@ -24,7 +24,7 @@ import {
  * this object so adding a third locale = adding one more table.
  */
 const TEXTS_ZH = {
-  siteTitle: "每日简报",
+  siteTitle: "鸢尾花全景情报",
   catTech: "技术动态",
   catFinance: "财经要点",
   catPolitics: "时政观察",
@@ -72,7 +72,7 @@ const TEXTS_ZH = {
 };
 
 const TEXTS_EN: typeof TEXTS_ZH = {
-  siteTitle: "Daily Brief",
+  siteTitle: "Iris Nexus Brief",
   catTech: "Tech",
   catFinance: "Finance",
   catPolitics: "World",

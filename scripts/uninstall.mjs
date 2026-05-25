@@ -3,7 +3,7 @@
  * Cross-platform uninstaller. Reverses everything install.mjs did:
  *   - Removes scheduled task (Task Scheduler / launchd / crontab)
  *   - Removes user-level skill + commands at ~/.claude/
- *   - Removes ~/.daily-brief-config
+ *   - Removes ~/.iris-nexus-brief-config
  *
  * Idempotent — safe to run even if pieces don't exist.
  * Does NOT touch project files, daily_reports/, logs/, or power-plan settings.
@@ -28,16 +28,16 @@ function safeRm(p) {
 if (process.platform === "win32") {
   // Stop + unregister via PowerShell
   const psScript = `
-$task = Get-ScheduledTask -TaskName DailyBrief -ErrorAction SilentlyContinue
+$task = Get-ScheduledTask -TaskName IrisNexusBrief -ErrorAction SilentlyContinue
 if ($task) {
-    try { Stop-ScheduledTask -TaskName DailyBrief -ErrorAction SilentlyContinue } catch {}
-    Unregister-ScheduledTask -TaskName DailyBrief -Confirm:$false
-    Write-Host "[OK] Task 'DailyBrief' unregistered"
+    try { Stop-ScheduledTask -TaskName IrisNexusBrief -ErrorAction SilentlyContinue } catch {}
+    Unregister-ScheduledTask -TaskName IrisNexusBrief -Confirm:$false
+    Write-Host "[OK] Task 'IrisNexusBrief' unregistered"
 } else {
-    Write-Host "[skip] Task 'DailyBrief' was not registered"
+    Write-Host "[skip] Task 'IrisNexusBrief' was not registered"
 }
 `;
-  const tmp = path.join(os.tmpdir(), `daily-brief-uninstall-${Date.now()}.ps1`);
+  const tmp = path.join(os.tmpdir(), `iris-nexus-brief-uninstall-${Date.now()}.ps1`);
   fs.writeFileSync(tmp, psScript, "utf8");
   try {
     execSync(`powershell.exe -NoProfile -ExecutionPolicy Bypass -File "${tmp}"`, {
@@ -53,7 +53,7 @@ if ($task) {
     os.homedir(),
     "Library",
     "LaunchAgents",
-    "com.daily-brief.plist",
+    "com.iris-nexus-brief.plist",
   );
   if (fs.existsSync(plistPath)) {
     spawnSync("launchctl", ["unload", plistPath], { stdio: "ignore" });
@@ -63,7 +63,7 @@ if ($task) {
     console.log("[skip] launchd plist not present");
   }
 } else if (process.platform === "linux") {
-  const marker = "# daily-brief";
+  const marker = "# iris-nexus-brief";
   const list = spawnSync("crontab", ["-l"], { encoding: "utf8" });
   if (list.status === 0 && list.stdout) {
     const filtered = list.stdout
@@ -71,7 +71,7 @@ if ($task) {
       .filter((line) => !line.includes(marker))
       .join("\n");
     if (filtered === list.stdout) {
-      console.log("[skip] no daily-brief cron entry");
+      console.log("[skip] no iris-nexus-brief cron entry");
     } else {
       const r = spawnSync("crontab", ["-"], {
         input: filtered.trim() + "\n",
@@ -91,13 +91,13 @@ if ($task) {
 // === 2. User-level skill / commands ===
 
 const homeClaude = path.join(os.homedir(), ".claude");
-safeRm(path.join(homeClaude, "skills", "daily-brief"));
+safeRm(path.join(homeClaude, "skills", "iris-nexus-brief"));
 safeRm(path.join(homeClaude, "commands", "run-daily.md"));
 safeRm(path.join(homeClaude, "commands", "check-daily.md"));
 
 // === 3. Config file ===
 
-safeRm(path.join(os.homedir(), ".daily-brief-config"));
+safeRm(path.join(os.homedir(), ".iris-nexus-brief-config"));
 
 console.log("\nDone. Project files were NOT touched.");
 console.log("Re-install:  node scripts/install.mjs [--global]");
