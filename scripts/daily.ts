@@ -132,10 +132,10 @@ async function enrichXViral(articles: ArticleInput[]): Promise<void> {
  */
 async function enrichMergedSubgroup(
   articles: ArticleInput[],
-  category: "tech" | "finance" | "politics",
+  category: "tech" | "finance" | "politics" | "entertainment",
   subcategory: string,
 ): Promise<void> {
-  const subSources = sources.filter(
+  const subSources = allSources.filter(
     (s) =>
       s.category === category &&
       s.subcategory === subcategory &&
@@ -256,6 +256,10 @@ async function pushCoreFeed(articles: ArticleInput[], date: string): Promise<voi
   });
 }
 
+async function enrichEntertainment(articles: ArticleInput[]): Promise<void> {
+  await enrichMergedSubgroup(articles, "entertainment", "x-viral");
+}
+
 async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
@@ -271,6 +275,7 @@ async function main() {
   await enrichPolitics(articles);
   await enrichAiNews(articles);
   await enrichXViral(articles);
+  await enrichEntertainment(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.
