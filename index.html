@@ -335,6 +335,22 @@
   }
   .article:first-child { padding-top: 0; }
   .article:last-child { border-bottom: none; }
+  .article.has-thumb {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+  }
+  .article-thumb {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  @media (max-width: 520px) {
+    .article.has-thumb { flex-direction: column; }
+    .article-thumb { width: 100%; height: auto; max-height: 180px; }
+  }
   .article-title {
     font-size: 1rem;
     margin: 0 0 0.3rem;
@@ -644,279 +660,235 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="tech">技术动态<span class="count">72</span></button>
+    <button class="tab active" data-tab="tech">技术动态<span class="count">56</span></button>
     <button class="tab" data-tab="trading">市场行情<span class="count">21</span></button>
     <button class="tab" data-tab="politics">时政观察<span class="count">15</span></button>
     <button class="tab" data-tab="finance">财经要点<span class="count">12</span></button>
-    
+    <button class="tab" data-tab="entertainment">娱乐观察<span class="count">0</span></button>
     <button class="tab" data-tab="community">社区讨论<span class="count">20</span></button>
   </nav>
 
   <section class="panel active" data-panel="tech">
-    <nav class="sub-tabs"><button class="sub-tab active" data-sub="github-trending" data-cat="tech">GitHub Trending<span class="count">17</span></button><button class="sub-tab" data-sub="x-viral" data-cat="tech">X 推文<span class="count">10</span></button><button class="sub-tab" data-sub="ai-news" data-cat="tech">AI 媒体<span class="count">15</span></button><button class="sub-tab" data-sub="youtube-channels" data-cat="tech">AI油管<span class="count">30</span></button></nav>
+    <nav class="sub-tabs"><button class="sub-tab active" data-sub="github-trending" data-cat="tech">GitHub Trending<span class="count">17</span></button><button class="sub-tab" data-sub="x-viral" data-cat="tech">X 推文<span class="count">9</span></button><button class="sub-tab" data-sub="ai-news" data-cat="tech">AI 媒体<span class="count">15</span></button><button class="sub-tab" data-sub="youtube-channels" data-cat="tech">AI油管<span class="count">15</span></button></nav>
 <div class="sub-contents"><div class="sub-content active" data-sub-content="github-trending" data-cat="tech">
     
     <div class="source-contents">
-      <div class="source-content active" data-source-content="github-trending" data-sub="github-trending" data-cat="tech">
+      <div class="source-content active" data-source-content="_merged" data-sub="github-trending" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noopener noreferrer">Lum1104/Understand-Anything</a></h3>
-  <p class="article-stats">TypeScript · ★ 30,442 · 🍴 2,531 · 📈 5,625 stars today</p>
-  
+  <p class="article-stats">TypeScript · ★ 30,535 · 🍴 2,537 · 📈 5,625 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 将任何代码转换为可交互探索、搜索和提问的知识图谱，支持 Claude Code、Codex、Cursor 等 AI 编码助手。解决代码理解和检索难题，适合需要快速掌握复杂代码库的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 将任意代码转换为可交互的知识图谱，支持探索、搜索和提问。与 Claude Code、Codex 等 AI 编码工具配合，帮助开发者快速理解复杂代码库，减少阅读成本。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/anthropics/knowledge-work-plugins" target="_blank" rel="noopener noreferrer">anthropics/knowledge-work-plugins</a></h3>
-  <p class="article-stats">Python · ★ 15,133 · 🍴 1,840 · 📈 1,448 stars today</p>
-  
+  <p class="article-stats">Python · ★ 15,172 · 🍴 1,842 · 📈 1,448 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向知识工作者的 Claude Cowork 开源插件集，提供文档处理、信息整理等工具。提升日常工作流效率，适合需要 AI 辅助办公的职场人士。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 开源的知识工作者插件集合，专为 Claude Cowork 设计。提供一系列工具增强知识工作场景下的 AI 协作效率，如文档处理、信息检索等。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener noreferrer">rohitg00/ai-engineering-from-scratch</a></h3>
-  <p class="article-stats">Python · ★ 18,206 · 🍴 3,107 · 📈 3,167 stars today</p>
-  
+  <p class="article-stats">Python · ★ 18,241 · 🍴 3,111 · 📈 3,167 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Learn it. Build it. Ship it for others.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 从零开始的 AI 工程实战教程，涵盖学习、构建到部署的完整流程。帮助初学者掌握 AI 项目开发技能，适合想系统性入门 AI 工程的学生或开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 面向 AI 工程从零开始学习的教程与实战项目。涵盖构建、部署全流程，适合希望掌握 AI 工程并交付实际产品的开发者。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a></h3>
-  <p class="article-stats">JavaScript · ★ 192,147 · 🍴 29,742 · 📈 2,052 stars today</p>
-  
+  <p class="article-stats">JavaScript · ★ 192,181 · 🍴 29,747 · 📈 2,052 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> AI 编码代理的性能优化系统，为 Claude Code、Codex 等提供技能、直觉、记忆和安全增强。减少冗余调用，提升代理响应速度，适合重度使用 AI 编程助手的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> AI 代理性能优化系统，集技能、直觉、记忆、安全与科研导向开发于一体。为 Claude Code、Cursor 等代理提供加速与增强能力。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank" rel="noopener noreferrer">mukul975/Anthropic-Cybersecurity-Skills</a></h3>
-  <p class="article-stats">Python · ★ 9,067 · 🍴 1,122 · 📈 999 stars today</p>
-  
+  <p class="article-stats">Python · ★ 9,087 · 🍴 1,123 · 📈 999 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND &amp; NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 26 security domains · Apache 2.0</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 754 个结构化网络安全技能，映射 MITRE ATT&amp;CK、NIST CSF 2.0 等五大框架，适配 Claude Code、Copilot。为 AI 代理注入专业安全知识，适合网络安全分析师和 AI 安全应用开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 754 个结构化网络安全技能，覆盖 MITRE ATT&amp;CK、NIST CSF 2.0 等 5 个框架。可为 AI 代理注入专业安全能力，适用于 Claude Code 等工具。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/colbymchenry/codegraph" target="_blank" rel="noopener noreferrer">colbymchenry/codegraph</a></h3>
-  <p class="article-stats">TypeScript · ★ 24,637 · 🍴 1,357 · 📈 3,171 stars today</p>
-  
+  <p class="article-stats">TypeScript · ★ 24,676 · 🍴 1,358 · 📈 3,171 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 预索引的代码知识图谱，专为 Claude Code、Codex、Cursor 等设计，减少 token 消耗和工具调用，完全本地运行。加速 AI 代码理解，适合追求低延迟、高隐私的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 预索引的代码知识图谱，大幅减少 token 消耗和工具调用。100% 本地运行，配合 Claude Code、Cursor 等代理，加速代码理解与调试。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/manaflow-ai/cmux" target="_blank" rel="noopener noreferrer">manaflow-ai/cmux</a></h3>
-  <p class="article-stats">Swift · ★ 19,418 · 🍴 1,469 · 📈 598 stars today</p>
-  
+  <p class="article-stats">Swift · ★ 19,429 · 🍴 1,469 · 📈 598 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 基于 Ghostty 的 macOS 终端，新增垂直标签页和 AI 编码代理通知功能。优化多任务管理和代理反馈体验，适合 Mac 上使用 AI 编程助手的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 基于 Ghostty 的 macOS 终端模拟器，支持垂直标签和 AI 编码代理通知。专为需要高效管理多个代理会话的开发者设计。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">multica-ai/andrej-karpathy-skills</a></h3>
-  <p class="article-stats">★ 154,528 · 🍴 15,828 · 📈 2,753 stars today</p>
-  
+  <p class="article-stats">★ 154,592 · 🍴 15,833 · 📈 2,753 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 单个 CLAUDE.md 文件，基于 Andrej Karpathy 对 LLM 编码陷阱的观察，改进 Claude Code 的行为模式。减少幻觉和低级错误，适合希望提升 Claude Code 输出质量的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 一份 CLAUDE.md 文件，根据 Andrej Karpathy 对 LLM 编码陷阱的观察编写。用于改善 Claude Code 的行为，避免常见错误。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/Fincept-Corporation/FinceptTerminal" target="_blank" rel="noopener noreferrer">Fincept-Corporation/FinceptTerminal</a></h3>
-  <p class="article-stats">Python · ★ 23,808 · 🍴 3,273 · 📈 345 stars today</p>
-  
+  <p class="article-stats">Python · ★ 23,812 · 🍴 3,275 · 📈 345 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 现代化金融终端，提供市场分析、投资研究和经济数据交互工具。支持数据驱动决策，适合金融分析师、投资者和研究人员。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 现代金融终端应用，提供高级市场分析、投资研究和经济数据工具。支持交互式探索，适合金融从业者进行数据驱动决策。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank" rel="noopener noreferrer">paperless-ngx/paperless-ngx</a></h3>
-  <p class="article-stats">Python · ★ 41,255 · 🍴 2,739 · 📈 151 stars today</p>
-  
+  <p class="article-stats">Python · ★ 41,267 · 🍴 2,739 · 📈 151 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">A community-supported supercharged document management system: scan, index and archive all your documents</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 社区驱动的文档管理系统，支持扫描、自动索引、分类和归档。基于 OCR 实现全文检索，解决纸质文档数字化难题，适合个人和企业整理海量文件。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 社区驱动的增强版文档管理系统，支持扫描、索引和归档。可自动化处理 PDF、图片等文档，实现无纸化办公与智能检索。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/anthropics/claude-cookbooks" target="_blank" rel="noopener noreferrer">anthropics/claude-cookbooks</a></h3>
-  <p class="article-stats">Jupyter Notebook · ★ 43,952 · 🍴 5,040 · 📈 218 stars today</p>
-  
+  <p class="article-stats">Jupyter Notebook · ★ 43,961 · 🍴 5,041 · 📈 218 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Claude 使用技巧和案例的 Notebook 合集，涵盖函数调用、结构化输出等有效用法。适合 Claude 用户快速掌握高级功能，提升 AI 交互效率。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Claude 使用示例笔记本与配方集合，展示有趣且高效的调用方式。涵盖提示工程、工具使用等场景，适合开发者快速上手。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">Leonxlnx/taste-skill</a></h3>
-  <p class="article-stats">Shell · ★ 19,477 · 🍴 1,644 · 📈 188 stars today</p>
-  
+  <p class="article-stats">Shell · ★ 19,516 · 🍴 1,646 · 📈 542 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 为 AI 注入“品味”的技能文件，抑制生成无聊、套话化的内容。通过调整提示词策略让输出更生动有趣，适合内容创作者和追求高质量 AI 文本的用户。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 为 AI 注入“品味”，通过技能文件阻止生成无聊、通用的内容。适用于希望提升 AI 输出创意与独特性的开发者。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/moeru-ai/airi" target="_blank" rel="noopener noreferrer">moeru-ai/airi</a></h3>
-  <p class="article-stats">TypeScript · ★ 39,643 · 🍴 4,019 · 📈 32 stars today</p>
-  
+  <p class="article-stats">TypeScript · ★ 39,651 · 🍴 4,019 · 📈 32 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama&#39;s altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 自托管的二次元 AI 伴侣，支持实时语音聊天、Minecraft 交互，目标是达到类似 Neuro-sama 的拟人程度。适合爱好者搭建个性化 AI 角色，实现沉浸式虚拟陪伴。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 自托管的 Grok 风格 AI 伴侣，支持实时语音聊天、Minecraft 交互等。可本地运行，打造专属的仿生人形态交互体验。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener noreferrer">shiyu-coder/Kronos</a></h3>
-  <p class="article-stats">Python · ★ 25,989 · 🍴 4,514 · 📈 243 stars today</p>
-  
+  <p class="article-stats">Python · ★ 25,992 · 🍴 4,514 · 📈 243 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Kronos: A Foundation Model for the Language of Financial Markets</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 金融市场的语言基础模型，专门训练以理解金融术语、市场动态和交易信号。适合量化分析、舆情监控和自动化报告生成。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 专为金融市场语言打造的基础模型，理解交易、财报等金融文本。可用于量化分析、新闻摘要等场景。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/Axorax/awesome-free-apps" target="_blank" rel="noopener noreferrer">Axorax/awesome-free-apps</a></h3>
-  <p class="article-stats">JavaScript · ★ 4,377 · 🍴 225 · 📈 141 stars today</p>
-  
+  <p class="article-stats">JavaScript · ★ 4,398 · 🍴 225 · 📈 141 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Curated list of the best free apps for PC and mobile</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 精选 PC 和移动端免费应用的分类列表，覆盖生产力、媒体、安全等类别。帮助用户快速找到高质量免费软件，省去筛选时间。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 精心整理的免费 PC 与移动应用列表，涵盖各类实用工具。按类别分类，帮助用户发现高质量免费软件。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noopener noreferrer">hardikpandya/stop-slop</a></h3>
-  <p class="article-stats">★ 4,309 · 🍴 374 · 📈 353 stars today</p>
-  
+  <p class="article-stats">★ 4,323 · 🍴 375 · 📈 353 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">A skill file for removing AI tells from prose</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 一个技能文件，用于从 AI 生成的散文中移除“AI 味”的冗余表达，如模板化连接词和空洞总结。适合需要让 AI 文本更自然、更像人类撰写的写作者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 一份技能文件，用于从生成的散文中移除 AI 特有的痕迹（如套话、冗余表述）。提升文本的自然度与可读性。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer">garrytan/gstack</a></h3>
-  <p class="article-stats">TypeScript · ★ 102,297 · 🍴 15,263 · 📈 600 stars today</p>
   
+  <h3 class="article-title"><a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer">garrytan/gstack</a></h3>
+  <p class="article-stats">TypeScript · ★ 102,317 · 🍴 15,266 · 📈 600 stars today</p>
+  <p class="article-meta">GitHub Trending</p>
   <p class="article-excerpt">Use Garry Tan&#39;s exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Garry Tan 的 Claude Code 个人配置，包含 23 个自定工具，分别扮演 CEO、设计师、工程经理等角色。通过分工协作提升代码质量与开发效率，适合追求极致 AI 辅助的开发者。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Garry Tan 的 Claude Code 配置，包含 23 个自定义工具，角色覆盖 CEO、设计师、工程经理等。可直接用于驱动完整开发流程。</p>
 </article>
   </div>
     </div>
   </div>
 <div class="sub-content" data-sub-content="x-viral" data-cat="tech">
-    <nav class="source-tabs"><button class="source-tab active" data-source="attentionvc-ai" data-sub="x-viral" data-cat="tech">X 推文 (AttentionVC)<span class="count">10</span></button><button class="source-tab" data-source="x-sama" data-sub="x-viral" data-cat="tech">X: @sama<span class="count">0</span></button><button class="source-tab" data-source="x-demishassabis" data-sub="x-viral" data-cat="tech">X: @demishassabis<span class="count">0</span></button><button class="source-tab" data-source="x-darioamodei" data-sub="x-viral" data-cat="tech">X: @DarioAmodei<span class="count">0</span></button><button class="source-tab" data-source="x-ylecun" data-sub="x-viral" data-cat="tech">X: @ylecun<span class="count">0</span></button><button class="source-tab" data-source="x-kaifulee" data-sub="x-viral" data-cat="tech">X: @kaifulee<span class="count">0</span></button><button class="source-tab" data-source="x-id-aa-carmack" data-sub="x-viral" data-cat="tech">X: @ID_AA_Carmack<span class="count">0</span></button><button class="source-tab" data-source="x-openai" data-sub="x-viral" data-cat="tech">X: @OpenAI<span class="count">0</span></button><button class="source-tab" data-source="x-anthropicai" data-sub="x-viral" data-cat="tech">X: @AnthropicAI<span class="count">0</span></button><button class="source-tab" data-source="x-googledeepmind" data-sub="x-viral" data-cat="tech">X: @GoogleDeepMind<span class="count">0</span></button><button class="source-tab" data-source="x-xai" data-sub="x-viral" data-cat="tech">X: @xai<span class="count">0</span></button><button class="source-tab" data-source="x-metaai" data-sub="x-viral" data-cat="tech">X: @MetaAI<span class="count">0</span></button><button class="source-tab" data-source="x-emollick" data-sub="x-viral" data-cat="tech">X: @emollick<span class="count">0</span></button><button class="source-tab" data-source="x-andrewyng" data-sub="x-viral" data-cat="tech">X: @AndrewYng<span class="count">0</span></button><button class="source-tab" data-source="x-rowancheung" data-sub="x-viral" data-cat="tech">X: @rowancheung<span class="count">0</span></button><button class="source-tab" data-source="x-mattshumer-" data-sub="x-viral" data-cat="tech">X: @mattshumer_<span class="count">0</span></button><button class="source-tab" data-source="x-nateparrott" data-sub="x-viral" data-cat="tech">X: @nateparrott<span class="count">0</span></button><button class="source-tab" data-source="x-meshtimes-" data-sub="x-viral" data-cat="tech">X: @meshtimes_<span class="count">0</span></button><button class="source-tab" data-source="x-covacut" data-sub="x-viral" data-cat="tech">X: @covacut<span class="count">0</span></button><button class="source-tab" data-source="x--luofuli" data-sub="x-viral" data-cat="tech">X: @_LuoFuli<span class="count">0</span></button><button class="source-tab" data-source="x-poetengineer--" data-sub="x-viral" data-cat="tech">X: @poetengineer__<span class="count">0</span></button><button class="source-tab" data-source="x-vadimstrizheus" data-sub="x-viral" data-cat="tech">X: @VadimStrizheus<span class="count">0</span></button></nav>
+    
     <div class="source-contents">
-      <div class="source-content active" data-source-content="attentionvc-ai" data-sub="x-viral" data-cat="tech">
+      <div class="source-content active" data-source-content="_merged" data-sub="x-viral" data-cat="tech">
     <article class="article">
-  <h3 class="article-title"><a href="https://x.com/eng_khairallah1/status/2058116763372453997" target="_blank" rel="noopener noreferrer">How to Build Your First Team of AI Agents Using Claude (Full Course)</a></h3>
-  <p class="article-stats">@eng_khairallah1 · 58.6K 粉丝 · 1.7M 阅 · 823 赞 · 114 转</p>
-  <p class="article-meta">05/23 17:24</p>
-  <p class="article-excerpt">Everyone is talking about AI agents. Save this :) Build an agent. Deploy an agent. Agent this. Agent that. But when you actually sit down to build one, you hit a wall. The tutorials assume you already</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 用Claude构建首个AI Agent团队的全教程，解决从理论到实践的落地难题，涵盖部署等关键步骤，适合想动手搭建Agent但被现有教程假设所困的开发者。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/nateberkopec/status/2058014104854626490" target="_blank" rel="noopener noreferrer">Thoughts on LLMs, May 2026</a></h3>
-  <p class="article-stats">@nateberkopec · 29.8K 粉丝 · 166.7K 阅 · 500 赞 · 51 转</p>
-  <p class="article-meta">05/23 10:36</p>
-  <p class="article-excerpt">In May 2026, we are now five months post-Opus-4.5 and the great “Christmas Break Revolution” that saw us all hunkered down in front of our laptops over the new year. I’m now about nine to twelve</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 博主在Opus-4.5发布五个月后，回顾LLM领域近况，分析自「圣诞假期革命」以来的变化，分享个人九至十二个月的实践观察与思考。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/cyrilXBT/status/2058749052712276332" target="_blank" rel="noopener noreferrer">How to Build a Claude Research Agent That Reads the Internet Every Morning and Briefs You in 5 Mins</a></h3>
-  <p class="article-stats">@cyrilXBT · 179.9K 粉丝 · 127.8K 阅 · 533 赞 · 80 转</p>
-  <p class="article-meta">05/25 11:16</p>
-  <p class="article-excerpt">Most people start their day the same way. They open Twitter and spend 20 minutes scrolling through noise looking for the three things that actually matter. They open their email and get pulled into</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 用Claude打造每日晨间自动研究Agent，从网络噪音中提取关键信息，生成5分钟简报，解决日常信息筛选痛点，节省时间。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/bookwormengr/status/2057909493250539891" target="_blank" rel="noopener noreferrer">DeepSeek&#39;s 10 trillion USD grand strategy</a></h3>
-  <p class="article-stats">@bookwormengr · 12.4K 粉丝 · 59.9K 阅 · 512 赞 · 66 转</p>
-  <p class="article-meta">05/23 03:40</p>
-  <p class="article-excerpt">Have you ever wondered, how DeepSeek may make money, and lot of it? They didn&#39;t come up with competitive coding plans like GLM, MoonShot and MiniMax. They don&#39;t have multimodal, audio, video models.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 解析DeepSeek的宏大商业战略，指出其未参与编码竞赛或多模态模型角逐，而是另辟蹊径，探讨实现巨额盈利的潜在路径。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/TheAhmadOsman/status/2058745340895870985" target="_blank" rel="noopener noreferrer">Step-By-Step LLM Engineering Projects (2026 Edition) </a></h3>
-  <p class="article-stats">@TheAhmadOsman · 59.9K 粉丝 · 54.5K 阅 · 512 赞 · 65 转</p>
-  <p class="article-meta">05/25 11:01</p>
-  <p class="article-excerpt">At some point, reading about LLMs stops being enough. You need to build the stack yourself: Tokenizer first, then embeddings, position, attention, Transformer blocks, objectives, decoding, cache, long</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026版LLM工程实践项目指南，从Tokenizer开始，逐步构建嵌入、注意力、Transformer块、解码等完整堆栈，强调动手胜过理论学习。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/hansolar21/status/2058361622411059295" target="_blank" rel="noopener noreferrer">Physical AI, Korea and Autoparts companies</a></h3>
-  <p class="article-stats">@hansolar21 · 30.1K 粉丝 · 50.8K 阅 · 500 赞 · 82 转</p>
-  <p class="article-meta">05/24 09:37</p>
-  <p class="article-excerpt">tldr: Korea is already being repriced as an AI memory market. But I think the next leg could be Physical AI: robots, actuators, reducers, and the boring precision-machining companies sitting</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 韩国股市正从AI存储重估转向「物理AI」领域，关注机器人、执行器、减速器等精密制造公司，认为这是下一波投资主题。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/KSimback/status/2058262328496554021" target="_blank" rel="noopener noreferrer">The Hermes Agent Memory Guidebook</a></h3>
-  <p class="article-stats">@KSimback · 17.1K 粉丝 · 40.0K 阅 · 508 赞 · 69 转</p>
-  <p class="article-meta">05/24 03:02</p>
-  <p class="article-excerpt">TLDR: this is your definitive guide to all things related to memory systems for Hermes Agent. Why create this? Because every week I see new posts or articles describing some new memory tool for Hermes</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Hermes Agent记忆系统指南，梳理各类记忆工具与方案，为开发者提供一站式参考，避免每周被新工具淹没。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://x.com/GeminiApp/status/2057974680242512071" target="_blank" rel="noopener noreferrer">The Gemini app becomes more agentic, delivering proactive, 24/7 help</a></h3>
-  <p class="article-stats">@GeminiApp · 507.0K 粉丝 · 34.7K 阅 · 546 赞 · 42 转</p>
-  <p class="article-meta">05/23 07:59</p>
-  <p class="article-excerpt">Gemini is becoming a more helpful AI assistant, with an intuitive new UI, proactive daily briefs and Gemini Spark, an agent to help you get things done around the clock. It’s been a banner year for</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Gemini应用升级为更主动的AI助手，推出全新UI、每日简报及Gemini Spark全天候任务Agent，提供24/7帮助。</p>
-</article>
-<article class="article">
+  
   <h3 class="article-title"><a href="https://x.com/difflawb/status/2058929373906936266" target="_blank" rel="noopener noreferrer">THE DIFF THAT CHANGED EVERYTHING</a></h3>
   <p class="article-stats">@difflawb · 20.3K 粉丝 · 21.9K 阅 · 1.1K 赞 · 389 转</p>
-  <p class="article-meta">05/25 23:13</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/25 23:13</p>
   <p class="article-excerpt">How a 40-line shell script became infrastructure In August 2024, Andrej Karpathy — co-founder of OpenAI, former AI Director at Tesla — published something unexpectedly small. Not a paper. Not a model.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Andrej Karpathy在2024年8月发布的一个仅40行shell脚本，意外演变为基础设施，回顾这个「改变一切的diff」的起源与影响。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 2024年8月，OpenAI联合创始人、前特斯拉AI总监Andrej Karpathy发布了一个仅40行的shell脚本，虽小却演化成了基础设施。</p>
 </article>
 <article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/cyrilXBT/status/2058749052712276332" target="_blank" rel="noopener noreferrer">How to Build a Claude Research Agent That Reads the Internet Every Morning and Briefs You in 5 Mins</a></h3>
+  <p class="article-stats">@cyrilXBT · 179.9K 粉丝 · 127.8K 阅 · 533 赞 · 80 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/25 11:16</p>
+  <p class="article-excerpt">Most people start their day the same way. They open Twitter and spend 20 minutes scrolling through noise looking for the three things that actually matter. They open their email and get pulled into</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 介绍构建Claude研究Agent的方法，可每天早晨自动读取网络资讯，并在5分钟内生成简报，帮助用户避免在社交媒体和邮件中浪费时间。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/TheAhmadOsman/status/2058745340895870985" target="_blank" rel="noopener noreferrer">Step-By-Step LLM Engineering Projects (2026 Edition) </a></h3>
+  <p class="article-stats">@TheAhmadOsman · 59.9K 粉丝 · 54.5K 阅 · 512 赞 · 65 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/25 11:01</p>
+  <p class="article-excerpt">At some point, reading about LLMs stops being enough. You need to build the stack yourself: Tokenizer first, then embeddings, position, attention, Transformer blocks, objectives, decoding, cache, long</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 提供2026年版LLM工程项目的逐步指南，包括Tokenizer、嵌入、位置编码、注意力机制、Transformer块、目标函数、解码、缓存等组件的构建。</p>
+</article>
+<article class="article">
+  
   <h3 class="article-title"><a href="https://x.com/0xileri/status/2058611697187782908" target="_blank" rel="noopener noreferrer">how i make AI videos (a beginner’s breakdown)</a></h3>
   <p class="article-stats">@0xileri · 7.3K 粉丝 · 12.2K 阅 · 533 赞 · 63 转</p>
-  <p class="article-meta">05/25 02:10</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/25 02:10</p>
   <p class="article-excerpt">I’ve been getting a lot of DMs since I started posting AI videos, so I figured I’d just write it all out. Fair warning: I’m still learning too. This is just what’s been working for me. tools</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> AI视频制作入门指南，博主分享自己实践有效的工作流和工具清单，适合新手参考，但强调仍在探索中。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 作者分享制作AI视频的初学者指南，列出了个人在实践中使用的工具和方法，强调自己仍在学习。</p>
 </article>
-  </div>
-<div class="source-content" data-source-content="x-sama" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-demishassabis" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-darioamodei" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-ylecun" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-kaifulee" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-id-aa-carmack" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-openai" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-anthropicai" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-googledeepmind" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-xai" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-metaai" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-emollick" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-andrewyng" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-rowancheung" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-mattshumer-" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-nateparrott" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-meshtimes-" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-covacut" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x--luofuli" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-poetengineer--" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
-  </div>
-<div class="source-content" data-source-content="x-vadimstrizheus" data-sub="x-viral" data-cat="tech">
-    <p class="empty">该源今日无内容。</p>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/hansolar21/status/2058361622411059295" target="_blank" rel="noopener noreferrer">Physical AI, Korea and Autoparts companies</a></h3>
+  <p class="article-stats">@hansolar21 · 30.1K 粉丝 · 50.8K 阅 · 500 赞 · 82 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/24 09:37</p>
+  <p class="article-excerpt">tldr: Korea is already being repriced as an AI memory market. But I think the next leg could be Physical AI: robots, actuators, reducers, and the boring precision-machining companies sitting</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 讨论韩国AI市场：已被重新定价为AI内存市场，但下一阶段可能是Physical AI，涉及机器人、执行器、减速器等精密机械公司。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/KSimback/status/2058262328496554021" target="_blank" rel="noopener noreferrer">The Hermes Agent Memory Guidebook</a></h3>
+  <p class="article-stats">@KSimback · 17.1K 粉丝 · 40.0K 阅 · 508 赞 · 69 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/24 03:02</p>
+  <p class="article-excerpt">TLDR: this is your definitive guide to all things related to memory systems for Hermes Agent. Why create this? Because every week I see new posts or articles describing some new memory tool for Hermes</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 这是一份关于Hermes Agent记忆系统的全面指南，旨在整合每周出现的各种记忆工具信息。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/eng_khairallah1/status/2058116763372453997" target="_blank" rel="noopener noreferrer">How to Build Your First Team of AI Agents Using Claude (Full Course)</a></h3>
+  <p class="article-stats">@eng_khairallah1 · 58.6K 粉丝 · 1.7M 阅 · 824 赞 · 114 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/23 17:24</p>
+  <p class="article-excerpt">Everyone is talking about AI agents. Save this :) Build an agent. Deploy an agent. Agent this. Agent that. But when you actually sit down to build one, you hit a wall. The tutorials assume you already</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 完整的课程，教如何使用Claude构建首个AI代理团队，解决实际构建中遇到的障碍，假设用户已有基础。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/nateberkopec/status/2058014104854626490" target="_blank" rel="noopener noreferrer">Thoughts on LLMs, May 2026</a></h3>
+  <p class="article-stats">@nateberkopec · 29.8K 粉丝 · 166.7K 阅 · 500 赞 · 51 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/23 10:36</p>
+  <p class="article-excerpt">In May 2026, we are now five months post-Opus-4.5 and the great “Christmas Break Revolution” that saw us all hunkered down in front of our laptops over the new year. I’m now about nine to twelve</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 2026年5月关于LLMs的思考，距离Opus-4.5发布已五个月，经历了「圣诞假期革命」，作者个人已有约9-12月的使用经验。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://x.com/GeminiApp/status/2057974680242512071" target="_blank" rel="noopener noreferrer">The Gemini app becomes more agentic, delivering proactive, 24/7 help</a></h3>
+  <p class="article-stats">@GeminiApp · 507.0K 粉丝 · 34.7K 阅 · 546 赞 · 42 转</p>
+  <p class="article-meta">X 推文 (AttentionVC) · 05/23 07:59</p>
+  <p class="article-excerpt">Gemini is becoming a more helpful AI assistant, with an intuitive new UI, proactive daily briefs and Gemini Spark, an agent to help you get things done around the clock. It’s been a banner year for</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Gemini应用变得更加智能，提供直观的新UI、主动每日简报和Gemini Spark代理，全天候帮助用户完成任务。</p>
+</article>
   </div>
     </div>
   </div>
@@ -925,125 +897,142 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="ai-news" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://openai.com/index/grupo-folha-grupo-uol-partnership" target="_blank" rel="noopener noreferrer">OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership</a></h3>
   
   <p class="article-meta">OpenAI News · 05/25 08:00</p>
   <p class="article-excerpt">OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI与巴西媒体集团Grupo Folha和Grupo UOL达成战略合作，将巴西可信新闻报道引入ChatGPT，扩大新闻获取范围并确保归因与透明度。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI与Grupo Folha和Grupo UOL合作，将可信巴西新闻引入ChatGPT，扩大新闻访问并确保归属与透明度。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://huggingface.co/blog/agent-glossary" target="_blank" rel="noopener noreferrer">Harness, Scaffold, and the AI Agent Terms Worth Getting Right</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 05/25 08:00</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 文章定义并澄清了AI代理领域的关键术语，如“Harness”、“Scaffold”等，帮助从业者正确理解和应用这些概念。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Hugging Face博客讨论Harness、Scaffold等AI Agent关键术语的正确使用，帮助厘清概念。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://tldr.tech/ai/2026-05-25" target="_blank" rel="noopener noreferrer">Mythos 1 🤖, neocloud boom 📈, MCP goes stateless 💻</a></h3>
   
   <p class="article-meta">TLDR AI · 05/25 08:00</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 本期AI简报涵盖Mythos 1、neocloud增长趋势，以及MCP协议转向无状态化等最新动态。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 报道Mythos 1模型发布、neocloud领域增长以及MCP协议转向无状态化。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.latent.space/p/ainews-all-model-labs-are-now-agent" target="_blank" rel="noopener noreferrer">[AINews] All Model Labs are now Agent Labs</a></h3>
   
   <p class="article-meta">Latent Space · 05/23 12:21</p>
   <p class="article-excerpt">a quiet day lets us tie together a few quotes as all model labs become agent labs</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 所有模型实验室已转变为代理实验室，文章汇总了业内相关评论，反映AI开发重心向代理方向转移。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 引用多位人士观点，指出所有AI模型实验室正转变为Agent实验室，聚焦智能体研发。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://huggingface.co/blog/nvidia/nemotron-labs-diffusion" target="_blank" rel="noopener noreferrer">Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 05/23 08:02</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 介绍Nemotron-Labs扩散语言模型，旨在实现接近光速的文本生成速度，提升推理效率。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Nemotron-Labs扩散语言模型实现接近光速的文本生成，大幅提升推理速度。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://huggingface.co/blog/Dharma-AI/specialization-beats-scale" target="_blank" rel="noopener noreferrer">Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook</a></h3>
   
   <p class="article-meta">Hugging Face Blog · 05/22 23:25</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 文章指出在AI采购决策中，专业化比规模化更有效，这是一个常被忽视的战略变量。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 论述在AI采购中，专业化策略比单纯扩大规模更关键，是常被忽视的战略变量。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/" target="_blank" rel="noopener noreferrer">Google I/O showed how the path for AI-driven science is shifting</a></h3>
   
   <p class="article-meta">MIT Tech Review AI · 05/22 18:00</p>
   <p class="article-excerpt">During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically t</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Google I/O上，DeepMind CEO Demis Hassabis宣称“我们正站在奇点的山脚下”，AI驱动科学研究的路径正在发生转变。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Google I/O上DeepMind CEO Demis Hassabis称「我们站在奇点山麓」，展示AI驱动科学的路径转变。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa" target="_blank" rel="noopener noreferrer">[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer</a></h3>
   
   <p class="article-meta">Latent Space · 05/22 13:50</p>
   <p class="article-excerpt">a quiet day lets us feature fundraises!</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> AI基础设施领域涌现三家新独角兽：Exa、Modal、TurboPuffer，文章重点介绍了它们的融资情况。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Exa、Modal、TurboPuffer三家AI基础设施公司成为新独角兽，获资本市场关注。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://openai.com/index/virgin-atlantic" target="_blank" rel="noopener noreferrer">How Virgin Atlantic ships faster with Codex</a></h3>
   
   <p class="article-meta">OpenAI News · 05/22 08:00</p>
   <p class="article-excerpt">How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 维珍大西洋航空使用OpenAI Codex在固定假期截止日前完成移动应用改版，实现近100%单元测试覆盖率和零P1缺陷。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 维珍大西洋航空利用OpenAI Codex在假期截止日前重振移动应用，实现近全单元测试覆盖和零P1缺陷。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://openai.com/index/gartner-2026-agentic-coding-leader" target="_blank" rel="noopener noreferrer">OpenAI named a Leader in enterprise coding agents by Gartner</a></h3>
   
   <p class="article-meta">OpenAI News · 05/22 08:00</p>
   <p class="article-excerpt">OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI被Gartner评为2026年企业AI编码代理魔力象限领导者，Codex因创新能力和企业级部署能力获认可。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI被Gartner评为2026年企业AI编码代理魔力象限领导者，Codex在创新和企业部署方面获认可。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://tldr.tech/ai/2026-05-22" target="_blank" rel="noopener noreferrer">Anthropic Microsoft deal 🤝, Cursor $3B ARR 📈, cloud agent lessons 🤖</a></h3>
   
   <p class="article-meta">TLDR AI · 05/22 08:00</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 本期AI简报涵盖Anthropic与微软的合作、Cursor年经常性收入达30亿美元，以及云代理实施经验教训。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 报道Anthropic与微软合作、Cursor年化收入达30亿美元，以及云端代理应用的经验总结。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/" target="_blank" rel="noopener noreferrer">Roundtables: Can AI Learn to Understand the World?</a></h3>
   
   <p class="article-meta">MIT Tech Review AI · 05/22 04:41</p>
   <p class="article-excerpt">Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor </p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 圆桌讨论聚焦AI能否学会理解世界，世界模型成为前沿话题，各方探讨超越大语言模型局限的方法。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 圆桌讨论AI公司如何超越LLM局限，构建理解外部世界的系统，世界模型成为当前焦点。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.latent.space/p/daytona" target="_blank" rel="noopener noreferrer">Giving Agents Computers — Ivan Burazin, Daytona</a></h3>
   
   <p class="article-meta">Latent Space · 05/22 04:37</p>
   <p class="article-excerpt">We chat with Daytona&#39;s CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Daytona CEO Ivan Burazin分享公司增长数据：月环比增长74%、日均85万次运行，以及裸金属沙箱、强化学习评估等代理云技术。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Daytona CEO分享74%月增长率、85万日运行量，以及裸机沙箱、强化学习评估和新代理云。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/" target="_blank" rel="noopener noreferrer">We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks</a></h3>
   
   <p class="article-meta">DeepMind Blog · 05/22 03:46</p>
   
-  <p class="article-summary"><span class="summary-label">中文介绍</span> Google DeepMind在亚太地区启动加速器计划，旨在利用AI技术应对环境风险，推动可持续发展。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Google DeepMind在亚太地区推出加速器项目，利用AI技术应对环境风险。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/" target="_blank" rel="noopener noreferrer">Scaling creativity in the age of AI</a></h3>
   
   <p class="article-meta">MIT Tech Review AI · 05/22 03:16</p>
   <p class="article-excerpt">Storytelling is core to humanity’s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans’ innovation of natural pigments and charcoals for cave paintings to literal representatio</p>
-  <p class="article-summary"><span class="summary-label">中文介绍</span> 文章探讨AI时代如何规模化创造力，从远古洞穴壁画到现代技术，讲述故事与技术的融合历史。</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 探讨从远古洞穴壁画到现代AI，技术如何影响故事讲述，以及人类创造力在AI时代的扩展。</p>
 </article>
   </div>
     </div>
   </div>
 <div class="sub-content" data-sub-content="youtube-channels" data-cat="tech">
-    <nav class="source-tabs"><button class="source-tab active" data-source="youtube-fryrsquared" data-sub="youtube-channels" data-cat="tech">YouTube: @fryrsquared<span class="count">10</span></button><button class="source-tab" data-source="youtube-tdsunshine" data-sub="youtube-channels" data-cat="tech">YouTube: @TDSunshine<span class="count">10</span></button><button class="source-tab" data-source="youtube-tinahuang1" data-sub="youtube-channels" data-cat="tech">YouTube: @TinaHuang1<span class="count">10</span></button></nav>
+    <nav class="source-tabs"><button class="source-tab active" data-source="youtube-fryrsquared" data-sub="youtube-channels" data-cat="tech">@fryrsquared<span class="count">5</span></button><button class="source-tab" data-source="youtube-tdsunshine" data-sub="youtube-channels" data-cat="tech">@TDSunshine<span class="count">5</span></button><button class="source-tab" data-source="youtube-tinahuang1" data-sub="youtube-channels" data-cat="tech">@TinaHuang1<span class="count">5</span></button></nav>
     <div class="source-contents">
       <div class="source-content active" data-source-content="youtube-fryrsquared" data-sub="youtube-channels" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/xUKz6ayHa5U" target="_blank" rel="noopener noreferrer">The sudsy secrets of soap</a></h3>
   
   <p class="article-meta">05/22 00:27</p>
   
-  
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 视频探讨肥皂起泡背后的科学原理，揭示泡沫形成的秘密。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/z-rSAGTVAPk" target="_blank" rel="noopener noreferrer">Why birds don&#39;t crash (and what humans can learn from them)</a></h3>
   
   <p class="article-meta">05/15 00:54</p>
@@ -1051,6 +1040,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/kaIs0mHr7Kg" target="_blank" rel="noopener noreferrer">What would a four dimensional object look like?</a></h3>
   
   <p class="article-meta">05/07 23:01</p>
@@ -1058,6 +1048,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/n98Pm0J3cHc" target="_blank" rel="noopener noreferrer">A big day for my channel!</a></h3>
   
   <p class="article-meta">05/01 23:32</p>
@@ -1065,57 +1056,25 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=WnzR5aOElvw" target="_blank" rel="noopener noreferrer">Why AI Agents are either the best or worst thing we’ve ever built</a></h3>
   
   <p class="article-meta">05/01 21:27</p>
   
   
 </article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/vUnPBKAFFI4" target="_blank" rel="noopener noreferrer">an unfortunate naming mistake</a></h3>
-  
-  <p class="article-meta">04/27 23:52</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/heouldO-tvw" target="_blank" rel="noopener noreferrer">The delicious geometry of Moroccan zellige tiles</a></h3>
-  
-  <p class="article-meta">04/24 01:07</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/QjOVWr2m2jc" target="_blank" rel="noopener noreferrer">Ley Lines in Aisle Five</a></h3>
-  
-  <p class="article-meta">04/17 00:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/Hwn3gJ9xw1M" target="_blank" rel="noopener noreferrer">Skoda steps in to the battle between bike bells and headphones</a></h3>
-  
-  <p class="article-meta">04/08 23:01</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/QYrWfQYDUU4" target="_blank" rel="noopener noreferrer">No one knows how planes can fly</a></h3>
-  
-  <p class="article-meta">04/02 22:39</p>
-  
-  
-</article>
   </div>
 <div class="source-content" data-source-content="youtube-tdsunshine" data-sub="youtube-channels" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=EGyO27Jamu0" target="_blank" rel="noopener noreferrer">Figma Agents: First Look | Your new AI best friend</a></h3>
   
   <p class="article-meta">05/21 21:30</p>
   
-  
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Figma推出智能代理（Agents）功能，首次亮相并被称为用户的人工智能最佳伙伴。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=Wh2i6eGqhLY" target="_blank" rel="noopener noreferrer">Create custom AI skills for Figma in Claude Code | Skills in Figma for Design System</a></h3>
   
   <p class="article-meta">05/19 22:31</p>
@@ -1123,6 +1082,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=oebZIVMh_Ak" target="_blank" rel="noopener noreferrer">Claude Design - Overview and use cases</a></h3>
   
   <p class="article-meta">05/05 21:30</p>
@@ -1130,6 +1090,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=xxH8qKQyK_0" target="_blank" rel="noopener noreferrer">Figma Secret Resources</a></h3>
   
   <p class="article-meta">04/21 21:01</p>
@@ -1137,57 +1098,25 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=AST1G5brxFA" target="_blank" rel="noopener noreferrer">Figma Weave - Build your first AI workflow</a></h3>
   
   <p class="article-meta">04/14 21:00</p>
   
   
 </article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=FPrVx6yYx00" target="_blank" rel="noopener noreferrer">Connect Claude Code to Figma Design System | Designer Workflow Task Test</a></h3>
-  
-  <p class="article-meta">04/07 21:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=aQ3vOzsuHIs" target="_blank" rel="noopener noreferrer">Connect Claude to Figma with MCP</a></h3>
-  
-  <p class="article-meta">03/31 21:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=L3prVyrBDmQ" target="_blank" rel="noopener noreferrer">Figma Make Tutorial &amp; Best Practice Guide | Figma AI 2026</a></h3>
-  
-  <p class="article-meta">03/24 22:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=MjKTvB4Fa4E" target="_blank" rel="noopener noreferrer">Figma Slots Tutorial 2026 | Figma 2026 update</a></h3>
-  
-  <p class="article-meta">03/10 22:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=KFjDbsYnvG4" target="_blank" rel="noopener noreferrer">Figma AI - Text Editing Tools | Figma AI Text Editing 2026</a></h3>
-  
-  <p class="article-meta">03/03 22:00</p>
-  
-  
-</article>
   </div>
 <div class="source-content" data-source-content="youtube-tinahuang1" data-sub="youtube-channels" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=tu4rU4YD1Jk" target="_blank" rel="noopener noreferrer">Updated Essential AI Skills For 2026</a></h3>
   
   <p class="article-meta">05/24 21:00</p>
   
-  
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 视频更新了2026年必备的人工智能技能清单，强调未来所需的核心能力。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/qYbPJ-pY3kA" target="_blank" rel="noopener noreferrer">Brutally Honest AI Advice</a></h3>
   
   <p class="article-meta">05/21 23:00</p>
@@ -1195,6 +1124,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/watch?v=gdrPkpXuNks" target="_blank" rel="noopener noreferrer">My Full Claude Cowork Setup (steal my workflows!)</a></h3>
   
   <p class="article-meta">05/18 23:08</p>
@@ -1202,6 +1132,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/5GXM6fB1ZV0" target="_blank" rel="noopener noreferrer">Top 1% of AI Users Use This Prompting Framework</a></h3>
   
   <p class="article-meta">05/17 23:12</p>
@@ -1209,44 +1140,10 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.youtube.com/shorts/0dlCWrqFoeM" target="_blank" rel="noopener noreferrer">Prompting Framework For Top 10% AI Users</a></h3>
   
   <p class="article-meta">05/11 23:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=uGwDuvSqgYI" target="_blank" rel="noopener noreferrer">Claude Cowork Fundamentals In 22 Minutes</a></h3>
-  
-  <p class="article-meta">05/10 22:32</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/Fo1L69HFO0c" target="_blank" rel="noopener noreferrer">Is OpenClaw Dead?</a></h3>
-  
-  <p class="article-meta">05/07 22:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/465Vc9I4fvc" target="_blank" rel="noopener noreferrer">Is Vibe Coding Actually Like This?</a></h3>
-  
-  <p class="article-meta">05/04 23:00</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/shorts/yGC0oT995TM" target="_blank" rel="noopener noreferrer">Minimalist AI Setup I’d Give To Any Employee</a></h3>
-  
-  <p class="article-meta">04/30 23:01</p>
-  
-  
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.youtube.com/watch?v=oOCN30ulVyo" target="_blank" rel="noopener noreferrer">My FULL OpenClaw Setup (steal my prompts!)</a></h3>
-  
-  <p class="article-meta">04/28 22:37</p>
   
   
 </article>
@@ -1256,61 +1153,51 @@
   </section>
   <section class="panel" data-panel="trading"><section class="trading-overview-card">
     <span class="eyebrow">市场总览</span>
-    <p class="overview-text trading-overview-text">当前市场技术面呈现资产分化格局。加密市场方面，恐慌贪婪指数仅为30（恐慌），总市值2.66T美元（24h微涨0.88%），BTC主导率58.2%、ETH占9.6%，整体偏弱。美股板块多数标的仍处于多头排列，但QQQ和AAPL的RSI分别高达71.4和78.4，进入超买区域，且多只个股（如SPY、QQQ、NVDA、GOOGL）出现MACD死叉，短期动能有衰减迹象；META已转为空头排列，趋势偏空。中概股集体承压，BABA、PDD、0700.HK均呈空头排列且RSI处于40以下，接近或位于52周低点附近。商品外汇方面，黄金与原油期货价格跌破短期均线，RSI回落至40-47区间，MACD死叉或即将死叉；美元指数DXY则维持多头排列并接近52周高，10Y美债收益率亦呈多头向上。整体来看，风险资产（加密、中概、商品）技术面偏弱，而美元及美债收益率偏强，市场避险情绪仍然存在。</p>
+    <p class="overview-text trading-overview-text">当前市场技术面分化明显。美股方面，标普500 ETF（SPY）和纳指ETF（QQQ）仍维持多头排列，但MACD均出现死叉，QQQ RSI达71.4进入超买区间，上行阻力加大；AAPL同样超买，RSI高达78.4，接近52周高点，需警惕回调。加密市场受恐慌情绪主导，恐慌&amp;贪婪指数仅30（恐慌），BTC-USD价格跌破SMA20和SMA200，MACD死叉且信号线持续下行；ETH-USD空头排列明确，RSI 40.2，较52周高点已回调57.22%。中概股整体偏弱，PDD、BABA、腾讯等均呈现空头排列，RSI低于45，且PDD接近52周低点。商品外汇方面，黄金期货GC=F自高点回落，RSI 40.2，MACD死叉；WTI原油近5日大跌11.1%，技术面偏弱；而美元指数DXY维持多头排列，接近52周高，10Y美债收益率也呈多头排列，显示利率预期偏强。</p>
   </section>
 
   <section class="trading-watchlist">
     <h2 class="category-title trading-section-title">今日关注</h2>
     <div class="trading-picks">
-      <article class="trading-pick stance-neutral">
-    <header class="pick-head">
-      <div class="pick-symbol-block">
-        <span class="pick-symbol">SPY</span>
-        <span class="pick-name">标普500 ETF (SPY)</span>
-      </div>
-      <span class="pick-stance pick-stance-neutral">中性</span>
-    </header>
-    <p class="pick-rationale">当前价格745.64高于三根均线（SMA20 731.58、SMA50 696.68、SMA200 678.85），呈多头排列，但MACD出现死叉（12.3533 &lt; 13.3121），RSI 68.8处正常区间，近1日微涨0.39%、近5日涨0.88%，距52周高仅0.52%。长期趋势偏多但短期动能减弱，方向暂不明确。</p>
-  </article>
-<article class="trading-pick stance-bull">
+      <article class="trading-pick stance-bull">
     <header class="pick-head">
       <div class="pick-symbol-block">
         <span class="pick-symbol">AAPL</span>
-        <span class="pick-name">苹果 (AAPL)</span>
+        <span class="pick-name">Apple (AAPL)</span>
       </div>
       <span class="pick-stance pick-stance-bull">偏上行</span>
     </header>
-    <p class="pick-rationale">价格308.82站稳所有均线（SMA20 289.35、SMA50 270.55、SMA200 261.55），MACD金叉（9.9708 &gt; 8.9928），RSI高达78.4进入超买区，近1日涨1.26%、近5日涨2.86%，距52周高仅0.83%。多头排列明确，尽管超买需警惕，但动量仍强，技术面偏上行。</p>
+    <p class="pick-rationale">Apple当前价格308.82，高于SMA20（289.35）、SMA50（270.55）和SMA200（261.55），呈现典型多头排列。RSI 78.4进入超买区，显示短期动量强劲但可能过热。MACD柱（9.9708）高于信号线（8.9928），处于金叉状态，表明上行动能仍在延续。但需注意距离52周高仅差0.83%，超买区域存在回调风险。</p>
+  </article>
+<article class="trading-pick stance-bear">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">META</span>
+        <span class="pick-name">Meta (META)</span>
+      </div>
+      <span class="pick-stance pick-stance-bear">偏下行</span>
+    </header>
+    <p class="pick-rationale">Meta价格610.26，已跌破SMA20（619.1）、SMA50（617.81）和SMA200（669.43），形成空头排列，各均线构成上方压力。RSI 45.3低于中性50，MACD值为-7.0991，信号线-6.0706，呈死叉状态且柱线为负，空头动能占据主导。近5日下跌0.65%，距52周高-23.36%，技术结构偏弱。</p>
   </article>
 <article class="trading-pick stance-bear">
     <header class="pick-head">
       <div class="pick-symbol-block">
         <span class="pick-symbol">ETH-USD</span>
-        <span class="pick-name">以太坊 (ETH-USD)</span>
+        <span class="pick-name">Ethereum (ETH-USD)</span>
       </div>
       <span class="pick-stance pick-stance-bear">偏下行</span>
     </header>
-    <p class="pick-rationale">价格2122.67低于所有均线（SMA20 2211.3、SMA50 2264.29、SMA200 2540.86），呈空头排列；MACD死叉且柱体负值（-50.7669 &lt; -38.9277），RSI 40.7接近超卖，近5日微跌0.2%，距52周高已跌57.15%。在加密恐慌指数30背景下，技术面显著承压。</p>
+    <p class="pick-rationale">Ethereum当前价格为2118.97，低于SMA20（2211.12）、SMA50（2264.22）和SMA200（2540.84），构成空头排列。RSI仅40.2，处于弱势区域，MACD为-51.0621，信号线-38.9867，死叉且柱线负值扩大，显示下跌动量持续。近5日下跌0.38%，距52周高回调57.22%，接近两年低点，反弹无力。</p>
   </article>
-<article class="trading-pick stance-bear">
+<article class="trading-pick stance-neutral">
     <header class="pick-head">
       <div class="pick-symbol-block">
-        <span class="pick-symbol">0700.HK</span>
-        <span class="pick-name">腾讯控股 (0700.HK)</span>
+        <span class="pick-symbol">MSFT</span>
+        <span class="pick-name">Microsoft (MSFT)</span>
       </div>
-      <span class="pick-stance pick-stance-bear">偏下行</span>
+      <span class="pick-stance pick-stance-neutral">中性</span>
     </header>
-    <p class="pick-rationale">价格441.4远低于SMA20（464.77）、SMA50（494.09）和SMA200（576.98），空头排列明确；MACD柱负值（-14.0234 &lt; -12.9113），RSI仅34.8接近超卖，距52周低仅0.68%。近1日虽微涨0.55%但近5日跌3.29%，下行趋势显著。</p>
-  </article>
-<article class="trading-pick stance-bull">
-    <header class="pick-head">
-      <div class="pick-symbol-block">
-        <span class="pick-symbol">DX-Y.NYB</span>
-        <span class="pick-name">美元指数 (DX-Y.NYB)</span>
-      </div>
-      <span class="pick-stance pick-stance-bull">偏上行</span>
-    </header>
-    <p class="pick-rationale">价格99.24高于三根均线（SMA20 98.64、SMA50 98.94、SMA200 98.56），MACD金叉（0.1605 &gt; 0.0435），RSI 57处正常区间，近1日微跌0.08%但近5日涨0.27%，距52周高仅1.39%。多头排列且动能向上，技术面偏强。</p>
+    <p class="pick-rationale">Microsoft价格418.57，略高于SMA20（416.61）和SMA50（400.44），但低于SMA200（460.4），短期均线交织，趋势评级为neutral。RSI 54.4处于中性区域，MACD 3.7718略低于信号线4.1398，接近死叉但尚未确认，暂无明确方向信号。近1日微跌0.12%，5日跌0.79%，价格在均线附近窄幅震荡，技术面缺乏显著偏向。</p>
   </article>
     </div>
   </section>
@@ -1552,14 +1439,14 @@
     </div><div class="crypto-widget">
       <div class="widget-label">加密总市值</div>
       <div class="widget-value">$2.66 T</div>
-      <div class="widget-sub positive">+0.88% / 24h</div>
+      <div class="widget-sub positive">+0.79% / 24h</div>
     </div><div class="crypto-widget">
       <div class="widget-label">BTC 主导率</div>
       <div class="widget-value">58.2%</div>
       <div class="widget-sub">ETH 9.6%</div>
     </div><div class="crypto-widget">
       <div class="widget-label">24h 成交量</div>
-      <div class="widget-value">$67.0 B</div>
+      <div class="widget-value">$67.9 B</div>
       <div class="widget-sub">活跃币 17,393</div>
     </div></div>
       <article class="ticker-card">
@@ -1569,17 +1456,17 @@
         <p class="ticker-name">Bitcoin</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$77,415.00</span>
-        <span class="ticker-pct positive">+0.56%</span>
+        <span class="ticker-price">$77,380.66</span>
+        <span class="ticker-pct positive">+0.52%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-0.06%</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-0.10%</dd></div>
       <div><dt>距 52w 高</dt><dd>-38.7%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-normal">48.7</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">48.6</dd></div>
       <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>78,842.40 / 76,940.17 / 80,406.35</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-188.348 / 234.918</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>78,840.68 / 76,939.49 / 80,406.18</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-191.088 / 234.370</dd></div>
     </dl>
     
   </article><article class="ticker-card">
@@ -1589,17 +1476,17 @@
         <p class="ticker-name">Ethereum</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$2,122.67</span>
-        <span class="ticker-pct positive">+1.18%</span>
+        <span class="ticker-price">$2,118.97</span>
+        <span class="ticker-pct positive">+1.00%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-0.20%</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-0.38%</dd></div>
       <div><dt>距 52w 高</dt><dd>-57.2%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-normal">40.7</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">40.2</dd></div>
       <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>2,211.30 / 2,264.29 / 2,540.86</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-50.767 / -38.928</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>2,211.12 / 2,264.22 / 2,540.84</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-51.062 / -38.987</dd></div>
     </dl>
     <div class="ticker-signals"><span class="signal-pill tone-bear">空头排列</span></div>
   </article><article class="ticker-card">
@@ -1609,17 +1496,17 @@
         <p class="ticker-name">Solana</p>
       </div>
       <div class="ticker-price-block">
-        <span class="ticker-price">$85.77</span>
-        <span class="ticker-pct positive">+0.61%</span>
+        <span class="ticker-price">$85.59</span>
+        <span class="ticker-pct positive">+0.40%</span>
       </div>
     </header>
     <dl class="ticker-indicators">
-      <div><dt>5 日</dt><dd class="negative">-0.32%</dd></div>
-      <div><dt>距 52w 高</dt><dd>-66.1%</dd></div>
-      <div><dt>RSI(14)</dt><dd class="rsi-normal">46.7</dd></div>
+      <div><dt>5 日</dt><dd class="negative">-0.53%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-66.2%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">46.2</dd></div>
       <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
-      <div><dt>SMA 20 / 50 / 200</dt><dd>88.93 / 86.51 / 106.77</dd></div>
-      <div><dt>MACD / 信号</dt><dd>-0.562 / -0.000</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>88.92 / 86.51 / 106.77</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-0.576 / -0.003</dd></div>
     </dl>
     <div class="ticker-signals"><span class="signal-pill tone-bear">空头排列</span></div>
   </article>
@@ -1774,7 +1661,7 @@
 
   <section class="trading-risk">
     <span class="eyebrow">风险提示</span>
-    <p>过去走势不代表未来表现，本报告仅基于公开行情数据计算的技术指标进行客观描述，不构成任何投资建议或预测。所有结论仅供技术指标解读参考，投资者应结合自身情况审慎决策。</p>
+    <p>过去走势不代表未来表现，本文档仅基于公开行情数据计算的技术指标进行客观描述，不构成任何投资建议。所有解读仅供技术指标解读参考，投资者需自行评估风险并独立决策。</p>
   </section></section>
   <section class="panel" data-panel="politics">
     <div class="sub-content active" data-sub-content="world" data-cat="politics">
@@ -1782,109 +1669,124 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="world" data-cat="politics">
     <article class="article">
-  <h3 class="article-title"><a href="https://www.nytimes.com/live/2026/05/25/world/iran-war-trump" target="_blank" rel="noopener noreferrer">Iran War Live Updates: Negotiations to End the War Resume in Qatar</a></h3>
   
-  <p class="article-meta">NYT World · 05/26 02:57</p>
-  <p class="article-excerpt">Top Iranian officials arrived in Doha. President Trump gave conflicting signals over how much progress had been made. Prime Minister Benjamin Netanyahu said Israel intends to intensify attacks against Hezbollah, Iran’s ally, in Lebanon.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊朗战争谈判在卡塔尔恢复，伊朗高级官员抵达多哈。特朗普发出矛盾信号，内塔尼亚胡称以色列将加强打击真主党。</p>
-</article>
-<article class="article">
   <h3 class="article-title"><a href="https://www.nytimes.com/2026/05/25/world/canada/mark-carney-alberta-referendum-brexit.html" target="_blank" rel="noopener noreferrer">‘A Dangerous Bluff’: Carney Likens Alberta Referendum to Brexit</a></h3>
   
-  <p class="article-meta">NYT World · 05/26 02:56</p>
+  <p class="article-meta">NYT World · 05/26 03:33</p>
   <p class="article-excerpt">The Canadian prime minister, who was the governor of the Bank of England when Britain voted to leave the European Union, said the Alberta referendum on separating from Canada could backfire.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 加拿大总理卡尼将阿尔伯塔省脱离联邦的公投比作英国脱欧，称其为“危险的虚张声势”，可能适得其反。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 加拿大总理马克·卡尼将艾伯塔省脱离加拿大的公投比作英国脱欧，称其可能适得其反。卡尼在英国脱欧公投时担任英格兰银行行长。</p>
 </article>
 <article class="article">
+  
+  <h3 class="article-title"><a href="https://www.nytimes.com/live/2026/05/25/world/iran-war-trump" target="_blank" rel="noopener noreferrer">Iran War Live Updates: Negotiations to End the War Resume in Qatar</a></h3>
+  
+  <p class="article-meta">NYT World · 05/26 03:32</p>
+  <p class="article-excerpt">Top Iranian officials arrived in Doha. President Trump gave conflicting signals over how much progress had been made. Prime Minister Benjamin Netanyahu said Israel intends to intensify attacks against Hezbollah, Iran’s ally, in Lebanon.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊朗高级官员抵达多哈，重启结束战争的谈判。特朗普总统就进展程度发出矛盾信号。以色列总理内塔尼亚胡称将加强对黎巴嫩真主党的攻击。</p>
+</article>
+<article class="article">
+  
   <h3 class="article-title"><a href="https://www.nytimes.com/live/2026/05/25/world/iran-war-trump/heres-the-latest" target="_blank" rel="noopener noreferrer">Here’s the latest.</a></h3>
   
-  <p class="article-meta">NYT World · 05/26 02:47</p>
+  <p class="article-meta">NYT World · 05/26 03:32</p>
   
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 暂无具体内容。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊朗战争最新动态，谈判在多哈重启，但本条无详细报道，请关注后续更新。</p>
 </article>
 <article class="article">
+  
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/5/25/the-kiswa-beyond-the-cloth?traffic_source=rss" target="_blank" rel="noopener noreferrer">THE KISWA: BEYOND THE CLOTH</a></h3>
+  
+  <p class="article-meta">Al Jazeera · 05/26 03:25</p>
+  <p class="article-excerpt">Every Muslim on earth has faced it in prayer. Billions have seen it in photos. Almost nobody knows its story.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 本文介绍克尔白天幕（Kiswa）的幕后故事。全球穆斯林在祈祷时都面向它，数十亿人见过其照片，但几乎无人知晓它的历史。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/5/25/kyivs-chornobyl-museum-devastated-in-overnight-russian-missile-attack?traffic_source=rss" target="_blank" rel="noopener noreferrer">Kyiv’s Chornobyl Museum devastated in overnight Russian missile attack</a></h3>
+  
+  <p class="article-meta">Al Jazeera · 05/26 03:19</p>
+  <p class="article-excerpt">Kyiv&#39;s Chornobyl Museum devastated in overnight Russian missile attack.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 基辅切尔诺贝利博物馆在俄罗斯夜间导弹袭击中遭到严重破坏。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/5/25/father-mourns-daughter-killed-in-israeli-strike-on-gaza?traffic_source=rss" target="_blank" rel="noopener noreferrer">Father mourns daughter killed in Israeli strike on Gaza</a></h3>
+  
+  <p class="article-meta">Al Jazeera · 05/26 03:12</p>
+  <p class="article-excerpt">A six-year-old Palestinian girl was killed by an Israeli strike on a displacement camp in Khan Younis.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 一名六岁巴勒斯坦女孩在以色列对汗尤尼斯流离失所营地的空袭中丧生，其父亲悲痛悼念。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://www.theguardian.com/world/2026/may/25/iran-denies-deal-us-imminent-israel-oman-strait-of-hormuz" target="_blank" rel="noopener noreferrer">Iran denies deal with US is imminent despite some progress</a></h3>
+  
+  <p class="article-meta">The Guardian · 05/26 03:06</p>
+  <p class="article-excerpt">Tehran says ‘contradictory statements’ from US and Israeli interference hindering negotiations Middle East crisis – live updates Iran has poured cold water on suggestions that a deal with the US is imminent, pointing to the confusion in US positions and Israeli interference as key factors in why a c</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊朗否认与美国即将达成协议，称美国的「矛盾言论」和以色列的干扰阻碍了谈判。德黑兰给即将达成协议的猜测泼冷水。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://www.aljazeera.com/video/newsfeed/2026/5/25/lebanon-marks-liberation-day-under-israeli-bombardment?traffic_source=rss" target="_blank" rel="noopener noreferrer">Lebanon marks Liberation Day under Israeli bombardment</a></h3>
+  
+  <p class="article-meta">Al Jazeera · 05/26 03:02</p>
+  <p class="article-excerpt">People in Lebanon have gathered to observe Liberation Day.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 黎巴嫩民众在以色列轰炸下聚集，纪念解放日。</p>
+</article>
+<article class="article">
+  
   <h3 class="article-title"><a href="https://www.theguardian.com/world/live/2026/may/25/iran-war-news-middle-east-crisis-oil-price-us-tehran-peace-talks-deal-strait-hormuz" target="_blank" rel="noopener noreferrer">Middle East crisis live: Trump suggests countries in region should sign Abraham accords recognising Israel under any deal</a></h3>
   
-  <p class="article-meta">The Guardian · 05/26 02:45</p>
+  <p class="article-meta">The Guardian · 05/26 02:58</p>
   <p class="article-excerpt">Writing on social media, US president says countries should make settlement with Iran ‘a far more Historic Event’ Iran denies deal with US is imminent, despite some progress Ebrahim Rezaei, the spokesperson of the Iranian parliament’s national security and foreign policy commission, has said that ti</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 特朗普建议地区国家签署《亚伯拉罕协议》承认以色列，称与伊朗的协议应是“更具历史意义的事件”。伊朗否认即将达成协议。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 特朗普在社交媒体上建议地区国家在伊朗协议中签署《亚伯拉罕协议》承认以色列，称对伊朗的解决方案应成为「更历史性的事件」。伊朗议会发言人亦作出回应。</p>
 </article>
 <article class="article">
+  
+  <h3 class="article-title"><a href="https://www.aljazeera.com/opinions/2026/5/25/in-lebanon-everything-and-nothing-has-changed-since-2000?traffic_source=rss" target="_blank" rel="noopener noreferrer">In Lebanon, everything and nothing has changed since 2000</a></h3>
+  
+  <p class="article-meta">Al Jazeera · 05/26 02:56</p>
+  <p class="article-excerpt">A local war has gone regional, drawing in Iran and the US, but its root cause is unchanged: Palestine.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 评论指出，自2000年以来黎巴嫩一切看似改变又未变：局部战争演变为区域冲突，伊朗和美国卷入，但根源仍是巴勒斯坦问题。</p>
+</article>
+<article class="article">
+  
+  <h3 class="article-title"><a href="https://www.theguardian.com/world/2026/may/25/iran-bomb-trump-deal-sparks-alarm-israel-netanyahu" target="_blank" rel="noopener noreferrer">‘If Iran gets a bomb it will be Bibi’s’: Trump’s deal outline sparks alarm in Israel</a></h3>
+  
+  <p class="article-meta">The Guardian · 05/26 02:50</p>
+  <p class="article-excerpt">Netanyahu’s joint war with the US began with talk of regime change in Tehran but may leave him with few strategic gains Middle East live – latest updates When Donald Trump launched a pre-emptive war on Iran with Israel in February, many in the country hailed the campaign as the crowning triumph of B</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 特朗普提出的伊朗协议大纲引发以色列警觉，有说法称「如果伊朗获得核弹，那将是内塔尼亚胡的」。以色列与美国的联合战争始于政权更迭言论，但可能战略成果有限。</p>
+</article>
+<article class="article">
+  
   <h3 class="article-title"><a href="https://www.nytimes.com/2026/05/24/world/middleeast/iran-deal-israel-reaction.html" target="_blank" rel="noopener noreferrer">Israeli Leader Says He and Trump Agree on Blocking an Iranian Nuclear Weapon</a></h3>
   
   <p class="article-meta">NYT World · 05/26 02:32</p>
   <p class="article-excerpt">Analysts said Israel was worried that a potential agreement would not significantly degrade Iran’s nuclear and missile capabilities.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 以色列总理称与特朗普在阻止伊朗核武器上立场一致。分析人士担忧潜在协议无法显著削弱伊朗核与导弹能力。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 以色列领导人称与特朗普就阻止伊朗核武器达成一致。分析人士指出，以色列担心潜在协议不会大幅削弱伊朗的核能力与导弹能力。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.aljazeera.com/economy/2026/5/25/bolivias-embattled-president-says-will-take-a-50-percent-salary-cut?traffic_source=rss" target="_blank" rel="noopener noreferrer">Bolivia’s embattled president says will take a 50 percent salary cut</a></h3>
   
   <p class="article-meta">Al Jazeera · 05/26 02:31</p>
   <p class="article-excerpt">Paz says the salary cut for him and cabinet ministers shows the government&#39;s &#39;commitment&#39; to the country&#39;.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 玻利维亚总统帕斯宣布自己和内阁部长将减薪50%，以显示政府对国家的承诺。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 玻利维亚陷入困境的总统帕斯宣布将自己和内阁部长薪资削减50%，以显示政府对国家的「承诺」。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bbc.com/news/videos/cm2ppx7d0k7o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Watch: Only world record broken at Enhanced Games won&#39;t be recognised</a></h3>
   
   <p class="article-meta">BBC World · 05/26 02:14</p>
   <p class="article-excerpt">The BBC&#39;s Shaimaa Khalil explains why the achievement by Greek swimmer Kristian Gkolomeev will not be accepted by official sporting bodies.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 希腊游泳选手克里斯蒂安·戈洛梅耶夫在Enhanced Games打破世界纪录，但BBC报道称该纪录不会被官方体育机构承认。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 在增强运动会上，希腊游泳选手克里斯蒂安·戈科洛梅耶夫打破的世界纪录将不会被官方体育机构承认。BBC记者解释原因。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.nytimes.com/2026/05/24/world/africa/ebola-virus-congo-response.html" target="_blank" rel="noopener noreferrer">In City at Center of Ebola Crisis, ‘the Virus Is Far Ahead of Us’</a></h3>
   
   <p class="article-meta">NYT World · 05/26 02:10</p>
   <p class="article-excerpt">The deadly virus has spread alarmingly in Congo for months. Only now is the response taking shape.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 刚果（金）埃博拉疫情在数月中迅速蔓延，但应对行动刚刚起步，当地人称“病毒已远超我们”。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.nytimes.com/2026/05/25/weather/uk-heat-wave-may-weather-record.html" target="_blank" rel="noopener noreferrer">UK Heat Wave Could Break May Temperature Record</a></h3>
-  
-  <p class="article-meta">NYT World · 05/26 01:50</p>
-  <p class="article-excerpt">Forecasters warned that temperatures could climb to the highest level ever recorded in the month of May, reaching 35 degrees Celsius (95 degrees Fahrenheit) in some areas of England.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国热浪可能打破5月最高气温纪录，预报称英格兰部分地区气温可达35摄氏度（95华氏度）。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/5/25/israel-escalates-gaza-attacks-as-netanyahu-stalls-ceasefire-for-polls?traffic_source=rss" target="_blank" rel="noopener noreferrer">Israel escalates Gaza attacks as Netanyahu stalls ceasefire for polls</a></h3>
-  
-  <p class="article-meta">Al Jazeera · 05/26 01:46</p>
-  <p class="article-excerpt">Analysts warn Netanyahu is exploiting a failing &quot;ceasefire&quot; to prolong the destruction of Gaza ahead of Israeli election</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 以色列升级对加沙的袭击，分析人士警告内塔尼亚胡为选举利益拖延停火，延长加沙破坏。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.bbc.com/news/articles/c1e22n55zn4o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Russia threatens more Kyiv strikes and tells foreign nationals to leave</a></h3>
-  
-  <p class="article-meta">BBC World · 05/26 01:42</p>
-  <p class="article-excerpt">It comes after the Ukrainian capital suffered one of the biggest aerial assaults of the war overnight on Saturday.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 俄罗斯威胁对基辅发动更多打击，要求外国公民撤离。此前基辅一夜之间遭遇战争以来最大规模空袭之一。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/features/2026/5/25/subdued-lebanon-liberation-day-celebrations-under-new-israeli-occupation?traffic_source=rss" target="_blank" rel="noopener noreferrer">Subdued Lebanon Liberation Day celebrations under new Israeli occupation</a></h3>
-  
-  <p class="article-meta">Al Jazeera · 05/26 01:39</p>
-  <p class="article-excerpt">Twenty-six years after Israeli forces were driven out of southern Lebanon, fears of a new occupation have emerged.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 在以色列新占领威胁下，黎巴嫩解放日庆祝活动明显低调，民众担忧再次被占领。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/news/2026/5/25/tunisian-court-hands-presidential-critic-sonia-dahmani-new-jail-term?traffic_source=rss" target="_blank" rel="noopener noreferrer">Tunisian court hands presidential critic Sonia Dahmani new jail term</a></h3>
-  
-  <p class="article-meta">Al Jazeera · 05/26 01:39</p>
-  <p class="article-excerpt">Lawyer convicted for the second time this year as President Saied&#39;s crackdown on dissent intensifies.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 突尼斯法院判处总统批评者、律师索尼娅·达马尼新监禁，这是她今年第二次被判刑，总统萨伊德打压异见加剧。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.aljazeera.com/gallery/2026/5/25/over-1-5-million-pilgrims-begin-hajj-amid-regional-tensions?traffic_source=rss" target="_blank" rel="noopener noreferrer">Over 1.5 million pilgrims begin Hajj amid regional tensions</a></h3>
-  
-  <p class="article-meta">Al Jazeera · 05/26 01:05</p>
-  <p class="article-excerpt">The spiritual and physical challenge is described by pilgrims as a transformative and deeply meaningful journey.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 超过150万穆斯林朝觐者在地区紧张局势中开始朝觐仪式，朝觐者称这是一次转变性旅程。</p>
-</article>
-<article class="article">
-  <h3 class="article-title"><a href="https://www.theguardian.com/world/2026/may/25/spread-of-ebola-in-drc-outpacing-response-efforts-warns-who" target="_blank" rel="noopener noreferrer">Spread of Ebola in DRC ‘outpacing’ response efforts, warns WHO</a></h3>
-  
-  <p class="article-meta">The Guardian · 05/26 01:00</p>
-  <p class="article-excerpt">Director general of World Health Organization urges neighbouring countries to take immediate action The World Health Organization has warned that the Ebola outbreak is outpacing response efforts and countries neighbouring the Democratic Republic of Congo (DRC) are at high risk from the disease. “We </p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 世界卫生组织警告刚果（金）埃博拉疫情蔓延速度超出应对能力，邻国面临高风险，需立即行动。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 刚果（金）埃博拉病毒已蔓延数月，疫情中心的城市面临严峻挑战。报道指出「病毒远远领先于我们」，应对措施才刚成型。</p>
 </article>
   </div>
     </div>
@@ -1896,100 +1798,122 @@
     <div class="source-contents">
       <div class="source-content active" data-source-content="_merged" data-sub="news" data-cat="finance">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/hungary-sees-may-28-deal-with-eu-on-frozen-funds-pm-magyar-says" target="_blank" rel="noopener noreferrer">Hungary Sees May 28 Deal With EU on Frozen Funds, PM Magyar Says</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/26 02:09</p>
   <p class="article-excerpt">Hungarian Prime Minister Peter Magyar said he’ll sign a political accord with the head of the European Union’s executive on May 28 on the release of the bloc’s frozen funds.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 匈牙利总理Magyar表示，将于5月28日与欧盟执行机构负责人签署政治协议，以解冻被冻结的欧盟资金。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 匈牙利总理彼得·马扎尔称将于5月28日与欧盟委员会主席签署政治协议，以推动解冻欧盟冻结的资金。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/vigilant-ecb-hasn-t-yet-seen-second-round-effects-villeroy-says" target="_blank" rel="noopener noreferrer">Vigilant ECB Hasn’t Yet Seen Second-Round Effects, Villeroy Says</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/26 01:53</p>
   <p class="article-excerpt">A spike in energy costs hasn’t yet turned into second-round effects in other parts of the euro-area economy, according to outgoing European Central Bank Governing Council member Francois Villeroy de Galhau.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧洲央行管理委员会委员Villeroy表示，能源成本飙升尚未在欧元区其他领域产生第二轮效应，央行保持警惕。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 即将离任的欧洲央行管委维勒鲁瓦表示，能源成本飙升尚未转化为欧元区其他领域的第二轮效应，央行保持警惕。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/ghana-to-start-buying-30-of-large-gold-mines-ouput-from-june" target="_blank" rel="noopener noreferrer">Ghana to Start Buying 30% of Large Gold Mines’ Ouput From June</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/26 01:07</p>
   <p class="article-excerpt">Ghana’s central bank said it plans to increase gold purchases from the West African nation’s large-scale producers to 30% of their output from 20%, starting June 1.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 加纳央行宣布，自6月1日起，将大型金矿产量的购买比例从20%提高至30%，以增加黄金储备。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 加纳央行宣布自6月1日起，将大型黄金生产商的黄金采购比例从20%提高至30%，以增加黄金储备。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.ft.com/content/36345a2b-e7bc-4077-8e88-5874cf9a723d" target="_blank" rel="noopener noreferrer">The energy shock is not over yet</a></h3>
   
   <p class="article-meta">Financial Times · 05/26 01:00</p>
   <p class="article-excerpt">Even with a deal to reopen the Strait of Hormuz, supplies will take time to normalise</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 即使达成霍尔木兹海峡重新开放协议，供应恢复正常仍需时间，能源冲击尚未结束。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 即使霍尔木兹海峡重新开放，能源供应恢复正常仍需时日，能源冲击尚未结束。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/cox-group-took-54-bridge-loan-for-deal-to-buy-iberdrola-mexico" target="_blank" rel="noopener noreferrer">Cox Group Took 20% Bridge Loan for Iberdrola Mexico Deal</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/26 00:11</p>
   <p class="article-excerpt">Spanish utility Cox ABG Group SA took a bridge loan to help fund a $4.2 billion asset acquisition in Mexico and placed shares as collateral.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 西班牙公用事业公司Cox ABG集团为收购Iberdrola墨西哥资产（42亿美元）获得过桥贷款，并质押股份作为抵押。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 西班牙公用事业公司Cox ABG集团为收购伊维尔德罗拉在墨西哥价值42亿美元的资产，获得过桥贷款并以股票作为抵押。</p>
 </article>
 <article class="article">
-  <h3 class="article-title"><a href="https://www.economist.com/finance-and-economics/2026/05/25/crackdowns-on-financial-secrecy-arent-hurting-offshore-finance" target="_blank" rel="noopener noreferrer">Crackdowns on financial secrecy aren’t hurting offshore finance</a></h3>
+  
+  <h3 class="article-title"><a href="https://www.economist.com/finance-and-economics/2026/05/25/offshore-finance-is-thriving-despite-crackdowns" target="_blank" rel="noopener noreferrer">Offshore finance is thriving despite crackdowns</a></h3>
   
   <p class="article-meta">The Economist Finance · 05/25 23:38</p>
   <p class="article-excerpt">There is a lot more to havens than crystal-clear waters and a promise of opacity</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 文章指出，尽管对金融保密的打击加强，但离岸金融中心的吸引力并未减弱，仍有更多因素支撑。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 尽管各国加强打击，离岸金融依然蓬勃发展，避风港的作用远不止清澈海水和隐秘性。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.ft.com/content/d78bb2ef-c104-4173-ba38-3c0307bf0c91" target="_blank" rel="noopener noreferrer">Counting the cost of New York’s sky-high food bills</a></h3>
   
   <p class="article-meta">Financial Times · 05/25 22:31</p>
   <p class="article-excerpt">Spiralling prices could lead to more public programmes</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 纽约食品价格飙升，可能导致更多公共项目支出增加，成本高企引发关注。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 纽约食品价格飙升，可能促使更多公共援助项目出台，高昂的食品账单成本引发关注。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/czech-premier-urges-interest-rate-cut-as-inflation-risks-grow" target="_blank" rel="noopener noreferrer">Czech Premier Urges Interest Rate Cut as Inflation Risks Grow</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/25 22:22</p>
   <p class="article-excerpt">The Czech Republic’s prime minister urged the central bank to cut interest rates, doubling down on his push for lower borrowing costs even as the country faces growing inflation risks from energy prices.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 捷克总理敦促央行降息，尽管能源价格带来的通胀风险上升，他加大推动降低借贷成本的力度。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 捷克总理呼吁央行降息，尽管能源价格带来的通胀风险上升，他仍坚持推动降低借贷成本。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june" target="_blank" rel="noopener noreferrer">Top Bauxite Producer Guinea to Unveil Export Controls in June</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/25 22:19</p>
   <p class="article-excerpt">Guinea, the world’s biggest bauxite producer, plans to announce reforms next month to control exports of the ore used in making aluminum as it bids to bolster prices.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 全球最大铝土矿生产国几内亚计划6月公布改革措施，控制铝土矿出口，以提振价格。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 全球最大铝土矿生产国几内亚计划于6月公布出口控制改革，以提振铝土矿价格。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.ft.com/content/9d2cdd87-5f4c-4ce1-a2d1-610729dd4aa9" target="_blank" rel="noopener noreferrer">Two LNG tankers pass through Strait of Hormuz</a></h3>
   
   <p class="article-meta">Financial Times · 05/25 21:36</p>
   <p class="article-excerpt">Another vessel carrying crude oil crossed the vital shipping lane on Saturday</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 两艘液化天然气油轮通过霍尔木兹海峡，另一艘原油油轮也于周六通过这一关键航运通道。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 两艘液化天然气（LNG）油轮通过霍尔木兹海峡，另有一艘原油油轮于周六通过这一重要航道。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/nigeria-s-first-quarter-growth-eases-on-slowdown-in-oil-sector" target="_blank" rel="noopener noreferrer">Nigeria’s First Quarter GDP Eases on Slowdown in Oil Sector</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/25 21:35</p>
   <p class="article-excerpt">Nigeria’s economy grew at a slower-than-expected pace in the first quarter as growth in both its oil and non-oil sectors eased.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 尼日利亚第一季度经济增速低于预期，因石油和非石油部门增长放缓。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 尼日利亚第一季度GDP增速低于预期，石油和非石油部门增长均放缓。</p>
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-05-25/top-africa-bourse-to-tighten-algo-trading-market-access-rules" target="_blank" rel="noopener noreferrer">Top Africa Bourse to Tighten Algo-Trading, Market-Access Rules</a></h3>
   
   <p class="article-meta">Bloomberg Markets · 05/25 21:30</p>
   <p class="article-excerpt">Africa’s biggest stock-exchange operator is working to tighten oversight of how brokers and trading firms access the bourse to lessen the risk of rogue algorithms and trading errors that could disrupt the market.</p>
-  <p class="article-summary"><span class="summary-label">中文摘要</span> 非洲最大股票交易所运营商正加强监管，收紧券商和交易公司的市场准入规则，以降低算法错误和交易失误风险。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 非洲最大证券交易所运营商正加强对接入经纪商和交易公司的监管，以减少恶意算法和交易错误导致市场混乱的风险。</p>
 </article>
   </div>
     </div>
   </div>
   </section>
-  
+  <section class="panel" data-panel="entertainment">
+    <div class="sub-content active" data-sub-content="x-viral" data-cat="entertainment">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="x-viral" data-cat="entertainment">
+    <p class="empty">该源今日无内容。</p>
+  </div>
+    </div>
+  </div>
+  </section>
   <section class="panel" data-panel="community">
     <div class="sub-content active" data-sub-content="cn-community" data-cat="tech">
     <nav class="source-tabs"><button class="source-tab active" data-source="v2ex-hot" data-sub="cn-community" data-cat="tech">V2EX<span class="count">10</span></button><button class="source-tab" data-source="linuxdo" data-sub="cn-community" data-cat="tech">LinuxDo<span class="count">10</span></button></nav>
     <div class="source-contents">
       <div class="source-content active" data-source-content="v2ex-hot" data-sub="cn-community" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215419" target="_blank" rel="noopener noreferrer">坏事了，阿里云 dns 解析收费了</a></h3>
   
   <p class="article-meta">05/25 22:28</p>
@@ -1997,6 +1921,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215356" target="_blank" rel="noopener noreferrer">Qoder 闭坑， codex 中转站，更适合中国宝宝体质</a></h3>
   
   <p class="article-meta">05/25 16:46</p>
@@ -2004,6 +1929,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215277" target="_blank" rel="noopener noreferrer">gitee 挂了?</a></h3>
   
   <p class="article-meta">05/25 13:34</p>
@@ -2011,6 +1937,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215250" target="_blank" rel="noopener noreferrer">香港或新加坡 Apple Store 付费维修咨询</a></h3>
   
   <p class="article-meta">05/25 11:40</p>
@@ -2018,6 +1945,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215224" target="_blank" rel="noopener noreferrer">教育优惠➕国补， 5615 入手丐版 M5 AIR。只用过 iPhone 和 iPad ，第一次用 mac 有没有什么要注意的。</a></h3>
   
   <p class="article-meta">05/25 10:48</p>
@@ -2025,6 +1953,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215211" target="_blank" rel="noopener noreferrer">广州 wwdc 线下观影活动</a></h3>
   
   <p class="article-meta">05/25 10:27</p>
@@ -2032,6 +1961,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215134" target="_blank" rel="noopener noreferrer">新买二手 MBP M4pro 还是装 Linux 服务器</a></h3>
   
   <p class="article-meta">05/24 21:45</p>
@@ -2039,6 +1969,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1215100" target="_blank" rel="noopener noreferrer">想问一下大家京东数码海外自营旗舰店里的 Macbook Air M1 靠谱吗</a></h3>
   
   <p class="article-meta">05/24 17:32</p>
@@ -2046,6 +1977,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1214990" target="_blank" rel="noopener noreferrer">iOS 26.5 的 Safari 书签和 Tab Group 无法正常同步</a></h3>
   
   <p class="article-meta">05/23 23:30</p>
@@ -2053,6 +1985,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://www.v2ex.com/t/1214683" target="_blank" rel="noopener noreferrer">xdm，今天(2026/5/22)应该是 macbook air m5 16+512 拼多多最低的价格</a></h3>
   
   <p class="article-meta">05/22 13:36</p>
@@ -2062,6 +1995,7 @@
   </div>
 <div class="source-content" data-source-content="linuxdo" data-sub="cn-community" data-cat="tech">
     <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2245361" target="_blank" rel="noopener noreferrer">rawchat codex公益站，已经去掉了小尾巴 并且向各位佬友解释说明原因</a></h3>
   
   <p class="article-meta">05/26 00:41</p>
@@ -2069,6 +2003,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2244272" target="_blank" rel="noopener noreferrer">很好用的逆向+渗透工作流</a></h3>
   
   <p class="article-meta">05/25 21:08</p>
@@ -2076,6 +2011,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2243901" target="_blank" rel="noopener noreferrer">【picpi 皮皮工艺站】开放注册，不再是邀请制，但是订阅仍需LDC购买。</a></h3>
   
   <p class="article-meta">05/25 20:14</p>
@@ -2083,6 +2019,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2243637" target="_blank" rel="noopener noreferrer">【开源推广】天命小说写作2.8.7版 — 让 AI 写作不在依赖上下文</a></h3>
   
   <p class="article-meta">05/25 19:11</p>
@@ -2090,6 +2027,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2243213" target="_blank" rel="noopener noreferrer">不要用工艺站生😍图，如果还有此类事情发生，将改为邀请制。</a></h3>
   
   <p class="article-meta">05/25 17:42</p>
@@ -2097,6 +2035,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2243110" target="_blank" rel="noopener noreferrer">拿下mac的第一件事是...</a></h3>
   
   <p class="article-meta">05/25 17:27</p>
@@ -2104,6 +2043,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2242908" target="_blank" rel="noopener noreferrer">星辰AI ClaudeMax特惠分组上线 0.88</a></h3>
   
   <p class="article-meta">05/25 16:57</p>
@@ -2111,6 +2051,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2242761" target="_blank" rel="noopener noreferrer">感觉自己被 AI 的虚假成就感骗了，再见了gpt的羊毛</a></h3>
   
   <p class="article-meta">05/25 16:36</p>
@@ -2118,6 +2059,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2242614" target="_blank" rel="noopener noreferrer">中年人如何抵制住炒股诱惑啊</a></h3>
   
   <p class="article-meta">05/25 16:17</p>
@@ -2125,6 +2067,7 @@
   
 </article>
 <article class="article">
+  
   <h3 class="article-title"><a href="https://linux.do/t/topic/2242533" target="_blank" rel="noopener noreferrer">CPA-Manager-Plus：v0.3.0-beta 已发布</a></h3>
   
   <p class="article-meta">05/25 16:08</p>
