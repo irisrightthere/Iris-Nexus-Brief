@@ -30,8 +30,10 @@ const TEXTS_ZH = {
   catPolitics: "时政观察",
   catTrading: "市场行情",
   catCommunity: "社区讨论",
+  catEntertainment: "娱乐观察",
   subAiNews: "AI 媒体",
   subXViral: "X 推文",
+  subYouTubeChannels: "AI油管",
   subBlogWeekly: "博客周刊",
   subCnCommunity: "中文社区",
   subOverseasCommunity: "海外社区",
@@ -78,8 +80,10 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   catPolitics: "World",
   catTrading: "Markets",
   catCommunity: "Community",
+  catEntertainment: "Entertainment",
   subAiNews: "AI Media",
   subXViral: "X Viral",
+  subYouTubeChannels: "AI YouTube",
   subBlogWeekly: "Blog Weekly",
   subCnCommunity: "Chinese Community",
   subOverseasCommunity: "Overseas Community",
@@ -151,12 +155,14 @@ const CATEGORY_LABELS: Record<Category, string> = {
   tech: STR.catTech,
   finance: STR.catFinance,
   politics: STR.catPolitics,
+  entertainment: STR.catEntertainment,
 };
 
 const CATEGORY_DIGEST_LABELS: Record<Category, string> = {
   tech: STR.catTech,
   finance: STR.catFinance,
   politics: STR.catPolitics,
+  entertainment: STR.catEntertainment,
 };
 
 /**
@@ -169,12 +175,13 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  tech: ["github-trending", "x-viral", "ai-news", "youtube-channels", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
+  entertainment: ["x-viral"],
 };
 
-const TECH_MAIN_SUBS = new Set(["github-trending", "x-viral", "ai-news"]);
+const TECH_MAIN_SUBS = new Set(["github-trending", "x-viral", "ai-news", "youtube-channels"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
@@ -183,6 +190,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "overseas-community": STR.subOverseasCommunity,
   "ai-news": STR.subAiNews,
   "x-viral": STR.subXViral,
+  "youtube-channels": STR.subYouTubeChannels,
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
@@ -235,6 +243,7 @@ export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
   "tech:ai-news": 15,
   "finance:news": 12,
   "politics:world": 15,
+  "entertainment:x-viral": 15,
 };
 
 /**
@@ -279,6 +288,7 @@ export function groupRaw(
     tech: new Map(),
     finance: new Map(),
     politics: new Map(),
+    entertainment: new Map(),
   };
   // Pre-seed empty buckets for every enabled source so per-source-tabbed
   // subcategories (e.g. cn-community) still render a tab for sources that
@@ -339,7 +349,7 @@ export function groupRaw(
     });
   }
 
-  const out: RawByCategory = { tech: [], finance: [], politics: [] };
+  const out: RawByCategory = { tech: [], finance: [], politics: [], entertainment: [] };
 
   for (const cat of Object.keys(buckets) as Category[]) {
     const order = SUBCATEGORY_ORDER[cat];
@@ -539,10 +549,12 @@ export function renderHtml(
       (n, sg) => n + sg.sources.reduce((m, s) => m + s.items.length, 0),
       0,
     );
+  const entertainmentSubs = raw.entertainment ?? [];
   const counts = {
     tech: sumItems(techMainSubs),
     finance: sumItems(raw.finance),
     politics: sumItems(raw.politics),
+    entertainment: sumItems(entertainmentSubs),
     community: sumItems(techCommunitySubs),
   };
 
@@ -1196,6 +1208,7 @@ export function renderHtml(
     ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
     <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
+    ${entertainmentSubs.length > 0 ? `<button class="tab" data-tab="entertainment">${CATEGORY_LABELS.entertainment}<span class="count">${counts.entertainment}</span></button>` : ""}
     ${techCommunitySubs.length > 0 ? `<button class="tab" data-tab="community">${STR.catCommunity}<span class="count">${counts.community}</span></button>` : ""}
   </nav>
 
@@ -1209,6 +1222,9 @@ export function renderHtml(
   <section class="panel" data-panel="finance">
     ${renderRawCategoryPanel("finance", raw.finance)}
   </section>
+  ${entertainmentSubs.length > 0 ? `<section class="panel" data-panel="entertainment">
+    ${renderRawCategoryPanel("entertainment", entertainmentSubs)}
+  </section>` : ""}
   ${techCommunitySubs.length > 0 ? `<section class="panel" data-panel="community">
     ${renderRawCategoryPanel("tech", techCommunitySubs)}
   </section>` : ""}

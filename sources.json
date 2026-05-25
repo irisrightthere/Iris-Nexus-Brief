@@ -759,13 +759,13 @@
     "url": "https://x.com/sama",
     "handle": "sama",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-demishassabis",
@@ -774,13 +774,13 @@
     "url": "https://x.com/demishassabis",
     "handle": "demishassabis",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-darioamodei",
@@ -789,13 +789,13 @@
     "url": "https://x.com/DarioAmodei",
     "handle": "DarioAmodei",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-ylecun",
@@ -804,13 +804,13 @@
     "url": "https://x.com/ylecun",
     "handle": "ylecun",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-kaifulee",
@@ -819,13 +819,13 @@
     "url": "https://x.com/kaifulee",
     "handle": "kaifulee",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-id-aa-carmack",
@@ -834,13 +834,13 @@
     "url": "https://x.com/ID_AA_Carmack",
     "handle": "ID_AA_Carmack",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-openai",
@@ -849,13 +849,13 @@
     "url": "https://x.com/OpenAI",
     "handle": "OpenAI",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-anthropicai",
@@ -864,13 +864,13 @@
     "url": "https://x.com/AnthropicAI",
     "handle": "AnthropicAI",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-googledeepmind",
@@ -879,13 +879,13 @@
     "url": "https://x.com/GoogleDeepMind",
     "handle": "GoogleDeepMind",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-xai",
@@ -894,13 +894,13 @@
     "url": "https://x.com/xai",
     "handle": "xai",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-metaai",
@@ -909,13 +909,13 @@
     "url": "https://x.com/MetaAI",
     "handle": "MetaAI",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-emollick",
@@ -924,13 +924,13 @@
     "url": "https://x.com/emollick",
     "handle": "emollick",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-andrewyng",
@@ -939,13 +939,13 @@
     "url": "https://x.com/AndrewYng",
     "handle": "AndrewYng",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-rowancheung",
@@ -954,13 +954,13 @@
     "url": "https://x.com/rowancheung",
     "handle": "rowancheung",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-mattshumer-",
@@ -969,13 +969,13 @@
     "url": "https://x.com/mattshumer_",
     "handle": "mattshumer_",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-nateparrott",
@@ -984,13 +984,13 @@
     "url": "https://x.com/nateparrott",
     "handle": "nateparrott",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-meshtimes-",
@@ -999,13 +999,13 @@
     "url": "https://x.com/meshtimes_",
     "handle": "meshtimes_",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-covacut",
@@ -1014,13 +1014,13 @@
     "url": "https://x.com/covacut",
     "handle": "covacut",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x--luofuli",
@@ -1029,13 +1029,13 @@
     "url": "https://x.com/_LuoFuli",
     "handle": "_LuoFuli",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-poetengineer--",
@@ -1044,13 +1044,13 @@
     "url": "https://x.com/poetengineer__",
     "handle": "poetengineer__",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-vadimstrizheus",
@@ -1059,13 +1059,13 @@
     "url": "https://x.com/VadimStrizheus",
     "handle": "VadimStrizheus",
     "category": "tech",
-    "subcategory": "x-accounts",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "X 核心风向标"
+    "notes": "AI/科技风向标（合并入 X 推文）"
   },
   {
     "id": "x-starto-int",
@@ -1073,8 +1073,8 @@
     "type": "x-account",
     "url": "https://x.com/STARTO_INT",
     "handle": "STARTO_INT",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1088,8 +1088,8 @@
     "type": "x-account",
     "url": "https://x.com/1theK",
     "handle": "1theK",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1103,8 +1103,8 @@
     "type": "x-account",
     "url": "https://x.com/KoreanUpdates",
     "handle": "KoreanUpdates",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1118,8 +1118,8 @@
     "type": "x-account",
     "url": "https://x.com/Kpop_Herald",
     "handle": "Kpop_Herald",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1133,8 +1133,8 @@
     "type": "x-account",
     "url": "https://x.com/soompi",
     "handle": "soompi",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1148,8 +1148,8 @@
     "type": "x-account",
     "url": "https://x.com/CJnDrama",
     "handle": "CJnDrama",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1163,8 +1163,8 @@
     "type": "x-account",
     "url": "https://x.com/pledis_17",
     "handle": "pledis_17",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [
@@ -1178,8 +1178,8 @@
     "type": "x-account",
     "url": "https://x.com/EpikHighHQ",
     "handle": "EpikHighHQ",
-    "category": "tech",
-    "subcategory": "x-accounts",
+    "category": "entertainment",
+    "subcategory": "x-viral",
     "enabled": true,
     "is_private": true,
     "locales": [

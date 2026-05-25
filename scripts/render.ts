@@ -5,7 +5,7 @@ import path from "node:path";
 
 import type { ArticleInput, DailyReport } from "../lib/ai/pipeline";
 import { groupRaw, renderHtml, renderMarkdown } from "../lib/output/render";
-import { sources } from "../lib/sources/registry";
+import { allSources } from "../lib/sources/registry";
 import { todayKey } from "../lib/utils";
 
 const OUTPUT_DIR = "daily_reports";
@@ -57,7 +57,7 @@ async function main() {
   const articles = loadArticles(date);
   console.log(`[render] loaded ${articles.length} articles + report`);
 
-  const raw = groupRaw(articles, sources);
+  const raw = groupRaw(articles, allSources);
   const dateDir = path.join(OUTPUT_DIR, date);
   fs.mkdirSync(dateDir, { recursive: true });
   const base = path.join(dateDir, date);

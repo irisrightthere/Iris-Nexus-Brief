@@ -30,7 +30,7 @@ function loadAndValidate(): SourceDef[] {
   }
 
   const validTypes = new Set(["rss", "api", "scrape", "youtube", "x-account"]);
-  const validCategories = new Set(["tech", "finance", "politics"]);
+  const validCategories = new Set(["tech", "finance", "politics", "entertainment"]);
   const seenIds = new Set<string>();
 
   for (let i = 0; i < parsed.length; i++) {

@@ -291,7 +291,7 @@ async function main() {
   const dateDir = path.join(OUTPUT_DIR, date);
   fs.mkdirSync(dateDir, { recursive: true });
   const base = path.join(dateDir, date);
-  const raw = groupRaw(articles, sources);
+  const raw = groupRaw(articles, allSources);
   fs.writeFileSync(`${base}.json`, JSON.stringify(report, null, 2), "utf8");
   // Sidecar with all fetched articles + LLM-attached summary, so
   // scripts/render.ts can rebuild HTML/MD for UI iteration without
