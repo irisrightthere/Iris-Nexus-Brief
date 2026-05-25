@@ -4,6 +4,8 @@ import { fetchHackerNews } from "./hackernews";
 import { fetchLinuxDo } from "./linuxdo";
 import { fetchRss } from "./rss";
 import { fetchV2ex } from "./v2ex";
+import { fetchYoutube } from "./youtube";
+import { fetchXAccount } from "./x-account";
 import type { RawArticle, SourceDef } from "./types";
 
 /**
@@ -16,6 +18,11 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.id === "v2ex-hot") return fetchV2ex(source.id);
   if (source.id === "linuxdo") return fetchLinuxDo(source.id);
   if (source.id === "attentionvc-ai") return fetchAttentionVc(source.id);
+  if (source.type === "youtube") return fetchYoutube(source.id, source.url);
+  if (source.type === "x-account") {
+    const handle = source.handle ?? source.url.split("/").pop() ?? source.id;
+    return fetchXAccount(source.id, handle);
+  }
   return fetchRss(source.id, source.url, source.category, {
     useCurl: source.useCurl,
   });

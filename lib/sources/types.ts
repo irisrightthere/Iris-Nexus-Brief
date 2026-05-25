@@ -1,5 +1,5 @@
 export type Category = "tech" | "finance" | "politics";
-export type SourceType = "rss" | "api" | "scrape";
+export type SourceType = "rss" | "api" | "scrape" | "youtube" | "x-account";
 
 export interface SourceDef {
   id: string;
@@ -40,6 +40,17 @@ export interface SourceDef {
    * any context useful for fork users. Ignored at runtime.
    */
   notes?: string;
+  /**
+   * Private sources (is_private: true) are included in the full HTML
+   * report but ALSO gate into the separate Core Feed pushed to Feishu
+   * via Make webhook. Public sources (false / undefined) are HTML-only.
+   */
+  is_private?: boolean;
+  /**
+   * X/Twitter handle without the @ — used by x-account fetcher to
+   * build the RSS URL. Only meaningful when type === "x-account".
+   */
+  handle?: string;
 }
 
 export interface RawArticle {

@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "github-trending",
+    "name": "GitHub Trending",
+    "type": "scrape",
+    "url": "https://github.com/trending",
+    "category": "tech",
+    "subcategory": "github-trending",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "v2ex-hot",
+    "name": "V2EX",
+    "type": "api",
+    "url": "https://www.v2ex.com/api/topics/show.json",
+    "category": "tech",
+    "subcategory": "cn-community",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "linuxdo",
+    "name": "LinuxDo",
+    "type": "rss",
+    "url": "https://linux.do/top.rss?period=daily",
+    "category": "tech",
+    "subcategory": "cn-community",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "Discourse RSS feed; fetcher falls back to /latest.rss if /top.rss fails",
+    "is_private": false
+  },
+  {
+    "id": "juejin",
+    "name": "掘金",
+    "type": "rss",
+    "url": "https://juejin.cn/rss",
+    "category": "tech",
+    "subcategory": "cn-community",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "hackernews",
+    "name": "Hacker News",
+    "type": "api",
+    "url": "https://hacker-news.firebaseio.com/v0",
+    "category": "tech",
+    "subcategory": "overseas-community",
+    "enabled": true,
+    "locales": [
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "lobsters",
+    "name": "Lobsters",
+    "type": "rss",
+    "url": "https://lobste.rs/rss",
+    "category": "tech",
+    "subcategory": "overseas-community",
+    "enabled": false,
+    "locales": [
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "qbitai",
+    "name": "量子位",
+    "type": "rss",
+    "url": "https://www.qbitai.com/feed",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "lang": "zh",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "type": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "deepmind-blog",
+    "name": "DeepMind Blog",
+    "type": "rss",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "huggingface-blog",
+    "name": "Hugging Face Blog",
+    "type": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "tldr-ai",
+    "name": "TLDR AI",
+    "type": "rss",
+    "url": "https://tldr.tech/api/rss/ai",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "smol-ai-news",
+    "name": "Smol AI News",
+    "type": "rss",
+    "url": "https://news.smol.ai/rss.xml",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "latent-space",
+    "name": "Latent Space",
+    "type": "rss",
+    "url": "https://www.latent.space/feed",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "mit-tech-review-ai",
+    "name": "MIT Tech Review AI",
+    "type": "rss",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "attentionvc-ai",
+    "name": "X 推文 (AttentionVC)",
+    "type": "api",
+    "url": "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=3d&category=ai&lang=en&limit=30",
+    "category": "tech",
+    "subcategory": "x-viral",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "solidot",
+    "name": "Solidot 奇客",
+    "type": "rss",
+    "url": "https://www.solidot.org/index.rss",
+    "category": "tech",
+    "subcategory": "overseas-news",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "ars-technica",
+    "name": "Ars Technica",
+    "type": "rss",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "category": "tech",
+    "subcategory": "overseas-news",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "ruanyf-blog",
+    "name": "阮一峰的网络日志",
+    "type": "rss",
+    "url": "https://www.ruanyifeng.com/blog/atom.xml",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "hellogithub",
+    "name": "HelloGitHub 月刊",
+    "type": "rss",
+    "url": "https://hellogithub.com/rss/all",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "martinfowler",
+    "name": "Martin Fowler",
+    "type": "rss",
+    "url": "https://martinfowler.com/feed.atom",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "simonwillison",
+    "name": "Simon Willison",
+    "type": "rss",
+    "url": "https://simonwillison.net/atom/everything/",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "cloudflare-blog",
+    "name": "Cloudflare Blog",
+    "type": "rss",
+    "url": "https://blog.cloudflare.com/rss/",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "github-engineering",
+    "name": "GitHub Engineering",
+    "type": "rss",
+    "url": "https://github.blog/engineering/feed/",
+    "category": "tech",
+    "subcategory": "blog-weekly",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch",
+    "type": "rss",
+    "url": "https://techcrunch.com/feed/",
+    "category": "tech",
+    "subcategory": "overseas",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "theverge",
+    "name": "The Verge",
+    "type": "rss",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "category": "tech",
+    "subcategory": "overseas",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "bbc-tech",
+    "name": "BBC Technology",
+    "type": "rss",
+    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "category": "tech",
+    "subcategory": "overseas",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "bloomberg-markets",
+    "name": "Bloomberg Markets",
+    "type": "rss",
+    "url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "wsj-markets",
+    "name": "WSJ Markets",
+    "type": "rss",
+    "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "cnbc-topnews",
+    "name": "CNBC",
+    "type": "rss",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "ft-companies",
+    "name": "Financial Times",
+    "type": "rss",
+    "url": "https://www.ft.com/companies?format=rss",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "ftchinese-news",
+    "name": "FT中文网",
+    "type": "rss",
+    "url": "https://www.ftchinese.com/rss/news",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "yahoo-finance",
+    "name": "Yahoo Finance",
+    "type": "rss",
+    "url": "https://finance.yahoo.com/news/rssindex",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "marketwatch-top",
+    "name": "MarketWatch",
+    "type": "rss",
+    "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "bbc-business",
+    "name": "BBC Business",
+    "type": "rss",
+    "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "economist-finance",
+    "name": "The Economist Finance",
+    "type": "rss",
+    "url": "https://www.economist.com/finance-and-economics/rss.xml",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "reddit-wallstreetbets",
+    "name": "r/wallstreetbets",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/wallstreetbets/.rss",
+    "category": "finance",
+    "subcategory": "community",
+    "useCurl": true,
+    "enabled": false,
+    "locales": [
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "reddit-investing",
+    "name": "r/investing",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/investing/.rss",
+    "category": "finance",
+    "subcategory": "community",
+    "useCurl": true,
+    "enabled": false,
+    "locales": [
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "reddit-stocks",
+    "name": "r/stocks",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/stocks/.rss",
+    "category": "tech",
+    "subcategory": "overseas-community",
+    "useCurl": true,
+    "enabled": true,
+    "locales": [
+      "en"
+    ],
+    "notes": "Lives in tech:overseas-community so it shares the L1 'Community' panel with Hacker News in en mode (mirrors cn-community in zh mode).",
+    "is_private": false
+  },
+  {
+    "id": "reddit-chinastocks",
+    "name": "r/ChinaStocks",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/ChinaStocks/.rss",
+    "category": "finance",
+    "subcategory": "community",
+    "useCurl": true,
+    "enabled": false,
+    "locales": [
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "people-finance",
+    "name": "人民网财经",
+    "type": "rss",
+    "url": "http://www.people.com.cn/rss/finance.xml",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "wallstreetcn",
+    "name": "华尔街见闻",
+    "type": "rss",
+    "url": "https://rsshub.app/wallstreetcn/news/global",
+    "category": "finance",
+    "subcategory": "news",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "bbc-world",
+    "name": "BBC World",
+    "type": "rss",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "guardian-world",
+    "name": "The Guardian",
+    "type": "rss",
+    "url": "https://www.theguardian.com/world/rss",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "nyt-world",
+    "name": "NYT World",
+    "type": "rss",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "npr-world",
+    "name": "NPR World",
+    "type": "rss",
+    "url": "https://feeds.npr.org/1004/rss.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "dw-chinese",
+    "name": "DW 中文",
+    "type": "rss",
+    "url": "https://rss.dw.com/rdf/rss-chi-all",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "aljazeera",
+    "name": "Al Jazeera",
+    "type": "rss",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "the-diplomat",
+    "name": "The Diplomat",
+    "type": "rss",
+    "url": "https://thediplomat.com/feed/",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "peoples-daily",
+    "name": "人民网时政",
+    "type": "rss",
+    "url": "http://www.people.com.cn/rss/politics.xml",
+    "category": "politics",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "people-world",
+    "name": "人民网国际",
+    "type": "rss",
+    "url": "http://www.people.com.cn/rss/world.xml",
+    "category": "politics",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "xinhua-politics",
+    "name": "新华网时政",
+    "type": "rss",
+    "url": "http://www.xinhuanet.com/politics/news_politics.xml",
+    "category": "politics",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "rfa-chinese",
+    "name": "RFA 中文",
+    "type": "rss",
+    "url": "https://www.rfa.org/mandarin/RSS",
+    "category": "politics",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false
+  },
+  {
+    "id": "youtube-fryrsquared",
+    "name": "YouTube: @fryrsquared",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@fryrsquared",
+    "category": "tech",
+    "subcategory": "youtube-channels",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "Private YouTube channel — Core Feed only"
+  },
+  {
+    "id": "youtube-tdsunshine",
+    "name": "YouTube: @TDSunshine",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TDSunshine",
+    "category": "tech",
+    "subcategory": "youtube-channels",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "Private YouTube channel — Core Feed only"
+  },
+  {
+    "id": "youtube-tinahuang1",
+    "name": "YouTube: @TinaHuang1",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@TinaHuang1",
+    "category": "tech",
+    "subcategory": "youtube-channels",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "Private YouTube channel — Core Feed only"
+  },
+  {
+    "id": "x-account-01",
+    "name": "X 账号 #1（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_1",
+    "handle": "PLACEHOLDER_1",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-02",
+    "name": "X 账号 #2（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_2",
+    "handle": "PLACEHOLDER_2",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-03",
+    "name": "X 账号 #3（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_3",
+    "handle": "PLACEHOLDER_3",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-04",
+    "name": "X 账号 #4（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_4",
+    "handle": "PLACEHOLDER_4",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-05",
+    "name": "X 账号 #5（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_5",
+    "handle": "PLACEHOLDER_5",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-06",
+    "name": "X 账号 #6（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_6",
+    "handle": "PLACEHOLDER_6",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-07",
+    "name": "X 账号 #7（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_7",
+    "handle": "PLACEHOLDER_7",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-08",
+    "name": "X 账号 #8（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_8",
+    "handle": "PLACEHOLDER_8",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-09",
+    "name": "X 账号 #9（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_9",
+    "handle": "PLACEHOLDER_9",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-10",
+    "name": "X 账号 #10（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_10",
+    "handle": "PLACEHOLDER_10",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-11",
+    "name": "X 账号 #11（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_11",
+    "handle": "PLACEHOLDER_11",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-12",
+    "name": "X 账号 #12（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_12",
+    "handle": "PLACEHOLDER_12",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-13",
+    "name": "X 账号 #13（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_13",
+    "handle": "PLACEHOLDER_13",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-14",
+    "name": "X 账号 #14（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_14",
+    "handle": "PLACEHOLDER_14",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-15",
+    "name": "X 账号 #15（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_15",
+    "handle": "PLACEHOLDER_15",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-16",
+    "name": "X 账号 #16（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_16",
+    "handle": "PLACEHOLDER_16",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-17",
+    "name": "X 账号 #17（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_17",
+    "handle": "PLACEHOLDER_17",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-18",
+    "name": "X 账号 #18（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_18",
+    "handle": "PLACEHOLDER_18",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-19",
+    "name": "X 账号 #19（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_19",
+    "handle": "PLACEHOLDER_19",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-20",
+    "name": "X 账号 #20（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_20",
+    "handle": "PLACEHOLDER_20",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  },
+  {
+    "id": "x-account-21",
+    "name": "X 账号 #21（待录入）",
+    "type": "x-account",
+    "url": "https://x.com/PLACEHOLDER_21",
+    "handle": "PLACEHOLDER_21",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": false,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+  }
+]
