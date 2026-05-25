@@ -205,9 +205,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
  * finance:news, politics:world) ignore this — they use MERGED_SUBGROUP_LIMITS.
  */
 const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
-  "tech:github-trending": 20,
   "tech:cn-community": 10,
-  "tech:x-viral": 20,
 };
 
 /**
@@ -240,7 +238,10 @@ function displayLimitFor(
  * Exported so daily.ts can read the cap to keep enrichment in sync.
  */
 export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
+  "tech:github-trending": 20,
+  "tech:x-viral": 20,
   "tech:ai-news": 15,
+  "tech:youtube-channels": 15,
   "finance:news": 12,
   "politics:world": 15,
   "entertainment:x-viral": 15,
@@ -1208,7 +1209,7 @@ export function renderHtml(
     ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
     <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
-    ${entertainmentSubs.length > 0 ? `<button class="tab" data-tab="entertainment">${CATEGORY_LABELS.entertainment}<span class="count">${counts.entertainment}</span></button>` : ""}
+    <button class="tab" data-tab="entertainment">${CATEGORY_LABELS.entertainment}<span class="count">${counts.entertainment}</span></button>
     ${techCommunitySubs.length > 0 ? `<button class="tab" data-tab="community">${STR.catCommunity}<span class="count">${counts.community}</span></button>` : ""}
   </nav>
 
@@ -1222,9 +1223,9 @@ export function renderHtml(
   <section class="panel" data-panel="finance">
     ${renderRawCategoryPanel("finance", raw.finance)}
   </section>
-  ${entertainmentSubs.length > 0 ? `<section class="panel" data-panel="entertainment">
+  <section class="panel" data-panel="entertainment">
     ${renderRawCategoryPanel("entertainment", entertainmentSubs)}
-  </section>` : ""}
+  </section>
   ${techCommunitySubs.length > 0 ? `<section class="panel" data-panel="community">
     ${renderRawCategoryPanel("tech", techCommunitySubs)}
   </section>` : ""}

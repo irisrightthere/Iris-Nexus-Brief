@@ -13,7 +13,6 @@ import { getModelTag } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
-  enrichXViralSummaries,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -94,29 +93,7 @@ async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
  * tweet titles are clickbait, the previewText holds the actual claim.
  */
 async function enrichXViral(articles: ArticleInput[]): Promise<void> {
-  const xPosts = articles
-    .filter((a) => a.sourceId === "attentionvc-ai")
-    .slice(0, 20);
-  if (xPosts.length === 0) return;
-  console.log(`[daily] enriching ${xPosts.length} X posts with ${REPORT_LOCALE} summaries…`);
-  const t0 = Date.now();
-  // Author handle is encoded in the URL (https://x.com/{handle}/status/{id})
-  // — extract it to help the model identify whose claim it is.
-  const summaries = await enrichXViralSummaries(
-    xPosts.map((a) => ({
-      url: a.url,
-      title: a.title,
-      excerpt: a.excerpt,
-      author: a.url.match(/x\.com\/([^/]+)\//)?.[1] ?? "",
-    })),
-  );
-  for (const a of xPosts) {
-    const s = summaries.get(a.url);
-    if (s) a.summary = s;
-  }
-  console.log(
-    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${xPosts.length}`,
-  );
+  await enrichMergedSubgroup(articles, "tech", "x-viral");
 }
 
 /**

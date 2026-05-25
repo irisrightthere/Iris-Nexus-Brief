@@ -20,7 +20,7 @@ const parser = new Parser({
  * Each source entry needs a `handle` field (the X handle without @).
  * The fetcher constructs: <base>/twitter/user/<handle>
  */
-export async function fetchXAccount(sourceId: string, handle: string): Promise<RawArticle[]> {
+export async function fetchXAccount(sourceId: string, handle: string, category: RawArticle["category"]): Promise<RawArticle[]> {
   const base = process.env.X_RSS_BASE_URL ?? "https://rsshub.app";
   const feedUrl = `${base.replace(/\/$/, "")}/twitter/user/${encodeURIComponent(handle)}`;
 
@@ -32,6 +32,6 @@ export async function fetchXAccount(sourceId: string, handle: string): Promise<R
     url: (item.link ?? "").trim(),
     excerpt: (item.contentSnippet ?? item.content ?? "").replace(/\s+/g, " ").trim().slice(0, 300),
     publishedAt: item.isoDate ? new Date(item.isoDate) : undefined,
-    category: "tech" as const,
+    category,
   }));
 }

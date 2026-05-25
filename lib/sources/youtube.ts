@@ -17,7 +17,7 @@ const parser = new Parser({
  * cheerio → parse the RSS feed with rss-parser.  Two HTTP round-trips
  * but zero API keys and zero rate limits.
  */
-export async function fetchYoutube(sourceId: string, channelUrl: string): Promise<RawArticle[]> {
+export async function fetchYoutube(sourceId: string, channelUrl: string, category: RawArticle["category"]): Promise<RawArticle[]> {
   // 1. Fetch channel page, extract RSS URL
   const pageResp = await fetch(channelUrl, {
     headers: {
@@ -48,6 +48,6 @@ export async function fetchYoutube(sourceId: string, channelUrl: string): Promis
     url: (item.link ?? "").trim(),
     excerpt: (item.contentSnippet ?? item.content ?? "").replace(/\s+/g, " ").trim().slice(0, 300),
     publishedAt: item.isoDate ? new Date(item.isoDate) : undefined,
-    category: "tech" as const,
+    category,
   }));
 }
