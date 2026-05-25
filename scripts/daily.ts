@@ -233,6 +233,37 @@ async function pushCoreFeed(articles: ArticleInput[], date: string): Promise<voi
   });
 }
 
+/**
+ * YouTube title enrichment: translate the latest video title per channel
+ * into REPORT_LOCALE. Only the first item (newest) per channel is enriched
+ * since it's the one shown with a thumbnail card.
+ */
+async function enrichYoutube(articles: ArticleInput[]): Promise<void> {
+  const ytSources = allSources.filter(
+    (s) => s.subcategory === "youtube-channels" && s.enabled !== false,
+  );
+  const ytIds = new Set(ytSources.map((s) => s.id));
+  const toEnrich: ArticleInput[] = [];
+  for (const sid of ytIds) {
+    const latest = articles
+      .filter((a) => a.sourceId === sid)
+      .sort((a, b) => (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0))
+      .slice(0, 1);
+    toEnrich.push(...latest);
+  }
+  if (toEnrich.length === 0) return;
+  console.log(`[daily] enriching ${toEnrich.length} YouTube titles with ${REPORT_LOCALE} summaries…`);
+  const t0 = Date.now();
+  const summaries = await enrichFinanceNewsSummaries(toEnrich);
+  for (const a of toEnrich) {
+    const s = summaries.get(a.url);
+    if (s) a.summary = s;
+  }
+  console.log(
+    `[daily] YouTube enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${toEnrich.length}`,
+  );
+}
+
 async function enrichEntertainment(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "entertainment", "x-viral");
 }
@@ -253,6 +284,7 @@ async function main() {
   await enrichAiNews(articles);
   await enrichXViral(articles);
   await enrichEntertainment(articles);
+  await enrichYoutube(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.

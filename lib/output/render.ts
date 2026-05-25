@@ -206,6 +206,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
  */
 const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:cn-community": 10,
+  "tech:youtube-channels": 5,
 };
 
 /**
@@ -241,7 +242,6 @@ export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:x-viral": 20,
   "tech:ai-news": 15,
-  "tech:youtube-channels": 15,
   "finance:news": 12,
   "politics:world": 15,
   "entertainment:x-viral": 15,
@@ -377,11 +377,12 @@ export function groupRaw(
         for (const [id, b] of buckets[cat].entries()) {
           if (subcatOf.get(id) === subId) flat.push(...b.items);
         }
-        if (flat.length === 0) continue;
-        flat.sort(
-          (a, b) =>
-            (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
-        );
+        if (flat.length > 0) {
+          flat.sort(
+            (a, b) =>
+              (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
+          );
+        }
         subs.push({
           id: subId,
           name: SUBCATEGORY_LABELS[subId] ?? subId,
@@ -389,7 +390,7 @@ export function groupRaw(
             {
               sourceId: "_merged",
               sourceName: SUBCATEGORY_LABELS[subId] ?? subId,
-              items: flat.slice(0, mergeLimit),
+              items: flat.length > 0 ? flat.slice(0, mergeLimit) : [],
               merged: true,
             },
           ],
@@ -446,7 +447,7 @@ function formatDate(d: Date | undefined): string {
 
 // ----- raw article renderers -----
 
-function renderArticleHtml(a: ArticleInput, showSource = false): string {
+function renderArticleHtml(a: ArticleInput, showSource = false, showThumbnail = false): string {
   const title = escapeHtml(a.title);
   const url = escapeHtml(a.url);
   const excerpt = a.excerpt ? escapeHtml(a.excerpt) : "";
@@ -460,7 +461,9 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
   // News-style summary label for finance/politics, project-intro style for GH/tech.
   const newsy = a.category === "finance" || a.category === "politics";
   const summaryLabel = newsy ? STR.summaryLabelNews : STR.summaryLabelIntro;
-  return `<article class="article">
+  const thumb = showThumbnail && a.thumbnail ? `<img class="article-thumb" src="${escapeHtml(a.thumbnail)}" alt="" loading="lazy">` : "";
+  return `<article class="article${showThumbnail && a.thumbnail ? " has-thumb" : ""}">
+  ${thumb}
   <h3 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h3>
   ${meta ? `<p class="article-stats">${meta}</p>` : ""}
   ${metaLine ? `<p class="article-meta">${metaLine}</p>` : ""}
@@ -477,7 +480,7 @@ function renderSourceContent(
 ): string {
   const showSource = source.merged === true;
   return `<div class="source-content${isActive ? " active" : ""}" data-source-content="${escapeHtml(source.sourceId)}" data-sub="${escapeHtml(subId)}" data-cat="${category}">
-    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : source.items.map((a) => renderArticleHtml(a, showSource)).join("\n")}
+    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : source.items.map((a, i) => renderArticleHtml(a, showSource, i === 0)).join("\n")}
   </div>`;
 }
 
@@ -896,6 +899,22 @@ export function renderHtml(
   }
   .article:first-child { padding-top: 0; }
   .article:last-child { border-bottom: none; }
+  .article.has-thumb {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+  }
+  .article-thumb {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  @media (max-width: 520px) {
+    .article.has-thumb { flex-direction: column; }
+    .article-thumb { width: 100%; height: auto; max-height: 180px; }
+  }
   .article-title {
     font-size: 1rem;
     margin: 0 0 0.3rem;

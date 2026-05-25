@@ -8,6 +8,9 @@ const parser = new Parser({
     "User-Agent":
       "Mozilla/5.0 (compatible; IrisNexusBot/1.0; +https://github.com/)",
   },
+  customFields: {
+    item: [["media:group", "media:thumbnail", { attr: "url" }]],
+  },
 });
 
 /**
@@ -49,5 +52,7 @@ export async function fetchYoutube(sourceId: string, channelUrl: string, categor
     excerpt: (item.contentSnippet ?? item.content ?? "").replace(/\s+/g, " ").trim().slice(0, 300),
     publishedAt: item.isoDate ? new Date(item.isoDate) : undefined,
     category,
+    // @ts-expect-error rss-parser custom field — media:thumbnail url
+    thumbnail: (item["media:group"]?.["media:thumbnail"]?.url as string) ?? undefined,
   }));
 }

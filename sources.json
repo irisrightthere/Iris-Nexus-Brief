@@ -712,7 +712,7 @@
   },
   {
     "id": "youtube-fryrsquared",
-    "name": "YouTube: @fryrsquared",
+    "name": "@fryrsquared",
     "type": "youtube",
     "url": "https://www.youtube.com/@fryrsquared",
     "category": "tech",
@@ -726,7 +726,7 @@
   },
   {
     "id": "youtube-tdsunshine",
-    "name": "YouTube: @TDSunshine",
+    "name": "@TDSunshine",
     "type": "youtube",
     "url": "https://www.youtube.com/@TDSunshine",
     "category": "tech",
@@ -740,7 +740,7 @@
   },
   {
     "id": "youtube-tinahuang1",
-    "name": "YouTube: @TinaHuang1",
+    "name": "@TinaHuang1",
     "type": "youtube",
     "url": "https://www.youtube.com/@TinaHuang1",
     "category": "tech",

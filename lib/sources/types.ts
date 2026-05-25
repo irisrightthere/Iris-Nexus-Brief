@@ -71,4 +71,6 @@ export interface RawArticle {
    * used by GitHub Trending for "Language · ★stars · forks · stars today".
    */
   meta?: string;
+  /** Thumbnail/cover image URL — used by YouTube videos. */
+  thumbnail?: string;
 }
