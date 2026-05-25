@@ -3,7 +3,7 @@ import "./_env";
 import fs from "node:fs";
 import path from "node:path";
 
-import { sources, REPORT_LOCALE } from "../lib/sources/registry";
+import { allSources, sources, privateSources, REPORT_LOCALE } from "../lib/sources/registry";
 import { fetchSource } from "../lib/sources/dispatch";
 import {
   generateDailyReport,
@@ -28,12 +28,14 @@ import { fetchCryptoGlobal } from "../lib/trading/coingecko";
 import { generateTradingCommentary } from "../lib/ai/trading-commentary";
 import type { TradingSection } from "../lib/ai/pipeline";
 import { todayKey } from "../lib/utils";
+import { postToMakeWebhook } from "../lib/webhook/send";
+import type { CoreArticle } from "../lib/webhook/send";
 
 const OUTPUT_DIR = "daily_reports";
 
 async function fetchAll(): Promise<ArticleInput[]> {
   const articles: ArticleInput[] = [];
-  const enabled = sources.filter((s) => s.enabled !== false);
+  const enabled = allSources.filter((s) => s.enabled !== false);
   for (const source of enabled) {
     try {
       const items = await fetchSource(source);
@@ -211,6 +213,49 @@ async function runTrading(): Promise<TradingSection | null> {
   };
 }
 
+/**
+ * Build the GitHub Pages URL for today's report.
+ * In CI, GITHUB_REPOSITORY and GITHUB_SERVER_URL are set by Actions.
+ * Locally, set GITHUB_REPOSITORY=irisrightthere/Iris-Nexus-Brief in .env.local.
+ */
+function buildReportUrl(date: string): string | null {
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!repo) return null;
+  const [owner, repoName] = repo.split("/");
+  return `https://${owner}.github.io/${repoName}/${date}/${date}.html`;
+}
+
+/** Filter private-source articles, build payload, POST to Make webhook. */
+async function pushCoreFeed(articles: ArticleInput[], date: string): Promise<void> {
+  if (privateSources.length === 0) {
+    console.log("[core-feed] no private sources configured — skipping");
+    return;
+  }
+  const privateIds = new Set(privateSources.map((s) => s.id));
+  const coreArticles: CoreArticle[] = articles
+    .filter((a) => privateIds.has(a.sourceId))
+    .map((a) => ({
+      source: a.source,
+      title: a.title,
+      url: a.url,
+      summary: a.summary ?? a.excerpt?.slice(0, 200) ?? "",
+    }));
+
+  if (coreArticles.length === 0) {
+    console.log("[core-feed] no private articles today — skipping");
+    return;
+  }
+
+  const reportUrl = buildReportUrl(date);
+  console.log(`[core-feed] ${coreArticles.length} articles for webhook${reportUrl ? ` — ${reportUrl}` : ""}`);
+
+  await postToMakeWebhook({
+    date,
+    report_url: reportUrl ?? "(not set — configure GITHUB_REPOSITORY env)",
+    core_articles: coreArticles,
+  });
+}
+
 async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
@@ -265,6 +310,13 @@ async function main() {
   }
 
   console.log(`[daily] done.`);
+
+  // ── Core Feed: extract private-source articles → POST to Make webhook ──
+  try {
+    await pushCoreFeed(articles, date);
+  } catch (e) {
+    console.warn(`[daily] Core Feed push failed (non-fatal): ${e instanceof Error ? e.message : e}`);
+  }
 }
 
 main().catch((e) => {

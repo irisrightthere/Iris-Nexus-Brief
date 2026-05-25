@@ -3,12 +3,12 @@
  *
  *   npm run sources           - list all sources, grouped by status, with
  *                               per-locale filtering info; also validates
- *                               sources.config.json shape
+ *                               sources.json shape
  *   npm run sources:check     - validation only, exit 1 on schema errors
  *                               (suitable for CI / pre-commit hook)
  *
  * Adding / removing / disabling sources is done by editing
- * sources.config.json directly — JSON is the canonical store.
+ * sources.json directly — JSON is the canonical store.
  */
 import "./_env";
 
@@ -72,7 +72,7 @@ function list(all: SourceDef[]): void {
 
   console.log(`总计: ${total} 个 · enabled: ${enabled} · 当前 locale 有效: ${activeInLocale}`);
   console.log("");
-  console.log(`改源配置: 直接编辑 sources.config.json（JSON 数组）`);
+  console.log(`改源配置: 直接编辑 sources.json（JSON 数组）`);
   console.log(`切 locale: 在 .env.local 设 REPORT_LOCALE=en (默认 zh)`);
   console.log("");
 }
@@ -82,13 +82,13 @@ async function main(): Promise<void> {
   try {
     all = loadAllSources();
   } catch (e) {
-    console.error(`✗ sources.config.json validation failed:`);
+    console.error(`✗ sources.json validation failed:`);
     console.error(`  ${(e as Error).message}`);
     process.exit(1);
   }
 
   if (arg === "check") {
-    console.log(`✓ sources.config.json OK (${all.length} sources)`);
+    console.log(`✓ sources.json OK (${all.length} sources)`);
     return;
   }
 

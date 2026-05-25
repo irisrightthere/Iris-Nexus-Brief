@@ -1,4 +1,4 @@
-name: Daily Brief
+name: Iris Nexus Brief
 
 # Generate a fresh daily report and publish to GitHub Pages.
 #
@@ -44,7 +44,7 @@ permissions:
   contents: write  # needed to push to gh-pages branch
 
 concurrency:
-  group: daily-brief
+  group: iris-nexus-brief
   cancel-in-progress: false
 
 jobs:
@@ -229,6 +229,8 @@ jobs:
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           WEB_MODE: 'true'
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run daily
 
       - name: Build static site (index + archive)
