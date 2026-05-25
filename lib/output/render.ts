@@ -24,7 +24,7 @@ import {
  * this object so adding a third locale = adding one more table.
  */
 const TEXTS_ZH = {
-  siteTitle: "鸢尾花全景情报",
+  siteTitle: "每日简报",
   catTech: "技术动态",
   catFinance: "财经要点",
   catPolitics: "时政观察",
@@ -74,7 +74,7 @@ const TEXTS_ZH = {
 };
 
 const TEXTS_EN: typeof TEXTS_ZH = {
-  siteTitle: "Iris Nexus Brief",
+  siteTitle: "Daily Brief",
   catTech: "Tech",
   catFinance: "Finance",
   catPolitics: "World",
@@ -517,7 +517,9 @@ function renderRawCategoryPanel(
   if (subs.length === 0) {
     return `<p class="empty">${STR.emptyCategory}</p>`;
   }
-  if (subs.length === 1) {
+  // Only skip sub-tabs for categories without explicit subcategory order
+  // (flat mode). Categories with SUBCATEGORY_ORDER always show sub-tab nav.
+  if (subs.length === 1 && !SUBCATEGORY_ORDER[category]) {
     return renderSubContent(category, subs[0], true);
   }
   const subTabs = subs

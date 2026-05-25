@@ -234,9 +234,8 @@ async function pushCoreFeed(articles: ArticleInput[], date: string): Promise<voi
 }
 
 /**
- * YouTube title enrichment: translate the latest video title per channel
- * into REPORT_LOCALE. Only the first item (newest) per channel is enriched
- * since it's the one shown with a thumbnail card.
+ * YouTube title enrichment: translate video titles per channel into
+ * REPORT_LOCALE. All displayed items (up to 5 per channel) are enriched.
  */
 async function enrichYoutube(articles: ArticleInput[]): Promise<void> {
   const ytSources = allSources.filter(
@@ -245,11 +244,11 @@ async function enrichYoutube(articles: ArticleInput[]): Promise<void> {
   const ytIds = new Set(ytSources.map((s) => s.id));
   const toEnrich: ArticleInput[] = [];
   for (const sid of ytIds) {
-    const latest = articles
+    const items = articles
       .filter((a) => a.sourceId === sid)
       .sort((a, b) => (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0))
-      .slice(0, 1);
-    toEnrich.push(...latest);
+      .slice(0, 5);
+    toEnrich.push(...items);
   }
   if (toEnrich.length === 0) return;
   console.log(`[daily] enriching ${toEnrich.length} YouTube titles with ${REPORT_LOCALE} summaries…`);
