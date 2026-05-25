@@ -753,318 +753,438 @@
     "notes": "Private YouTube channel — Core Feed only"
   },
   {
-    "id": "x-account-01",
-    "name": "X 账号 #1（待录入）",
+    "id": "x-sama",
+    "name": "X: @sama",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_1",
-    "handle": "PLACEHOLDER_1",
+    "url": "https://x.com/sama",
+    "handle": "sama",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-02",
-    "name": "X 账号 #2（待录入）",
+    "id": "x-demishassabis",
+    "name": "X: @demishassabis",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_2",
-    "handle": "PLACEHOLDER_2",
+    "url": "https://x.com/demishassabis",
+    "handle": "demishassabis",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-03",
-    "name": "X 账号 #3（待录入）",
+    "id": "x-darioamodei",
+    "name": "X: @DarioAmodei",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_3",
-    "handle": "PLACEHOLDER_3",
+    "url": "https://x.com/DarioAmodei",
+    "handle": "DarioAmodei",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-04",
-    "name": "X 账号 #4（待录入）",
+    "id": "x-ylecun",
+    "name": "X: @ylecun",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_4",
-    "handle": "PLACEHOLDER_4",
+    "url": "https://x.com/ylecun",
+    "handle": "ylecun",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-05",
-    "name": "X 账号 #5（待录入）",
+    "id": "x-kaifulee",
+    "name": "X: @kaifulee",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_5",
-    "handle": "PLACEHOLDER_5",
+    "url": "https://x.com/kaifulee",
+    "handle": "kaifulee",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-06",
-    "name": "X 账号 #6（待录入）",
+    "id": "x-id-aa-carmack",
+    "name": "X: @ID_AA_Carmack",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_6",
-    "handle": "PLACEHOLDER_6",
+    "url": "https://x.com/ID_AA_Carmack",
+    "handle": "ID_AA_Carmack",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-07",
-    "name": "X 账号 #7（待录入）",
+    "id": "x-openai",
+    "name": "X: @OpenAI",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_7",
-    "handle": "PLACEHOLDER_7",
+    "url": "https://x.com/OpenAI",
+    "handle": "OpenAI",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-08",
-    "name": "X 账号 #8（待录入）",
+    "id": "x-anthropicai",
+    "name": "X: @AnthropicAI",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_8",
-    "handle": "PLACEHOLDER_8",
+    "url": "https://x.com/AnthropicAI",
+    "handle": "AnthropicAI",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-09",
-    "name": "X 账号 #9（待录入）",
+    "id": "x-googledeepmind",
+    "name": "X: @GoogleDeepMind",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_9",
-    "handle": "PLACEHOLDER_9",
+    "url": "https://x.com/GoogleDeepMind",
+    "handle": "GoogleDeepMind",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-10",
-    "name": "X 账号 #10（待录入）",
+    "id": "x-xai",
+    "name": "X: @xai",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_10",
-    "handle": "PLACEHOLDER_10",
+    "url": "https://x.com/xai",
+    "handle": "xai",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-11",
-    "name": "X 账号 #11（待录入）",
+    "id": "x-metaai",
+    "name": "X: @MetaAI",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_11",
-    "handle": "PLACEHOLDER_11",
+    "url": "https://x.com/MetaAI",
+    "handle": "MetaAI",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-12",
-    "name": "X 账号 #12（待录入）",
+    "id": "x-emollick",
+    "name": "X: @emollick",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_12",
-    "handle": "PLACEHOLDER_12",
+    "url": "https://x.com/emollick",
+    "handle": "emollick",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-13",
-    "name": "X 账号 #13（待录入）",
+    "id": "x-andrewyng",
+    "name": "X: @AndrewYng",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_13",
-    "handle": "PLACEHOLDER_13",
+    "url": "https://x.com/AndrewYng",
+    "handle": "AndrewYng",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-14",
-    "name": "X 账号 #14（待录入）",
+    "id": "x-rowancheung",
+    "name": "X: @rowancheung",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_14",
-    "handle": "PLACEHOLDER_14",
+    "url": "https://x.com/rowancheung",
+    "handle": "rowancheung",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-15",
-    "name": "X 账号 #15（待录入）",
+    "id": "x-mattshumer-",
+    "name": "X: @mattshumer_",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_15",
-    "handle": "PLACEHOLDER_15",
+    "url": "https://x.com/mattshumer_",
+    "handle": "mattshumer_",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-16",
-    "name": "X 账号 #16（待录入）",
+    "id": "x-nateparrott",
+    "name": "X: @nateparrott",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_16",
-    "handle": "PLACEHOLDER_16",
+    "url": "https://x.com/nateparrott",
+    "handle": "nateparrott",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-17",
-    "name": "X 账号 #17（待录入）",
+    "id": "x-meshtimes-",
+    "name": "X: @meshtimes_",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_17",
-    "handle": "PLACEHOLDER_17",
+    "url": "https://x.com/meshtimes_",
+    "handle": "meshtimes_",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-18",
-    "name": "X 账号 #18（待录入）",
+    "id": "x-covacut",
+    "name": "X: @covacut",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_18",
-    "handle": "PLACEHOLDER_18",
+    "url": "https://x.com/covacut",
+    "handle": "covacut",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-19",
-    "name": "X 账号 #19（待录入）",
+    "id": "x--luofuli",
+    "name": "X: @_LuoFuli",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_19",
-    "handle": "PLACEHOLDER_19",
+    "url": "https://x.com/_LuoFuli",
+    "handle": "_LuoFuli",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-20",
-    "name": "X 账号 #20（待录入）",
+    "id": "x-poetengineer--",
+    "name": "X: @poetengineer__",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_20",
-    "handle": "PLACEHOLDER_20",
+    "url": "https://x.com/poetengineer__",
+    "handle": "poetengineer__",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
   },
   {
-    "id": "x-account-21",
-    "name": "X 账号 #21（待录入）",
+    "id": "x-vadimstrizheus",
+    "name": "X: @VadimStrizheus",
     "type": "x-account",
-    "url": "https://x.com/PLACEHOLDER_21",
-    "handle": "PLACEHOLDER_21",
+    "url": "https://x.com/VadimStrizheus",
+    "handle": "VadimStrizheus",
     "category": "tech",
     "subcategory": "x-accounts",
-    "enabled": false,
+    "enabled": true,
     "is_private": true,
     "locales": [
       "zh"
     ],
-    "notes": "替换 handle 和 url 为实际 X 账号后启用"
+    "notes": "X 核心风向标"
+  },
+  {
+    "id": "x-starto-int",
+    "name": "X: @STARTO_INT",
+    "type": "x-account",
+    "url": "https://x.com/STARTO_INT",
+    "handle": "STARTO_INT",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-1thek",
+    "name": "X: @1theK",
+    "type": "x-account",
+    "url": "https://x.com/1theK",
+    "handle": "1theK",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-koreanupdates",
+    "name": "X: @KoreanUpdates",
+    "type": "x-account",
+    "url": "https://x.com/KoreanUpdates",
+    "handle": "KoreanUpdates",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-kpop-herald",
+    "name": "X: @Kpop_Herald",
+    "type": "x-account",
+    "url": "https://x.com/Kpop_Herald",
+    "handle": "Kpop_Herald",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-soompi",
+    "name": "X: @soompi",
+    "type": "x-account",
+    "url": "https://x.com/soompi",
+    "handle": "soompi",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-cjndrama",
+    "name": "X: @CJnDrama",
+    "type": "x-account",
+    "url": "https://x.com/CJnDrama",
+    "handle": "CJnDrama",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-pledis-17",
+    "name": "X: @pledis_17",
+    "type": "x-account",
+    "url": "https://x.com/pledis_17",
+    "handle": "pledis_17",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "x-epikhighhq",
+    "name": "X: @EpikHighHQ",
+    "type": "x-account",
+    "url": "https://x.com/EpikHighHQ",
+    "handle": "EpikHighHQ",
+    "category": "tech",
+    "subcategory": "x-accounts",
+    "enabled": true,
+    "is_private": true,
+    "locales": [
+      "zh"
+    ],
+    "notes": "娱乐/K-pop 官推"
   }
 ]
