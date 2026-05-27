@@ -840,10 +840,10 @@
     "notes": "Natalie.mu Mastodon RSS，关键词过滤 K-POP 相关（BTS/TWICE/SEVENTEEN 等）"
   },
   {
-    "id": "natalie-starto",
-    "name": "Natalie STARTO",
+    "id": "starto-news",
+    "name": "STARTO",
     "type": "scrape",
-    "url": "https://chaosphere.hostdon.jp/@natalie.rss?limit=60",
+    "url": "https://starto.jp/s/p/news/list?lang=en",
     "category": "entertainment",
     "subcategory": "jp-ent-news",
     "enabled": true,
@@ -851,7 +851,7 @@
       "zh"
     ],
     "is_private": false,
-    "notes": "Natalie.mu Mastodon RSS，关键词过滤 STARTO 偶像（Snow Man/SixTONES/なにわ男子 等）"
+    "notes": "STARTO ENTERTAINMENT 官網新聞（server-rendered HTML）"
   },
   {
     "id": "natalie-drama",
@@ -868,20 +868,6 @@
     "notes": "Natalie.mu Mastodon RSS，关键词过滤 日剧/电影（ドラマ/映画/NHK/朝ドラ/大河）"
   },
   {
-    "id": "starto-news",
-    "name": "STARTO",
-    "type": "scrape",
-    "url": "https://starto.jp/s/p/news/list?lang=en",
-    "category": "entertainment",
-    "subcategory": "jp-ent-news",
-    "enabled": true,
-    "locales": [
-      "zh"
-    ],
-    "is_private": false,
-    "notes": "STARTO ENTERTAINMENT 官網新聞（server-rendered HTML）"
-  },
-  {
     "id": "modelpress",
     "name": "Modelpress",
     "type": "rss",
@@ -894,5 +880,19 @@
     ],
     "is_private": false,
     "notes": "Modelpress 娱乐新闻 RSS（日剧/电影/音乐/韩娱）"
+  },
+  {
+    "id": "natalie-starto",
+    "name": "Natalie STARTO",
+    "type": "scrape",
+    "url": "https://chaosphere.hostdon.jp/@natalie.rss?limit=60",
+    "category": "entertainment",
+    "subcategory": "jp-ent-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "Natalie.mu Mastodon RSS，关键词过滤 STARTO 偶像（Snow Man/SixTONES/なにわ男子 等）"
   }
 ]
