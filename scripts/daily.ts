@@ -265,8 +265,6 @@ async function pushCoreFeed(
     { id: "github-trending", label: "GitHub Trending" },
     { id: "tech:x-viral", label: "X 推文", useSub: true as const, cat: "tech" as const },
     { id: "tech:ai-news", label: "AI 媒体", useSub: true as const, cat: "tech" as const },
-    { id: "v2ex-hot", label: "V2EX" },
-    { id: "linuxdo", label: "LinuxDo" },
     { id: "hackernews", label: "Hacker News" },
     { id: "reddit-stocks", label: "r/stocks" },
   ];
@@ -277,11 +275,6 @@ async function pushCoreFeed(
   }
   if (techLines.length > 0) {
     sections.push(`📡 技术动态\n${techLines.join("\n")}`);
-  }
-
-  // ── 市场行情 ──
-  if (trading?.market_overview) {
-    sections.push(`📈 市场行情\n${trading.market_overview}`);
   }
 
   // ── 时政 ──
@@ -300,12 +293,17 @@ async function pushCoreFeed(
 
   // ── 娱乐观察 ──
   const entLines: string[] = [];
+  const fmtEnt = (label: string, a: ArticleInput | undefined) => {
+    if (!a) return "";
+    const s = bestSummary(a);
+    return s ? `【${label}】${s}` : "";
+  };
   const soompi = firstFromSource("soompi");
   const sr = firstFromSource("starto-news");
   const mp = firstFromSource("modelpress");
-  const sl = fmtArticle("Soompi", soompi);
-  const srl = fmtArticle("STARTO", sr);
-  const mpl = fmtArticle("Modelpress", mp);
+  const sl = fmtEnt("Soompi", soompi);
+  const srl = fmtEnt("STARTO", sr);
+  const mpl = fmtEnt("Modelpress", mp);
   if (sl) entLines.push(sl);
   if (srl) entLines.push(srl);
   if (mpl) entLines.push(mpl);
