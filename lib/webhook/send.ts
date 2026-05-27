@@ -47,15 +47,9 @@ export async function postToMakeWebhook(payload: CoreFeedPayload): Promise<void>
     return;
   }
 
-  // Send Feishu text message format directly — Make forwards the raw body.
-  const feishuBody = {
-    msg_type: "text",
-    content: {
-      text: payload.text,
-    },
-  };
-
-  const body = JSON.stringify(feishuBody);
+  // Send a simple { text } payload — Make extracts {{1.text}} and wraps it
+  // into Feishu's {"msg_type":"text","content":{"text":"..."}} format.
+  const body = JSON.stringify({ text: payload.text });
   console.log(`[webhook] sending Core Feed (${body.length} bytes)…`);
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
