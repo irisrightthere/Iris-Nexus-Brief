@@ -35,6 +35,7 @@ const TEXTS_ZH = {
   subXViral: "X 推文",
   subYouTubeChannels: "AI油管",
   subKpopNews: "韩娱新闻",
+  subJpEntNews: "日娱新闻",
   subBlogWeekly: "博客周刊",
   subCnCommunity: "中文社区",
   subOverseasCommunity: "海外社区",
@@ -86,6 +87,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subXViral: "X Viral",
   subYouTubeChannels: "AI YouTube",
   subKpopNews: "K-pop News",
+  subJpEntNews: "JP Entertainment",
   subBlogWeekly: "Blog Weekly",
   subCnCommunity: "Chinese Community",
   subOverseasCommunity: "Overseas Community",
@@ -180,7 +182,7 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   tech: ["github-trending", "x-viral", "ai-news", "youtube-channels", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
-  entertainment: ["x-viral", "kpop-news"],
+  entertainment: ["x-viral", "kpop-news", "jp-ent-news"],
 };
 
 const TECH_MAIN_SUBS = new Set(["github-trending", "x-viral", "ai-news", "youtube-channels"]);
@@ -194,6 +196,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "x-viral": STR.subXViral,
   "youtube-channels": STR.subYouTubeChannels,
   "kpop-news": STR.subKpopNews,
+  "jp-ent-news": STR.subJpEntNews,
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
@@ -207,9 +210,11 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
  * comfortable scroll instead of 25-30 items. Merged subgroups (blog-weekly,
  * finance:news, politics:world) ignore this — they use MERGED_SUBGROUP_LIMITS.
  */
-const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
+export const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:cn-community": 10,
   "tech:youtube-channels": 5,
+  "entertainment:kpop-news": 20,
+  "entertainment:jp-ent-news": 20,
 };
 
 /**
@@ -248,7 +253,6 @@ export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
   "finance:news": 12,
   "politics:world": 15,
   "entertainment:x-viral": 15,
-  "entertainment:kpop-news": 20,
 };
 
 /**

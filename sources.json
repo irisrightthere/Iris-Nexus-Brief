@@ -801,7 +801,7 @@
     "id": "google-news-kr-ent",
     "name": "Google News 韩娱",
     "type": "rss",
-    "url": "https://news.google.com/rss/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%97%B0%EC%98%88&hl=ko&gl=KR&ceid=KR:ko",
+    "url": "https://news.google.com/rss/search?q=K-pop&hl=en&gl=US&ceid=US:en",
     "category": "entertainment",
     "subcategory": "kpop-news",
     "enabled": true,
@@ -809,7 +809,7 @@
     "locales": [
       "zh"
     ],
-    "notes": "Google News 索引的 Naver 等韩媒娱乐新闻"
+    "notes": "Google News K-pop 英文新闻（RSS 约 100 条，新鲜度高）"
   },
   {
     "id": "theqoo-hot",
@@ -818,16 +818,16 @@
     "url": "https://theqoo.net/hot?filter_mode=normal",
     "category": "entertainment",
     "subcategory": "kpop-news",
-    "enabled": true,
+    "enabled": false,
     "is_private": false,
     "locales": [
       "zh"
     ],
-    "notes": "韩国社区热帖（HTML 爬取）"
+    "notes": "已禁用：theqoo 使用 sketchbook5_ajax 皮肤，内容通过 JS AJAX 动态加载，CSRF 保护阻止直接请求 API，cheerio 无法抓取"
   },
   {
-    "id": "natalie-mastodon",
-    "name": "Natalie 日娱",
+    "id": "natalie-kpop",
+    "name": "Natalie K-POP",
     "type": "scrape",
     "url": "https://chaosphere.hostdon.jp/@natalie.rss",
     "category": "entertainment",
@@ -837,6 +837,62 @@
       "zh"
     ],
     "is_private": false,
-    "notes": "Natalie.mu 日娱新闻 via Mastodon RSS（@natalie@chaosphere.hostdon.jp）"
+    "notes": "Natalie.mu Mastodon RSS，关键词过滤 K-POP 相关（BTS/TWICE/SEVENTEEN 等）"
+  },
+  {
+    "id": "natalie-starto",
+    "name": "Natalie STARTO",
+    "type": "scrape",
+    "url": "https://chaosphere.hostdon.jp/@natalie.rss",
+    "category": "entertainment",
+    "subcategory": "jp-ent-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "Natalie.mu Mastodon RSS，关键词过滤 STARTO 偶像（Snow Man/SixTONES/なにわ男子 等）"
+  },
+  {
+    "id": "natalie-drama",
+    "name": "Natalie 日剧",
+    "type": "scrape",
+    "url": "https://chaosphere.hostdon.jp/@natalie.rss",
+    "category": "entertainment",
+    "subcategory": "jp-ent-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "Natalie.mu Mastodon RSS，关键词过滤 日剧/电影（ドラマ/映画/NHK/朝ドラ/大河）"
+  },
+  {
+    "id": "starto-news",
+    "name": "STARTO",
+    "type": "scrape",
+    "url": "https://starto.jp/s/p/news/list?lang=en",
+    "category": "entertainment",
+    "subcategory": "jp-ent-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "STARTO ENTERTAINMENT 官網新聞（server-rendered HTML）"
+  },
+  {
+    "id": "modelpress",
+    "name": "Modelpress",
+    "type": "rss",
+    "url": "https://feed.mdpr.jp/rss/export/mdpr-entertainment.xml",
+    "category": "entertainment",
+    "subcategory": "jp-ent-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "Modelpress 娱乐新闻 RSS（日剧/电影/音乐/韩娱）"
   }
 ]

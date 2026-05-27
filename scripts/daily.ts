@@ -18,6 +18,7 @@ import {
   groupRaw,
   isSportsArticle,
   MERGED_SUBGROUP_LIMITS,
+  SOURCE_DISPLAY_LIMITS,
   renderHtml,
   renderMarkdown,
 } from "../lib/output/render";
@@ -267,8 +268,51 @@ async function enrichEntertainment(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "entertainment", "x-viral");
 }
 
-async function enrichKpopNews(articles: ArticleInput[]): Promise<void> {
-  await enrichMergedSubgroup(articles, "entertainment", "kpop-news");
+/**
+ * Per-source enrichment: for subcategories rendered with L3 source tabs
+ * (kpop-news, jp-ent-news), enrich up to N per source then batch-summarize.
+ * Sources whose `lang` already matches REPORT_LOCALE are skipped.
+ */
+async function enrichPerSourceSubgroup(
+  articles: ArticleInput[],
+  category: "tech" | "finance" | "politics" | "entertainment",
+  subcategory: string,
+): Promise<void> {
+  const subSources = allSources.filter(
+    (s) =>
+      s.category === category &&
+      s.subcategory === subcategory &&
+      s.enabled !== false,
+  );
+  const sameLocaleIds = new Set(
+    subSources.filter((s) => (s.lang ?? "en") === REPORT_LOCALE).map((s) => s.id),
+  );
+  const perSourceLimit = SOURCE_DISPLAY_LIMITS[`${category}:${subcategory}`] ?? 20;
+
+  // Group enabled articles by source, take top N per source via date sort
+  const toEnrich: ArticleInput[] = [];
+  for (const src of subSources) {
+    if (sameLocaleIds.has(src.id)) continue;
+    const items = articles
+      .filter((a) => a.sourceId === src.id)
+      .sort((a, b) => (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0))
+      .slice(0, perSourceLimit);
+    toEnrich.push(...items);
+  }
+
+  if (toEnrich.length === 0) return;
+  console.log(
+    `[daily] enriching ${toEnrich.length} ${category}:${subcategory} items (per-source, ${REPORT_LOCALE} summaries)…`,
+  );
+  const t0 = Date.now();
+  const summaries = await enrichFinanceNewsSummaries(toEnrich);
+  for (const a of toEnrich) {
+    const s = summaries.get(a.url);
+    if (s) a.summary = s;
+  }
+  console.log(
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${toEnrich.length}`,
+  );
 }
 
 async function main() {
@@ -287,7 +331,8 @@ async function main() {
   await enrichAiNews(articles);
   await enrichXViral(articles);
   await enrichEntertainment(articles);
-  await enrichKpopNews(articles);
+  await enrichPerSourceSubgroup(articles, "entertainment", "kpop-news");
+  await enrichPerSourceSubgroup(articles, "entertainment", "jp-ent-news");
   await enrichYoutube(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —

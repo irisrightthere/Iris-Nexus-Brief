@@ -10,11 +10,16 @@ import type { RawArticle } from "./types";
  *
  * Mastodon's RSS lacks <title> — the article title + link are embedded in
  * <description> as HTML: 【 #tag 】 記事タイトル https://natalie.mu/...
+ *
+ * When `keywords` is provided, articles are filtered to only those whose
+ * description contains at least one keyword (case-insensitive match against
+ * hashtags, title, and body text).
  */
 export async function fetchMastodonNatalie(
   sourceId: string,
   feedUrl: string,
   limit = 20,
+  keywords?: string[],
 ): Promise<RawArticle[]> {
   const resp = await fetch(feedUrl, {
     headers: {
@@ -35,7 +40,6 @@ export async function fetchMastodonNatalie(
 
     const $item = $(el);
     const descHtml = $item.find("description").text() || "";
-    // Parse description HTML to extract Natalie link + title
     const $desc = cheerio.load(descHtml);
     const descText = $desc.text().trim();
 
@@ -48,6 +52,12 @@ export async function fetchMastodonNatalie(
     const title = natalieMatch[1].trim();
     const url = natalieMatch[2].trim();
     if (!title || title.length < 3) return;
+
+    // Keyword filter (case-insensitive, matches against full description)
+    if (keywords && keywords.length > 0) {
+      const lower = descText.toLowerCase();
+      if (!keywords.some((kw) => lower.includes(kw.toLowerCase()))) return;
+    }
 
     const pubDate = $item.find("pubDate").text();
     const publishedAt = pubDate ? new Date(pubDate) : undefined;
@@ -63,7 +73,7 @@ export async function fetchMastodonNatalie(
   });
 
   if (articles.length === 0) {
-    throw new Error("mastodon-natalie: no articles matched");
+    throw new Error(`mastodon-natalie: no articles matched (keywords=${keywords?.join(",") ?? "none"})`);
   }
   return articles;
 }
