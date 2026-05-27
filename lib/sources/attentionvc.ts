@@ -90,14 +90,14 @@ function isEnglish(e: AvcEntry): boolean {
 
 export async function fetchAttentionVc(
   sourceId: string,
+  apiCategory: string,
+  articleCategory: RawArticle["category"],
   limit = 20,
 ): Promise<RawArticle[]> {
   // window=3d (strict 3-day window for recency) + server-side limit=30 leaves
   // headroom for isEnglish() to drop the occasional non-English entry while
   // still satisfying the downstream client-side cap of 20.
-  // The `Nh` formats (24h/48h/72h) hit a stale cache on this endpoint and
-  // return data 2-3 weeks old — confirmed by direct probe. Stick to `Nd`.
-  const url = `${BASE}?window=3d&category=ai&lang=en&limit=30`;
+  const url = `${BASE}?window=3d&category=${encodeURIComponent(apiCategory)}&lang=en&limit=30`;
   const res = await fetch(url, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; IrisNexusBot/1.0)",
@@ -116,7 +116,7 @@ export async function fetchAttentionVc(
     url: `https://x.com/${e.author.handle}/status/${e.tweetId}`,
     excerpt: e.previewText?.replace(/\s+/g, " ").trim().slice(0, 300),
     publishedAt: e.tweetCreatedAt ? new Date(e.tweetCreatedAt) : undefined,
-    category: "tech" as const,
+    category: articleCategory,
     meta: buildMeta(e),
   }));
 }

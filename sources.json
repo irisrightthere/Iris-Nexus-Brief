@@ -206,6 +206,36 @@
     "is_private": false
   },
   {
+    "id": "attentionvc-politics",
+    "name": "X 推文 (AttentionVC)",
+    "type": "api",
+    "url": "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=3d&category=politics&lang=en&limit=30",
+    "category": "politics",
+    "subcategory": "world",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false,
+    "notes": "AttentionVC 政治类 X 热帖"
+  },
+  {
+    "id": "attentionvc-entertainment",
+    "name": "X 推文 (AttentionVC)",
+    "type": "api",
+    "url": "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=3d&category=entertainment&lang=en&limit=30",
+    "category": "entertainment",
+    "subcategory": "x-viral",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "is_private": false,
+    "notes": "AttentionVC 娱乐类 X 热帖"
+  },
+  {
     "id": "solidot",
     "name": "Solidot 奇客",
     "type": "rss",

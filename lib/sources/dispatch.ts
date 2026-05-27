@@ -17,7 +17,11 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.id === "github-trending") return fetchGithubTrending(source.id);
   if (source.id === "v2ex-hot") return fetchV2ex(source.id);
   if (source.id === "linuxdo") return fetchLinuxDo(source.id);
-  if (source.id === "attentionvc-ai") return fetchAttentionVc(source.id);
+  if (source.id.startsWith("attentionvc-")) {
+    const url = new URL(source.url);
+    const apiCategory = url.searchParams.get("category") ?? "ai";
+    return fetchAttentionVc(source.id, apiCategory, source.category);
+  }
   if (source.id === "theqoo-hot") return fetchTheQoo(source.id, source.url);
   if (source.type === "youtube") return fetchYoutube(source.id, source.url, source.category);
   return fetchRss(source.id, source.url, source.category, {
