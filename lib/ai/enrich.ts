@@ -269,6 +269,8 @@ export async function enrichGithubTrendingSummaries(
  * items that will be shown in the raw panel. One Sonnet call covers
  * the whole batch.
  */
+const ENRICH_BATCH_SIZE = 20;
+
 export async function enrichFinanceNewsSummaries(
   items: EnrichInput[],
 ): Promise<Map<string, string>> {
@@ -279,7 +281,18 @@ export async function enrichFinanceNewsSummaries(
     source: it.source ?? "",
     excerpt: (it.excerpt ?? "").slice(0, 280),
   }));
-  return runEnrichment(payload, PROMPTS.finance, "finance summaries");
+
+  // Split large payloads into batches — single LLM call can timeout or
+  // return truncated results when given 40+ items at once (e.g. 韩娱+日娱).
+  const result = new Map<string, string>();
+  for (let i = 0; i < payload.length; i += ENRICH_BATCH_SIZE) {
+    const batch = payload.slice(i, i + ENRICH_BATCH_SIZE);
+    const batchResult = await runEnrichment(batch, PROMPTS.finance, `finance summaries batch ${i / ENRICH_BATCH_SIZE + 1}`);
+    for (const [url, summary] of batchResult) {
+      result.set(url, summary);
+    }
+  }
+  return result;
 }
 
 /**
