@@ -1,8 +1,9 @@
 /**
  * POST the Core Feed payload to a Make.com webhook for Feishu delivery.
  *
- * The payload is formatted as a Feishu text message body, so Make simply
- * forwards the raw JSON to Feishu's HTTP API without transformation.
+ * The payload includes date + report_url (for backward compat with existing
+ * Make data structures) plus a pre-formatted `text` field that Make maps
+ * into Feishu's text message format.
  *
  * Non-fatal: failures log a warning and let the daily pipeline finish.
  */
@@ -47,9 +48,13 @@ export async function postToMakeWebhook(payload: CoreFeedPayload): Promise<void>
     return;
   }
 
-  // Send a simple { text } payload — Make extracts {{1.text}} and wraps it
-  // into Feishu's {"msg_type":"text","content":{"text":"..."}} format.
-  const body = JSON.stringify({ text: payload.text });
+  // date + report_url for backward compat, text for Feishu message body
+  const body = JSON.stringify({
+    date: payload.date,
+    report_url: payload.report_url,
+    text: payload.text,
+  });
+
   console.log(`[webhook] sending Core Feed (${body.length} bytes)…`);
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
