@@ -28,7 +28,7 @@ import { fetchCryptoGlobal } from "../lib/trading/coingecko";
 import { generateTradingCommentary } from "../lib/ai/trading-commentary";
 import type { TradingSection } from "../lib/ai/pipeline";
 import { todayKey } from "../lib/utils";
-import { postToMakeWebhook } from "../lib/webhook/send";
+import { postToFeishu } from "../lib/webhook/send";
 
 const OUTPUT_DIR = "daily_reports";
 
@@ -217,9 +217,9 @@ async function pushCoreFeed(
   date: string,
   trading: TradingSection | null,
 ): Promise<void> {
-  const url = process.env.MAKE_WEBHOOK_URL;
+  const url = process.env.FEISHU_WEBHOOK_URL;
   if (!url) {
-    console.log("[core-feed] MAKE_WEBHOOK_URL not set — skipping");
+    console.log("[core-feed] FEISHU_WEBHOOK_URL not set — skipping");
     return;
   }
 
@@ -327,11 +327,9 @@ async function pushCoreFeed(
   const text = lines.join("\n");
   console.log(`[core-feed] ${lines.length - 1} lines, ${text.length} chars`);
 
-  await postToMakeWebhook({
-    feishu_body: {
-      msg_type: "text",
-      content: { text },
-    },
+  await postToFeishu({
+    msg_type: "text",
+    content: { text },
   });
 }
 

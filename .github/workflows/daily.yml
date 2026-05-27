@@ -232,7 +232,7 @@ jobs:
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           WEB_MODE: 'true'
-          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run daily
 
