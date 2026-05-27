@@ -48,6 +48,7 @@ const PER_CATEGORY_LIMIT: Record<Category, number> = {
   tech: 25,
   finance: 20,
   politics: 15,
+  entertainment: 0, // excluded from AI digest, rendered in raw panel only
 };
 
 const MAX_AGE_DAYS = 14;
@@ -200,6 +201,7 @@ export async function generateDailyReport(
     tech: [],
     finance: [],
     politics: [],
+    entertainment: [],
   };
   for (const a of articles) grouped[a.category].push(a);
 
