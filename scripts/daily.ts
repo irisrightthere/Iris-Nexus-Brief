@@ -327,13 +327,11 @@ async function pushCoreFeed(
   const text = lines.join("\n");
   console.log(`[core-feed] ${lines.length - 1} lines, ${text.length} chars`);
 
-  // Pre-build the complete Feishu text message body — JSON.stringify
-  // handles all escaping so Make just forwards the string as-is.
-  const feishuBody = JSON.stringify({
-    msg_type: "text",
-    content: { text },
+  await postToMakeWebhook({
+    date,
+    report_url: reportUrl ?? "(not set)",
+    text,
   });
-  await postToMakeWebhook({ feishu_body: feishuBody });
 }
 
 /**

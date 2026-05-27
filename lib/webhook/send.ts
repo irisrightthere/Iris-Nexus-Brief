@@ -2,7 +2,9 @@
  * POST the Core Feed payload to a Make.com webhook for Feishu delivery.
  *
  * Sends date + report_url + a pre-formatted `text` field. Make extracts
- * {{1.text}} and wraps it into Feishu's text message format.
+ * {{1.text}} and wraps it into Feishu's text message format using the
+ * HTTP module's "Data structure" body mode (which handles JSON escaping
+ * correctly, unlike "JSON string" mode).
  *
  * Non-fatal: failures log a warning and let the daily pipeline finish.
  */
@@ -11,7 +13,9 @@ const TIMEOUT_MS = 15000;
 const MAX_RETRIES = 3;
 
 export interface CoreFeedPayload {
-  feishu_body: string;
+  date: string;
+  report_url: string;
+  text: string;
 }
 
 async function postOnce(url: string, body: string, attempt: number): Promise<boolean> {
@@ -45,7 +49,11 @@ export async function postToMakeWebhook(payload: CoreFeedPayload): Promise<void>
     return;
   }
 
-  const body = JSON.stringify({ feishu_body: payload.feishu_body });
+  const body = JSON.stringify({
+    date: payload.date,
+    report_url: payload.report_url,
+    text: payload.text,
+  });
 
   console.log(`[webhook] sending Core Feed (${body.length} bytes)…`);
 
