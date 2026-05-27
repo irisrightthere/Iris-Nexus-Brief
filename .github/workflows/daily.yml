@@ -82,6 +82,7 @@ jobs:
 
           echo "Now in $TZ_VAL: $NOW_PRINT (hour=$NOW_HOUR, dow=$NOW_DOW)"
           echo "Configured REPORT_HOUR='$HOURS_VAL', REPORT_DAYS='$DAYS_VAL'"
+          echo "DEBUG — REPORT_TZ env raw: '${REPORT_TZ:-<unset>}'"
 
           # Hour match: comma-separated list of integers (0-23).
           hour_match=false
@@ -118,7 +119,7 @@ jobs:
             done
           fi
 
-          # Catchup branch — covers GitHub Actions silently dropping scheduled
+          echo "DEBUG — hour_match=$hour_match day_match=$day_match"
           # triggers (which happens to ~30% of cron runs, especially at the
           # exact target hour). Fires when:
           #   1. day matches AND
@@ -151,6 +152,8 @@ jobs:
                 -H "Accept: application/vnd.github+json" \
                 -H "X-GitHub-Api-Version: 2022-11-28" \
                 "$CHECK_URL" || echo "000")
+              echo "DEBUG — catchup check URL: $CHECK_URL"
+              echo "DEBUG — catchup check HTTP: $HTTP_CODE (TODAY=$TODAY threshold=$catchup_threshold now_hour=$NOW_HOUR)"
               if [ "$HTTP_CODE" = "404" ]; then
                 echo "↻ Catchup: today's report ($TODAY) missing from gh-pages — recovering"
                 catchup_match=true
