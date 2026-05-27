@@ -328,9 +328,10 @@ async function pushCoreFeed(
   console.log(`[core-feed] ${lines.length - 1} lines, ${text.length} chars`);
 
   await postToMakeWebhook({
-    date,
-    report_url: reportUrl ?? "(not set)",
-    text,
+    feishu_body: {
+      msg_type: "text",
+      content: { text },
+    },
   });
 }
 
