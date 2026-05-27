@@ -11,12 +11,16 @@ import { fetchStartoNews } from "./starto";
 import { fetchModelpress } from "./modelpress";
 import type { RawArticle, SourceDef } from "./types";
 
-/** Hashtags Natalie uses for K-POP coverage. */
+/** K-POP keywords for filtering Mastodon Natalie feed. */
 const K_POP_KEYWORDS = [
   "K-POP", "BTS", "TWICE", "SEVENTEEN", "NCT", "Stray Kids",
-  "aespa", "ITZY", "IVE", "LE SSERAFIM", "NewJeans", "ENHYPEN",
-  "TXT", "Red Velvet", "EXO", "ZEROBASEONE", "RIIZE", "BOYNEXTDOOR",
+  "aespa", "ITZY", "LE SSERAFIM", "NewJeans", "ENHYPEN",
+  "Red Velvet", "EXO", "ZEROBASEONE", "RIIZE", "BOYNEXTDOOR",
   "ILLIT", "BABYMONSTER", "BLACKPINK", "少女時代", "BIGBANG",
+  "防弾少年団", "ストレイキッズ", "エスパ", "アイブ", "ルセラフィム",
+  "ニュージーンズ", "ゼロベースワン", "ライズ", "ベビーモンスター",
+  "TREASURE", "ATEEZ", "SHINee", "SuperM", "2NE1", "BTOB",
+  "Kep1er", "NMIXX", "MEOVV", "izna",
 ];
 
 /** STARTO idol keywords for filtering Mastodon Natalie feed. */

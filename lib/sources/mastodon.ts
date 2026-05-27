@@ -43,14 +43,15 @@ export async function fetchMastodonNatalie(
     const $desc = cheerio.load(descHtml);
     const descText = $desc.text().trim();
 
-    // Pattern: 【 #tag1 #tag2 】 article title https://natalie.mu/...
+    // Pattern: 【 #tag1 #tag2 】 article title https:// natalie.mu/...
+    // Mastodon RSS inserts a space after "https://" — allow optional whitespace.
     const natalieMatch = descText.match(
-      /【[^】]*】\s*(.+?)\s*(https:\/\/natalie\.mu\/\S+)/,
+      /【[^】]*】\s*(.+?)\s*(https:\/\/\s*natalie\.mu\/\S+)/,
     );
     if (!natalieMatch) return;
 
     const title = natalieMatch[1].trim();
-    const url = natalieMatch[2].trim();
+    const url = natalieMatch[2].replace(/\s+/g, "");
     if (!title || title.length < 3) return;
 
     // Keyword filter (case-insensitive, matches against full description)
