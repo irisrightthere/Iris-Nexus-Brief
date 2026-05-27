@@ -824,5 +824,19 @@
       "zh"
     ],
     "notes": "韩国社区热帖（HTML 爬取）"
+  },
+  {
+    "id": "natalie-mastodon",
+    "name": "Natalie 日娱",
+    "type": "scrape",
+    "url": "https://chaosphere.hostdon.jp/@natalie.rss",
+    "category": "entertainment",
+    "subcategory": "kpop-news",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ],
+    "is_private": false,
+    "notes": "Natalie.mu 日娱新闻 via Mastodon RSS（@natalie@chaosphere.hostdon.jp）"
   }
 ]

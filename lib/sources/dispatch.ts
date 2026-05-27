@@ -4,6 +4,7 @@ import { fetchHackerNews } from "./hackernews";
 import { fetchLinuxDo } from "./linuxdo";
 import { fetchRss } from "./rss";
 import { fetchV2ex } from "./v2ex";
+import { fetchMastodonNatalie } from "./mastodon";
 import { fetchTheQoo } from "./theqoo";
 import { fetchYoutube } from "./youtube";
 import type { RawArticle, SourceDef } from "./types";
@@ -22,6 +23,7 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
     const apiCategory = url.searchParams.get("category") ?? "ai";
     return fetchAttentionVc(source.id, apiCategory, source.category);
   }
+  if (source.id === "natalie-mastodon") return fetchMastodonNatalie(source.id, source.url);
   if (source.id === "theqoo-hot") return fetchTheQoo(source.id, source.url);
   if (source.type === "youtube") return fetchYoutube(source.id, source.url, source.category);
   return fetchRss(source.id, source.url, source.category, {
