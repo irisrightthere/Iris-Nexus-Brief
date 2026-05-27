@@ -6,140 +6,140 @@
       "title": "Lum1104/Understand-Anything",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "excerpt": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "meta": "TypeScript · ★ 37,711 · 🍴 3,009 · 📈 4,697 stars today",
+      "meta": "TypeScript · ★ 37,803 · 🍴 3,015 · 📈 4,697 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "将任意代码自动转化为交互式知识图谱，支持探索、搜索和提问。利用关系图谱技术辅助理解代码结构，兼容 Claude Code、Cursor 等主流 AI 编程工具，适合开发者快速理解陌生代码库。"
+      "summary": "将任意代码转换为可交互的知识图谱，支持探索、搜索与提问。与 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等工具配合，帮助开发者快速理解复杂项目。"
     },
     {
       "sourceId": "github-trending",
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "excerpt": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "meta": "JavaScript · ★ 195,210 · 🍴 30,051 · 📈 1,915 stars today",
+      "meta": "JavaScript · ★ 195,258 · 🍴 30,060 · 📈 1,915 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Agent 能力优化框架，提供技能、本能、记忆、安全等模块，提升 Claude Code、Codex 等 AI 代理的性能与执行效率。面向 AI 代理开发场景，通过研究驱动的方法优化行为系统。"
+      "summary": "Agent 性能优化系统，整合技能、本能、记忆、安全等模块，采用研究优先的开发方式。为 Claude Code、Codex、Cursor 等 AI 助手提供更高效、安全的运行环境。"
     },
     {
       "sourceId": "github-trending",
       "title": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "excerpt": "Learn it. Build it. Ship it for others.",
-      "meta": "Python · ★ 21,420 · 🍴 3,534 · 📈 2,155 stars today",
+      "meta": "Python · ★ 21,456 · 🍴 3,541 · 📈 2,155 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "从零开始学习 AI 工程的教学资源，涵盖理论学习、项目构建到部署交付的完整流程。面向希望系统掌握 AI 工程实践的开发者，提供动手实战的路径。"
+      "summary": "从零开始学习 AI 工程的实战教程，强调“学、建、交付”，适合希望动手构建 AI 项目并分享给他人使用的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "excerpt": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "meta": "Python · ★ 16,919 · 🍴 1,981 · 📈 1,718 stars today",
+      "meta": "Python · ★ 16,924 · 🍴 1,981 · 📈 1,718 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向知识工作者的 Claude Cowork 插件开源库，扩展 AI 助手在文档处理、信息检索等场景的功能。由 Anthropic 维护，适合需要定制化 AI 协作工具的专业人士。"
+      "summary": "Anthropic 开源的插件库，主要面向知识工作者，用于 Claude Cowork（协作工具），扩展 AI 在文档、数据分析等知识密集型场景中的能力。"
     },
     {
       "sourceId": "github-trending",
       "title": "mukul975/Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "excerpt": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-      "meta": "Python · ★ 10,432 · 🍴 1,217 · 📈 880 stars today",
+      "meta": "Python · ★ 10,455 · 🍴 1,220 · 📈 880 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 代理准备的 754 项结构化网络安全技能，覆盖 MITRE ATT&CK、NIST CSF 2.0 等五大框架。兼容 Claude Code、GitHub Copilot 等工具，帮助安全代理掌握标准化攻防知识。"
+      "summary": "754 个结构化网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0、D3FEND 等 5 个框架。专为 AI agent 设计，可与 Claude Code、GitHub Copilot 等工具集成。"
     },
     {
       "sourceId": "github-trending",
       "title": "hardikpandya/stop-slop",
       "url": "https://github.com/hardikpandya/stop-slop",
       "excerpt": "A skill file for removing AI tells from prose",
-      "meta": "★ 5,268 · 🍴 413 · 📈 539 stars today",
+      "meta": "★ 5,278 · 🍴 413 · 📈 539 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个技能文件，自动识别并移除散文中 AI 生成的痕迹，使文字更自然、去机械感。适合需要润色 AI 输出文本的写作者，提升可读性和人性化表达。"
+      "summary": "一个技能文件，用于消除散文中的 AI 痕迹（如机械句式和套话），让 AI 生成的文字更自然、更接近人类写作风格。"
     },
     {
       "sourceId": "github-trending",
       "title": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "excerpt": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "meta": "Shell · ★ 22,973 · 🍴 1,795 · 📈 1,430 stars today",
+      "meta": "Shell · ★ 23,009 · 🍴 1,802 · 📈 1,430 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "赋予 AI 审美能力的技能文件，避免生成无聊、千篇一律的套话内容。通过训练或规则干预输出风格，适合对 AI 创作内容有品质要求的场景。"
+      "summary": "赋予 AI 审美判断力的技能，避免生成无聊、泛化的内容（slop）。适用于需要高质量、有创意的文本生成场景，如小说、文案等。"
     },
     {
       "sourceId": "github-trending",
       "title": "DigitalPlatDev/FreeDomain",
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
       "excerpt": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "meta": "HTML · ★ 168,118 · 🍴 3,126 · 📈 1,219 stars today",
+      "meta": "HTML · ★ 168,150 · 🍴 3,128 · 📈 1,219 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "提供免费域名的服务平台，为个人或小项目降低建站门槛。无需付费即可获得可用域名，适合开发测试或临时项目部署。"
+      "summary": "提供免费域名的平台，DigitalPlat FreeDomain，面向需要低成本建站的个人或小团队，简化域名获取流程。"
     },
     {
       "sourceId": "github-trending",
       "title": "jellyfin/jellyfin",
       "url": "https://github.com/jellyfin/jellyfin",
       "excerpt": "The Free Software Media System - Server Backend & API",
-      "meta": "C# · ★ 52,500 · 🍴 4,881 · 📈 83 stars today",
+      "meta": "C# · ★ 52,506 · 🍴 4,881 · 📈 83 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源免费媒体系统服务器端与 API，支持管理、流式传输影视音乐等内容。作为商业媒体服务器的替代品，适合自建家庭影音中心的用户，支持多平台客户端。"
+      "summary": "免费开源媒体系统，提供后端服务器与 API。支持管理电影、音乐、电视节目等媒体库，用户可自建家庭影音中心，替代商业流媒体服务。"
     },
     {
       "sourceId": "github-trending",
       "title": "Axorax/awesome-free-apps",
       "url": "https://github.com/Axorax/awesome-free-apps",
       "excerpt": "Curated list of the best free apps for PC and mobile",
-      "meta": "JavaScript · ★ 5,539 · 🍴 282 · 📈 731 stars today",
+      "meta": "JavaScript · ★ 5,546 · 🍴 282 · 📈 731 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "精心整理的免费应用列表，涵盖 PC 和移动端各品类优秀应用。为普通用户提供省钱、高质量的软件推荐，减少寻找免费替代品的时间。"
+      "summary": "精心整理的免费应用清单，涵盖 PC 和移动端各类实用软件。帮助用户发现高质量免费替代方案，减少付费或广告困扰。"
     },
     {
       "sourceId": "github-trending",
       "title": "twentyhq/twenty",
       "url": "https://github.com/twentyhq/twenty",
       "excerpt": "The open alternative to Salesforce, designed for AI.",
-      "meta": "TypeScript · ★ 47,052 · 🍴 6,680 · 📈 216 stars today",
+      "meta": "TypeScript · ★ 47,060 · 🍴 6,680 · 📈 216 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源 AI 优先的 CRM 系统，是 Salesforce 的现代替代方案。提供联系人管理、销售管道等功能，并深度集成 AI 能力简化操作，适合希望自主掌控客户数据的团队。"
+      "summary": "Salesforce 的开源替代方案，专为 AI 时代设计。提供客户关系管理（CRM）核心功能，支持自定义字段、工作流，适合中小团队使用。"
     },
     {
       "sourceId": "github-trending",
       "title": "Open-Dev-Society/OpenStock",
       "url": "https://github.com/Open-Dev-Society/OpenStock",
       "excerpt": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-      "meta": "TypeScript · ★ 12,361 · 🍴 1,644 · 📈 156 stars today",
+      "meta": "TypeScript · ★ 12,372 · 🍴 1,644 · 📈 156 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源股票市场监控平台，免费跟踪实时价格、设置个性化提醒并查看公司深度信息。替代昂贵商业终端，面向个人投资者和量化爱好者，提供透明且零成本的行情数据。"
+      "summary": "开源股票市场数据平台，替代昂贵商业终端。实时追踪价格、设置个性化提醒、查看公司深度信息，永久免费，面向个人投资者和开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "excerpt": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "meta": "TypeScript · ★ 78,955 · 🍴 6,787 · 📈 352 stars today",
+      "meta": "TypeScript · ★ 78,962 · 🍴 6,787 · 📈 352 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 代理提供跨会话持久化记忆，自动捕获会话内容并利用 AI 压缩存储，在后续会话中注入相关上下文。兼容 Claude 等代理，提升连续任务中的长期记忆能力。"
+      "summary": "为 AI agent 提供跨会话持久上下文。自动捕获会话内容，通过 AI 压缩并注入未来会话，实现长记忆，适用于 Claude、Codex 等工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "st-tech/ppf-contact-solver",
       "url": "https://github.com/st-tech/ppf-contact-solver",
       "excerpt": "A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.",
-      "meta": "Python · ★ 3,628 · 🍴 259 · 📈 170 stars today",
+      "meta": "Python · ★ 3,631 · 🍴 259 · 📈 170 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "物理仿真中的接触求解器，支持壳体、实体和杆状结构的碰撞与摩擦计算。用于布料模拟、弹性体变形等场景，适合游戏物理、工程仿真等需要准确接触处理的领域。"
+      "summary": "物理仿真接触求解器，支持壳体、固体和杆件的碰撞处理。用于动画、游戏、机器人模拟等需要精确物理交互的场景。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -206,6 +206,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "怎么优化重构 AI 生成的代码方便后面维护？",
+      "url": "https://www.v2ex.com/t/1215936",
+      "excerpt": "14 回复 · 程序员 节点",
+      "publishedAt": "2026-05-27T08:03:46.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。",
       "url": "https://www.v2ex.com/t/1210138",
       "excerpt": "14 回复 · Linux 节点",
@@ -233,10 +242,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "怎么优化重构 AI 生成的代码方便后面维护？",
-      "url": "https://www.v2ex.com/t/1215936",
+      "title": "有没有推荐的 codex 中转？能包月最好能开票",
+      "url": "https://www.v2ex.com/t/1215927",
       "excerpt": "12 回复 · 程序员 节点",
-      "publishedAt": "2026-05-27T08:03:46.000Z",
+      "publishedAt": "2026-05-27T07:41:12.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -269,15 +278,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "有没有推荐的 codex 中转？能包月最好能开票",
-      "url": "https://www.v2ex.com/t/1215927",
-      "excerpt": "10 回复 · 程序员 节点",
-      "publishedAt": "2026-05-27T07:41:12.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "testflight 微信读书同步、本地图书管理员和多模型切换",
       "url": "https://www.v2ex.com/t/1215647",
       "excerpt": "10 回复 · Apple 节点",
@@ -287,10 +287,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "codex 最近 2 天巨卡, 思考 5 分钟",
-      "url": "https://www.v2ex.com/t/1215923",
+      "title": "小米 token plan 明天到期，只用了 1%，搞点什么好呢",
+      "url": "https://www.v2ex.com/t/1215939",
       "excerpt": "9 回复 · 程序员 节点",
-      "publishedAt": "2026-05-27T07:25:35.000Z",
+      "publishedAt": "2026-05-27T08:08:42.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -300,6 +300,15 @@
       "url": "https://www.v2ex.com/t/1215864",
       "excerpt": "9 回复 · Apple 节点",
       "publishedAt": "2026-05-27T03:27:10.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "可靠的小道消息， minimax3 真的要来了（附 minimax 邀请链接）",
+      "url": "https://www.v2ex.com/t/1215931",
+      "excerpt": "8 回复 · 程序员 节点",
+      "publishedAt": "2026-05-27T07:47:02.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -332,6 +341,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "M1Pro 升级 macos26+",
+      "url": "https://www.v2ex.com/t/1215871",
+      "excerpt": "6 回复 · Apple 节点",
+      "publishedAt": "2026-05-27T03:43:18.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "新买二手 MBP M4pro 还是装 Linux 服务器",
       "url": "https://www.v2ex.com/t/1215134",
       "excerpt": "6 回复 · Apple 节点",
@@ -349,28 +367,10 @@
       "source": "V2EX"
     },
     {
-      "sourceId": "v2ex-hot",
-      "title": "zen 浏览器在 archlinux 中无法代理",
-      "url": "https://www.v2ex.com/t/1213475",
-      "excerpt": "5 回复 · Linux 节点",
-      "publishedAt": "2026-05-18T04:07:36.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "M1Pro 升级 macos26+",
-      "url": "https://www.v2ex.com/t/1215871",
-      "excerpt": "5 回复 · Apple 节点",
-      "publishedAt": "2026-05-27T03:43:18.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
       "sourceId": "linuxdo",
       "title": "『君の公益』 codex恢复",
       "url": "https://linux.do/t/topic/2254568",
-      "excerpt": "新的技术，新的号池~ 我其实已经开了一级注册了，直接用就好，其他的一切照旧，没有任何变化。 我不会以任何名义搞提示词注入或者别的乱七八糟的东西，简单使用即可。 我其实挺羡慕薄荷、淇淇还有wong的，他们比我会运营公益站的多，我只会这种最简单的。 纵此生不过百岁，何必沾染愁滋味 77 个帖子 - 69 位参与者 阅读完整话题",
+      "excerpt": "新的技术，新的号池~ 我其实已经开了一级注册了，直接用就好，其他的一切照旧，没有任何变化。 我不会以任何名义搞提示词注入或者别的乱七八糟的东西，简单使用即可。 我其实挺羡慕薄荷、淇淇还有wong的，他们比我会运营公益站的多，我只会这种最简单的。 纵此生不过百岁，何必沾染愁滋味 87 个帖子 - 77 位参与者 阅读完整话题",
       "publishedAt": "2026-05-27T07:30:25.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -379,7 +379,7 @@
       "sourceId": "linuxdo",
       "title": "codex公益站，今日依旧每个人免费100刀",
       "url": "https://linux.do/t/topic/2252638",
-      "excerpt": "继续蹬，每个人免费100刀 https://new.sharedchat.cc/ 130 个帖子 - 99 位参与者 阅读完整话题",
+      "excerpt": "继续蹬，每个人免费100刀 https://new.sharedchat.cc/ 136 个帖子 - 104 位参与者 阅读完整话题",
       "publishedAt": "2026-05-27T02:37:23.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -505,7 +505,7 @@
       "sourceId": "linuxdo",
       "title": "AI coding时代确实是提效了，但为什么程序员的工作量不减反增？",
       "url": "https://linux.do/t/topic/2254263",
-      "excerpt": "我去年硕士毕业就在这家公司（某万人互联网公司），从入职开始就AI coding了，一开始用cursor，后来是各种VScode插件，再到Claude code的CLI，现在是CodeX桌面端。AI coding的工具是越来越好用，模型越来越强，使用门槛越来越低，任何人都能轻易上手。于是，公司决定全面拥抱AI！要求大家都用上AI coding。 1，架构师1，全栈*3）。于是我开始干起了全栈的活，前端，后端，测试，运维。（曾今有一瞬间我还有点小骄傲呢hhh，妈妈！我出息了！我是全栈工程师！） 71 个帖子 - 52 位参与者 阅读完整话题",
+      "excerpt": "我去年硕士毕业就在这家公司（某万人互联网公司），从入职开始就AI coding了，一开始用cursor，后来是各种VScode插件，再到Claude code的CLI，现在是CodeX桌面端。AI coding的工具是越来越好用，模型越来越强，使用门槛越来越低，任何人都能轻易上手。于是，公司决定全面拥抱AI！要求大家都用上AI coding。 1，架构师1，全栈*3）。于是我开始干起了全栈的活，前端，后端，测试，运维。（曾今有一瞬间我还有点小骄傲呢hhh，妈妈！我出息了！我是全栈工程师！） 73 个帖子 - 53 位参与者 阅读完整话题",
       "publishedAt": "2026-05-27T06:47:52.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -599,7 +599,7 @@
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI与巴西媒体集团Grupo Folha和Grupo UOL达成战略合作，将可信的巴西新闻引入ChatGPT，并提供来源归属和透明度。"
+      "summary": "OpenAI与巴西媒体集团Grupo Folha和Grupo UOL达成战略合作，将巴西可信新闻引入ChatGPT，扩大新闻获取范围并确保归属和透明度。"
     },
     {
       "sourceId": "openai-news",
@@ -609,7 +609,7 @@
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI被Gartner评为2026年企业AI编程代理领导者，其产品Codex因创新性和企业级部署能力获得认可。"
+      "summary": "OpenAI被Gartner评为2026年企业AI编码代理魔力象限领导者，Codex因创新和企业级部署能力获认可。"
     },
     {
       "sourceId": "openai-news",
@@ -1141,7 +1141,7 @@
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face博客探讨了AI代理领域的关键术语（如Harness、Scaffold），强调正确使用这些术语对行业发展的重要性。"
+      "summary": "Hugging Face发布AI代理术语指南，重点解释Harness、Scaffold等关键术语的正确用法，帮助行业统一理解。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1151,7 +1151,7 @@
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "NVIDIA推出Nemotron-Labs扩散语言模型，旨在实现光速级文本生成，大幅提升生成速度。"
+      "summary": "NVIDIA发布Nemotron-Labs扩散语言模型，目标实现“光速”文本生成，大幅提升生成速度，代表了文本生成新方向。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1161,7 +1161,7 @@
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Dharma AI认为专业化胜过规模，大多数AI采购决策忽视这一战略变量，企业应优先考虑专用模型而非通用大模型。"
+      "summary": "Dharma AI发文指出，专业化模型优于大规模模型，这一战略变量常被AI采购决策者忽略，强调在特定任务中的优势。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1414,7 +1414,7 @@
       "publishedAt": "2026-05-26T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "Grok Build CLI发布，AI硬件市场呈现动态，教皇利奥对人工智能发出警告。"
+      "summary": "今日AI动态：Grok发布Build CLI工具；AI硬件市场受关注；教皇利奥对AI发展发出警告。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1424,7 +1424,7 @@
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "新模型Mythos 1发布，新云服务（neocloud）蓬勃发展，模型上下文协议（MCP）转向无状态架构。"
+      "summary": "昨日AI动态：Mythos 1模型发布；新云服务（neocloud）繁荣；MCP（模型上下文协议）转向无状态设计。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1596,7 +1596,7 @@
       "publishedAt": "2026-05-26T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "Harness工程成为编程代理的关键差异点，强调“模型+Harness+评估循环”堆栈。DeepSeek正组建Harness团队，Google Gemini也在优化。"
+      "summary": "Harness工程成为编码代理的关键差异化因素，强调模型、harness与评估循环的组合。DeepSeek组建harness团队，Google Gemini也在推进类似工作。"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1867,7 +1867,7 @@
       "publishedAt": "2026-05-27T03:33:53.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Fireworks和Baseten成为AI基础设施领域的新独角兽（估值超百亿美元），OpenRouter也在路上。这是关于投资的利好消息。"
+      "summary": "AI基础设施领域诞生新百亿估值独角兽（decacorn），包括Fireworks、Baseten，OpenRouter也在筹备中，融资消息被视作积极信号。"
     },
     {
       "sourceId": "latent-space",
@@ -1877,7 +1877,7 @@
       "publishedAt": "2026-05-23T04:21:17.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "多个模型实验室宣布转向代理实验室，AI开发重心从模型本身转向基于代理的系统整合。"
+      "summary": "平静一天中，多个模型实验室纷纷转向智能体研究，所有模型实验室都在变为智能体实验室，反映行业重点转移。"
     },
     {
       "sourceId": "latent-space",
@@ -1887,7 +1887,7 @@
       "publishedAt": "2026-05-22T05:50:58.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Exa、Modal和TurboPuffer成为新的AI基础设施独角兽，融资消息显示该领域投资热度持续。"
+      "summary": "AI基础设施领域诞生三家新独角兽：Exa、Modal、TurboPuffer，融资消息成为当日焦点。"
     },
     {
       "sourceId": "latent-space",
@@ -2050,7 +2050,7 @@
       "publishedAt": "2026-05-26T14:54:10.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "企业级AI代理迅速普及，85%的组织希望三年内实现代理化，但76%认为当前运营和基础设施无法支撑，暴露出雄心与执行之间的差距。"
+      "summary": "企业级AI代理应用快速增长，但理想与现实脱节。85%的组织希望三年内实现AI代理化，76%认为现有运营和基础设施无法支撑。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2060,7 +2060,7 @@
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "对AI导致白领失业的恐慌进行现实核查。科技行业确现裁员（Coinbase、Meta、Cisco），但并非全面灾难，软件开发者等岗位无需过度反应。"
+      "summary": "文章对AI导致白领失业的恐慌进行现实核查，指出近期科技公司（Coinbase、Meta、Cisco）裁员并不预示所有知识工作者都将失业，需理性看待。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2070,7 +2070,7 @@
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "AI尚未引发大规模失业，发达国家总就业稳定。但入门级工作可能面临危机，这一隐藏变化需要关注。"
+      "summary": "AI尚未导致大规模失业，发达国家总就业保持稳定，近期评估显示AI对总体失业率影响有限。但入门级工作正面临悄然危机，需引起关注。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2080,7 +2080,7 @@
       "publishedAt": "2026-05-22T10:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "Google I/O上，DeepMind CEO Demis Hassabis称我们正站在“奇点”的山脚下。AI驱动的科学研究路径正发生显著转变。"
+      "summary": "Google I/O上，DeepMind CEO Demis Hassabis表示当前处于“奇点”的山麓，奇点是指AI超越人类智能的理论时刻，标志AI驱动科学路径转变。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2145,7 +2145,7 @@
       "category": "tech",
       "meta": "@sairahul1 · 106.0K 粉丝 · 2.5M 阅 · 1.3K 赞 · 184 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者分享使用Claude Code构建软件工厂的经验：此前以为在用AI编码，实则仅加快打字速度；一套7代理系统可自动发布功能，节省数月。"
+      "summary": "作者介绍了一个7代理系统，通过Claude Code构建软件工厂，可自动在睡眠期间交付功能，并指出过去用AI只是打字更快。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2156,7 +2156,7 @@
       "category": "tech",
       "meta": "@cyrilXBT · 181.0K 粉丝 · 127.8K 阅 · 533 赞 · 80 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "介绍如何构建Claude研究代理：每天早晨自动读取网络信息，5分钟内生成简报，避免手动浏览Twitter和邮件的浪费时间。"
+      "summary": "本文介绍如何构建Claude研究代理，每天早晨自动扫描互联网，在5分钟内生成简报，避免手动刷Twitter寻找重要信息。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2167,7 +2167,7 @@
       "category": "tech",
       "meta": "@poteto · 26.6K 粉丝 · 86.5K 阅 · 540 赞 · 48 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者在面试Cursor前从未使用过该产品；之前在Meta时，Claude Code迅速普及，作者甚至自费每月200美元使用。"
+      "summary": "作者透露，在采访Cursor前从未使用过该工具，而Meta内部Claude Code极为流行，他自费每月200美元订阅。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2178,7 +2178,7 @@
       "category": "tech",
       "meta": "@TheAhmadOsman · 59.9K 粉丝 · 54.5K 阅 · 512 赞 · 65 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "强调LLM工程需动手实践，从Tokenizer到Transformer块、解码、缓存等逐步构建完整栈，而非仅阅读理论。"
+      "summary": "作者建议动手构建LLM工程栈，从Tokenizer、嵌入、位置编码、注意力机制、Transformer块到解码、缓存等，并列出2026版项目路径。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2189,7 +2189,7 @@
       "category": "tech",
       "meta": "@difflawb · 20.3K 粉丝 · 21.9K 阅 · 1.1K 赞 · 389 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "2024年8月，OpenAI联合创始人、前特斯拉AI总监Andrej Karpathy发布了一个40行shell脚本，该脚本最终演变为基础设施，引发广泛关注。"
+      "summary": "2024年8月，OpenAI联合创始人、前特斯拉AI主管Andrej Karpathy发布了一个仅40行的shell脚本，该脚本最终演变为基础设施。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2200,7 +2200,7 @@
       "category": "tech",
       "meta": "@0xileri · 7.3K 粉丝 · 12.2K 阅 · 533 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者收到大量私信后，以初学者视角分享制作AI视频的方法和所用工具，同时说明自己仍在学习。"
+      "summary": "作者以初学者视角分享制作AI视频的方法，列出自己使用的工具和工作流程，并承认仍在学习中。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2211,7 +2211,181 @@
       "category": "tech",
       "meta": "@ActionModelAI · 57.1K 粉丝 · 5.8K 阅 · 505 赞 · 344 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "有观点认为AI替代已开始，这将是现代历史上最大经济转变的开端，但多数人仍未意识到。"
+      "summary": "文章指出，AI替代已开始，这是现代历史上最大的经济转变，但多数人仍未意识到其影响。"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Cancelling Colbert and the Democrat Religion",
+      "url": "https://x.com/CynicalPublius/status/2058611937425158608",
+      "excerpt": "The reaction of Democrats to the demise of their terminally unfunny high priest, Stephen Colbert, has left me struggling to understand their dismay. I think I have a theory. Since the dawn of Trump",
+      "publishedAt": "2026-05-24T18:11:47.000Z",
+      "category": "politics",
+      "meta": "@CynicalPublius · 316.7K 粉丝 · 32.7K 阅 · 511 赞 · 124 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "The Woman Behind the Curtain: Why Senate Parliamentarian Elizabeth MacDonough Must Go",
+      "url": "https://x.com/amuse/status/2058920420540125534",
+      "excerpt": "Three days ago, the President of the United States publicly demanded the firing of a woman most Americans have never heard of. Donald Trump went after Senate Parliamentarian Elizabeth MacDonough after",
+      "publishedAt": "2026-05-25T14:37:35.000Z",
+      "category": "politics",
+      "meta": "@amuse · 687.9K 粉丝 · 31.3K 阅 · 514 赞 · 227 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Remarks on Magnifica Humanitas",
+      "url": "https://x.com/ch402/status/2058907108725211476",
+      "excerpt": "Honored and grateful to have shared my thoughts at the presentation of Magnifica Humanitas today, and humbled by the Holy Father's invitation. The questions posed by AI are bigger than the AI",
+      "publishedAt": "2026-05-25T13:44:42.000Z",
+      "category": "politics",
+      "meta": "@ch402 · 145.8K 粉丝 · 24.2K 阅 · 541 赞 · 94 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Remembering Our Fallen ",
+      "url": "https://x.com/anduriltech/status/2058946490757001496",
+      "excerpt": "By Lt. Gen. (Ret.) Neil Thurgood Every Memorial Day, I feel a range of emotions. I feel indebted, with a grateful heart. I feel humbled as I remember the many great Americans who have served this",
+      "publishedAt": "2026-05-25T16:21:11.000Z",
+      "category": "politics",
+      "meta": "@anduriltech · 241.3K 粉丝 · 21.6K 阅 · 593 赞 · 57 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "On Memorial Day, Commander in Chief, Secretary of War, Honor Nation's Fallen",
+      "url": "https://x.com/DeptofWar/status/2059025049148153940",
+      "excerpt": "The United States will soon mark its semiquincentennial — 250 years as a nation. It's a big milestone, said President Donald J. Trump, but not one that could have been achieved without more than a",
+      "publishedAt": "2026-05-25T21:33:21.000Z",
+      "category": "politics",
+      "meta": "@DeptofWar · 7.2M 粉丝 · 18.7K 阅 · 508 赞 · 113 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Memorial Day. A Prayer for a Permanent Peace.",
+      "url": "https://x.com/joekent16jan19/status/2058910059938091073",
+      "excerpt": "Memorial Day. Every year, the day seems to sneak up on me. I know it’s coming, of course, yet its arrival always brings a surprising heaviness. Over the course of our nation’s longest war—the",
+      "publishedAt": "2026-05-25T13:56:25.000Z",
+      "category": "politics",
+      "meta": "@joekent16jan19 · 625.2K 粉丝 · 14.6K 阅 · 510 赞 · 102 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Memorial Day: Lessons Written in Sacrifice",
+      "url": "https://x.com/sarahadams/status/2058580318819402095",
+      "excerpt": "The men and women we remember today still shape how we fight, prepare, and protect others. Memorial Day is often marked by ceremonies, folded flags, moments of silence, and names etched into stone.",
+      "publishedAt": "2026-05-24T16:06:09.000Z",
+      "category": "politics",
+      "meta": "@sarahadams · 404.8K 粉丝 · 10.6K 阅 · 502 赞 · 134 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-politics",
+      "title": "Why Assam needs the Uniform Civil Code?",
+      "url": "https://x.com/himantabiswa/status/2058936508628062538",
+      "excerpt": "Article 44 of our Constitution has been “defunct” for 76 years. Written in 1950, The Supreme Court demanded it in 1985 (Shah Bano), 1995, 2003 and 2019. Judges kept on Asking, Every government kept on",
+      "publishedAt": "2026-05-25T15:41:31.000Z",
+      "category": "politics",
+      "meta": "@himantabiswa · 2.6M 粉丝 · 7.7K 阅 · 511 赞 · 147 转",
+      "source": "X 推文 (AttentionVC)"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "Patch 1.0.5.0",
+      "url": "https://x.com/tarkov/status/2058806492518646020",
+      "excerpt": "In-game event “Icebreaker” and story chapter “Boreas” How did the Paradigm Shipping icebreaker end up trapped inside Tarkov’s blockade ring? What happened to its crew? Who is behind it all? You’ll",
+      "publishedAt": "2026-05-25T07:04:53.000Z",
+      "category": "entertainment",
+      "meta": "@tarkov · 521.5K 粉丝 · 187.4K 阅 · 503 赞 · 82 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "《逃离塔科夫》发布 1.0.5.0 补丁，新增“破冰船”游戏内事件和“波瑞阿斯”故事章节，揭秘 Paradigm Shipping 破冰船被困于封锁圈内的真相。"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "I want Liverpool to win",
+      "url": "https://x.com/greggmunikwa/status/2058942422193746321",
+      "excerpt": "Once again, if you read all of this, I want to thank you for the time taken to engage. As the season has now concluded, I think it's fair to say that the disconnect between the fans, the team and the",
+      "publishedAt": "2026-05-25T16:05:01.000Z",
+      "category": "entertainment",
+      "meta": "@greggmunikwa · 35.2K 粉丝 · 144.8K 阅 · 502 赞 · 52 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "赛季结束后，推文表达希望利物浦获胜，并指出球迷、球队与管理层之间存在脱节。"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "Only Salah.....",
+      "url": "https://x.com/SimonBrundish/status/2058483469680881916",
+      "excerpt": "I was 42 when Mo Salah signed for Liverpool. That feels like a strange place to start, because this is supposed to be about him. Goals, assists, records, trophies, big chances created, xG, xA, touches",
+      "publishedAt": "2026-05-24T09:41:18.000Z",
+      "category": "entertainment",
+      "meta": "@SimonBrundish · 30.5K 粉丝 · 84.2K 阅 · 608 赞 · 178 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "推文回顾穆罕默德·萨拉赫自加盟利物浦以来的卓越成就，包括进球、助攻、纪录、奖杯以及多项关键数据。"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "Exclusive: Prabhas Building his Dream Mansion ",
+      "url": "https://x.com/Telugu360/status/2058528852344029284",
+      "excerpt": "Prabhas emerged as one of the Biggest pan-Indian actors and he is charging close to Rs 150 crores per film. Despite debacles, he has a big lineup of films and there are directors, producers in waiting",
+      "publishedAt": "2026-05-24T12:41:38.000Z",
+      "category": "entertainment",
+      "meta": "@Telugu360 · 353.8K 粉丝 · 52.3K 阅 · 500 赞 · 70 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "印度泛印度影星 Prabhas 正在建造梦想豪宅，其片酬已接近每部电影 150 亿卢比，尽管经历票房失利，仍有大量电影项目排队等待。"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "#ENreco - Journals of the talents for Day 1",
+      "url": "https://x.com/hololive_En/status/2059084721230139794",
+      "excerpt": "Ouro Kronii Hakos Baelz Shiori Novella Koseki Bijou Cecilia Immergreen",
+      "publishedAt": "2026-05-26T01:30:28.000Z",
+      "category": "entertainment",
+      "meta": "@hololive_En · 986.8K 粉丝 · 24.1K 阅 · 540 赞 · 75 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Hololive EN 发布首日成员日记，涉及 Ouro Kronii、Hakos Baelz、Shiori Novella 等多名成员。"
+    },
+    {
+      "sourceId": "attentionvc-entertainment",
+      "title": "An Open Letter to Sony Interactive x PlayStation: Destiny 2 - Every End is a New Beginning",
+      "url": "https://x.com/JakeParkerLIVE/status/2059048222862213314",
+      "excerpt": "To the desks of Hideaki Nishino (President and CEO of Sony Interactive Entertainment) and Hermen Hulst (CEO - Studio Business Group), It comes without question that the last few days have been",
+      "publishedAt": "2026-05-25T23:05:26.000Z",
+      "category": "entertainment",
+      "meta": "@JakeParkerLIVE · 4.3K 粉丝 · 10.4K 阅 · 527 赞 · 90 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "致 Sony Interactive 社长西野秀明和 Studio Business Group CEO Hermen Hulst 的公开信，讨论《命运2》的结束与新开始。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "HK Banks Tighten Scrutiny of Chinese Clients After Curbs",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/hk-banks-tighten-scrutiny-of-chinese-clients-after-trading-curbs",
+      "excerpt": "Hong Kong banks are ramping up scrutiny of mainland Chinese clients opening savings and investment accounts, part of a broader push to stem capital flight after Beijing launched an unprecedented crackdown on illegal cross-border trading.",
+      "publishedAt": "2026-05-27T07:38:49.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Meloni Told by IMF That Italy’s Energy Aid Must Be More Targeted",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/meloni-told-by-imf-that-italy-s-energy-aid-must-be-more-targeted",
+      "excerpt": "Italian Prime Minister Giorgia Meloni got told by the International Monetary Fund that her government’s energy aid should target poorer families rather than apply to everyone.",
+      "publishedAt": "2026-05-27T09:21:53.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "意大利总理梅洛尼被国际货币基金组织(IMF)告知，其政府的能源援助应更精准地针对贫困家庭，而非普适性发放。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "HDFC Bank Denies Allegations as Governance Scrutiny Deepens",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/hdfc-bank-shares-drop-as-governance-report-deepens-ceo-s-woes",
+      "excerpt": "India’s largest private sector lender HDFC Bank denied any wrongdoing and pushed back on a media report that alleged it paid higher interest to a state-owned company, a claim that wiped out about $3 billion in market value.",
+      "publishedAt": "2026-05-27T06:22:46.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2224,13 +2398,62 @@
     },
     {
       "sourceId": "bloomberg-markets",
+      "title": "Son of Slain Communist Rattles Investors Ahead of Colombian Vote",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/son-of-slain-communist-rattles-investors-ahead-of-colombian-vote",
+      "excerpt": "The son of a slain communist leader is rattling markets ahead of Colombia’s presidential election, as investors weigh whether he can win — and how radically he would govern if he does.",
+      "publishedAt": "2026-05-27T09:15:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "哥伦比亚总统选举前夕，一名已故共产主义领袖之子引发市场震荡，投资者正评估他获胜的可能性及若上台后的执政激进程度。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Gold Holds Loss as Traders Weigh Prospects for US-Iran Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-26/gold-holds-loss-as-traders-weigh-prospects-for-us-iran-deal",
+      "excerpt": "Gold held losses as investors weighed the prospects of a US-Iran peace deal against the risk that continued turmoil in the Middle East will prolong inflation and keep borrowing costs higher for longer.",
+      "publishedAt": "2026-05-26T23:39:46.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Zambia State Mining Firm Strikes Lime Deal With Chinese Operator",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/zambia-state-mining-firm-strikes-lime-deal-with-chinese-operator",
+      "excerpt": "Zambia’s state-controlled mining investment company, ZCCM Investments Holdings Plc, agreed to sell a majority stake in a lime and cement venture to a privately held Chinese company.",
+      "publishedAt": "2026-05-27T09:07:50.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "赞比亚国有矿业投资公司ZCCM Investments Holdings Plc同意将其石灰水泥合资企业的多数股权出售给一家中国私营公司。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Germany’s Reiche Tells EU to Avoid Harming Exports to China",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/germany-s-reiche-tells-eu-to-avoid-harming-exports-to-china",
+      "excerpt": "German Economy Minister Katherina Reiche said the European Union should ensure that any measures it applies on Chinese trade don’t harm the bloc’s exports to the country.",
+      "publishedAt": "2026-05-27T09:03:37.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "德国经济部长凯瑟琳娜·赖歇表示，欧盟应确保其对华贸易措施不会损害欧盟对中国的出口。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "SpaceX Investor Powerlaw to Debut on Nasdaq as IPO Race Heats Up",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-27/spacex-investor-powerlaw-to-debut-on-nasdaq-as-ipo-race-heats-up",
+      "excerpt": "Powerlaw Corp., a closed-end fund that owns stakes in Elon Musk’s SpaceX and artificial intelligence firm OpenAI, is going public without raising any capital in the latest public vehicle to cater to retail investors’ clamor for exposure to the hottest private tech companies.",
+      "publishedAt": "2026-05-27T09:00:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "持有SpaceX和OpenAI股份的封闭式基金Powerlaw Corp.将在纳斯达克上市，此次发行不募集资金，旨在满足散户投资者对热门私营科技公司的投资需求。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
       "title": "SK Hynix Joins $1 Trillion Club Amid AI Frenzy",
       "url": "https://www.bloomberg.com/news/videos/2026-05-27/sk-hynix-joins-1-trillion-club-amid-ai-frenzy-video",
       "excerpt": "South Korea’s SK Hynix became just the third Asian company to join the $1 trillion club as a breakneck surge in memory-chip stocks and an AI frenzy reshapes economies worldwide. (Source: Bloomberg)",
       "publishedAt": "2026-05-27T08:12:11.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "韩国SK海力士成为亚洲第三家市值突破1万亿美元的公司，受人工智能热潮和存储芯片股飙升推动，AI热潮正重塑全球经济格局。"
+      "summary": "韩国SK海力士成为第三家加入「万亿美元俱乐部」的亚洲公司，受内存芯片股飙升及人工智能热潮推动。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2240,7 +2463,7 @@
       "publishedAt": "2026-05-27T08:05:09.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "高盛策略师将标普500指数年终目标上调至8000点，预计人工智能和盈利增长将带来17%的回报，与摩根士丹利和德银看法一致。"
+      "summary": "高盛策略师将标普500指数目标上调至8000点，与摩根士丹利和德意志银行同行一致，预计今年指数回报率为17%。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2250,7 +2473,7 @@
       "publishedAt": "2026-05-27T08:00:05.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "人工智能快速发展推动全球能源需求激增，迫使电网扩建和现代化，从中国到尼日利亚的公司正投资新技术以供电未来。"
+      "summary": "人工智能的快速增长推高全球能源需求，迫使电网扩建和现代化。从中国到尼日利亚的公司正投资新技术以支持未来电力。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2260,7 +2483,7 @@
       "publishedAt": "2026-05-27T08:00:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "行业调查显示，由于伊朗战争引发全球市场波动，美英企业上季度加大了外汇对冲力度，以应对汇率风险。"
+      "summary": "行业调查显示，由于伊朗战争扰乱全球市场，美国和英国企业上季度加大了对冲货币风险的力度。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2269,8 +2492,7 @@
       "excerpt": "Economic advisers to German Chancellor Friedrich Merz almost halved their forecast for growth this year as the war in the Middle East and US trade policy weigh on activity.",
       "publishedAt": "2026-05-27T08:00:00.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "德国总理默茨的经济顾问将今年经济增长预测近乎减半，因中东战争和美国贸易政策拖累经济活动，同时预计通胀加速。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2279,8 +2501,7 @@
       "excerpt": "Financial markets are in danger of a sudden and significant correction, with investors downplaying threats from factors including the Iran war, the European Central Bank warned.",
       "publishedAt": "2026-05-27T08:00:00.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "欧央行警告金融市场面临突然大幅修正的风险，投资者低估了伊朗战争等因素的威胁，市场可能发生急剧重定价。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2298,8 +2519,7 @@
       "excerpt": "A fire broke out at Russia’s Black Sea port of Tuapse after another Ukrainian drone attack overnight, as authorities continue to clear up damage to coastline following multiple strikes in recent weeks.",
       "publishedAt": "2026-05-27T07:48:57.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "俄罗斯黑海港口图阿普谢在乌克兰无人机袭击后起火，当局正在清理近期多次袭击造成的海岸线破坏。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2308,8 +2528,7 @@
       "excerpt": "Former BP Chairman Albert Manifold says he was fired without warning or explanation and will challenge the company’s version of events, deepening the turmoil around the UK oil major’s latest leadership change. BP fired Manifold on Tuesday after eight months on the job, citing “serious concerns” rela",
       "publishedAt": "2026-05-27T07:47:37.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "英国石油被罢免董事长曼尼福尔德称自己被无预警解雇，将质疑公司说法，声称BP以“严重”理由解雇他，加剧了领导层动荡。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2318,8 +2537,7 @@
       "excerpt": "French Finance Minister Roland Lescure reiterated the government’s goal to reduce the deficit to 5% of output this year and below 3% in 2029 even as the Iran conflict weighs on the economy.",
       "publishedAt": "2026-05-27T07:46:52.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "法国财长勒斯库尔重申政府目标：今年将赤字降至GDP的5%，2029年低于3%，尽管伊朗冲突拖累经济，仍坚持紧缩计划。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2327,15 +2545,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-27/lufthansa-says-fuel-supply-stable-urges-summer-bookings",
       "excerpt": "Deutsche Lufthansa AG reassured customers that fuel supply is stable and urged passengers to “absolutely” book summer vacations, an appeal that comes as Europe’s largest airline group depends on peak travel demand to meet its financial goals.",
       "publishedAt": "2026-05-27T07:46:05.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "HK Banks Tighten Scrutiny of Chinese Clients After Trading Curbs",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/hk-banks-tighten-scrutiny-of-chinese-clients-after-trading-curbs",
-      "excerpt": "Hong Kong banks are ramping up scrutiny of mainland Chinese clients opening savings and investment accounts, part of a broader push to stem capital flight after Beijing launched an unprecedented crackdown on illegal cross-border trading.",
-      "publishedAt": "2026-05-27T07:38:49.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2386,15 +2595,6 @@
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Gold Holds Loss as Traders Weigh Prospects for US-Iran Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/gold-holds-loss-as-traders-weigh-prospects-for-us-iran-deal",
-      "excerpt": "Gold held a loss as fresh clashes in the Persian Gulf weighed on hopes for a US-Iran peace deal and reinforced concerns that inflation could keep interest rates higher for longer.",
-      "publishedAt": "2026-05-26T23:39:46.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
       "title": "French Consumer Confidence Dropped to Three-Year Low in May",
       "url": "https://www.bloomberg.com/news/articles/2026-05-27/french-consumer-confidence-dropped-to-three-year-low-in-may",
       "excerpt": "French consumer confidence fell more than expected in May, underscoring risks to the euro area’s second-largest economy as the effects of the Iran war spread.",
@@ -2408,15 +2608,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-26/latest-oil-market-news-and-analysis-for-may-27",
       "excerpt": "Oil dropped on optimism that the US and Iran will reach a peace deal despite fresh hostilities and uncertainty over the vital Strait of Hormuz.",
       "publishedAt": "2026-05-26T22:01:45.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "HDFC Bank Shares Drop as Governance Report Deepens CEO’s Woes",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/hdfc-bank-shares-drop-as-governance-report-deepens-ceo-s-woes",
-      "excerpt": "Shares of HDFC Bank fell in Mumbai trading on Wednesday after a media report alleged India’s largest private sector lender paid higher interest to a state-owned company, adding to Chief Executive Officer Sashidhar Jagdishan’s recent list of troubles.",
-      "publishedAt": "2026-05-27T06:22:46.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2444,51 +2635,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-27/inr-usd-why-the-rupee-is-falling-and-why-it-matters-for-india",
       "excerpt": "A country whose economy is growing faster than those of its peers would typically see its currency strengthen. India’s growth has outstripped even that of manufacturing powerhouse China, yet the rupee has fallen in value every year since 2018.",
       "publishedAt": "2026-05-27T06:10:14.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Samsung Staff Accept Wage Deal That Averts Chip Plant Strike",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/samsung-union-votes-in-favor-of-deal-averting-chip-plant-strike",
-      "excerpt": "Samsung Electronics Co. union members voted in favor of a compensation deal that will hand chip workers an average bonus of about $340,000, staving off a strike that threatened to disrupt global chip supply.",
-      "publishedAt": "2026-05-27T01:27:58.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Europe Car Sales Up for Third Straight Month",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-27/europe-car-sales-up-for-third-straight-month-video",
-      "excerpt": "European car sales climbed for the third consecutive month in April as consumers continued to snap up more electric and hybrid models. New-vehicle registrations rose 7% to 1.15 million last month, the European Automobile Manufacturers’ Association said. The robust demand is a good sign for European ",
-      "publishedAt": "2026-05-27T06:01:26.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "India Said to Prepare $1 Billion LIC Stake Sale Next Month",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/india-said-to-prepare-1-billion-lic-stake-sale-next-month",
-      "excerpt": "India is likely to begin formal marketing next month for a planned share sale in Life Insurance Corporation of India that could raise as much as 100 billion rupees ($1 billion), according to people familiar with the matter.",
-      "publishedAt": "2026-05-27T05:54:43.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Bonds Rebound on Iran Optimism",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-05-27/what-s-moving-uk-markets-right-now-markets-today-mpnn58wd",
-      "excerpt": "",
-      "publishedAt": "2026-05-27T05:46:02.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Jefferies Says Investors Boost ‘Nuclear Exposure’: ESG Investing",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/jefferies-says-investors-boost-nuclear-exposure-esg-investing",
-      "excerpt": "Almost two-thirds of fund managers permit some level of “nuclear exposure,” with 34% allowing investments in nuclear weaponry, according to Jefferies Financial Group Inc.’s fourth-annual ESG and defense survey.",
-      "publishedAt": "2026-05-26T20:00:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2680,7 +2826,7 @@
       "publishedAt": "2026-05-27T08:29:25.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "多乐士母公司阿克苏诺贝尔拒绝日本涂料与宣伟提出的130亿欧元收购要约，该要约意在介入其与艾仕得的合并交易，消息公布后股价上涨。"
+      "summary": "多乐士母公司阿克苏诺贝尔拒绝了价值130亿欧元的收购尝试，日本涂料和宣伟试图介入其与美国艾仕得的合并交易，股价上涨。"
     },
     {
       "sourceId": "ft-companies",
@@ -2690,7 +2836,7 @@
       "publishedAt": "2026-05-27T08:00:59.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "美国FDA推迟对阿斯利康乳腺癌药物的审批决定，此前其肿瘤学顾问委员会投票反对推荐该药物，审查期延长。"
+      "summary": "美国监管机构推迟对阿斯利康一款乳腺癌药物的审批决定，此前FDA肿瘤学咨询委员会投票反对推荐该药。"
     },
     {
       "sourceId": "ft-companies",
@@ -2700,7 +2846,7 @@
       "publishedAt": "2026-05-27T08:00:03.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "欧央行副行长德金多斯警告，特朗普的贸易政策及与伊朗的战争可能引发金融危机，威胁金融稳定，同时指出华盛顿不稳定的贸易政策和减少合作也构成威胁。"
+      "summary": "欧洲央行副行长路易斯·德金多斯警告，特朗普政府与伊朗的战争可能引发金融危机，此外美国贸易政策动荡和合作减少也威胁稳定。"
     },
     {
       "sourceId": "ft-companies",
@@ -2938,19 +3084,10 @@
     },
     {
       "sourceId": "bbc-business",
-      "title": "Post Office investigation could be delayed by five years, police warn",
-      "url": "https://www.bbc.com/news/articles/c2422y4ldymo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The commander leading the national police inquiry says the size of the investigation team would need to double in order to meet its current timeline",
-      "publishedAt": "2026-05-26T19:38:56.000Z",
-      "category": "finance",
-      "source": "BBC Business"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "Farmers' warning as milk prices fall below cost",
-      "url": "https://www.bbc.com/news/articles/c5ye37jrk3go?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Farmers worry more family farms will be sold unless dairy prices rise quickly.",
-      "publishedAt": "2026-05-27T05:23:16.000Z",
+      "title": "Instagram betting ads featuring Kane and Haaland banned",
+      "url": "https://www.bbc.com/news/articles/c3w220y2l8xo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The advertising watchdog said the adverts featuring top footballers had a strong appeal to under-18s.",
+      "publishedAt": "2026-05-26T23:33:40.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
@@ -2965,10 +3102,19 @@
     },
     {
       "sourceId": "bbc-business",
-      "title": "Instagram betting ads featuring Kane and Haaland banned",
-      "url": "https://www.bbc.com/news/articles/c3w220y2l8xo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The advertising watchdog said the adverts featuring top footballers had a strong appeal to under-18s.",
-      "publishedAt": "2026-05-26T23:33:40.000Z",
+      "title": "Farmers' warning as milk prices fall below cost",
+      "url": "https://www.bbc.com/news/articles/c5ye37jrk3go?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Farmers worry more family farms will be sold unless dairy prices rise quickly.",
+      "publishedAt": "2026-05-27T05:23:16.000Z",
+      "category": "finance",
+      "source": "BBC Business"
+    },
+    {
+      "sourceId": "bbc-business",
+      "title": "Post Office investigation could be delayed by five years, police warn",
+      "url": "https://www.bbc.com/news/articles/c2422y4ldymo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The commander leading the national police inquiry says the size of the investigation team would need to double in order to meet its current timeline",
+      "publishedAt": "2026-05-26T19:38:56.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
@@ -3448,7 +3594,7 @@
       "publishedAt": "2026-05-27T08:59:00.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "以色列对加沙城发动空袭，打死哈马斯军事派别新任领导人，至少3人死亡。袭击时停火协议仍在生效。"
+      "summary": "以色列对加沙城的空袭造成至少三人死亡，其中包括哈马斯武装 wing 的新领导人，尽管以哈停火协议仍在生效。"
     },
     {
       "sourceId": "bbc-world",
@@ -3497,7 +3643,7 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Hotels can refuse to give tap water to tourists, Italy's top court rules",
+      "title": "Hotel that refused to give tourist tap water acted lawfully, Italian court rules",
       "url": "https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss",
       "excerpt": "The Italian Supreme Court rejected a tourist's claim that her consumer rights were breached when she was only offered €7 bottled mineral water.",
       "publishedAt": "2026-05-27T02:52:49.000Z",
@@ -3578,19 +3724,29 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Osaka sparkles in golden French Open outfit",
-      "url": "https://www.bbc.com/sport/tennis/articles/cr7ppkp598zo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Naomi Osaka continues her tradition of serving jaw-dropping looks at Grand Slams with an outfit that reminds her of \"the Eiffel tower at night\".",
-      "publishedAt": "2026-05-26T18:15:04.000Z",
+      "title": "India's communists once ruled millions. What happened to them?",
+      "url": "https://www.bbc.com/news/articles/cwy2gr1rpnqo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The story of the rise and decline of India’s communists - from ruling states to struggling for relevance.",
+      "publishedAt": "2026-05-26T23:12:59.000Z",
       "category": "politics",
       "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
-      "title": "Delhi's most exclusive club is under threat of shutdown - can it survive?",
-      "url": "https://www.bbc.com/news/articles/ce8pp0n5znko?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The British-era Gymkhana Club is facing eviction, triggering a legal battle and a wave of nostalgia.",
-      "publishedAt": "2026-05-26T10:31:24.000Z",
+      "title": "How Trump is transforming Washington - by adding his face everywhere",
+      "url": "https://www.bbc.com/news/videos/ce8pp9r03z7o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Sarah Smith visits places across the US capital where the president has hung banners, renamed a site or is rebuilding something.",
+      "publishedAt": "2026-05-27T09:17:42.000Z",
+      "category": "politics",
+      "source": "BBC World",
+      "summary": "记者莎拉·史密斯探访华盛顿多地，展示特朗普总统通过悬挂横幅、重新命名地点或重建项目等方式在首都留下个人印记。"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Why temperature records are being not only broken but smashed",
+      "url": "https://www.bbc.com/news/articles/c62rrj66p3eo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The combined effects of a heat dome and climate change have brought extreme warmth to western Europe.",
+      "publishedAt": "2026-05-26T17:57:28.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3605,19 +3761,10 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Why temperature records are being not only broken but smashed",
-      "url": "https://www.bbc.com/news/articles/c62rrj66p3eo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The combined effects of a heat dome and climate change have brought extreme warmth to western Europe.",
-      "publishedAt": "2026-05-26T17:57:28.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "How Saudi Arabia's spending spree reached the end of the line",
-      "url": "https://www.bbc.com/news/articles/cx21g0828reo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "MBS's Vison 2030 project seemed the stuff of science fiction. Now reality has bitten",
-      "publishedAt": "2026-05-25T01:08:39.000Z",
+      "title": "Osaka sparkles in golden French Open outfit",
+      "url": "https://www.bbc.com/sport/tennis/articles/cr7ppkp598zo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Naomi Osaka continues her tradition of serving jaw-dropping looks at Grand Slams with an outfit that reminds her of \"the Eiffel tower at night\".",
+      "publishedAt": "2026-05-26T18:15:04.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3754,8 +3901,7 @@
       "excerpt": "Dong Guangping has tried to escape on several previous occasions after been jailed for his activism in China A Chinese dissident has washed up on the shores of South Korea after attempting to flee China in a rubber boat. Dong Guangping, 68, is in custody in South Korea, having been detained by the c",
       "publishedAt": "2026-05-27T07:55:46.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "中国异见人士董光平试图乘橡皮艇逃离中国后，在韩国海岸被拘押。他此前曾因活动入狱并多次尝试出逃，现年68岁。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3795,13 +3941,22 @@
     },
     {
       "sourceId": "guardian-world",
+      "title": "Jillian Segal hired former Scott Morrison adviser on $200,000 contract without public tender process",
+      "url": "https://www.theguardian.com/news/2026/may/27/jillian-segal-hired-former-scott-morrison-adviser-contract-without-public-tender-ntwnfb",
+      "excerpt": "Company founded by Yaron Finkelstein received contract to advise on antisemitism under a limited tender ‘due to an absence of competition’ Get our breaking news email, free app or daily news podcast The antisemitism envoy, Jillian Segal, hired Scott Morrison’s former principal adviser on a $200,000 ",
+      "publishedAt": "2026-05-27T09:14:29.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "反犹太主义特使吉莉安·西格尔通过有限招标，雇佣前总理莫里森顾问亚隆·芬克尔斯坦的公司，合同价值20万澳元，未经过公开招标。"
+    },
+    {
+      "sourceId": "guardian-world",
       "title": "Australian BTS fans blast Ticketmaster’s ‘predatory’ tactic of hiding price until tickets go on sale",
       "url": "https://www.theguardian.com/music/2026/may/27/australian-bts-fans-blast-ticketmasters-predatory-tactic-of-hiding-price-until-tickets-go-on-sale",
       "excerpt": "Consumer think-tank says K-pop fans should know the prices before being sent into a ‘high-pressure sales funnel’ Get our breaking news email, free app or daily news podcast Australian fans of the K-pop group BTS are accusing the ticketing giant Ticketmaster of deploying “predatory” and “crazy” tacti",
       "publishedAt": "2026-05-27T08:08:40.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "澳大利亚BTS粉丝炮轰Ticketmaster“掠夺性”策略，在售票前隐藏价格。消费者智库呼吁粉丝应在进入高压销售漏斗前知晓票价。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3810,8 +3965,7 @@
       "excerpt": "This blog is now closed Get our breaking news email, free app or daily news podcast Syrian children should be treated ‘sensitively and gently’, Ryan says Independent MP Monique Ryan says the women and children returning from a Syrian camp should be treated gently, after they arrived in Australia las",
       "publishedAt": "2026-05-27T08:05:12.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "工党议员要求联盟党停止对资本利得税（CGT）修改的“恐吓运动”。独立议员莫妮克·瑞安呼吁温柔对待从叙利亚营地返回的妇女儿童。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3833,22 +3987,13 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "BHP admits to stalled emissions reductions as WA premier says miners have ‘moral obligation’ to decarbonise",
-      "url": "https://www.theguardian.com/world/2026/may/27/bhp-files-stalled-emissions-reductions-mining-company-moral-obligation-decarbonise",
-      "excerpt": "Head of BHP’s WA iron ore operations unable to give firm timeline for replacing diesel trucks as leaked documents reveal decarbonisation delay Read more from the BHP files investigation here Get our breaking news email, free app or daily news podcast A senior BHP executive has admitted the Australia",
-      "publishedAt": "2026-05-27T06:23:13.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
       "title": "Spanish police search ruling Socialist party headquarters – Europe live",
       "url": "https://www.theguardian.com/world/live/2026/may/27/spain-pedro-sanchez-pope-leo-heatwave-ukraine-latest-updates-europe-live-news",
-      "excerpt": "Search takes place amid intensifying focus on separate allegations of influence peddling as problems worsen for prime minister Pedro Sanchez in Madrid In Spain, where temperatures could reach 40C (104F) this week, an orange weather alert was issued for the Basque Country amid predictions that the no",
-      "publishedAt": "2026-05-27T08:58:43.000Z",
+      "excerpt": "Search takes place amid intensifying focus on separate allegations of influence peddling as problems worsen for prime minister Pedro Sanchez As we are waiting for Sánchez to show up for his press conference at the (very grand) Spanish embassy at the Vatican, we have just heard from Pope Leo, who dec",
+      "publishedAt": "2026-05-27T09:13:07.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "西班牙警方搜查执政社会党总部，首相桑切斯面临影响力兜售指控。本周气温或达40°C，巴斯克地区发布橙色警报。"
+      "summary": "西班牙警方搜查执政的社会党总部，首相桑切斯面临的影响力兜售指控备受关注，其执政困境加剧。"
     },
     {
       "sourceId": "guardian-world",
@@ -3858,7 +4003,7 @@
       "publishedAt": "2026-05-27T08:51:47.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "德国折扣超市Lidl销售额同比增长8.8%，超越Morrisons成为英国第五大超市。消费者转向低价商品以减轻开支。"
+      "summary": "德国折扣超市Lidl销售额同比增长8.8%，超越莫里森成为英国第五大超市，因家庭寻求降低生活开支。"
     },
     {
       "sourceId": "guardian-world",
@@ -3895,7 +4040,7 @@
       "publishedAt": "2026-05-27T08:54:50.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "以色列对黎巴嫩发动大规模轰炸，并在加沙击毙一名哈马斯高级领导人，进一步考验与真主党的停火。伊朗革命卫队称与美国开战可能性不大但发出警告。"
+      "summary": "以色列对黎巴嫩发动大规模轰炸，并在加沙击毙哈马斯高级领导人。黎以停火承受压力，伊朗称美国违反了与伊朗的停火协议。"
     },
     {
       "sourceId": "guardian-world",
@@ -4064,10 +4209,10 @@
       "title": "A Quiet Pacific Village Becomes China’s Security Testing Ground",
       "url": "https://www.nytimes.com/2026/05/27/world/asia/china-solomons-pacific-security-threats.html",
       "excerpt": "When a remote Pacific village asked for help with rowdy youth, the Chinese police arrived with a surveillance system. Then came the backlash.",
-      "publishedAt": "2026-05-27T09:00:16.000Z",
+      "publishedAt": "2026-05-27T09:14:59.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "偏远太平洋村庄因青少年滋扰问题求助，中国警方带去监控系统，随后引发反弹。"
+      "summary": "太平洋一偏远村庄因青年滋扰向中国求助，中国警方携带监控系统抵达，此举随后引发当地反弹。"
     },
     {
       "sourceId": "nyt-world",
@@ -4095,7 +4240,7 @@
       "publishedAt": "2026-05-27T09:08:03.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "巴斯克芝士蛋糕首创者Santiago Rivera计划退休，他于20世纪80年代发明了这款“焦烤”芝士蛋糕，但不喜欢后来的衍生版本。他将把厨房交给子女。"
+      "summary": "圣地亚哥·里维拉被认为是20世纪80年代巴斯克烤芝士蛋糕的发明者，但他并不喜欢由此衍生的各种变体。如今他准备退休，将厨房交给子女。"
     },
     {
       "sourceId": "nyt-world",
@@ -4567,13 +4712,43 @@
     },
     {
       "sourceId": "aljazeera",
+      "title": "Video: Muslims around the world attend Eid prayers",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/video-muslims-around-the-world-attend-eid-prayers?traffic_source=rss",
+      "excerpt": "Millions of Muslims all around the world have united in prayers on the first day of Eid al-Adha.",
+      "publishedAt": "2026-05-27T09:20:56.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "全球数百万穆斯林在宰牲节首日齐聚祈祷，共庆节日。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "German police clash with Crystal Palace and Vallecano fans at Europa final",
+      "url": "https://www.aljazeera.com/sports/2026/5/27/german-police-clash-with-english-and-spanish-fans-ahead-of-europa-final?traffic_source=rss",
+      "excerpt": "German police called to two incidents of clashes between hundreds of Crystal Palace and Rayo Vallecano fans in Leipzig.",
+      "publishedAt": "2026-05-27T09:12:31.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "德国警方在莱比锡处理两起冲突，涉及数百名水晶宫和巴列卡诺球迷，事件发生在欧联杯决赛前。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Ken Paxton wins Texas primary election: Results and key takeaways",
+      "url": "https://www.aljazeera.com/news/2026/5/27/ken-paxton-wins-texas-primary-election-results-and-key-takeaways?traffic_source=rss",
+      "excerpt": "Trump-backed Paxton beat Cornyn, making him the first Texas Republican senator to lose renomination.",
+      "publishedAt": "2026-05-27T09:03:07.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "获特朗普支持的肯·帕克斯顿在得州初选中击败参议员科宁，使科宁成为首位失去连任提名的得州共和党参议员。"
+    },
+    {
+      "sourceId": "aljazeera",
       "title": "Israel claims head of Hamas military wing killed in Gaza strike",
       "url": "https://www.aljazeera.com/news/2026/5/27/israel-claims-head-of-hamas-military-wing-killed-in-gaza-strike?traffic_source=rss",
       "excerpt": "There was no immediate response from the Palestinian group after Israel claimed Mohammed Odeh killed.",
       "publishedAt": "2026-05-27T08:51:25.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "以色列声称在加沙空袭中打死哈马斯军事派别领导人穆罕默德·奥德赫，哈马斯方面未立即回应。"
+      "summary": "以色列声称在加沙袭击中击毙哈马斯武装 wing 领导人穆罕默德·奥德哈，哈马斯方面尚未回应。"
     },
     {
       "sourceId": "aljazeera",
@@ -4583,7 +4758,7 @@
       "publishedAt": "2026-05-27T08:41:35.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "以色列空袭黎巴嫩南部造成至少2人死亡。以军加大攻击力度，对更多城镇发布强制疏散令，此前一天已造成数十人死亡。"
+      "summary": "以色列空袭黎巴嫩南部造成至少两人死亡，以军加强攻击，并在前一天造成数十人死亡后对更多村镇发出强制撤离令。"
     },
     {
       "sourceId": "aljazeera",
@@ -4602,7 +4777,7 @@
       "publishedAt": "2026-05-27T08:31:21.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "特朗普支持的候选人帕克斯顿在得克萨斯州初选中击败参议员科宁。"
+      "summary": "得到特朗普支持的肯·帕克斯顿在得州初选中击败参议员科宁，赢得党内提名。"
     },
     {
       "sourceId": "aljazeera",
@@ -4612,7 +4787,7 @@
       "publishedAt": "2026-05-27T08:26:17.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "NFL绿湾包装工队球星乔什·雅各布斯因家庭暴力指控被捕，面临五项指控，包括重罪勒颈。威斯康星州警方证实。"
+      "summary": "绿湾包装工队球星乔什·雅各布斯因五项指控被逮捕，其中包括重罪勒颈，威斯康星州警方证实。"
     },
     {
       "sourceId": "aljazeera",
@@ -4630,8 +4805,7 @@
       "excerpt": "Pope appeals for Gaza aid after being asked about flotilla activists",
       "publishedAt": "2026-05-27T08:06:05.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "教宗在谈及船队活动人士后呼吁向加沙提供援助。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4640,8 +4814,7 @@
       "excerpt": "Bunia faces isolation amid Ebola outbreak fears, with airspace closure and Ugandan border curbs adding economic strain.",
       "publishedAt": "2026-05-27T07:52:53.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "刚果（金）布尼亚市因埃博拉疫情担忧面临孤立，空域关闭和乌干达边境管制加剧经济压力。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4766,33 +4939,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/5/27/aje-onl-nf_clip_-un-chief-deeply-concerned-kyiv-strikes-260526?traffic_source=rss",
       "excerpt": "UN Secretary-General Guterres said he was “deeply concerned” after Russia announced plans to strike Ukraine.",
       "publishedAt": "2026-05-27T00:01:38.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Iran war live: New US attack ‘unlikely’ but ‘graveyard’ awaits, warns IRGC",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/27/iran-war-live-israel-kills-31-in-lebanon-tehran-blasts-us-truce-violation?traffic_source=rss",
-      "excerpt": "Revolutionary Guard says 'enemy weakness' means new war unlikely but adds it's ready to repel any new attacks.",
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Is the viral ‘Cockroach Janta Party’ a threat to Modi’s government?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/26/aje-onl-nf_dnrexp-260526-warrinera-modi_05-260526?traffic_source=rss",
-      "excerpt": "Al Jazeera’s @avawarrinerr explores the rise of the Cockroach Janta Party.",
-      "publishedAt": "2026-05-26T22:24:02.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Chemical tank rupture kills multiple people in US state of Washington",
-      "url": "https://www.aljazeera.com/news/2026/5/26/chemical-tank-rupture-kills-multiple-people-in-us-state-of-washington?traffic_source=rss",
-      "excerpt": "Several injured people have been transported to hospitals to be treated for chemical burns.",
-      "publishedAt": "2026-05-26T22:15:38.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
@@ -5074,7 +5220,7 @@
       "publishedAt": "2026-05-21T16:27:51.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "该视频揭示了肥皂清洁作用的科学原理，介绍其起泡和去污的秘密。"
+      "summary": "视频揭示了肥皂起泡背后的科学原理，解释了表面活性剂如何降低水表面张力，从而产生泡沫。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5084,7 +5230,7 @@
       "publishedAt": "2026-05-14T16:54:43.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "视频分析鸟类飞行中避免碰撞的机制，并探讨人类可从中学到的技术启示。"
+      "summary": "探讨鸟类在空中飞行时为何不会相互碰撞，并从中提炼出对人类避障技术和交通安全的启示。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5094,7 +5240,7 @@
       "publishedAt": "2026-05-07T15:01:18.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "视频以可视化方式解释四维物体在三维空间中的投影与外观，帮助理解高维几何。"
+      "summary": "以超立方体为例，解释四维物体在三维空间中的投影和视觉效果，帮助理解高维空间概念。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5104,7 +5250,7 @@
       "publishedAt": "2026-05-01T15:32:36.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "视频分享博主频道的重要里程碑事件，回顾成长历程并感谢观众支持。"
+      "summary": "频道主庆祝频道发展的重要里程碑，具体内容未详细说明。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5115,7 +5261,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/WnzR5aOElvw/hqdefault.jpg",
       "source": "@fryrsquared",
-      "summary": "视频探讨AI Agent的双重性，认为其可能是人类最伟大或最糟糕的发明，分析潜在影响。"
+      "summary": "深入分析AI智能体（AI Agent）可能带来的巨大潜力和风险，指出其可能成为人类最伟大的创造或最危险的威胁。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5171,7 +5317,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/EGyO27Jamu0/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "视频介绍Figma中的AI助手功能，展示其如何作为设计工具的新AI伙伴提升工作效率。"
+      "summary": "首次体验Figma中的AI代理功能，将其描述为设计师的新AI助手，展示其协作能力。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5182,7 +5328,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/Wh2i6eGqhLY/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "视频演示如何在Figma中利用Claude Code创建自定义AI技能，用于设计系统管理。"
+      "summary": "演示如何在Claude Code中为Figma创建自定义AI技能，并应用于设计系统，提升设计效率。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5193,7 +5339,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/oebZIVMh_Ak/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "视频概述Claude Design的功能与应用场景，说明其在设计流程中的价值。"
+      "summary": "概述Claude Design工具的功能和典型使用场景，帮助用户理解其在设计流程中的作用。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5204,7 +5350,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/xxH8qKQyK_0/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "视频揭秘Figma中隐藏的实用资源与技巧，帮助用户更高效地使用该设计工具。"
+      "summary": "揭示Figma中隐藏的资源和技巧，帮助用户发现并利用这些秘密功能。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5215,7 +5361,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/AST1G5brxFA/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "视频教程指导用户在Figma Weave中构建首个AI工作流，实现自动化设计任务。"
+      "summary": "介绍Figma Weave工具，指导用户构建自己的第一个AI工作流，实现设计流程自动化。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5276,7 +5422,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/tu4rU4YD1Jk/hqdefault.jpg",
       "source": "@TinaHuang1",
-      "summary": "视频更新并总结2026年必备的人工智能技能，涵盖最新趋势与实用方法。"
+      "summary": "更新了2026年必备的AI技能清单，涵盖机器学习、提示工程等关键领域，为学习者提供方向。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5286,7 +5432,7 @@
       "publishedAt": "2026-05-21T15:00:01.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "视频以直言不讳的风格提供关于AI使用的务实建议，避免常见误区。"
+      "summary": "提供关于AI的坦诚建议，批评过度炒作，强调务实应用和长期价值。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5297,7 +5443,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/gdrPkpXuNks/hqdefault.jpg",
       "source": "@TinaHuang1",
-      "summary": "视频分享主播在Claude中的完整协作设置与工作流，供观众直接复制使用。"
+      "summary": "分享个人使用Claude AI进行协作的工作区设置，并公开可复用的工作流模板。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5307,7 +5453,7 @@
       "publishedAt": "2026-05-17T15:12:47.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "视频介绍顶尖1% AI用户常用的提示框架，提升与AI交互的效果与效率。"
+      "summary": "介绍顶尖AI用户使用的提示框架（Prompting Framework），旨在提升与AI交互的质量和效率。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5317,7 +5463,7 @@
       "publishedAt": "2026-05-11T15:00:03.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "视频提供适合前10% AI用户的提示框架，帮助优化AI输出质量。"
+      "summary": "为前10%的AI用户设计的提示框架，帮助高级用户进一步优化AI输出结果。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5374,7 +5520,7 @@
       "publishedAt": "2026-05-27T08:11:12.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "ENA新剧《Doctor on the Edge》发布新剧照，李宰旭和辛睿恩出演。该剧讲述公共卫生医生都智宇（李宰旭饰）被分配到恶名昭彰的扁东岛后与护士陆荷里（辛睿恩饰）的爱情故事。"
+      "summary": "ENA新剧《Doctor on the Edge》发布剧照，李宰旭与申艺恩饰演的公共卫生医生和护士一同进行家访。该剧讲述发生在臭名昭著的偏远岛屿“Pyeondong”的爱情故事。"
     },
     {
       "sourceId": "soompi",
@@ -5384,7 +5530,7 @@
       "publishedAt": "2026-05-27T07:52:04.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "新片《The Guardian》公开新海报，南优贤、朴恩惠、韩在硕主演。影片讲述曾梦想成为国家跆拳道运动员的道俊（南优贤饰）在母亲美珍（朴恩惠饰）被绑架后争分夺秒营救的故事。"
+      "summary": "电影《The Guardian》发布新海报，讲述曾梦想成为跆拳道国手的青年Do Joon（南宇贤饰）在母亲被绑架后与时间赛跑的故事。朴恩惠、韩在硕参演。"
     },
     {
       "sourceId": "soompi",
@@ -5394,7 +5540,7 @@
       "publishedAt": "2026-05-27T07:42:09.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "tvN新剧《明天见！》公开徐仁国和朴智贤初次见面的画面。该剧改编自热门网络漫画，讲述职场人车智允（朴智贤饰）的故事。两人首次见面气氛紧张，随后同乘直升机。"
+      "summary": "tvN新剧《See You at Work Tomorrow!》公开徐仁国与朴智贤首次见面的直升机场景。该剧改编自网络漫画，讲述被困在职场中的办公室职员Cha Ji Yoon（朴智贤饰）的浪漫故事。"
     },
     {
       "sourceId": "soompi",
@@ -5404,7 +5550,7 @@
       "publishedAt": "2026-05-27T06:44:35.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "李施彦和徐智承迎来了他们的第一个孩子。5月26日，李施彦在Instagram分享儿子出生的喜讯，写道：“我的儿子泰建（出生前昵称）来到了地球。既然出生了，就健康成长吧。”"
+      "summary": "演员李施彦与徐智胜迎来第一个孩子。李施彦于5月26日在Instagram分享儿子诞生的喜讯，儿子昵称为Tae Geon，并祝愿其健康成长。"
     },
     {
       "sourceId": "soompi",
@@ -5414,7 +5560,7 @@
       "publishedAt": "2026-05-27T06:40:21.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "在《Sold Out on You》中，安孝燮面临危机，过去的丑闻再度曝光引发愤怒抗议者。该剧是浪漫喜剧，讲述完美主义农场主马修·李（安孝燮饰）与顶级家庭购物主持人廉珍（蔡元彬饰）的爱情故事。"
+      "summary": "《Sold Out on You》中安孝燮饰演的完美主义农民Matthew Lee面临危机，因过往丑闻遭愤怒抗议者围堵。该剧是一部浪漫喜剧，讲述他与顶级电视购物主播Dam Ye Jin（蔡元彬饰）的爱情故事。"
     },
     {
       "sourceId": "soompi",
@@ -5424,7 +5570,7 @@
       "publishedAt": "2026-05-27T06:00:17.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《Agent Kim Reactivated》公开崔大勋的首张剧照。该剧改编自热门网络漫画，是动作复仇剧，讲述普通父亲金经理（苏志燮饰）变成最危险人物。崔大勋饰演前特工，经营社区跆拳道馆。"
+      "summary": "《Agent Kim Reactivated》公开崔大勋角色剧照，他饰演经营社区跆拳道馆的前特工。该剧改编自网络漫画，讲述普通父亲Manager Kim（苏志燮饰）成为最危险男人的动作复仇故事。"
     },
     {
       "sourceId": "soompi",
@@ -5434,7 +5580,7 @@
       "publishedAt": "2026-05-27T05:12:14.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "演员卢苏珊娜与丈夫吴东敏分享了漂亮的婚纱照。5月27日，她在社交媒体上发布多张照片，感谢同学和朋友的帮助，称婚纱照拍摄得很成功。"
+      "summary": "演员卢瑞娜与吴东旻公开婚纱照。卢瑞娜于5月27日在社交媒体发文感谢朋友帮助，称婚纱拍摄完成得很漂亮。"
     },
     {
       "sourceId": "soompi",
@@ -5444,7 +5590,7 @@
       "publishedAt": "2026-05-27T04:59:00.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "在《Sold Out on You》中，安孝燮和蔡元彬互相扶持。该浪漫喜剧讲述完美主义农场主马修·李（安孝燮饰）与顶级家庭购物主持人廉珍（蔡元彬饰）意想不到的爱情故事。"
+      "summary": "《Sold Out on You》中安孝燮与蔡元彬相互扶持。该浪漫喜剧讲述完美主义农民Matthew Lee与顶级电视购物主播Dam Ye Jin之间意料之外的爱情故事。"
     },
     {
       "sourceId": "soompi",
@@ -5454,7 +5600,7 @@
       "publishedAt": "2026-05-27T04:55:18.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《Reborn Rookie》主演李濬荣、李主明、全惠珍、晋久透露片场有趣的家族化学反应。该剧讲述财阀会长姜勇浩（孙贤周饰）因事故意外重生，开启不情愿的第二人生。"
+      "summary": "《Reborn Rookie》主演李准英、李周明、全慧珍和晋久描述片场有趣的家庭化学反应。该剧讲述财阀会长Kang Yong Ho（孙贤周饰）在事故后意外开启第二人生的故事。"
     },
     {
       "sourceId": "soompi",
@@ -5464,7 +5610,7 @@
       "publishedAt": "2026-05-27T03:13:40.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "在《Gold Land》中，朴宝英和李光洙的对抗达到顶峰。该剧讲述国际机场安检员熙珠（朴宝英饰）意外卷入非法走私黄金条事件，两人持续冲突至最后。"
+      "summary": "《Gold Land》中朴宝英与李光洙的冲突达到顶点。该剧讲述机场安检员Hee Joo（朴宝英饰）意外获得与走私集团有关的金条后引发的故事。"
     },
     {
       "sourceId": "soompi",
@@ -5474,7 +5620,7 @@
       "publishedAt": "2026-05-27T02:44:11.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《犯罪都市》系列第五部《The Roundup 5》确认演员阵容，并于5月24日开拍。该系列是韩国最长的动作系列片，围绕刑警马锡道（马东锡饰）展开。"
+      "summary": "《The Roundup》系列第五部确认演员阵容并于5月24日开拍。该系列是韩国最长寿的动作片系列，围绕侦探Ma Seok Do（马东锡饰）展开。"
     },
     {
       "sourceId": "soompi",
@@ -5484,7 +5630,7 @@
       "publishedAt": "2026-05-27T01:06:53.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "金秀贤所属经纪公司GOLDMEDALIST发表声明，提及对YouTube频道HoverLab金世义的诉讼结果及逮捕令相关事宜。"
+      "summary": "金秀贤所属社GOLDMEDALIST就针对YouTube频道HoverLab金世义的诉讼结果及逮捕令发布声明。"
     },
     {
       "sourceId": "soompi",
@@ -5494,7 +5640,7 @@
       "publishedAt": "2026-05-26T23:39:23.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "ENA电视剧《稻草人》于5月26日剧终，收视率创自身新高，并成为ENA历史上收视率第二高的剧集，仅次于2022年获奖剧集《非常律师禹英禑》。"
+      "summary": "ENA剧集《The Scarecrow》大结局收视率创自身新高，位列ENA历史第二，仅次于2022年获奖剧《非常律师禹英禑》。"
     },
     {
       "sourceId": "soompi",
@@ -5504,7 +5650,7 @@
       "publishedAt": "2026-05-26T23:25:29.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "韩国企业评价研究所公布5月新晋歌手品牌声誉排名。排名通过分析媒体曝光、消费者参与、互动及社区认知度等指数得出。"
+      "summary": "韩国企业评价研究所公布5月新晋歌手品牌声誉排名，基于媒体覆盖、消费者参与、互动和社区认知度指数分析得出。"
     },
     {
       "sourceId": "soompi",
@@ -5514,7 +5660,7 @@
       "publishedAt": "2026-05-26T23:03:43.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "JTBC《Reborn Rookie》公开首集预告，李濬荣和孙贤周在车祸后灵魂互换。该剧讲述财阀会长姜勇浩（孙贤周饰）因事故意外重生。"
+      "summary": "JTBC《Reborn Rookie》公开首集预告，李准英与孙贤周因车祸灵魂互换。该剧讲述财阀会长Kang Yong Ho意外开启第二人生的故事。"
     },
     {
       "sourceId": "soompi",
@@ -5524,7 +5670,7 @@
       "publishedAt": "2026-05-26T20:59:39.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "NMIXX凭借新迷你专辑《Heavy Serenade》再次进入Billboard 200，排名第182位，这是她们第四次进入该榜单。专辑于5月19日发行。"
+      "summary": "NMIXX新迷你专辑《Heavy Serenade》空降Billboard 200榜单第182位，成为组合第四张入榜作品。该专辑是NMIXX的第四张迷你专辑。"
     },
     {
       "sourceId": "soompi",
@@ -5534,7 +5680,7 @@
       "publishedAt": "2026-05-26T20:43:05.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "&TEAM凭借新EP《We On Fire》首次进入Billboard 200榜单。截至5月30日的一周，该EP成功登上Top 200 Albums chart。"
+      "summary": "&TEAM凭借新EP《We On Fire》首次进入Billboard 200榜单，创下职业生涯里程碑。该EP在截至5月30日的统计周内入榜。"
     },
     {
       "sourceId": "soompi",
@@ -5544,7 +5690,7 @@
       "publishedAt": "2026-05-26T20:28:30.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "MBC真实犯罪节目《Hidden Eye》就去年12月误用Stray Kids成员铉辰的婴儿照一事道歉。节目将铉辰的照片误当作谋杀受害者的童年照使用。"
+      "summary": "MBC真实犯罪节目《Hidden Eye》道歉，因去年12月节目中误用Stray Kids铉辰的婴儿照取代谋杀案受害者童年照片。"
     },
     {
       "sourceId": "soompi",
@@ -5554,7 +5700,7 @@
       "publishedAt": "2026-05-26T20:02:21.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "xikers凭借新迷你专辑《ROUTE ZERO : The ORA》创下职业生涯初动销量新高。专辑于5月19日发行，主打曲《OKay》，据Hanteo Chart数据打破了首周销量纪录。"
+      "summary": "xikers最新迷你专辑《ROUTE ZERO : The ORA》首周销量创下自身最高纪录。该专辑于5月19日发行，主打曲为《OKay》。"
     },
     {
       "sourceId": "soompi",
@@ -5564,7 +5710,7 @@
       "publishedAt": "2026-05-26T17:26:02.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "韩国企业评价研究所公布5月新晋演员品牌声誉排名。排名通过分析媒体曝光、消费者参与、互动及社区认知度等指数得出。"
+      "summary": "韩国企业评价研究所公布5月新晋演员品牌声誉排名，基于媒体覆盖、消费者参与、互动和社区认知度大数据分析得出。"
     },
     {
       "sourceId": "soompi",
@@ -5963,15 +6109,15 @@
     },
     {
       "sourceId": "theqoo-hot",
-      "title": "[JTBC with 더쿠] 덬들은 재벌 회장이랑 영혼 바뀌면 뭐할 거야?｜JTBC 토일드라마 <신입사원 강회장> 기대평 이벤트",
-      "url": "https://theqoo.net/event/4218603655",
+      "title": "🤎더쿠X태그🤎 무드 씬 아이라이너 체험단 30인 모집!",
+      "url": "https://theqoo.net/event/4215985132",
       "category": "entertainment",
       "source": "theqoo 热帖"
     },
     {
       "sourceId": "theqoo-hot",
-      "title": "서버 작업 공지 5/27(수) 오전 2시 ~ 오전 2시 30분 접속 불가 안내 [완료]",
-      "url": "https://theqoo.net/hot/4218179110?filter_mode=normal",
+      "title": "193",
+      "url": "https://theqoo.net/event",
       "category": "entertainment",
       "source": "theqoo 热帖"
     },
@@ -6012,8 +6158,15 @@
     },
     {
       "sourceId": "theqoo-hot",
-      "title": "184",
+      "title": "261",
       "url": "https://theqoo.net/hot/4219322008?filter_mode=normal#4219322008_comment",
+      "category": "entertainment",
+      "source": "theqoo 热帖"
+    },
+    {
+      "sourceId": "theqoo-hot",
+      "title": "\"20년 싸게 살면 집 살 줄 알았는데\"…장기전세주택의 역설",
+      "url": "https://theqoo.net/hot/4219295907?filter_mode=normal",
       "category": "entertainment",
       "source": "theqoo 热帖"
     }
