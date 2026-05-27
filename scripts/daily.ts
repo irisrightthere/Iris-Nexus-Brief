@@ -267,6 +267,10 @@ async function enrichEntertainment(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "entertainment", "x-viral");
 }
 
+async function enrichKpopNews(articles: ArticleInput[]): Promise<void> {
+  await enrichMergedSubgroup(articles, "entertainment", "kpop-news");
+}
+
 async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
@@ -283,6 +287,7 @@ async function main() {
   await enrichAiNews(articles);
   await enrichXViral(articles);
   await enrichEntertainment(articles);
+  await enrichKpopNews(articles);
   await enrichYoutube(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —

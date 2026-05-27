@@ -1186,5 +1186,41 @@
       "zh"
     ],
     "notes": "娱乐/K-pop 官推"
+  },
+  {
+    "id": "soompi",
+    "name": "Soompi K-pop",
+    "type": "rss",
+    "url": "https://www.soompi.com/feed",
+    "category": "entertainment",
+    "subcategory": "kpop-news",
+    "enabled": true,
+    "is_private": false,
+    "locales": ["zh", "en"],
+    "notes": "英文 K-pop 新闻"
+  },
+  {
+    "id": "google-news-kr-ent",
+    "name": "Google News 韩娱",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%97%B0%EC%98%88&hl=ko&gl=KR&ceid=KR:ko",
+    "category": "entertainment",
+    "subcategory": "kpop-news",
+    "enabled": true,
+    "is_private": false,
+    "locales": ["zh"],
+    "notes": "Google News 索引的 Naver 等韩媒娱乐新闻"
+  },
+  {
+    "id": "theqoo-hot",
+    "name": "theqoo 热帖",
+    "type": "scrape",
+    "url": "https://theqoo.net/hot?filter_mode=normal",
+    "category": "entertainment",
+    "subcategory": "kpop-news",
+    "enabled": true,
+    "is_private": false,
+    "locales": ["zh"],
+    "notes": "韩国社区热帖（HTML 爬取）"
   }
 ]
