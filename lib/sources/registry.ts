@@ -29,7 +29,7 @@ function loadAndValidate(): SourceDef[] {
     throw new Error(`${CONFIG_PATH}: top-level must be an array of sources`);
   }
 
-  const validTypes = new Set(["rss", "api", "scrape", "youtube", "x-account"]);
+  const validTypes = new Set(["rss", "api", "scrape", "youtube"]);
   const validCategories = new Set(["tech", "finance", "politics", "entertainment"]);
   const seenIds = new Set<string>();
 

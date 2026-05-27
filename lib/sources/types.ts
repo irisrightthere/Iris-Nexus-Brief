@@ -1,5 +1,5 @@
 export type Category = "tech" | "finance" | "politics" | "entertainment";
-export type SourceType = "rss" | "api" | "scrape" | "youtube" | "x-account";
+export type SourceType = "rss" | "api" | "scrape" | "youtube";
 
 export interface SourceDef {
   id: string;
@@ -46,11 +46,6 @@ export interface SourceDef {
    * via Make webhook. Public sources (false / undefined) are HTML-only.
    */
   is_private?: boolean;
-  /**
-   * X/Twitter handle without the @ — used by x-account fetcher to
-   * build the RSS URL. Only meaningful when type === "x-account".
-   */
-  handle?: string;
 }
 
 export interface RawArticle {
