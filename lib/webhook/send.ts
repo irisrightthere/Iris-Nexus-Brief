@@ -11,9 +11,7 @@ const TIMEOUT_MS = 15000;
 const MAX_RETRIES = 3;
 
 export interface CoreFeedPayload {
-  date: string;
-  report_url: string;
-  text: string;
+  feishu_body: string;
 }
 
 async function postOnce(url: string, body: string, attempt: number): Promise<boolean> {
@@ -47,11 +45,7 @@ export async function postToMakeWebhook(payload: CoreFeedPayload): Promise<void>
     return;
   }
 
-  const body = JSON.stringify({
-    date: payload.date,
-    report_url: payload.report_url,
-    text: payload.text,
-  });
+  const body = JSON.stringify({ feishu_body: payload.feishu_body });
 
   console.log(`[webhook] sending Core Feed (${body.length} bytes)…`);
 
