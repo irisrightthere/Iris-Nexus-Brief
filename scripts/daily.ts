@@ -29,7 +29,6 @@ import { generateTradingCommentary } from "../lib/ai/trading-commentary";
 import type { TradingSection } from "../lib/ai/pipeline";
 import { todayKey } from "../lib/utils";
 import { postToMakeWebhook } from "../lib/webhook/send";
-import type { CoreArticle } from "../lib/webhook/send";
 
 const OUTPUT_DIR = "daily_reports";
 
@@ -203,34 +202,135 @@ function buildReportUrl(date: string): string | null {
   return `https://${owner}.github.io/${repoName}/${date}/${date}.html`;
 }
 
-/** Filter private-source articles, build payload, POST to Make webhook. */
-async function pushCoreFeed(articles: ArticleInput[], date: string): Promise<void> {
-  if (privateSources.length === 0) {
-    console.log("[core-feed] no private sources configured — skipping");
-    return;
-  }
-  const privateIds = new Set(privateSources.map((s) => s.id));
-  const coreArticles: CoreArticle[] = articles
-    .filter((a) => privateIds.has(a.sourceId))
-    .map((a) => ({
-      source: a.source,
-      title: a.title,
-      url: a.url,
-      summary: a.summary ?? a.excerpt?.slice(0, 200) ?? "",
-    }));
-
-  if (coreArticles.length === 0) {
-    console.log("[core-feed] no private articles today — skipping");
+/**
+ * Build the Core Feed text message sent to Feishu.
+ *
+ * Selection rules:
+ *   技术动态 — first article per L3 source (exclude AI油管/youtube-channels)
+ *   市场行情 — trading overview text
+ *   时政 — first article (politics:world)
+ *   财经 — first article (finance:news)
+ *   娱乐观察 — soompi (韩娱), starto-news + modelpress (日娱)
+ */
+async function pushCoreFeed(
+  articles: ArticleInput[],
+  date: string,
+  trading: TradingSection | null,
+): Promise<void> {
+  const url = process.env.MAKE_WEBHOOK_URL;
+  if (!url) {
+    console.log("[core-feed] MAKE_WEBHOOK_URL not set — skipping");
     return;
   }
 
   const reportUrl = buildReportUrl(date);
-  console.log(`[core-feed] ${coreArticles.length} articles for webhook${reportUrl ? ` — ${reportUrl}` : ""}`);
+
+  // Helper: best available text for an article
+  const bestSummary = (a: ArticleInput) =>
+    a.summary ?? a.excerpt?.slice(0, 200) ?? "";
+
+  // Helper: first article from a given source, sorted by date desc
+  const firstFromSource = (sourceId: string) => {
+    const sorted = articles
+      .filter((a) => a.sourceId === sourceId)
+      .sort((a, b) => (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0));
+    return sorted[0];
+  };
+
+  // Helper: first article from all enabled sources under a (category, subcategory)
+  const firstFromSub = (cat: string, sub: string) => {
+    const ids = new Set(
+      allSources
+        .filter((s) => s.category === cat && s.subcategory === sub && s.enabled !== false)
+        .map((s) => s.id),
+    );
+    const sorted = articles
+      .filter((a) => ids.has(a.sourceId))
+      .sort((a, b) => (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0));
+    return sorted[0];
+  };
+
+  // Helper: format one article line
+  const fmtArticle = (label: string, a: ArticleInput | undefined) => {
+    if (!a || !a.title) return "";
+    const s = bestSummary(a);
+    return `【${label}】${a.title}${s ? `\n中文摘要: ${s}` : ""}`;
+  };
+
+  const sections: string[] = [];
+
+  // ── 技术动态 ──
+  const techLines: string[] = [];
+  const techSubs = [
+    { id: "github-trending", label: "GitHub Trending" },
+    { id: "tech:x-viral", label: "X 推文", useSub: true as const, cat: "tech" as const },
+    { id: "tech:ai-news", label: "AI 媒体", useSub: true as const, cat: "tech" as const },
+    { id: "v2ex-hot", label: "V2EX" },
+    { id: "linuxdo", label: "LinuxDo" },
+    { id: "hackernews", label: "Hacker News" },
+    { id: "reddit-stocks", label: "r/stocks" },
+  ];
+  for (const spec of techSubs) {
+    const a = "useSub" in spec ? firstFromSub(spec.cat, spec.id.split(":")[1]) : firstFromSource(spec.id);
+    const line = fmtArticle(spec.label, a);
+    if (line) techLines.push(line);
+  }
+  if (techLines.length > 0) {
+    sections.push(`📡 技术动态\n${techLines.join("\n")}`);
+  }
+
+  // ── 市场行情 ──
+  if (trading?.market_overview) {
+    sections.push(`📈 市场行情\n${trading.market_overview}`);
+  }
+
+  // ── 时政 ──
+  const pol = firstFromSub("politics", "world");
+  if (pol) {
+    const line = fmtArticle(pol.source, pol);
+    if (line) sections.push(`🌍 时政\n${line}`);
+  }
+
+  // ── 财经 ──
+  const fin = firstFromSub("finance", "news");
+  if (fin) {
+    const line = fmtArticle(fin.source, fin);
+    if (line) sections.push(`💹 财经\n${line}`);
+  }
+
+  // ── 娱乐观察 ──
+  const entLines: string[] = [];
+  const soompi = firstFromSource("soompi");
+  const sr = firstFromSource("starto-news");
+  const mp = firstFromSource("modelpress");
+  const sl = fmtArticle("Soompi", soompi);
+  const srl = fmtArticle("STARTO", sr);
+  const mpl = fmtArticle("Modelpress", mp);
+  if (sl) entLines.push(sl);
+  if (srl) entLines.push(srl);
+  if (mpl) entLines.push(mpl);
+  if (entLines.length > 0) {
+    sections.push(`🎬 娱乐观察\n${entLines.join("\n")}`);
+  }
+
+  const lines: string[] = [];
+  lines.push(`📅 iris daily brief ${date}`);
+  if (reportUrl) lines.push(`\n🔗 All in one: \n${reportUrl}`);
+
+  if (sections.length > 0) {
+    lines.push(`\n🗒️ core info`);
+    lines.push(sections.join("\n\n"));
+  }
+
+  lines.push(`\n🍀钱从四面八方来, you are the best💰`);
+
+  const text = lines.join("\n");
+  console.log(`[core-feed] ${lines.length - 1} lines, ${text.length} chars`);
 
   await postToMakeWebhook({
     date,
-    report_url: reportUrl ?? "(not set — configure GITHUB_REPOSITORY env)",
-    core_articles: coreArticles,
+    report_url: reportUrl ?? "(not set)",
+    text,
   });
 }
 
@@ -374,9 +474,9 @@ async function main() {
 
   console.log(`[daily] done.`);
 
-  // ── Core Feed: extract private-source articles → POST to Make webhook ──
+  // ── Core Feed: curated selection → POST to Make webhook → Feishu ──
   try {
-    await pushCoreFeed(articles, date);
+    await pushCoreFeed(articles, date, trading);
   } catch (e) {
     console.warn(`[daily] Core Feed push failed (non-fatal): ${e instanceof Error ? e.message : e}`);
   }
