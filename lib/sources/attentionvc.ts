@@ -94,10 +94,10 @@ export async function fetchAttentionVc(
   articleCategory: RawArticle["category"],
   limit = 20,
 ): Promise<RawArticle[]> {
-  // window=3d (strict 3-day window for recency) + server-side limit=30 leaves
-  // headroom for isEnglish() to drop the occasional non-English entry while
-  // still satisfying the downstream client-side cap of 20.
-  const url = `${BASE}?window=3d&category=${encodeURIComponent(apiCategory)}&lang=en&limit=30`;
+  // window=24h — 3d was returning ~1 result (API-side bug), 24h reliably
+  // returns 30. Limit=30 gives headroom for isEnglish() filtering while
+  // still satisfying the downstream cap of 20.
+  const url = `${BASE}?window=24h&category=${encodeURIComponent(apiCategory)}&lang=en&limit=30`;
   const res = await fetch(url, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; IrisNexusBot/1.0)",

@@ -181,7 +181,7 @@
     "id": "attentionvc-ai",
     "name": "X 推文 (AttentionVC)",
     "type": "api",
-    "url": "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=3d&category=ai&lang=en&limit=30",
+    "url": "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=24h&category=ai&lang=en&limit=30",
     "category": "tech",
     "subcategory": "x-viral",
     "enabled": true,
