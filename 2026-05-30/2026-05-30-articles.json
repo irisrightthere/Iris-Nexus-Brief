@@ -6,176 +6,176 @@
       "title": "harry0703/MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "excerpt": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "meta": "Python · ★ 70,524 · 🍴 10,162 · 📈 3,567 stars today",
+      "meta": "Python · ★ 70,587 · 🍴 10,167 · 📈 3,567 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "利用AI大模型一键生成高清短视频，解决内容创作者快速制作视频的需求。基于LLM技术，适合短视频创作者、营销人员快速产出内容。"
+      "summary": "利用AI大模型一键生成高清短视频，支持输入主题或文案，自动合成视频素材、配音和字幕，适合内容创作者快速制作营销视频。"
     },
     {
       "sourceId": "github-trending",
       "title": "microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "excerpt": "Python tool for converting files and office documents to Markdown.",
-      "meta": "Python · ★ 130,541 · 🍴 8,951 · 📈 1,873 stars today",
+      "meta": "Python · ★ 130,602 · 🍴 8,957 · 📈 1,873 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Python工具，将文件和Office文档（如Word、Excel、PPT）转换为Markdown格式。解决文档转换与格式统一问题，适合开发者处理文档内容提取与迁移。"
+      "summary": "Python工具，将Word、Excel、PPT等办公文档转换为Markdown格式，方便文档迁移和AI训练数据处理。"
     },
     {
       "sourceId": "github-trending",
       "title": "EveryInc/compound-engineering-plugin",
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "excerpt": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-      "meta": "TypeScript · ★ 18,236 · 🍴 1,384 · 📈 353 stars today",
+      "meta": "TypeScript · ★ 18,241 · 🍴 1,384 · 📈 353 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "官方Compound Engineering插件，支持Claude Code、Codex、Cursor等AI编码工具。提供复合工程能力，适合开发者扩展AI助手的功能边界。"
+      "summary": "Compound Engineering官方插件，为Claude Code、Codex、Cursor等AI编程工具提供复合工程能力，优化代码生成与项目管理。"
     },
     {
       "sourceId": "github-trending",
       "title": "twentyhq/twenty",
       "url": "https://github.com/twentyhq/twenty",
       "excerpt": "The open alternative to Salesforce, designed for AI.",
-      "meta": "TypeScript · ★ 48,525 · 🍴 6,884 · 📈 578 stars today",
+      "meta": "TypeScript · ★ 48,537 · 🍴 6,885 · 📈 578 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Salesforce的开源替代方案，专为AI时代设计，提供灵活的CRM系统。企业可用其管理客户关系，降低授权成本，并集成AI能力。"
+      "summary": "开源CRM平台，专为AI时代设计，作为Salesforce的替代方案，支持智能客户关系管理和自定义工作流。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/claude-code",
       "url": "https://github.com/anthropics/claude-code",
       "excerpt": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "meta": "Python · ★ 128,037 · 🍴 20,929 · 📈 395 stars today",
+      "meta": "Python · ★ 128,055 · 🍴 20,928 · 📈 395 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "终端里的AI编码代理，理解整个代码库，可执行例行任务、解释复杂代码、处理Git工作流。开发者通过自然语言指令加速日常开发流程。"
+      "summary": "Anthropic推出的终端代理编程工具，理解代码库，可自动化例行任务、解释复杂代码和处理git工作流，提升开发效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "excerpt": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "meta": "Shell · ★ 28,489 · 🍴 2,109 · 📈 2,062 stars today",
+      "meta": "Shell · ★ 28,521 · 🍴 2,114 · 📈 2,062 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "给AI注入“品味”，阻止生成无聊、泛泛的内容。通过skill文件调整输出风格，适合追求高质量AI写作或内容创作的用户。"
+      "summary": "为AI注入“品味”，通过技能文件阻止生成乏味、通用的内容，提升输出质量和原创性，适合追求高质量生成内容的创作者。"
     },
     {
       "sourceId": "github-trending",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
       "excerpt": "Cursor plugin specification and official plugins",
-      "meta": "TypeScript · ★ 1,346 · 🍴 114 · 📈 134 stars today",
+      "meta": "TypeScript · ★ 1,347 · 🍴 114 · 📈 134 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Cursor编辑器的插件规范与官方插件集合。开发者可依据规范构建扩展，增强Cursor的代码编辑、AI辅助等功能。"
+      "summary": "Cursor编辑器的插件规范与官方插件集合，定义开发标准并提供扩展能力，帮助用户定制编辑器功能。"
     },
     {
       "sourceId": "github-trending",
       "title": "run-llama/liteparse",
       "url": "https://github.com/run-llama/liteparse",
       "excerpt": "A fast, helpful, and open-source document parser",
-      "meta": "Rust · ★ 7,511 · 🍴 455 · 📈 701 stars today",
+      "meta": "Rust · ★ 7,527 · 🍴 456 · 📈 701 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "快速、开源的文档解析器，支持PDF、Office等多种格式。解决传统解析库速度慢、依赖重的问题，适合需要批量提取文档内容的场景。"
+      "summary": "快速、开源的多格式文档解析器，支持从PDF、Office等文件中提取结构化数据，适用于文档处理和信息抽取场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "galilai-group/stable-worldmodel",
       "url": "https://github.com/galilai-group/stable-worldmodel",
       "excerpt": "A platform for reproducible world model research and evaluation",
-      "meta": "Python · ★ 1,313 · 🍴 155 · 📈 362 stars today",
+      "meta": "Python · ★ 1,315 · 🍴 155 · 📈 362 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "可复现的世界模型研究与评估平台，提供标准化的训练和测试环境。面向AI研究人员，降低世界模型实验的复现难度。"
+      "summary": "可复现世界模型研究与评估平台，提供标准化工具训练和测试世界模型，面向AI研究人员和工程师。"
     },
     {
       "sourceId": "github-trending",
       "title": "byoungd/English-level-up-tips",
       "url": "https://github.com/byoungd/English-level-up-tips",
       "excerpt": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
-      "meta": "★ 49,794 · 🍴 5,210 · 📈 1,566 stars today",
+      "meta": "★ 49,809 · 🍴 5,210 · 📈 1,566 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一份系统性的英语学习进阶指南，涵盖方法、工具和资源。面向希望高效提升英语水平的学习者，内容贴近实际应用。"
+      "summary": "进阶英语学习指南，涵盖词汇、语法、听力和阅读等学习方法，适合自学者系统性提升英语水平。"
     },
     {
       "sourceId": "github-trending",
       "title": "Biohub/esm",
       "url": "https://github.com/Biohub/esm",
       "excerpt": "",
-      "meta": "Jupyter Notebook · ★ 2,584 · 🍴 314 · 📈 52 stars today",
+      "meta": "Jupyter Notebook · ★ 2,586 · 🍴 314 · 📈 52 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Biohub开源的ESM项目，提供蛋白质语言模型相关工具与资源。适用于生物信息学领域的研究人员，用于蛋白质序列建模与分析。"
+      "summary": "基于深度学习的蛋白质语言模型，用于蛋白质结构预测、功能注释和序列生成，是生物信息学研究的重要工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "Crosstalk-Solutions/project-nomad",
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "excerpt": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "meta": "TypeScript · ★ 27,067 · 🍴 2,659 · 📈 318 stars today",
+      "meta": "TypeScript · ★ 27,076 · 🍴 2,659 · 📈 318 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "自包含的离线生存计算机，内置关键工具、知识和AI。无需网络即可提供信息与决策支持，适合户外探险、应急救灾等场景。"
+      "summary": "自包含离线生存计算机，集成必备工具、知识和AI助手，无需网络即可在应急、野外探险等场景下提供信息支持。"
     },
     {
       "sourceId": "github-trending",
       "title": "DigitalPlatDev/FreeDomain",
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
       "excerpt": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "meta": "HTML · ★ 172,046 · 🍴 3,362 · 📈 1,313 stars today",
+      "meta": "HTML · ★ 172,064 · 🍴 3,363 · 📈 1,313 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "提供免费域名服务，降低个人或小团队建站成本。简单易用，适合开发者、博主快速获取域名进行测试或项目发布。"
+      "summary": "免费域名服务，让个人开发者和小项目无需付费即可获得域名，简化网站上线流程。"
     },
     {
       "sourceId": "github-trending",
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "excerpt": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "meta": "JavaScript · ★ 198,771 · 🍴 30,542 · 📈 1,406 stars today",
+      "meta": "JavaScript · ★ 198,784 · 🍴 30,544 · 📈 1,406 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Agent harness性能优化系统，整合技能、直觉、记忆、安全等功能。专为Claude Code、Codex等AI编码工具设计，提升代理执行效率。"
+      "summary": "Agent性能优化系统，为Claude Code、Codex等AI编程工具提供技能、记忆、安全等增强能力，提升代理效率和可靠性。"
     },
     {
       "sourceId": "github-trending",
       "title": "hardikpandya/stop-slop",
       "url": "https://github.com/hardikpandya/stop-slop",
       "excerpt": "A skill file for removing AI tells from prose",
-      "meta": "★ 7,123 · 🍴 499 · 📈 617 stars today",
+      "meta": "★ 7,130 · 🍴 501 · 📈 617 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "用于从文本中去除AI痕迹的skill文件，消除生硬、模板化的表达。适合写作者在AI辅助后快速润色，使内容更自然。"
+      "summary": "用于从文本中移除AI生成痕迹（如冗余词汇、模式化表达）的技能文件，使内容更自然，适合润色AI输出。"
     },
     {
       "sourceId": "github-trending",
       "title": "DataTalksClub/data-engineering-zoomcamp",
       "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
       "excerpt": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
-      "meta": "Jupyter Notebook · ★ 41,633 · 🍴 8,279 · 📈 160 stars today",
+      "meta": "Jupyter Notebook · ★ 41,642 · 🍴 8,281 · 📈 160 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "免费为期9周的数据工程课程，内容涵盖生产级数据管道构建。适合数据工程师、分析师系统学习ETL、仓储、调度等核心技术。"
+      "summary": "免费9周数据工程训练营，教授构建生产级数据管道的技能，涵盖批处理、流处理、数据湖等，适合想入门数据工程的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "codecrafters-io/build-your-own-x",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
       "excerpt": "Master programming by recreating your favorite technologies from scratch.",
-      "meta": "Markdown · ★ 507,583 · 🍴 48,205 · 📈 866 stars today",
+      "meta": "Markdown · ★ 507,594 · 🍴 48,207 · 📈 866 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "通过从头重建Git、Redis、Docker等经典技术来练习编程。适合中高级开发者深入理解底层原理，提升工程能力。"
+      "summary": "通过从零重建常用技术（如数据库、Git等）来深入理解原理，提供教程和代码模板，适合追求系统编程能力的开发者。"
     },
     {
       "sourceId": "v2ex-hot",
       "title": "AI 把我调教了，从 0 消费，到月消费 1200 元。",
       "url": "https://www.v2ex.com/t/1216578",
-      "excerpt": "43 回复 · 程序员 节点",
+      "excerpt": "44 回复 · 程序员 节点",
       "publishedAt": "2026-05-29T14:37:35.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -227,6 +227,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "穿越，带着 Codex 回到互联网的黄金时代",
+      "url": "https://www.v2ex.com/t/1216640",
+      "excerpt": "12 回复 · 程序员 节点",
+      "publishedAt": "2026-05-30T03:43:28.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "Pumpkin - 使用 Rust 开发的高性能 Minecraft 服务端",
       "url": "https://www.v2ex.com/t/1193208",
       "excerpt": "12 回复 · Rust 节点",
@@ -245,15 +254,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "穿越，带着 Codex 回到互联网的黄金时代",
-      "url": "https://www.v2ex.com/t/1216640",
-      "excerpt": "11 回复 · 程序员 节点",
-      "publishedAt": "2026-05-30T03:43:28.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "分享 tmux 快捷方式",
       "url": "https://www.v2ex.com/t/1213636",
       "excerpt": "11 回复 · Linux 节点",
@@ -267,6 +267,15 @@
       "url": "https://www.v2ex.com/t/1216645",
       "excerpt": "9 回复 · 程序员 节点",
       "publishedAt": "2026-05-30T04:31:22.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "关于 iPhone air 国行 esim 卡的一个想法",
+      "url": "https://www.v2ex.com/t/1216626",
+      "excerpt": "8 回复 · Apple 节点",
+      "publishedAt": "2026-05-30T02:49:38.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -317,15 +326,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "关于 iPhone air 国行 esim 卡的一个想法",
-      "url": "https://www.v2ex.com/t/1216626",
-      "excerpt": "6 回复 · Apple 节点",
-      "publishedAt": "2026-05-30T02:49:38.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "计划外，换机请教🙏",
       "url": "https://www.v2ex.com/t/1216396",
       "excerpt": "6 回复 · Apple 节点",
@@ -348,6 +348,15 @@
       "url": "https://www.v2ex.com/t/1193799",
       "excerpt": "6 回复 · Rust 节点",
       "publishedAt": "2026-02-24T09:26:47.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "彻底放弃本地部署, 转向购买 api,请问如何土区充值购买 chatgpt",
+      "url": "https://www.v2ex.com/t/1216661",
+      "excerpt": "5 回复 · 程序员 节点",
+      "publishedAt": "2026-05-30T06:39:14.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -380,19 +389,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "北京急需 2-3 名有经验的 Java 程序员",
-      "url": "https://www.v2ex.com/t/1216646",
+      "title": "Antigravity 2.0 中文汉化注入工具",
+      "url": "https://www.v2ex.com/t/1216485",
       "excerpt": "4 回复 · 程序员 节点",
-      "publishedAt": "2026-05-30T04:41:54.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "wgx 一个以性能优先 把 wireguard 网络转成 socks5 代理的工具",
-      "url": "https://www.v2ex.com/t/1214629",
-      "excerpt": "4 回复 · Linux 节点",
-      "publishedAt": "2026-05-22T02:36:23.000Z",
+      "publishedAt": "2026-05-29T07:43:37.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -400,7 +400,7 @@
       "sourceId": "linuxdo",
       "title": "大手发力了，耿同学被永久限流，正义之路还有多远？",
       "url": "https://linux.do/t/topic/2270493",
-      "excerpt": "刚刚看到一个震惊的消息，也不知道该说什么了 这让我想起了鲁迅先生的一首诗： 运交华盖欲何求，未敢翻身已碰头。 142 个帖子 - 98 位参与者 阅读完整话题",
+      "excerpt": "刚刚看到一个震惊的消息，也不知道该说什么了 这让我想起了鲁迅先生的一首诗： 运交华盖欲何求，未敢翻身已碰头。 143 个帖子 - 99 位参与者 阅读完整话题",
       "publishedAt": "2026-05-29T14:06:59.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -425,6 +425,15 @@
     },
     {
       "sourceId": "linuxdo",
+      "title": "被小米MIMO反薅了六千多！哭了，求助",
+      "url": "https://linux.do/t/topic/2273228",
+      "excerpt": "之前领的小米MIMO max今天最后一天到期，看到佬友们都在0.01续费时间，我也准备操作一波。我点击了自动续费后跳转到主页，然后支付时选择了小米钱包，但是今天好像没有77折的活动了，要付十几块，我想十几块付也就付了。然后我跳转到小米钱包绑定银行卡，银行卡绑定时设置了一次“小米钱包”支付密码，一次重复输入密码。 按年续费MAX，而且按年续费和按月续费的页面几乎一模一样。我瞬间心就凉了，然后我在官网找退款渠道，他说明里写充值金额可退款，token plan不支持退款，我想你这不纯纯霸王条款吗，我都没用你的产品你凭什么不能退款。 107 个帖子 - 94 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-30T05:44:49.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
       "title": "【干草铺公益站】临时运维公告",
       "url": "https://linux.do/t/topic/2269476",
       "excerpt": "各位佬，今天蹬的有点狠了，我要优化一下服务，预计今天 19:00 服务暂停运维，明天上午 10 点再开放，佬们先去蹬冰佬吧，各位周末愉快～ 15 个帖子 - 15 位参与者 阅读完整话题",
@@ -443,10 +452,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "能在站里挂富可敌国吗(foxcode）",
-      "url": "https://linux.do/t/topic/2268145",
-      "excerpt": "之前买了某富可敌国的中转站api（对，就是臭名昭著的那家），后来经常不稳定+涨价于是便申请退款。结果嘴上说的好好的，实际上给我拖了快一个月都不退，我在群里说了两句就给我踢出群聊+拉黑一条龙处理。实在气不过，能在站里挂出来吗 既然佬友们说可以那我就挂了，就是经典动物园狐狸foxcode那家。其实当时也没充多少，有个朋友大肆推广，于是我就充了1亿额度的套餐。稍微用了一点（大概1/20），但是确实不好用于是就放那了。 后来5月份想起来于是就问问能不能退款。 然后把相关信息发给他以后就一直装死。 于是就在群里说了两句，就喜提踢出拉黑一条龙 就在刚刚我发帖以后他又给我加回来了，我也不知道是什么意思，就在",
-      "publishedAt": "2026-05-29T07:36:46.000Z",
+      "title": "指纹浏览器全方案对比：10 款商业 + 7 款开源",
+      "url": "https://linux.do/t/topic/2271548",
+      "excerpt": "本文由 AI 辅助整理，主要数据来源为 LINUX DO 社区 完整文档： docs.20020519.xyz 指纹浏览器全方案对比（2026.05） | Hanchen's Wiki 数据来源：LINUX DO 社区 30+ 帖子、350+ 楼层逐楼阅读，2026-05-29 整理 一、什么是指纹浏览器 指纹浏览... 欢迎补充纠正 主要数据来源： 指纹浏览器评测：指纹浏览器评测！【更新virtualbrowser开源浏览器测评】 AdsPower 遭到攻击：指纹浏览器(AdsPower)遭到攻击 加密钱包插件被感染会窃取用户助记词 AdsPower 加密钱包被入侵：Adspower指纹浏览",
+      "publishedAt": "2026-05-29T17:27:43.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -488,28 +497,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "指纹浏览器全方案对比：10 款商业 + 7 款开源",
-      "url": "https://linux.do/t/topic/2271548",
-      "excerpt": "本文由 AI 辅助整理，主要数据来源为 LINUX DO 社区 完整文档： docs.20020519.xyz 指纹浏览器全方案对比（2026.05） | Hanchen's Wiki 数据来源：LINUX DO 社区 30+ 帖子、350+ 楼层逐楼阅读，2026-05-29 整理 一、什么是指纹浏览器 指纹浏览... 欢迎补充纠正 主要数据来源： 指纹浏览器评测：指纹浏览器评测！【更新virtualbrowser开源浏览器测评】 AdsPower 遭到攻击：指纹浏览器(AdsPower)遭到攻击 加密钱包插件被感染会窃取用户助记词 AdsPower 加密钱包被入侵：Adspower指纹浏览",
-      "publishedAt": "2026-05-29T17:27:43.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
       "title": "【CHY公益站】站点恢复！",
       "url": "https://linux.do/t/topic/2271823",
       "excerpt": "捣鼓了一会，CHY公益站终于恢复啦！ 不过数据还是没了，之前买过注册码的佬友可以等一下消息，我准备做个补偿站，凭购买的注册码获取新的可用注册码+2天不限额调用 目前模型正在有条不紊的恢复，想要用GPT的佬友得等等，因为先恢复的是国模 36 个帖子 - 33 位参与者 阅读完整话题",
       "publishedAt": "2026-05-29T22:19:10.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "被小米MIMO反薅了六千多！哭了，求助",
-      "url": "https://linux.do/t/topic/2273228",
-      "excerpt": "之前领的小米MIMO max今天最后一天到期，看到佬友们都在0.01续费时间，我也准备操作一波。我点击了自动续费后跳转到主页，然后支付时选择了小米钱包，但是今天好像没有77折的活动了，要付十几块，我想十几块付也就付了。然后我跳转到小米钱包绑定银行卡，银行卡绑定时设置了一次“小米钱包”支付密码，一次重复输入密码。 按年续费MAX，而且按年续费和按月续费的页面几乎一模一样。我瞬间心就凉了，然后我在官网找退款渠道，他说明里写充值金额可退款，token plan不支持退款，我想你这不纯纯霸王条款吗，我都没用你的产品你凭什么不能退款。 90 个帖子 - 80 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-30T05:44:49.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -524,6 +515,15 @@
     },
     {
       "sourceId": "linuxdo",
+      "title": "无偿提供就业和职场相关知识咨询",
+      "url": "https://linux.do/t/topic/2269299",
+      "excerpt": "【声明】： 1、无广告、无推广，不提供论坛以外的咨询方式； 2、本咨询的回答纯属根据自己的经验和经历出发，不能确保100%正确和有效； 3、本帖纯属为了丰富论坛内容，请勿在本帖打广告！ 4、本帖受NullUser大佬启发 本人在大型企业（含世界五百强）从业做人力资源10年以上，可以提供就业选择、职场发展疑惑、心态按摩等咨询。大家可以相互交流，相互吸收能量。我能解答的一定尽我所能回答。 45 个帖子 - 18 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-29T10:03:11.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
       "title": "关于公益站的小小回复。",
       "url": "https://linux.do/t/topic/2269357",
       "excerpt": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 / 否 我的帖子已经打上 公益推广 标签： 是 / 否 我的项目属于个人项目，与公司或商业机构无关： 是 / 否 我的项目不存在QQ、TG等群组引流： 是 / 否 我的项目不存在非运营必要的网站引流： 是 / 否 我的项目不存在为他人推广、AFF： 是 / 否 我的项目无关联的商业项目： 是 / 否 我的站点存在登录，并已接入 LINUX DO Connect： 是 / 否 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 / 否 以上选择我承诺是永久有效的",
@@ -533,37 +533,19 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "【开源自荐】nihaixia-skills：帮老爸蒸馏了个倪海厦skills！通过蒸馏倪师的中医课，获得一个养生学中医的skills",
-      "url": "https://linux.do/t/topic/2267994",
-      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 亲爱的佬友们，最近看老爸在学习倪海厦的中医课，试着帮他蒸馏了一个，试用以后给我的反馈非常好！所以开源出来分享给大家，赛博养生~ 仓库地址： GitHub - JuneYaooo/nihaixia: 倪海厦中医课程资料的",
-      "publishedAt": "2026-05-29T07:14:13.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "无偿提供就业和职场相关知识咨询",
-      "url": "https://linux.do/t/topic/2269299",
-      "excerpt": "【声明】： 1、无广告、无推广，不提供论坛以外的咨询方式； 2、本咨询的回答纯属根据自己的经验和经历出发，不能确保100%正确和有效； 3、本帖纯属为了丰富论坛内容，请勿在本帖打广告！ 4、本帖受NullUser大佬启发 本人在大型企业（含世界五百强）从业做人力资源10年以上，可以提供就业选择、职场发展疑惑、心态按摩等咨询。大家可以相互交流，相互吸收能量。我能解答的一定尽我所能回答。 44 个帖子 - 17 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-29T10:03:11.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "【AI小说】多余的token用不完怎么办? 当然是拿来写小说了",
-      "url": "https://linux.do/t/topic/2267839",
-      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 简介 这是一个多Agent实现的全自动AI生成小说的cli工具 项目地址 github.com GitHub - voocel/ainovel-cli: ✨多agent实现全自动AI小说生成 ✨多agent实现全自动A",
-      "publishedAt": "2026-05-29T06:53:26.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
       "title": "公益站又活了一天，真不容易啊！😅",
       "url": "https://linux.do/t/topic/2272417",
       "excerpt": "第一次掉登录，大多数都不用手机号二验，第二次掉登录基本就100%必要了。 目前养号成本也过于爆炸了，我就不补新号了，老号掉了会自动重登，看还能活多久了。 目前的策略就是能活多久活多久吧，挂掉之后会安排LDC退款。目前还是尽量保证购买的订阅能用完。 不过聊天生图image2站依然活着，二验的账号网页聊天还是能继续用的。 【Picpi Chat 工艺站】支持聊天和 image2，文生图，图生图，支持上传图片，支持生成文档，图文并茂，正式上线！ 福利羊毛 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 ",
       "publishedAt": "2026-05-30T02:39:04.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "2W阅读量有点难搞啊，各位佬都是怎么上去的？",
+      "url": "https://linux.do/t/topic/2269098",
+      "excerpt": "浏览了很多帖子和评论发现阅读量都没变，各位佬有遇到过这种情况吗？ 还是说这个也有焚诀？ 105 个帖子 - 89 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-29T09:27:29.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -605,10 +587,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "2W阅读量有点难搞啊，各位佬都是怎么上去的？",
-      "url": "https://linux.do/t/topic/2269098",
-      "excerpt": "浏览了很多帖子和评论发现阅读量都没变，各位佬有遇到过这种情况吗？ 还是说这个也有焚诀？ 105 个帖子 - 89 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-29T09:27:29.000Z",
+      "title": "关于小微企业自建知识库的疑问",
+      "url": "https://linux.do/t/topic/2271245",
+      "excerpt": "想请教一下各位佬：工业生产企业内部知识库 / RAG 系统，应该怎么选型和落地？ 目前我在尝试给自己公司搭建一套内部知识库，希望把过去积累的各种业务资料、产品资料、型号参数、性能数据、适用场景、报价/询价记录、历史项目经验等内容，更系统地沉淀下来，方便后续检索和复用。 核心目标主要有两个： 第一个是提高业务资料的检索效率 我们公司本身是做工业生产相关业务的，所以数据特点大概是： 目前我比较纠结的是技术方向和工具选型。 我看了一些传统RAG方案，比如Dify这类，也看到不少反馈说实际落地后查询准确率并不稳定，尤其是遇到工业产品这种参数型、型号型、强业务语境的数据时，可能会出现召回不准、答非所问、",
+      "publishedAt": "2026-05-29T16:28:47.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -622,6 +604,24 @@
       "source": "LinuxDo"
     },
     {
+      "sourceId": "linuxdo",
+      "title": "导师派活求助",
+      "url": "https://linux.do/t/topic/2270512",
+      "excerpt": "佬们好，我是一名即将大三的双非学生，来了L站之后进步特别大，尤其是在Java方面和AI方面的，学到了好多东西，大二上学期我都不敢想自己现在能知道这么多东西，现在想找实习了，我想着这个暑假找一个小厂的实习就行，我想知道一下公司里面这个工作是如何进行的，但目前有个问题困扰我很久了从学会AI编程之后就开始了，我想给大家说一下，想问问大家的意见以及接下来该怎么做 老师您要是也在L站，要是定位到我了，请不要对我失望，我平常还有好多课还要学新技术，您可以少给我派点活吗，求求您了，我就是一个在阴暗里爬行的老鼠，在平常的生活中苟延残喘活着，老师我每天晚上都要吃一些药才能睡觉，您看，这是我的药单 老师我真的很想",
+      "publishedAt": "2026-05-29T14:13:31.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "AI的泡沫谁去戳破？睡前杂谈",
+      "url": "https://linux.do/t/topic/2271483",
+      "excerpt": "AI就是赛博界的“外卖大战”吗？ 我最近看到了polymarket上一个很有意思的预测：AI bubble burst in 2026？ 投Yes的资金竟然有28% 结合平时一些AI上的实际应用，我一直在思考一个问题： AI提高了我的生产效率吗？ 毫无疑问，一些本来要几个月才能干完的事儿，Claude一晚上就给我干完了。 AI为我创造价值了吗？ 暂时来说，并没有。不光我没有，绝大多数人都没有。 把AI包装成服务，或者简单把Token做成一笔买卖，这些行当或许能捞上一笔。 只是，我们真的能借助它额外创造什么价值吗？ 绝大多数人，只是把AI当成赛博牛马，干那些费神费力的苦力活。 每天就是想着怎么让",
+      "publishedAt": "2026-05-29T17:07:28.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
       "sourceId": "openai-news",
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "url": "https://openai.com/index/boston-childrens-hospital",
@@ -629,7 +629,7 @@
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "波士顿儿童医院利用OpenAI技术改善患者护理、减轻运营负担，并协助诊断40余种罕见病例。"
+      "summary": "波士顿儿童医院利用OpenAI人工智能技术改善患者护理并减轻运营负担，已成功帮助诊断40多种罕见病病例。"
     },
     {
       "sourceId": "openai-news",
@@ -639,7 +639,7 @@
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Braintrust工程师使用Codex结合GPT-5.5，快速将客户需求转化为代码，加速实验与开发。"
+      "summary": "Braintrust借助OpenAI的Codex及GPT-5.5，将客户需求快速转化为代码，显著提升实验和编码效率。"
     },
     {
       "sourceId": "openai-news",
@@ -649,7 +649,7 @@
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI推出Rosalind Biodefense，扩大经审查的开发者和美国政府合作伙伴对GPT-Rosalind的信任访问，推进生物防御、公共卫生和大流行病防范。"
+      "summary": "OpenAI推出Rosalind Biodefense计划，向经过审查的开发者及美国政府合作伙伴开放GPT-Rosalind，旨在利用前沿AI加强生物防御、公共卫生和疫情防范。"
     },
     {
       "sourceId": "openai-news",
@@ -659,7 +659,7 @@
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI发布第三方AI评估指南，涵盖前沿系统模型能力、安全措施和有效性的评估方法。"
+      "summary": "OpenAI发布第三方AI评估指南，详细阐述如何评估前沿系统的能力、安全防护和有效性，旨在建立可信评估框架。"
     },
     {
       "sourceId": "openai-news",
@@ -669,7 +669,7 @@
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Endava利用Codex构建智能体组织，将软件交付加速，需求分析从数周缩短至数小时。"
+      "summary": "Endava利用OpenAI Codex构建代理型组织，将需求分析时间从数周缩短至数小时，加速软件交付。"
     },
     {
       "sourceId": "openai-news",
@@ -1174,7 +1174,7 @@
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face博客发布PyTorch系列教程第一部分：torch.profiler初学者指南。"
+      "summary": "Hugging Face博客发布PyTorch性能分析系列首篇：torch.profiler初学者指南，介绍基本使用方法。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1445,7 +1445,7 @@
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI报道：Anthropic发布Opus 4.8，估值达9650亿美元；微软推出编程模型。"
+      "summary": "TLDR AI简报：Anthropic推出Claude Opus 4.8，估值达965B美元；微软发布新的编程模型。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1626,7 +1626,7 @@
       "publishedAt": "2026-05-29T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "Anthropic推出Claude Opus 4.8，改进协作和编码行为，但文档解析出现回归；平台更新支持对话中系统指令。"
+      "summary": "Anthropic推出Claude Opus 4.8，改进有限且基准结果参差：合作与编码能力提升，文档解析出现退化；平台新增对话中系统指令功能。"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1636,7 +1636,7 @@
       "publishedAt": "2026-05-28T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "Anthropic完成650亿美元H轮融资，投后估值9650亿美元，领投方包括Altimeter、Dragoneer、Greenoaks和Sequoia，年化收入超470亿美元；同时发布Claude Opus 4.8。"
+      "summary": "Anthropic宣布650亿美元H轮融资，投后估值9650亿美元，Altimeter等领投，年化收入超470亿美元；同步发布Claude Opus 4.8，改进判断力。"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1898,7 +1898,7 @@
       "publishedAt": "2026-05-30T01:57:15.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space报道当日AI新闻较少，重点介绍新的AIE WF（AI工程工作流）专注领域。"
+      "summary": "当日AI新闻较少，重点报道了创始人与前期部署工程师的新关注焦点，以及AIE WF的最新动态。"
     },
     {
       "sourceId": "latent-space",
@@ -1908,7 +1908,7 @@
       "publishedAt": "2026-05-29T02:07:24.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Anthropic完成9650亿美元H轮融资，发布Opus 4.8和Dynamic Workflows/Ultracode。"
+      "summary": "Anthropic完成965B美元H轮融资，同时发布Opus 4.8及Dynamic Workflows/ultracode，标志性进展。"
     },
     {
       "sourceId": "latent-space",
@@ -1918,7 +1918,7 @@
       "publishedAt": "2026-05-28T18:41:24.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Cognition的Walden Yan和OpenInspect的Cole Murray讨论异步智能体时代，涉及80%的Devin提交、Spec-to-PR工作流、完整虚拟机、智能体记忆及产品经理发布代码。"
+      "summary": "Cognition的Walden Yan与OpenInspect的Cole Murray讨论异步代理时代，涵盖80% Devin提交率、Spec-to-PR工作流、完整虚拟机及代理记忆等。"
     },
     {
       "sourceId": "latent-space",
@@ -1928,7 +1928,7 @@
       "publishedAt": "2026-05-28T07:26:09.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Cognition完成260亿美元D轮融资（其中10亿美元），称编程市场总可触达市场无限。"
+      "summary": "Cognition完成10亿美元D轮融资，投后估值260亿美元，编程市场被视为具有无限总可寻址市场（TAM）。"
     },
     {
       "sourceId": "latent-space",
@@ -2082,7 +2082,7 @@
       "publishedAt": "2026-05-29T10:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "教宗利奥十四世发布关于人工智能的通谕《Magnifica Humanitas》，强调「技术从不中立」，呼吁所有人勇敢面对AI时刻。"
+      "summary": "教皇利奥十四世发布人工智能通谕《Magnifica Humanitas》，强调“技术从来不是中立的”，呼吁技术专家与政策制定者以勇气应对AI时代。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2092,7 +2092,7 @@
       "publishedAt": "2026-05-28T09:51:11.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "AI炒作指数报道：毕业季AI遭遇嘘声。前谷歌CEO Eric Schmidt在亚利桑那大学演讲时，呼吁毕业生塑造AI，却遭一片嘘声。"
+      "summary": "AI炒作指数显示：2026届毕业生对AI热情不高，前谷歌CEO Eric Schmidt在亚利桑那大学演讲时遭嘘声，反映公众对AI的怀疑态度。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2175,7 +2175,7 @@
       "category": "tech",
       "meta": "@AskVenice · 66.9K 粉丝 · 6.9M 阅 · 1.0K 赞 · 123 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Venice平台推出「代理式聊天」功能，其默认聊天机器人能自动将复杂任务分解为步骤，并选择合适工具完成文本、图像、视频、搜索等多种输出。"
+      "summary": "Venice 平台推出智能体聊天功能，可自动将复杂任务分解为步骤、选择合适工具，并在单一对话中整合文本、图像、视频、搜索等多种结果。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2186,7 +2186,7 @@
       "category": "tech",
       "meta": "@sairahul1 · 106.0K 粉丝 · 6.5M 阅 · 2.4K 赞 · 418 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文整理20个2026年必懂AI概念（如Transformer、嵌入、RAG、代理、RLHF等），指出多数人使用AI却不理解原理，旨在填补认知空白。"
+      "summary": "列出 2026 年必须理解的 20 个 AI 概念，如 transformer、嵌入、RAG、智能体、RLHF 等。指出多数人虽使用 AI 但并不真正理解这些术语。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2197,7 +2197,7 @@
       "category": "tech",
       "meta": "@sairahul1 · 106.0K 粉丝 · 2.8M 阅 · 1.5K 赞 · 203 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍一种名为「Claude Code」的软件工厂构建方法，声称通过7个AI代理系统可在睡眠时自动交付功能，强调与普通AI编码的区别在于自动化程度大幅提升。"
+      "summary": "介绍如何用 Claude Code 构建软件工厂，通过 7 个智能体系统自动开发功能，用户可在睡眠时完成功能发布。强调从“只是打字更快”到真正利用 AI 的转变。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2208,7 +2208,7 @@
       "category": "tech",
       "meta": "@ridark_eth · 2.0K 粉丝 · 2.6M 阅 · 1.3K 赞 · 168 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍一种2026年可扩展的「内容工厂」工作流：以Claude为大脑，Python为神经系统，Premiere Pro为生产主体，月收入可达3.7万美元。"
+      "summary": "终极指南：结合 Claude、Premiere Pro 和 YouTube，构建可扩展的内容工厂，每月收入 37,000 美元。Claude 作为大脑，Python 作为神经系统，Premiere Pro 作为生产主体。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2217,9 +2217,9 @@
       "excerpt": "Most people download Claude and start typing questions immediately. Save this :) They treat it like a chatbot. They get decent answers. They think that is all it does. Meanwhile a small group of users",
       "publishedAt": "2026-05-21T09:31:01.000Z",
       "category": "tech",
-      "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.9M 阅 · 751 赞 · 93 转",
+      "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.9M 阅 · 750 赞 · 93 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍Claude的40个不常用功能，指出多数用户仅将其当作聊天机器人，而少数用户通过深度设置可大幅提升效率。"
+      "summary": "介绍如何真正设置 Claude，揭示大多数用户从未使用过的 40 个功能。指出多数人仅将 Claude 当作聊天机器人，而少数用户能发挥其更大潜力。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2230,7 +2230,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.8M 阅 · 846 赞 · 118 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供一份完整教程，教用户如何使用Claude构建第一个AI代理团队，包括构建、部署等步骤，旨在解决实际落地中的障碍。"
+      "summary": "提供完整课程，指导如何使用 Claude 构建第一个 AI 智能体团队。指出许多教程假设用户已具备基础，实际执行时会遇到困难。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2241,7 +2241,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.6M 阅 · 716 赞 · 114 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供完整教程，教用户构建公司愿意支付1万美元以上的AI代理，并指出一年前构建代理需要大量编码，如今门槛已大幅降低。"
+      "summary": "完整课程：构建第一个公司愿意支付 10,000 美元以上的 AI 智能体。指出当前构建智能体已不再需要大量编码，一年前的情况已经改变。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2252,7 +2252,7 @@
       "category": "tech",
       "meta": "@sairahul1 · 106.0K 粉丝 · 908.0K 阅 · 506 赞 · 66 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文列举20种开发者未知的Claude技能，强调提示词（prompt）是临时性的，而通过技能可持久化并复用，避免每次重复编写。"
+      "summary": "列出大多数构建者不知道的 20 个 Claude 技能。强调提示是一次性的，每次会话结束即消失，导致效率低下。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2263,7 +2263,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 874.5K 阅 · 506 赞 · 74 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供完整教程，教用户构建Claude Cowork插件并创建自己的AI员工，指出高级用法远不止文件整理，可实现深度自动化。"
+      "summary": "完整课程：构建 Claude Cowork 插件并创建自己的 AI 员工。指出多数人仅将其视为智能文件管理器，而高级版本可实现更强大的自动化。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2274,7 +2274,7 @@
       "category": "tech",
       "meta": "@VadimStrizheus · 31.3K 粉丝 · 810.7K 阅 · 525 赞 · 28 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍一个名为「Hermes Agent」的代理，每月通过自动剪辑页面赚取1万美元，并可实现剪辑、字幕、排程、发布全流程自动化。"
+      "summary": "作者构建了一个 Hermes 智能体，通过自动剪辑页面每月赚取 1 万美元。当前剪辑者月收入可达 100 万美元，该智能体可在睡眠时自动完成剪辑、字幕、排程和发布。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2285,7 +2285,7 @@
       "category": "tech",
       "meta": "@AnatoliKopadze · 41.2K 粉丝 · 732.9K 阅 · 505 赞 · 89 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供18步指南，解锁Claude的全部潜力，指出多数用户仅使用了Claude 10%的功能，通过本指南可掌握剩余90%。"
+      "summary": "提供 18 个步骤，解锁 Claude 100% 的潜力。指出大多数人仅使用了 Claude 10% 的功能，并非因为复杂，而是因为无人展示其余 90% 的能力。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2296,7 +2296,7 @@
       "category": "tech",
       "meta": "@zodchiii · 18.2K 粉丝 · 663.6K 阅 · 508 赞 · 43 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍10个未公开的Claude Code代理，可并行运行：审查PR、写测试、捉bug、分类收件箱、复用内容等，大幅提升效率。"
+      "summary": "介绍 10 个未被提及的 Claude Code 智能体，可并行运行以审查 PR、编写测试、查找 Bug、分类收件箱、重新利用内容等，当前 Claude Code 仅发挥了 10% 的潜力。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2307,7 +2307,7 @@
       "category": "tech",
       "meta": "@zodchiii · 18.2K 粉丝 · 656.8K 阅 · 505 赞 · 44 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文揭示Shopify的23000名工程师正并行运行多个Claude Code代理，目标是到2026年Q3自动化96%的编码工作，并给出可复制的配置方案。"
+      "summary": "Shopify 的 23,000 名工程师正在加速实现今年 Q3 前自动化 96% 的编码工作。他们并行运行多个 Claude Code 智能体，分别处理代码库的不同部分。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2318,7 +2318,7 @@
       "category": "tech",
       "meta": "@twoclipping · 513 粉丝 · 653.5K 阅 · 519 赞 · 29 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍如何利用Claude自动化足球剪辑工作流，距离世界杯开幕还有5周，示例中两名操作者每月分别赚取4-8千美元。"
+      "summary": "世界杯在五周后到来，利用 Claude 可将足球剪辑转化为每月 2 万美元收入。当前两名运营者通过足球剪辑每月分别赚取 4,000 至 8,000 美元。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2329,7 +2329,7 @@
       "category": "tech",
       "meta": "@coinbase · 6.9M 粉丝 · 536.0K 阅 · 504 赞 · 109 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Coinbase的x402发现层和钱包基础设施已原生集成至Amazon Bedrock AgentCore Payments，使AWS开发者能部署可发现和支付的代理。"
+      "summary": "Coinbase 的 x402 发现层和钱包基础设施现原生集成到 Amazon Bedrock AgentCore Payments 中，帮助 AWS 开发者部署能发现、发起支付的智能体。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2340,7 +2340,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 529.9K 阅 · 501 赞 · 68 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供完整教程，教用户构建自定义MCP服务器（AI模型与外部世界的桥梁），指出公司愿意为此支付1万美元以上，且非开发者也能学习。"
+      "summary": "完整课程：构建公司愿意支付 10,000 美元以上的自定义 MCP 服务器。MCP 服务器是 AI 模型与外部世界的桥梁，让 Claude 能访问外部数据和服务。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2351,7 +2351,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 523.6K 阅 · 511 赞 · 81 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文提供完整教程，介绍如何构建能协同工作的AI代理团队，并提及Anthropic于2026年5月6日发布了Claude托管的多代理编排功能。"
+      "summary": "提供完整课程，教授如何构建能真正协同工作的 AI 智能体团队。2026 年 5 月 6 日，Anthropic 发布了 Claude Managed 的多智能体编排功能。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2362,7 +2362,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 58.6K 粉丝 · 503.6K 阅 · 515 赞 · 64 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文汇总关于Claude Skills的全部知识，提供完整课程，称阅读后用户将比99%的人更理解Claude Skills，并能实现任何工作流自动化。"
+      "summary": "将关于 Claude Skills 的所有知识整合到一篇文章中。阅读后将比 99% 的用户更理解 Claude Skills，并能自动化任何工作流程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2373,7 +2373,7 @@
       "category": "tech",
       "meta": "@aiedge_ · 66.7K 粉丝 · 502.9K 阅 · 503 赞 · 65 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文介绍「/goal」斜杠命令的使用指南，该命令被Anthropic、OpenAI等主要AI公司采用，可显著改变用户使用AI的方式。"
+      "summary": "介绍 /goal 斜杠命令的终极指南，该命令将彻底改变 AI 使用方式。Anthropic、OpenAI 等主要 AI 公司正在推出类似功能。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2384,7 +2384,7 @@
       "category": "tech",
       "meta": "@DavidGeorge83 · 18.8K 粉丝 · 489.6K 阅 · 552 赞 · 102 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "推文反驳「AI导致永久失业」恐慌，认为这是旧有的「劳动总量谬误」的翻版，并非新故事或可信的预测。"
+      "summary": "认为“AI 导致工作岗位消失”的说法完全是幻想。指出这不过是“劳动总量谬误”的翻新版，并非新论调。"
     },
     {
       "sourceId": "attentionvc-politics",
@@ -2595,7 +2595,7 @@
       "category": "entertainment",
       "meta": "@ARCRaidersGame · 339.3K 粉丝 · 2.2M 阅 · 5.2K 赞 · 374 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《ARC Raiders》宣布更新策略，改为每年两次大型更新，以提供更优质的游戏内容。"
+      "summary": "《ARC突袭者》更新开发计划：将游戏更新改为每年两次、规模更大的版本，以提供更重要的内容变动。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2606,7 +2606,7 @@
       "category": "entertainment",
       "meta": "@ClashRoyale · 1.9M 粉丝 · 391.8K 阅 · 1.5K 赞 · 70 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《皇室战争》5月26日更新，新增游戏模式、进化系统和英雄；7月将推出新卡牌和C.H.A.O.S活动。"
+      "summary": "《皇室战争》5月26日更新：新增游戏模式、进化机制和英雄；7月将推出新卡牌并回归C.H.A.O.S活动。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2617,7 +2617,7 @@
       "category": "entertainment",
       "meta": "@Vil_euw · 735 粉丝 · 275.1K 阅 · 513 赞 · 36 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一位玩家创建了打野早期游戏节奏的练习表格，旨在帮助团队提升野区路径规划和协调能力。"
+      "summary": "一位玩家为打野英雄创建了早期游戏节奏练习电子表格，旨在改善团队围绕打野路线和节奏的协调。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2628,7 +2628,7 @@
       "category": "entertainment",
       "meta": "@MarathonTheGame · 169.9K 粉丝 · 274.2K 阅 · 4.2K 赞 · 470 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《马拉松》第二赛季将于6月2日开启，UESC因玩家掠夺行为加强执法，第一季即将结束。"
+      "summary": "《马拉松》第二赛季将于6月2日开启。第一赛季尾声，UESC因玩家在Tau Ceti的掠夺行为而加强军事行动。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2639,7 +2639,7 @@
       "category": "entertainment",
       "meta": "@SimonBrundish · 30.5K 粉丝 · 265.2K 阅 · 719 赞 · 165 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一位利物浦球迷指出球队本赛季比上赛季少26分，认为表现欠佳且需要改变。"
+      "summary": "分析指出利物浦本赛季可能比上赛季少26分，认为主教练状态不佳且过度使用球员，呼吁采取行动。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2650,7 +2650,7 @@
       "category": "entertainment",
       "meta": "@MarathonTheGame · 169.9K 粉丝 · 199.8K 阅 · 3.1K 赞 · 384 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《马拉松》游戏第一赛季结束，开发团队分享学习经验，表示已建立核心社区，将开启多赛季旅程。"
+      "summary": "《马拉松》发布第一赛季总结与未来计划：已建立核心社区，将开启多赛季旅程，并分享经验教训。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2661,7 +2661,7 @@
       "category": "entertainment",
       "meta": "@tarkov · 521.5K 粉丝 · 187.4K 阅 · 503 赞 · 82 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《逃离塔科夫》发布1.0.5.0补丁，包含“破冰船”事件和“北风”故事章节，讲述Paradigm航运冰船被困塔科夫封锁区的谜团。"
+      "summary": "《逃离塔科夫》发布1.0.5.0补丁，新增“破冰船”游戏内事件和“北风”故事章节，揭示Paradigm航运破冰船被困于塔科夫封锁圈内的事件。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2672,7 +2672,7 @@
       "category": "entertainment",
       "meta": "@R6esports · 517.1K 粉丝 · 157.7K 阅 · 508 赞 · 25 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "BLAST R6盐湖城Major赛前，多支队伍因旅行问题无法以完整阵容参赛，赛事受到影响。"
+      "summary": "BLAST R6盐湖城Major赛前更新：多支队伍因旅行问题无法以完整阵容参赛，影响赛事出席。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2683,7 +2683,7 @@
       "category": "entertainment",
       "meta": "@ApexLiveComms · 29.6K 粉丝 · 146.4K 阅 · 504 赞 · 34 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《Apex英雄》反作弊团队发布更新，回顾第28赛季封禁数据，称该赛季为最安全赛季之一，并展示了反作弊工作成果。"
+      "summary": "《Apex英雄》反作弊团队更新：回顾第28赛季，公布封禁数据，称其为最安全赛季之一。第29赛季已开启。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2694,7 +2694,7 @@
       "category": "entertainment",
       "meta": "@greggmunikwa · 35.2K 粉丝 · 144.8K 阅 · 502 赞 · 52 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一位球迷在X上发文，感谢读者关注，并表示赛季结束后球迷与利物浦队之间存在脱节。"
+      "summary": "球迷发文称希望利物浦获胜，并感谢阅读者。赛季结束，指出球迷、球队与管理层之间存在脱节。"
     },
     {
       "sourceId": "attentionvc-entertainment",
@@ -2705,7 +2705,16 @@
       "category": "entertainment",
       "meta": "@VALORANT · 3.5M 粉丝 · 144.3K 阅 · 1.1K 赞 · 69 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "《无畏契约》12.09补丁削弱角色霓虹的空中机动能力并调整资源消耗，同时削弱霰弹枪。"
+      "summary": "《无畏契约》12.09版本更新：削弱了霓虹和霰弹枪，调整空中移动能力并增加资源消耗。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "EasyJet Draws Early Interest From Investment Firm Castlelake",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/castlelake-considers-making-offer-to-buy-uk-s-easyjet",
+      "excerpt": "EasyJet Plc, the UK airline that helped pioneer ultra low-cost travel in Europe over the past three decades, has drawn takeover interest from an investment firm, potentially shaking up the regional airline market as it navigates high fuel costs and steep competition.",
+      "publishedAt": "2026-05-29T18:53:54.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2715,7 +2724,7 @@
       "publishedAt": "2026-05-30T04:48:19.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "中国AI初创公司MiniMax集团已开始筹备在国内进行首次公开募股（IPO），该公司正与包括DeepSeek在内的本土竞争对手展开竞争。"
+      "summary": "中国AI初创公司MiniMax集团已根据监管文件启动国内首次公开募股（IPO）筹备工作，这家快速增长的公司将挑战DeepSeek等本土竞争对手。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2725,7 +2734,7 @@
       "publishedAt": "2026-05-30T02:51:36.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "菲律宾央行表示5月通胀可能进一步上升，主要受食品价格上涨和比索疲软影响。"
+      "summary": "菲律宾央行表示，因食品价格上涨和比索疲软，5月份通胀可能进一步加速。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2735,7 +2744,7 @@
       "publishedAt": "2026-05-30T02:33:23.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美国防长赫格塞斯在新加坡国防论坛上发表讲话，称赞美中关系稳定并赞扬亚洲盟友，同时批评欧洲防务伙伴。"
+      "summary": "美国防长赫格塞斯在新加坡防务论坛上赞扬稳定的中美关系与亚洲盟友，同时批评西欧防务伙伴。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2896,15 +2905,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-29/space-stocks-hype-gets-reality-check-with-blue-origin-blowup",
       "excerpt": "A weeks-long rally in space-related stocks came to an abrupt halt on Friday, with the explosion of a Blue Origin rocket serving as a glaring reminder of the risks that come with the potential riches investors hope to reap from the blossoming industry.",
       "publishedAt": "2026-05-29T16:41:16.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "EasyJet Draws Takeover Interest From Investment Firm Castlelake",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-29/castlelake-considers-making-offer-to-buy-uk-s-easyjet",
-      "excerpt": "Castlelake LP is considering a possible offer for EasyJet Plc, the UK-based discount carrier struggling with rising fuel costs and slumping demand.",
-      "publishedAt": "2026-05-29T18:53:54.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -3168,7 +3168,7 @@
       "publishedAt": "2026-05-30T04:00:57.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "法拉利推出新款电动车引发意大利担忧，批评者认为John Elkann使阿涅利家族帝国与祖国脱节。"
+      "summary": "法拉利新款电动汽车引发意大利对阿涅利家族传承的担忧。批评者认为John Elkann使家族帝国与本土脱节。"
     },
     {
       "sourceId": "ft-companies",
@@ -3178,7 +3178,7 @@
       "publishedAt": "2026-05-30T04:00:51.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "日本7-Eleven掌门人铃木敏文去世，享年94岁，他彻底改变了日本零售业。"
+      "summary": "日本7-Eleven掌门人铃木敏文逝世，享年94岁。他主导日本零售业变革，被誉为“便利店之王”。"
     },
     {
       "sourceId": "ft-companies",
@@ -3188,17 +3188,17 @@
       "publishedAt": "2026-05-30T04:00:51.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "英国领导层不确定性重燃财富税担忧，候选人Streeting和Burnham均暗示可能进行税制改革。"
+      "summary": "英国领导层不确定性重燃财富税担忧。候选人Streeting和Burnham均暗示将进行税制改革。"
     },
     {
       "sourceId": "ft-companies",
       "title": "Top UK building societies plot bids for digital bank Atom",
       "url": "https://www.ft.com/content/1e8b9bab-5df1-4073-8de6-d08a02f30b53",
-      "excerpt": "Fintech’s owners hope the business will fetch about $600mn but industry executives say final offers could be lower",
+      "excerpt": "Fintech’s owners hope the business will fetch about £600mn but industry executives say final offers could be lower",
       "publishedAt": "2026-05-30T04:00:51.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "英国多家顶级建房互助协会计划竞购数字银行Atom，所有者期望估值约6亿美元，但业内人士预计最终出价可能更低。"
+      "summary": "多家英国大型建房互助协会计划竞购数字银行Atom。所有者期望售价约6亿英镑，但业内高管认为最终出价可能更低。"
     },
     {
       "sourceId": "ft-companies",
@@ -3208,7 +3208,7 @@
       "publishedAt": "2026-05-30T04:00:51.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "摩根大通追逐零售银行业务的「金羊毛」，其国际扩张正在取得进展。"
+      "summary": "摩根大通国际零售银行业务扩张取得进展，正追求零售业务的“金羊毛”增长。"
     },
     {
       "sourceId": "ft-companies",
@@ -3218,7 +3218,7 @@
       "publishedAt": "2026-05-30T04:00:51.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "西汉姆联从英超降级后，伦敦体育场再次成为焦点，东伦敦俱乐部将支付更低租金，该场馆自2012年奥运会以来一直难以令公众满意。"
+      "summary": "西汉姆联队从英超降级后，伦敦体育场再次成为焦点。该场馆自2012年奥运会后一直未能令公众满意，俱乐部将支付更低租金。"
     },
     {
       "sourceId": "ft-companies",
@@ -3228,7 +3228,7 @@
       "publishedAt": "2026-05-30T04:00:40.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "评估优质葡萄酒价值时需考虑三个主要因素，您的葡萄酒收藏可能价值低于预期。"
+      "summary": "评估精品葡萄酒价值需考虑三大主要因素。你的葡萄酒收藏可能没有想象中值钱。"
     },
     {
       "sourceId": "ft-companies",
@@ -3238,7 +3238,7 @@
       "publishedAt": "2026-05-30T04:00:19.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "AI应否取代你的工作？真正的问题不是技术能做什么，而是它应该做什么，莎拉·奥康纳探讨为工作未来而斗争的人们。"
+      "summary": "真正的问题不是AI能做什么，而是它应该做什么。Sarah O'Connor探讨人们为工作未来而进行的斗争。"
     },
     {
       "sourceId": "ft-companies",
@@ -3248,7 +3248,7 @@
       "publishedAt": "2026-05-30T04:00:08.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "增强型运动会（Enhanced Games）业务估值从12亿美元暴跌至3.5亿美元。"
+      "summary": "增强版运动会（Enhanced Games）估值从12亿美元跌至3.5亿美元，因自身问题遭遇重大挫折。"
     },
     {
       "sourceId": "ft-companies",
@@ -3942,7 +3942,7 @@
       "publishedAt": "2026-05-30T04:19:32.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "特朗普与顾问会面后未宣布协议，此前官员确认美伊已就协议框架达成一致。"
+      "summary": "特朗普与顾问会面后未宣布伊朗协议，此前美伊已就协议框架达成一致。"
     },
     {
       "sourceId": "bbc-world",
@@ -3952,7 +3952,7 @@
       "publishedAt": "2026-05-30T05:57:46.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "美国防长赫格塞斯在新加坡亚洲安全峰会上表示美国不会“背弃”亚洲盟友，但期望盟友加强自身防御，包括进一步军售。"
+      "summary": "美国国防部长赫格塞斯在新加坡亚洲安全峰会上称，美国不会背弃亚洲盟友，但期望盟友加强防务。"
     },
     {
       "sourceId": "bbc-world",
@@ -4096,8 +4096,7 @@
       "excerpt": "South Africa's Madlanga Commission hears about Brazilian butt lift bribe denials and alleged drug heists.",
       "publishedAt": "2026-05-30T02:56:40.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "南非马德兰加委员会听证会涉及来自情人的“礼物”、拙劣的可卡因突袭、巴西提臀手术贿赂否认及涉嫌毒品抢劫案，警方调查引发关注。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -4106,8 +4105,7 @@
       "excerpt": "The Amazon Prime adaptation of Elle Kennedy's ice hockey romance book is an early hit with viewers.",
       "publishedAt": "2026-05-30T02:59:16.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "亚马逊Prime改编自艾尔·肯尼迪冰球爱情小说的剧集成为早期热门，观众迷恋新冰球浪漫故事。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -4306,7 +4304,7 @@
       "publishedAt": "2026-05-30T05:58:35.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "美国国防部长赫格塞斯在新加坡防务峰会上称美国“完全有能力”重启对伊朗战争，并对中国军事集结表示“警惕”，但称不寻求“不必要的对抗”。"
+      "summary": "美国国防部长赫格塞斯在新加坡表示，美国“完全有能力”恢复对伊朗战争，同时对中国军力建设感到“警惕”，但美方不寻求“不必要的对抗”。"
     },
     {
       "sourceId": "guardian-world",
@@ -4396,8 +4394,7 @@
       "excerpt": "Suggestion the Luce EV should be stripped of prancing horse logo shows strength of feeling from Ferrari fans For passionate enthusiasts, Ferraris are not merely cars but works of art. The emotion stirred by their classic red curves is, they say, akin to standing before a Michelangelo sculpture, whil",
       "publishedAt": "2026-05-30T04:00:08.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "法拉利推出电动车型Luce EV引发车主俱乐部震惊，有提议移除跃马标志，反映粉丝对电动化转型的强烈情绪。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -4443,7 +4440,7 @@
       "publishedAt": "2026-05-30T05:00:10.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "一些伊朗人曾希望外国干预推翻政权，但美以战争反而破坏生计、巩固当权者。特朗普本周在威胁新军事行动与预测持久停火间摇摆。"
+      "summary": "美以战争重创伊朗经济，强化了当权者地位，许多伊朗人期盼外部干预推翻政权却落空，只能承受战争后果。"
     },
     {
       "sourceId": "guardian-world",
@@ -4489,7 +4486,7 @@
       "publishedAt": "2026-05-30T04:01:15.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "日本首相高市早苗领导下的新签证规定迫使已在日本扎根的外国企业主离开，咖喱店等小生意受到波及。"
+      "summary": "日本首相高市早苗领导下，新签证规定迫使一些已扎根日本的外国咖喱店老板离境。"
     },
     {
       "sourceId": "nyt-world",
@@ -4499,7 +4496,7 @@
       "publishedAt": "2026-05-30T04:01:07.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "德国向立陶宛部署军队以应对俄罗斯侵略威胁，立陶宛欢迎德军进驻，与二战被占领时期形成对比。"
+      "summary": "德国向立陶宛部署军队以保护该波罗的海国家，应对俄罗斯侵略担忧。立陶宛曾遭德国占领，但此次受到欢迎。"
     },
     {
       "sourceId": "nyt-world",
@@ -4509,7 +4506,7 @@
       "publishedAt": "2026-05-30T04:01:07.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "退休经纪人克利福德·斯坦利解释其向格陵兰提出大额收购要约的非常规使命，令许多人惊讶。"
+      "summary": "退休经纪人克利福德·斯坦利向格陵兰提出大额报价，解释其令人意外的使命。"
     },
     {
       "sourceId": "nyt-world",
@@ -4518,8 +4515,7 @@
       "excerpt": "The president met with aides for two hours at the White House about a possible cease-fire extension, according to a senior administration official. Earlier, Mr. Trump had suggested in a social media post that he was ready to make a decision.",
       "publishedAt": "2026-05-30T07:22:19.000Z",
       "category": "politics",
-      "source": "NYT World",
-      "summary": "美国总统特朗普推迟对伊朗提案的“最终决定”，与助手在白宫会晤两小时讨论可能延长停火，此前特朗普在社交媒体暗示准备做出决定。"
+      "source": "NYT World"
     },
     {
       "sourceId": "nyt-world",
@@ -4601,7 +4597,7 @@
       "publishedAt": "2026-05-30T04:59:32.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "越南领导人苏林在香格里拉对话会上警告亚洲面临超级大国冲突风险，称不信任和对规则缺乏尊重导致“大鱼吃小鱼”文化。"
+      "summary": "越南领导人苏林在香格里拉对话会上警告，互不信任和缺乏规则尊重导致“大鱼吃小鱼”的文化，亚洲面临超级大国冲突风险。"
     },
     {
       "sourceId": "nyt-world",
@@ -4845,6 +4841,16 @@
       "publishedAt": "2026-05-28T16:16:56.000Z",
       "category": "politics",
       "source": "NPR World"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "沦为中国的“小伙伴”：别无选择的俄罗斯对华科技合作",
+      "url": "https://www.dw.com/zh/沦为中国的-小伙伴-：别无选择的俄罗斯对华科技合作/a-77319356?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "俄罗斯总统普京上周访问中国时，定于在今明两年举行“俄中教育年”双边合作活动。俄罗斯国内媒体则频发报道，称双边科技及教育合作屡攀新高。不过，分析人士指出，俄中科技领域的合作和其他领域相似：莫斯科只不过是北京的“小伙伴”。",
+      "publishedAt": "2026-05-30T07:28:00.000Z",
+      "category": "politics",
+      "source": "DW 中文",
+      "summary": "普京访华期间定于今明两年举行“俄中教育年”活动。俄媒报道科技教育合作创新高，但分析人士指出，莫斯科仅是北京的“小伙伴”。"
     },
     {
       "sourceId": "dw-chinese",
@@ -5108,13 +5114,24 @@
       "source": "DW 中文"
     },
     {
-      "sourceId": "dw-chinese",
-      "title": "海湾国家：以激光武器对抗无人机",
-      "url": "https://www.dw.com/zh/海湾国家：以激光武器对抗无人机/a-77266429?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "为了防御来自伊朗的无人机攻击，海湾国家开始越来越多地使用激光武器。而这些的供应方除了以色列之外，据说中国也已参与其中。那么，激光技术真的像科幻小说所描写的那么神奇吗？",
-      "publishedAt": "2026-05-24T07:31:00.000Z",
+      "sourceId": "aljazeera",
+      "title": "Iran war: What is happening on day 92 as Trump weighs Iran deal",
+      "url": "https://www.aljazeera.com/news/2026/5/30/iran-war-what-is-happening-on-day-92-as-trump-weighs-iran-deal?traffic_source=rss",
+      "excerpt": "Trump weighs next steps on Iran deal as Tehran insists negotiations are continuing and no final agreement exists.",
+      "publishedAt": "2026-05-30T07:30:15.000Z",
       "category": "politics",
-      "source": "DW 中文"
+      "source": "Al Jazeera",
+      "summary": "特朗普权衡伊朗协议下一步举措，德黑兰坚称谈判仍在进行，尚未达成最终协议。战事进入第92天。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Satire, social media and India’s Gen Z revolt",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/5/30/satire-social-media-and-indias-gen-z-revolt?traffic_source=rss",
+      "excerpt": "A satirical online movement challenges power and propaganda in India.",
+      "publishedAt": "2026-05-30T07:05:17.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "印度Z世代通过讽刺性网络运动挑战权力与宣传。"
     },
     {
       "sourceId": "aljazeera",
@@ -5124,7 +5141,7 @@
       "publishedAt": "2026-05-30T06:52:09.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "巴塞罗那签下英格兰边锋安东尼·戈登，他本赛季为纽卡斯尔在所有赛事打入17球，其中欧冠12场10球。"
+      "summary": "巴塞罗那从纽卡斯尔签下英格兰边锋安东尼·戈登。戈登本赛季各项赛事打入17球，其中欧冠12场10球。"
     },
     {
       "sourceId": "aljazeera",
@@ -5134,7 +5151,7 @@
       "publishedAt": "2026-05-30T06:29:07.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "卢旺达与俄罗斯达成核协议，寻求核培训与研究合作，推动技术、医疗和外交领域雄心，凸显非洲权力平衡转变。"
+      "summary": "卢旺达与俄罗斯达成核能培训与研究协议，助力其科技、医疗和外交雄心，凸显非洲力量格局变化。"
     },
     {
       "sourceId": "aljazeera",
@@ -5144,7 +5161,7 @@
       "publishedAt": "2026-05-30T04:36:17.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "以色列扩大对黎巴嫩地面入侵，部队越过利塔尼河进入主权领土深处，引发黎巴嫩民众不满。"
+      "summary": "以色列地面入侵黎巴嫩深入主权领土，部队越过利塔尼河，引发黎巴嫩民众不满。"
     },
     {
       "sourceId": "aljazeera",
@@ -5323,24 +5340,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/5/29/romania-to-expel-russian-consul-after-residential-drone-strike?traffic_source=rss",
       "excerpt": "Romanian President Nicusor Dan says that the Russian consul in the southeastern city of Constanta will be expelled.",
       "publishedAt": "2026-05-29T18:18:03.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Israeli fighter jets strike village in south Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/29/israeli-fighter-jets-strike-village-in-south-lebanon?traffic_source=rss",
-      "excerpt": "Video shows the moment Israeli fighter jets struck a residential building in Ain Qana village in southern Lebanon.",
-      "publishedAt": "2026-05-29T18:15:07.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "‘A landmark’: Brazil’s prosecutors hail court ruling to preserve Fordlandia",
-      "url": "https://www.aljazeera.com/news/2026/5/29/a-landmark-brazils-prosecutors-hail-court-ruling-to-preserve-fordlandia?traffic_source=rss",
-      "excerpt": "Advocates have argued that Brazil's government has dragged its feat over Fordlandia's fate, leaving the site to decay.",
-      "publishedAt": "2026-05-29T18:14:16.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
@@ -5622,7 +5621,7 @@
       "publishedAt": "2026-05-28T14:23:42.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "探讨设备有时感觉「嗡嗡响」的原因。"
+      "summary": "视频探讨设备为何有时会产生“嗡嗡”感觉，分析其物理或电气原因。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5632,7 +5631,7 @@
       "publishedAt": "2026-05-21T16:27:51.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "揭示肥皂泡沫背后的科学秘密。"
+      "summary": "视频揭示肥皂起泡的秘密，解释其清洁原理中的化学作用。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5642,7 +5641,7 @@
       "publishedAt": "2026-05-14T16:54:43.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "分析鸟类为何不会相撞，以及人类可从中学习的经验。"
+      "summary": "视频分析鸟类飞行中避免碰撞的机制，并探讨人类可从中借鉴的启示。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5652,7 +5651,7 @@
       "publishedAt": "2026-05-07T15:01:18.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "探讨四维物体的视觉呈现方式。"
+      "summary": "视频设想四维物体的可能外观，从视觉化角度解释高维空间概念。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5662,7 +5661,7 @@
       "publishedAt": "2026-05-01T15:32:36.000Z",
       "category": "tech",
       "source": "@fryrsquared",
-      "summary": "宣布频道迎来重要里程碑。"
+      "summary": "频道作者宣布迎来重要一天，未具体说明事件，可能涉及里程碑。"
     },
     {
       "sourceId": "youtube-fryrsquared",
@@ -5719,7 +5718,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/EGyO27Jamu0/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "介绍Figma Agents新功能初探，称其为新的AI最佳伙伴。"
+      "summary": "Figma推出智能代理功能，视频介绍其作为AI助手的使用初体验。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5730,7 +5729,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/Wh2i6eGqhLY/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "讲解如何在Claude Code中为Figma创建自定义AI技能，应用于设计系统。"
+      "summary": "视频演示如何在Figma中利用Claude Code创建自定义AI技能，聚焦设计系统。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5741,7 +5740,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/oebZIVMh_Ak/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "概述Claude Design功能及应用场景。"
+      "summary": "视频概述Claude Design的功能与应用场景，展示其设计辅助能力。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5752,7 +5751,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/xxH8qKQyK_0/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "揭秘Figma中隐藏的资源使用技巧。"
+      "summary": "视频揭示Figma中隐藏的实用资源，帮助用户提升使用效率。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5763,7 +5762,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/AST1G5brxFA/hqdefault.jpg",
       "source": "@TDSunshine",
-      "summary": "指导如何使用Figma Weave构建首个AI工作流。"
+      "summary": "视频指导用户如何在Figma Weave中构建第一个AI工作流程。"
     },
     {
       "sourceId": "youtube-tdsunshine",
@@ -5824,7 +5823,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/tu4rU4YD1Jk/hqdefault.jpg",
       "source": "@TinaHuang1",
-      "summary": "更新2026年必备AI技能清单。"
+      "summary": "视频更新2026年必备AI技能清单，预测未来职场所需能力。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5834,7 +5833,7 @@
       "publishedAt": "2026-05-21T15:00:01.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "提供关于AI的直言不讳的建议。"
+      "summary": "视频直言不讳地给出AI使用建议，强调避免常见误区。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5845,7 +5844,7 @@
       "category": "tech",
       "thumbnail": "https://i.ytimg.com/vi/gdrPkpXuNks/hqdefault.jpg",
       "source": "@TinaHuang1",
-      "summary": "分享完整的Claude协同工作环境设置，并推荐可复制的工作流。"
+      "summary": "作者分享与Claude AI协作的完整工作流程，提供可复用的模板。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5855,7 +5854,7 @@
       "publishedAt": "2026-05-17T15:12:47.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "介绍顶级AI用户使用的提示词框架。"
+      "summary": "视频介绍顶尖AI用户使用的提示词框架，用于优化模型输出。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5865,7 +5864,7 @@
       "publishedAt": "2026-05-11T15:00:03.000Z",
       "category": "tech",
       "source": "@TinaHuang1",
-      "summary": "讲解面向顶尖10% AI用户的提示词框架。"
+      "summary": "视频提供适用于前10% AI用户的提示词框架，旨在提升交互效率。"
     },
     {
       "sourceId": "youtube-tinahuang1",
@@ -5922,7 +5921,7 @@
       "publishedAt": "2026-05-30T07:19:30.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "SBS电视剧《我的宿敌》下集将揭示林智妍和许南俊的前世故事。该剧是一部浪漫喜剧，林智妍饰演的过气演员申瑞丽被一个恶毒女妖的灵魂附身。"
+      "summary": "SBS《我的宿敌》将在下一集揭晓林智妍和许南俊的前世故事。该剧是一部浪漫喜剧，由林智妍饰演一名被恶灵附身的挣扎女演员。"
     },
     {
       "sourceId": "soompi",
@@ -5932,7 +5931,7 @@
       "publishedAt": "2026-05-30T06:49:16.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "(G)I-DLE成员舒华因当天早晨被确诊A型流感，将缺席在悉尼的演唱会。Cube娱乐宣布她需休息康复。"
+      "summary": "(G)I-DLE成员舒华因确诊甲型流感，将缺席5月30日在悉尼的演唱会。CUBE娱乐宣布她需休息并专注于康复。"
     },
     {
       "sourceId": "soompi",
@@ -5942,7 +5941,7 @@
       "publishedAt": "2026-05-30T05:27:41.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "tvN剧《申请爱情》中，孔明饰演的大企业审计部精英卢基俊为保护申惠善受伤。该剧讲述他被降职到处理举报的团队后发生的故事。"
+      "summary": "tvN《恋爱申请》中，孔明为保护申惠善而受伤。该剧讲述大企业审计组王牌卢基俊被降职到恋爱申请部门后的浪漫喜剧故事。"
     },
     {
       "sourceId": "soompi",
@@ -5952,7 +5951,7 @@
       "publishedAt": "2026-05-30T04:30:42.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "李准英在JTBC新剧《重生新秀》中饰演一名前途光明的足球运动员，因肇事逃逸事故生活被彻底颠覆。该剧讲述孙贤周饰演的财阀会长在事故后意外重生。"
+      "summary": "JTBC新剧《重生新人》中，李准英饰演一名前途光明的足球运动员，因一场肇事逃逸事件生活彻底改变。该剧讲述财阀会长姜容浩意外后重生为年轻人的故事。"
     },
     {
       "sourceId": "soompi",
@@ -5962,7 +5961,7 @@
       "publishedAt": "2026-05-30T03:42:25.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "aespa携第二张正规专辑《LEMONADE》回归，截至5月30日上午，同名主打曲在全球iTunes专辑榜夺冠，并创下职业生涯第二高首日销量。"
+      "summary": "aespa于5月29日携第二张正规专辑《LEMONADE》回归，专辑同名主打歌登上iTunes全球多个地区榜首，首日销量创下职业生涯第二高纪录。"
     },
     {
       "sourceId": "soompi",
@@ -5972,7 +5971,7 @@
       "publishedAt": "2026-05-30T02:36:26.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "MBC新剧《五十岁专业人士》第三集全国平均收视率达5.5%，创自身新高。同时《我的宿敌》进入下半程仍稳居同档期收视第一。"
+      "summary": "MBC新剧《五十岁专业人士》第三集收视率达5.5%，创自身新高；同时段《我的宿敌》进入下半场仍稳居收视冠军。"
     },
     {
       "sourceId": "soompi",
@@ -5982,7 +5981,7 @@
       "publishedAt": "2026-05-30T01:55:06.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "文章盘点五部韩剧中的经典告白场景，包括《太阳的后裔》中宋仲基饰演的柳时镇大尉与宋慧乔饰演的姜慕烟之间的浪漫情节。"
+      "summary": "文章盘点5部拥有经典告白场景的韩剧，包括《太阳的后裔》中宋仲基饰演的柳时镇大尉与宋慧乔饰演的姜暮烟医生的浪漫故事。"
     },
     {
       "sourceId": "soompi",
@@ -5992,7 +5991,7 @@
       "publishedAt": "2026-05-29T18:30:22.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "Stray Kids的《Easy》MV于5月30日韩国时间凌晨2点左右突破1亿观看量，该曲收录于2020年专辑《GO LIVE》，成为组合第20支破亿的团体MV。"
+      "summary": "Stray Kids的歌曲《Easy》MV于5月30日突破1亿次观看，成为该组合第20支破亿的团体MV。该曲收录于2020年专辑《GO LIVE》，距发布已过去约5年10个月。"
     },
     {
       "sourceId": "soompi",
@@ -6002,7 +6001,7 @@
       "publishedAt": "2026-05-29T13:24:05.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "电影《狂唱》公开了由姜栋元、严泰九和朴智贤组成的三人混声舞蹈组合TRIANGLE的粉丝摄风格剧照。该片讲述昔日人气组合因意外没落后重新聚首的喜剧故事。"
+      "summary": "电影《狂野歌唱》公开了三人混合舞团TRIANGLE的直拍风格剧照，由姜栋元、严泰九和朴智贤主演，讲述曾经人气组合因意外没落后重新崛起的喜剧故事。"
     },
     {
       "sourceId": "soompi",
@@ -6012,7 +6011,7 @@
       "publishedAt": "2026-05-29T13:01:17.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "惊悚片《眼睛》发布新剧照，申敏儿饰演的徐珍因遗传病逐渐失明，同时着手调查双胞胎姐姐的可疑死亡。"
+      "summary": "悬疑电影《眼睛》公开新剧照，申敏儿饰演因遗传病逐渐失明的徐珍，她在失去视力的过程中调查双胞胎妹妹的可疑死亡。"
     },
     {
       "sourceId": "soompi",
@@ -6022,7 +6021,7 @@
       "publishedAt": "2026-05-29T12:36:34.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "Stray Kids的《MIROH》MV于5月29日韩国时间晚9点21分突破2亿观看量，距离2018年3月发布已过约7年2个月4天，成为组合第9支突破2亿的MV。"
+      "summary": "Stray Kids的《MIROH》MV于5月29日突破2亿次观看，成为该组合第9支破2亿的MV。该MV于2018年3月发布，历时约7年2个月。"
     },
     {
       "sourceId": "soompi",
@@ -6032,7 +6031,7 @@
       "publishedAt": "2026-05-29T11:59:24.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "NCT泰容在5月29日《音乐银行》中以《WYLD》获得6586分，击败ITZY的《Motto》，拿下个人首个音乐节目 solo 一位。"
+      "summary": "NCT泰容在5月29日《音乐银行》中以《WYLD》获得6,586分，夺得个人首个音乐节目一位。ITZY的《Motto》为候选曲。"
     },
     {
       "sourceId": "soompi",
@@ -6042,7 +6041,7 @@
       "publishedAt": "2026-05-29T11:02:05.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《五十岁专业人士》中，申河均伪装成神秘“面具赛车手”执行渗透任务时偶遇玄奉植。该剧讲述三位看似普通实则危险的中年男子被命运重新集结的喜剧动作故事。"
+      "summary": "《五十岁专业人士》中，申河均伪装成“蒙面赛车手”执行潜入任务时偶遇玄奉植。该剧讲述三位看似普通实则危险的五十岁男子被命运重新召集的动作喜剧。"
     },
     {
       "sourceId": "soompi",
@@ -6052,7 +6051,7 @@
       "publishedAt": "2026-05-29T10:38:04.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《我的宿敌》中，林智妍饰演的申瑞丽在许南俊的阿姨郑英珠拿着现金出现时，表现出搞笑反应。该剧讲述女演员被附身后与财阀男发生的浪漫喜剧。"
+      "summary": "《我的宿敌》中，林智妍饰演的申瑞丽在许南俊的阿姨郑英珠带着现金出现后，做出搞笑反应。该剧是一部浪漫喜剧。"
     },
     {
       "sourceId": "soompi",
@@ -6062,7 +6061,7 @@
       "publishedAt": "2026-05-29T08:37:11.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "《五十岁专业人士》公开新剧照，申河均绑架并审问泪流满面的李学周。该剧讲述三位中年男子被命运牵引再次行动的动作喜剧。"
+      "summary": "《五十岁专业人士》公开新剧照，申河均绑架并审问哭泣的李学周。该剧讲述三位五十岁男子被命运重新召集的动作喜剧。"
     },
     {
       "sourceId": "soompi",
@@ -6072,7 +6071,7 @@
       "publishedAt": "2026-05-29T07:55:49.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "Netflix心理惊悚剧《最后一排的笔记》公开首个预告和海报。崔岷植饰演的过气作家兼教授许文吾对崔显旭饰演的学生神秘文字产生执念。"
+      "summary": "Netflix心理惊悚剧《最后一排的笔记》公开首张海报和预告，崔岷植饰演一位失败的作家教授，对崔显旭的神秘写作产生执念。"
     },
     {
       "sourceId": "soompi",
@@ -6082,7 +6081,7 @@
       "publishedAt": "2026-05-29T06:10:50.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "Coupang Play剧《浪漫的绝对值》即将大结局。金香奇饰演的高中生面临退学危机，车学沇突然就医引发担忧。该剧讲述学生秘密创作以老师为主角的BL小说。"
+      "summary": "Coupang Play《浪漫的绝对值》大结局在即，金香起饰演的学生面临退学危机，车学渊突然就医引发担忧。该剧讲述一名女生以老师为原型创作BL小说的故事。"
     },
     {
       "sourceId": "soompi",
@@ -6092,7 +6091,7 @@
       "publishedAt": "2026-05-29T04:49:01.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "Viki平台今夏推出8部新的韩国综艺节目，包括《不计划旅行：限定版》，由朴叙俊、郑裕美、崔宇植出演。"
+      "summary": "文章推荐Viki平台上8部正在播出的韩国综艺节目，包括《不计划旅行：限定版》由朴叙俊、郑裕美和崔宇植出演。"
     },
     {
       "sourceId": "soompi",
@@ -6102,7 +6101,7 @@
       "publishedAt": "2026-05-29T04:35:15.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "ILLIT成员Moka于5月29日获医疗许可，将在可控范围内恢复活动。上月她因健康问题在回归前暂停所有活动。"
+      "summary": "ILLIT成员Moka因健康问题暂停活动后，于5月29日获得医疗许可，将在可管理范围内恢复活动。她此前在迷你专辑《MAMIHLAPINATAPAI》回归前暂停行程。"
     },
     {
       "sourceId": "soompi",
@@ -6112,7 +6111,7 @@
       "publishedAt": "2026-05-29T04:15:24.000Z",
       "category": "entertainment",
       "source": "Soompi K-pop",
-      "summary": "SBS新剧《金代理重启》公开预告海报，苏志燮饰演的看似普通父亲实则隐藏秘密过去，为救失踪女儿不惜一切。该剧改编自热门网络漫画。"
+      "summary": "SBS新剧《代理金重新激活》公开预告海报，苏志燮饰演的看似平凡的爸爸金代理为拯救失踪女儿不惜一切代价。该剧改编自人气网漫，是一部动作复仇剧。"
     },
     {
       "sourceId": "soompi",
@@ -6206,13 +6205,13 @@
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "Paramount Re-Titles K-Pop Pic, Shifts Release Date - Deadline",
+      "title": "Paramount's K-Pop Movie Gets Re-Titled & New Release Date - Deadline",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcFR5UWljWm0zLWE3dlhxWUdqRGl3WnJZaTRjYk5xcl8zVjczN2dHSlNqa0VYS3dZN2FNQTJXOVM1MWdaSjBfZURMd1lMQkk5RzhHVjRkTFB6dWlIVXZmNGl0NWRpWnNsUlZkQWZvZjBSU2RVLV9mRjUzOTRmNTN6Xw?oc=5",
-      "excerpt": "Paramount Re-Titles K-Pop Pic, Shifts Release Date Deadline",
+      "excerpt": "Paramount's K-Pop Movie Gets Re-Titled & New Release Date Deadline",
       "publishedAt": "2026-05-29T22:00:00.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "派拉蒙影业对一部K-pop电影重新命名并调整发行日期。"
+      "summary": "派拉蒙影业宣布其K-pop电影更名，并确定了新的上映日期。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6222,17 +6221,7 @@
       "publishedAt": "2026-05-28T16:53:36.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "费城本地人Danny Chung在K-pop界崭露头角。"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
-      "title": "From K-pop to K-glow: lasers, facial firming drive South Korea's new tourism wave - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPejlVLTZwOWZabGk3SDd3M1Vsd2JLclJKQUxxczhsRk1zbzJGb3NaSkxHOWlGWURxQnd2Z2tNNmpmYno3bElqdkRJX0VPNmZyeHljVlFMX0tKTEFzZUdDcVZVM0ZmeDhKX0FxTVBkY0RScHJWOFloUTVGNEpnSnlNZDk0OE9CMFdzSDM2YXFJT1lXd1NYYnJlel9pR3ROV3RPdDVxQzFrR2NuU3FWbEZBbDk0ajl3d2dla1NGcHREeHZsUTJTbVB3bU1NNDNXa0lwcnNCYzVEdE0tdw?oc=5",
-      "excerpt": "From K-pop to K-glow: lasers, facial firming drive South Korea's new tourism wave Reuters",
-      "publishedAt": "2026-05-29T01:05:00.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱",
-      "summary": "路透社报道，从K-pop到“K-glow”（激光、面部紧致等项目）正推动韩国新一轮旅游热潮。"
+      "summary": "费城本地人Danny Chung在K-pop领域崭露头角，受到关注。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6242,17 +6231,17 @@
       "publishedAt": "2026-05-29T09:20:09.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "Anderson .Paak发行了众星云集的专辑《K-POPS!》。"
+      "summary": "Anderson .Paak推出明星云集的专辑《K-POPS!》，灵感源自同名电影。"
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "Oreo and BTS launch purple cookies in new K-pop collaboration - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWG1xLU1pZmZqYTlPOURmTXVVZGdCUm9RWEYxS0xvWWppR19jMHloVzJ5SWg2VThhdnU2U2ktZmRmLTRGLTJVR0o1eUNha1ZXc01qSnRaMFN4QkZhR3VkTEdNZVFjNG5uWFh0aEY4OHpqLTFIX1d1QlJYRHBVOXdpQjV4YnFDT1hiU0FMQUZkVHZHTDhrY29fY2o2V2JqUW9HZmE5NmdkcGdiRUMxUlRWdlY0OUJQMXoyc0RZbkhGRzI4LVZuWkZ6Qk04cXZpRmtJTEpibVJkV0JiT19oVEdF?oc=5",
-      "excerpt": "Oreo and BTS launch purple cookies in new K-pop collaboration South China Morning Post",
-      "publishedAt": "2026-05-30T07:15:05.000Z",
+      "title": "From K-pop to K-glow: lasers, facial firming drive South Korea's new tourism wave - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPejlVLTZwOWZabGk3SDd3M1Vsd2JLclJKQUxxczhsRk1zbzJGb3NaSkxHOWlGWURxQnd2Z2tNNmpmYno3bElqdkRJX0VPNmZyeHljVlFMX0tKTEFzZUdDcVZVM0ZmeDhKX0FxTVBkY0RScHJWOFloUTVGNEpnSnlNZDk0OE9CMFdzSDM2YXFJT1lXd1NYYnJlel9pR3ROV3RPdDVxQzFrR2NuU3FWbEZBbDk0ajl3d2dla1NGcHREeHZsUTJTbVB3bU1NNDNXa0lwcnNCYzVEdE0tdw?oc=5",
+      "excerpt": "From K-pop to K-glow: lasers, facial firming drive South Korea's new tourism wave Reuters",
+      "publishedAt": "2026-05-29T01:05:00.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "奥利奥与防弹少年团（BTS）合作推出紫色饼干，这是最新的K-pop跨界联名产品。"
+      "summary": "路透社报道称，从K-pop到K-glow（激光、面部紧致等美容项目）正推动韩国旅游新浪潮。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6261,8 +6250,7 @@
       "excerpt": "What is K-Pop? A Parent’s Primer Plugged In",
       "publishedAt": "2026-05-28T12:08:54.000Z",
       "category": "entertainment",
-      "source": "Google News 韩娱",
-      "summary": "一篇面向家长的指南，介绍什么是K-pop。"
+      "source": "Google News 韩娱"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6275,13 +6263,13 @@
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "aespa on Growing Beyond the Lore, Their ‘Metallic’ Identity & the Legacy They Hope to Leave - Billboard",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVHZ3MUVxcDlUTEc5T3hUVXNVVWRQRzZhbFFiQnJ3bER0U1lhZjNwQ2JRTndjalBtUWdPMmVUXzVBZVVqb1V4YWI1WGI5WVVkdmZ4YkJwU1dWN25qbXE2TzdHQmR5RmpPanY5ak8zWFdpenpoRFVfQ2hQT0xURndzSGtSa2ZmbWtlcHZuQ1lmclhUUHFCUXo2amFn?oc=5",
-      "excerpt": "aespa on Growing Beyond the Lore, Their ‘Metallic’ Identity & the Legacy They Hope to Leave Billboard",
-      "publishedAt": "2026-05-29T14:20:44.000Z",
+      "title": "Oreo and BTS launch purple cookies in new K-pop collaboration - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWG1xLU1pZmZqYTlPOURmTXVVZGdCUm9RWEYxS0xvWWppR19jMHloVzJ5SWg2VThhdnU2U2ktZmRmLTRGLTJVR0o1eUNha1ZXc01qSnRaMFN4QkZhR3VkTEdNZVFjNG5uWFh0aEY4OHpqLTFIX1d1QlJYRHBVOXdpQjV4YnFDT1hiU0FMQUZkVHZHTDhrY29fY2o2V2JqUW9HZmE5NmdkcGdiRUMxUlRWdlY0OUJQMXoyc0RZbkhGRzI4LVZuWkZ6Qk04cXZpRmtJTEpibVJkV0JiT19oVEdF?oc=5",
+      "excerpt": "Oreo and BTS launch purple cookies in new K-pop collaboration South China Morning Post",
+      "publishedAt": "2026-05-30T07:15:05.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "aespa谈及超越背景故事、其“金属”身份以及希望留下的遗产。"
+      "summary": "奥利奥与防弹少年团（BTS）合作推出紫色饼干，这是双方最新K-pop联名产品。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6300,7 +6288,17 @@
       "publishedAt": "2026-05-29T06:45:00.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "K-pop女团携清爽夏日歌曲《Lemonade》回归。"
+      "summary": "K-pop女团携清爽夏日单曲《Lemonade》回归，歌迷期待新风格。"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
+      "title": "Song Review: NMIXX x Anderson .Paak – Caution - thebiaslist.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcWp1VzZXcUdqRFVZMVFfWHVZbnB5VHdJWDZuTUVzazR6elNYYS1jclItajdDQjNWQnh0MnlXa1E4R0VqMEo0dngzcFc2RWNmYVl2eTRaZEFySWppS2RPNEdiRDZOdmJWTHhyYjVFclFWV1FodnNNczBPc3B2eGZIQjJWQQ?oc=5",
+      "excerpt": "Song Review: NMIXX x Anderson .Paak – Caution thebiaslist.com",
+      "publishedAt": "2026-05-29T04:34:04.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱",
+      "summary": "乐评人点评NMIXX与Anderson .Paak合作曲《Caution》，分析其音乐风格。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6310,17 +6308,17 @@
       "publishedAt": "2026-05-30T03:15:37.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "Netflix电影《K-Pops!》在烂番茄和Metacritic上的评分差距较大，引发关注。"
+      "summary": "Netflix电影《K-Pops!》在烂番茄与Metacritic评分上存在巨大差异，引发关注。"
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "Is Amazon trolling KPop Demon Hunters fans with its AI animation mockbuster? - Creative Bloq",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnRqTlg1VE54eWNJbFZPdXBFcWZHMTd1eGl3ZHBFY3lIdkRRMGk5R1BnSTNTaG5Ea2tVaFkzS2k0dlFDRm9ob0ZzcDRSV0lTOFNnaHFteGxRbDZSbUM1SWpTTThPMWVVd1BDY1lHa205UF9Xc1Q3d3VlVGk1ZHVLQTZubGtTM3dObFhfMG9iaVYwZlBuSGJqcXNJSDRtRkQ4OGFmVXlwTUJjaVB6b1lv?oc=5",
-      "excerpt": "Is Amazon trolling KPop Demon Hunters fans with its AI animation mockbuster? Creative Bloq",
-      "publishedAt": "2026-05-29T14:29:05.000Z",
+      "title": "Golden Vs Black! K Pop Demon Hunters Airplane Glow Up | 18 DIYs For Huntrix & Saja Boys Dolls John A. Sarcone (ebYBeldVRW) - Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RbDR6bHBaeV9CdFZMOGxNMUZiZDZsazNRQVh5Y191b3lxaGtacG1qazJDeHNFYUdHNmxPUGNVbVdQWmEzXy1EZFdIT0I4d0FMUEZOYnF2MUFUdmc?oc=5",
+      "excerpt": "Golden Vs Black! K Pop Demon Hunters Airplane Glow Up | 18 DIYs For Huntrix & Saja Boys Dolls John A. Sarcone (ebYBeldVRW) Mshale",
+      "publishedAt": "2026-05-30T07:52:26.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "亚马逊被指用AI动画模仿作品“KPop Demon Hunters”恶搞粉丝。"
+      "summary": "报道了K Pop Demon Hunters主题的DIY教程，介绍角色玩偶制作及风格改造内容。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6333,22 +6331,13 @@
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "K-pop makes history by dominating 2026 American Music Awards - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRmZZU3JKMjI1WEx2ZFY0Vm9XdW5DdEdGSExVNkNrZjFhcXZHNXhHbXRtMEJhUkJIMVFqRDMxamZzbmhwMXowb1I5UXlnVVp4Rm5ZcjBENmRlZ3ZpelBlNmYyaVhnNlZwWEx5Yi1uNWNSR3IzR1NydEUzSUp5WnluejR3cm5tWXQ0TVdBNUdtUGdGMGFLck5Bd0UwZ1R3Y0R4VmRVTVNUZmM2Xy1NNjRva0FDbldUajlvVkwzbE12bjIxYWR2VGlSZmRYVUg4N28?oc=5",
-      "excerpt": "K-pop makes history by dominating 2026 American Music Awards Euronews.com",
-      "publishedAt": "2026-05-26T09:13:21.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
-      "title": "The problem with K-pop? The songs are a minor cog in a monstrous machine - SMH.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDB2eXd3SVkydXJ4ZURtRHpfeWxfN3NHTTl2dVhwTG43YV9WVDlUaWd4Y3Fhb19TRFRFaG9SaDQ2UlRZUXN5a0l6NXF0WnVHQUI4TExFRGdpYnNLb3kzUXhleVhoR1Z5Z0FSMFUxTnMtZ0lJWlhZTXJBUkVJUjBIcGh5dDFPVU4tTGZMaS1Hc0F3elJudkdrZzVEdzhGYmF3cnJ6b0JtZGNuWUZFUkNQOXJCQ0d4OFZvYTEwc0hTdlAzQ3FxNU9Obw?oc=5",
-      "excerpt": "The problem with K-pop? The songs are a minor cog in a monstrous machine SMH.com.au",
-      "publishedAt": "2026-05-29T19:30:00.000Z",
+      "title": "Is Amazon trolling KPop Demon Hunters fans with its AI animation mockbuster? - Creative Bloq",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnRqTlg1VE54eWNJbFZPdXBFcWZHMTd1eGl3ZHBFY3lIdkRRMGk5R1BnSTNTaG5Ea2tVaFkzS2k0dlFDRm9ob0ZzcDRSV0lTOFNnaHFteGxRbDZSbUM1SWpTTThPMWVVd1BDY1lHa205UF9Xc1Q3d3VlVGk1ZHVLQTZubGtTM3dObFhfMG9iaVYwZlBuSGJqcXNJSDRtRkQ4OGFmVXlwTUJjaVB6b1lv?oc=5",
+      "excerpt": "Is Amazon trolling KPop Demon Hunters fans with its AI animation mockbuster? Creative Bloq",
+      "publishedAt": "2026-05-29T14:29:05.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "评论指出K-pop的问题在于歌曲只是庞大产业机器中的一小部分。"
+      "summary": "亚马逊被指利用AI动画恶搞片戏弄KPop Demon Hunters粉丝，引发争议。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6358,7 +6347,17 @@
       "publishedAt": "2026-05-30T01:58:53.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "韩国K-pop摇滚先驱FT Island将于6月中旬启动亚洲“FaTe”巡演。"
+      "summary": "K-pop摇滚先驱FT Island宣布将于6月中旬启动亚洲巡演「FaTe」。"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
+      "title": "The problem with K-pop? The songs are a minor cog in a monstrous machine - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDB2eXd3SVkydXJ4ZURtRHpfeWxfN3NHTTl2dVhwTG43YV9WVDlUaWd4Y3Fhb19TRFRFaG9SaDQ2UlRZUXN5a0l6NXF0WnVHQUI4TExFRGdpYnNLb3kzUXhleVhoR1Z5Z0FSMFUxTnMtZ0lJWlhZTXJBUkVJUjBIcGh5dDFPVU4tTGZMaS1Hc0F3elJudkdrZzVEdzhGYmF3cnJ6b0JtZGNuWUZFUkNQOXJCQ0d4OFZvYTEwc0hTdlAzQ3FxNU9Obw?oc=5",
+      "excerpt": "The problem with K-pop? The songs are a minor cog in a monstrous machine SMH.com.au",
+      "publishedAt": "2026-05-29T19:30:00.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱",
+      "summary": "评论文章指出K-pop产业中歌曲只是庞大机器中的小齿轮，质疑其核心问题。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6371,52 +6370,32 @@
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "K-pop claims 11 AMAs wins - The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zYmNqZ1BVYlpBS3NuM0g4cjViTXZEUV9LUFI1REgzTUo0alN1YlNvejM4bDJ0dXc5S2kxaUFEZHdmd0pINjRNTmhqQUVYUG5kTlB3dmJIMA?oc=5",
-      "excerpt": "K-pop claims 11 AMAs wins The Korea Herald",
-      "publishedAt": "2026-05-26T06:42:16.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
       "title": "’80s covers, K-pop, YouTube star top list of concerts this week in Colorado Springs - Colorado Springs Gazette",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQms2OG9DTWhXSlFSLXc0MXlkV0t5SHFfSUgwZGg1aWFlclU3S2x0Sk9ObnJ0SFhSQUVESjlvdmlIOVJyeGRZVkVLNjBMcnJqeGlUNzRVdGd6SS1ibnRibEVPbk9RdGQ3am1mQWlhc0liLWY2aFNGSWdMdXUtLW1SbkZlbHhXNzJhZWtVS2hQTVk1YWI3UllpTTh2d2VYaWNuVVpfWjZmTDRhN202N2gzUzVn?oc=5",
       "excerpt": "’80s covers, K-pop, YouTube star top list of concerts this week in Colorado Springs Colorado Springs Gazette",
       "publishedAt": "2026-05-28T13:59:40.000Z",
       "category": "entertainment",
-      "source": "Google News 韩娱",
-      "summary": "科罗拉多斯普林斯本周演出列表包括80年代翻唱、K-pop和YouTube明星。"
+      "source": "Google News 韩娱"
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "CORTIS Surpasses 700M Spotify Streams in 10 Months, K-Pop Record - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT2hPMXRWNGQweWt4dmpzaWhPelJqN3F5UGwzNDd0OVQ4SmRrTHpaYWJHMjRTakNmSzNzLU84UXVRb2VOQjlFRFZOdm9wekt5UGJJQUwzTG8tWklQQ0ZqenZ0UTg1Z3FOWlU2MWdTd3ZMcnJnRVRJckFHMzdlVHphc1BCakdDUEJwN3ZiX3l3?oc=5",
-      "excerpt": "CORTIS Surpasses 700M Spotify Streams in 10 Months, K-Pop Record 조선일보",
-      "publishedAt": "2026-05-30T01:35:20.000Z",
+      "title": "CORTIS Named to Forbes’ 2026 Asia 30 Under 30 as Only K-Pop Boy Group - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON0tnN241T0pGeFdQenpQdEJpVXA4NHR6TzNsUEZ6azdHbGE1ZGhNSTZnUGRVek51UHlZNU1TTmZPQ0VPZURFcTF0Ni1WbTEwVDlSd2l5WlJ0R25FM19tTGQxQWVyT01naDczcElka1JvM1dNM3BydC1Ycm5hS3dpS0RmUXoxTi1XVXd1ZExB?oc=5",
+      "excerpt": "CORTIS Named to Forbes’ 2026 Asia 30 Under 30 as Only K-Pop Boy Group 조선일보",
+      "publishedAt": "2026-05-30T07:23:16.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "CORTIS在10个月内于Spotify上突破7亿次播放，创下K-pop纪录。"
+      "summary": "CORTIS被福布斯2026年亚洲30位30岁以下精英榜评为唯一入选的K-pop男团。"
     },
     {
       "sourceId": "google-news-kr-ent",
-      "title": "Song Review: NMIXX x Anderson .Paak – Caution - thebiaslist.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcWp1VzZXcUdqRFVZMVFfWHVZbnB5VHdJWDZuTUVzazR6elNYYS1jclItajdDQjNWQnh0MnlXa1E4R0VqMEo0dngzcFc2RWNmYVl2eTRaZEFySWppS2RPNEdiRDZOdmJWTHhyYjVFclFWV1FodnNNczBPc3B2eGZIQjJWQQ?oc=5",
-      "excerpt": "Song Review: NMIXX x Anderson .Paak – Caution thebiaslist.com",
-      "publishedAt": "2026-05-29T04:34:04.000Z",
+      "title": "DAINASAURS’ “Archetype” Makes Modern Pop Feel Romantic Again - buzzmusic",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4ZXFnVzNOS2tYcTB1d3VIZkdEVDZfMDN3c0I0MDBGRjdlSmRlTzhFSVRObldON25UcldOLUdoZVloRDN2RV8zV3hINURBUTlKX0N4NllRdFZyOE1wQTRDVkJFUHRvRzBnWlRJ?oc=5",
+      "excerpt": "DAINASAURS’ “Archetype” Makes Modern Pop Feel Romantic Again buzzmusic",
+      "publishedAt": "2026-05-30T01:47:50.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "乐评NMIXX与Anderson .Paak的合作曲《Caution》。"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
-      "title": "Planet KPOP: The Ultimate KPOP Tribute Concert - CultureMap San Antonio",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVnJpaER3aXVVLXJ4WmlFYy0wclRNMEJEQllwZllremxTVzhsMThETzZOV2RvNEhxUmlhd0lUZlZzeE9JaUFQMlEtTHlaY0hfSGFUY1lnNjZ1Uk5hYlQtTVRTWjUtWm50VGp1YUF1TG5TVjd5WjMxV2xfYWdEcDhpa0I5c0V1X2phNGYtSWNrY0cwQWM2UDZj?oc=5",
-      "excerpt": "Planet KPOP: The Ultimate KPOP Tribute Concert CultureMap San Antonio",
-      "publishedAt": "2026-05-29T20:48:41.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱",
-      "summary": "圣安东尼奥将举办“Planet KPOP”致敬音乐会。"
+      "summary": "DAINASAURS新单曲《Archetype》被评价为让现代流行音乐重新充满浪漫感。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6424,15 +6403,6 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemJPc0xoYWl0MnRTUXJQdkNVVGFBcWFZb2thejBFbGpJZVJUUzJmOFN0WXl5RDdCeDZtLWxCano5SHdKaUF5WW5kNTFRTndrbFVobjFIU2FUNkdxSXg1dVFhTC0yZURVdFVKU2FPVEphMmJyOXZqYVF3aWVOU3BjZGhjanYtaFVqQnN3QXR3dmxNU015akFKX3Bn?oc=5",
       "excerpt": "K-Pop roundup: The Black Label, Global-K Chart, Streaming stats Music Ally",
       "publishedAt": "2026-05-27T11:30:00.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
-      "title": "The Black Label, the studio behind the KPop Demon Hunters soundtrack, just raised $80M with investment from Tencent Music - Music Business Worldwide",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYVJaRm84NEtUd1VDTTNFZUdTOFQ1TUNVWDlYYVFkTVpKM3htNXNCczh5YVdXYTVjMFV3N1ptUS1ORUVKZXV5RlNoSHY3ZVo5ZFhMZnNqOFdzdVl6QlBYMkN4cm1GZnl3X3FDcHZIRmFUOFY3aDZvRWUwVl9BbDY4OWh3MHNITkFRU2tWcGl0YWxzS04xSER4aVB2UjBQMUNJeDZXZlR5b3lIaU1nc08zVFhvWjhUekFPNHF1QlU3N3hlQ2lwQklUb0c4REFjN3c3Sy1kU0dZTWdrTDMtcldodXVBNzhEaE9qUF9NUkhybw?oc=5",
-      "excerpt": "The Black Label, the studio behind the KPop Demon Hunters soundtrack, just raised $80M with investment from Tencent Music Music Business Worldwide",
-      "publishedAt": "2026-05-26T11:58:47.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱"
     },
@@ -6447,23 +6417,42 @@
     },
     {
       "sourceId": "google-news-kr-ent",
+      "title": "CORTIS Surpasses 700M Spotify Streams in 10 Months, K-Pop Record - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT2hPMXRWNGQweWt4dmpzaWhPelJqN3F5UGwzNDd0OVQ4SmRrTHpaYWJHMjRTakNmSzNzLU84UXVRb2VOQjlFRFZOdm9wekt5UGJJQUwzTG8tWklQQ0ZqenZ0UTg1Z3FOWlU2MWdTd3ZMcnJnRVRJckFHMzdlVHphc1BCakdDUEJwN3ZiX3l3?oc=5",
+      "excerpt": "CORTIS Surpasses 700M Spotify Streams in 10 Months, K-Pop Record 조선일보",
+      "publishedAt": "2026-05-30T01:35:20.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱",
+      "summary": "CORTIS在10个月内于Spotify平台累计播放量突破7亿次，创下K-pop新纪录。"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
+      "title": "Planet KPOP: The Ultimate KPOP Tribute Concert - CultureMap San Antonio",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVnJpaER3aXVVLXJ4WmlFYy0wclRNMEJEQllwZllremxTVzhsMThETzZOV2RvNEhxUmlhd0lUZlZzeE9JaUFQMlEtTHlaY0hfSGFUY1lnNjZ1Uk5hYlQtTVRTWjUtWm50VGp1YUF1TG5TVjd5WjMxV2xfYWdEcDhpa0I5c0V1X2phNGYtSWNrY0cwQWM2UDZj?oc=5",
+      "excerpt": "Planet KPOP: The Ultimate KPOP Tribute Concert CultureMap San Antonio",
+      "publishedAt": "2026-05-29T20:48:41.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱",
+      "summary": "圣安东尼奥将举办「Planet KPOP」顶级K-pop致敬演唱会。"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
+      "title": "Official KPop Demon Hunters Global Concert Tour Is Coming — Sign Up Now for Info - Netflix",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUkdwYWZpaGZudnlMZlJuYTBPdENkbmk3aFJEamtUUEJLekFJR2tfRmdsaU1jSm5zbjlJN0RFd2MtY0sxRFBNM0xwWl9EcjdRSFFHTGVsb09UelFxdVh4cUVCbnJYM1NMU29NUFZ0eGNoWTZnNjEyd0o0d3dzUDYzUlFTNA?oc=5",
+      "excerpt": "Official KPop Demon Hunters Global Concert Tour Is Coming — Sign Up Now for Info Netflix",
+      "publishedAt": "2026-05-13T07:00:00.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
       "title": "Oreos Partners With K-Pop Sensations BTS 05/29/2026 - MediaPost",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFpkQ3N6Ql85UG5US1hBX1lIWnkteGVsX1VzQlJBbHZMYmcwZm9ZLU5IQzExY3dmM2JvcjJiSE5IN0xZbS0xZUp0QndDZi1CczVacUtUZFNVYTkzeUZaV0ZkTVZpYVBvdFJYb3lVa1gtUF9XYk5kOVhkVHMwRXpxVkFkeU5XUjdMeHBBMlJFeDI1R0ZSdlNkZkktcXJrcU5pWTFnV29uMXNNRU5RbC1qbVpqLXY?oc=5",
       "excerpt": "Oreos Partners With K-Pop Sensations BTS 05/29/2026 MediaPost",
       "publishedAt": "2026-05-29T00:35:56.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "奥利奥宣布与K-pop偶像团体BTS合作，日期为2026年5月29日。"
-    },
-    {
-      "sourceId": "google-news-kr-ent",
-      "title": "RBW, Myongji Technical College Expand K-pop Experiences - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYUJsQkZPMlV1QTNacUNoWEVFMG9ONW14MUplVmNueUhHVGZwemdKTzNndC1XWGQ2cVFNdVFOaDAtX2lRbGEybVNXT0pxWEVpTy1wV0VRNWZvR00yT2tiS2RDeV9ySzF1NHFzVHdCT1pxeEtIeU9CU25Qb21lQTJZak4tR2p0dXM2WXd0V05B?oc=5",
-      "excerpt": "RBW, Myongji Technical College Expand K-pop Experiences 조선일보",
-      "publishedAt": "2026-05-30T00:55:27.000Z",
-      "category": "entertainment",
-      "source": "Google News 韩娱",
-      "summary": "RBW与明知专门大学合作拓展K-pop体验项目。"
+      "summary": "奥利奥宣布与K-pop天团BTS合作，联名产品将于2026年5月29日推出。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6476,13 +6465,23 @@
     },
     {
       "sourceId": "google-news-kr-ent",
+      "title": "RBW, Myongji Technical College Expand K-pop Experiences - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYUJsQkZPMlV1QTNacUNoWEVFMG9ONW14MUplVmNueUhHVGZwemdKTzNndC1XWGQ2cVFNdVFOaDAtX2lRbGEybVNXT0pxWEVpTy1wV0VRNWZvR00yT2tiS2RDeV9ySzF1NHFzVHdCT1pxeEtIeU9CU25Qb21lQTJZak4tR2p0dXM2WXd0V05B?oc=5",
+      "excerpt": "RBW, Myongji Technical College Expand K-pop Experiences 조선일보",
+      "publishedAt": "2026-05-30T00:55:27.000Z",
+      "category": "entertainment",
+      "source": "Google News 韩娱",
+      "summary": "RBW娱乐与明知专门大学签署合作协议，将共同扩大K-pop体验教育项目。"
+    },
+    {
+      "sourceId": "google-news-kr-ent",
       "title": "BTS shows in N. America draw 840,000 concertgoers: agency - The Korea Times",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUW5nRGhNUmsyQ1YycHFBZ0tZamIxNmgycFVUVHNvRUpPSFFhN3Blcl9sSDZmcW9BRW5CalVoeXVtWGNCRWM1NDNxYVlrdVZiWHpBQmRHdGJiWHp0UkFPMjY1V1p3V2haaHJjV0VocDF3ZExIa2M0N0paYU5GdnFxamVjRVBmcDNyRlpQcWJBbV9PY1k4cHh4dEkzQ0EzWVFyRDhCZjE1VzJFSTZaeDRIQTNR0gG3AUFVX3lxTFBTZWUwSVJQOXJsNWgtV21tbE14bVV5M3NqUkNidTZISl8yZTZDTEViczJfc1U1Ykkwdi00bkg5eHp2R0hrTGYxMjNDMjhNd1ZwM2VmaWk5TVlnRE9zZmdhUnhQcmw2a3dQQVdBRC04Uy1GcDFWcms1dS1xaTBpaEFsLVVPUlpkT29aQ292OVFPN3g0MWVGNWl5RlczbjIxZTQ2YlJlZ1VEUEtfRjhmc25QNzh5bnZlYw?oc=5",
       "excerpt": "BTS shows in N. America draw 840,000 concertgoers: agency The Korea Times",
       "publishedAt": "2026-05-30T04:37:03.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "据经纪公司透露，防弹少年团（BTS）在北美举行的演出共吸引了84万名观众。"
+      "summary": "据经纪公司数据，防弹少年团（BTS）北美演唱会共吸引84万人次观演。"
     },
     {
       "sourceId": "google-news-kr-ent",
@@ -6492,7 +6491,7 @@
       "publishedAt": "2026-05-29T12:01:53.000Z",
       "category": "entertainment",
       "source": "Google News 韩娱",
-      "summary": "一名新闻主播称BTS奥利奥“置美国于死地”，引发K-pop粉丝愤怒。"
+      "summary": "一位新闻主播称BTS联名奥利奥饼干「让美国毁灭」，此举激怒了K-pop粉丝。"
     },
     {
       "sourceId": "natalie-kpop",
@@ -6502,7 +6501,7 @@
       "publishedAt": "2026-05-30T06:02:13.000Z",
       "category": "entertainment",
       "source": "Natalie K-POP",
-      "summary": "BOYNEXTDOOR与超特急组成混合队伍，挑战猜谜活动，考验彼此能否成为朋友。"
+      "summary": "日媒报道，韩国男团BOYNEXTDOOR与日本组合超特急以混合队伍形式参与猜谜挑战，探讨双方能否成为朋友。"
     },
     {
       "sourceId": "starto-news",
@@ -6511,7 +6510,7 @@
       "publishedAt": "2026-05-26T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "内博贵确定出演「昭和101年超级歌曲书秀～昭和最佳金曲集～」活动。"
+      "summary": "内博貴确定出演「昭和101年超级歌曲书秀～昭和最佳热门金曲～」活动。"
     },
     {
       "sourceId": "starto-news",
@@ -6520,7 +6519,7 @@
       "publishedAt": "2026-05-26T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "SUPER EIGHT的EP专辑《ダンダーラ》将于8月5日发售。"
+      "summary": "SUPER EIGHT的EP《ダンダーラ》将于8月5日发售。"
     },
     {
       "sourceId": "starto-news",
@@ -6529,7 +6528,7 @@
       "publishedAt": "2026-05-26T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "SUPER EIGHT决定举办「真夏的超八喫茶 ～∞月のすべてをくだ祭!!!!!～」活动。"
+      "summary": "SUPER EIGHT「真夏的超八喫茶」活动确定举办。"
     },
     {
       "sourceId": "starto-news",
@@ -6538,7 +6537,7 @@
       "publishedAt": "2026-05-25T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "横山裕迷你专辑《ROCK FOR YOU》早期预约特典设计公开，需在5月29日20:59前预约。"
+      "summary": "横山裕迷你专辑《ROCK FOR YOU》早期预约特典设计解禁，截止5月29日20:59。"
     },
     {
       "sourceId": "starto-news",
@@ -6547,7 +6546,7 @@
       "publishedAt": "2026-05-24T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "佐久间大介确定出演朗读剧《约果的尽头》，该剧以联合国教科文组织世界记忆遗产为主题。"
+      "summary": "佐久间大介确定出演朗读剧《约定之果》，该剧涉及联合国教科文组织世界记忆遗产。"
     },
     {
       "sourceId": "starto-news",
@@ -6556,7 +6555,7 @@
       "publishedAt": "2026-05-24T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "岚于5月31日在东京巨蛋公演的注意事项已公布。"
+      "summary": "5月31日，岚东京巨蛋公演相关注意事项发布。"
     },
     {
       "sourceId": "starto-news",
@@ -6565,7 +6564,7 @@
       "publishedAt": "2026-05-24T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "山田凉介「Are You Red.Y?」巨蛋巡演周边商品信息公布。"
+      "summary": "山田凉介巨蛋巡演「Are You Red.Y?」周边商品信息公布。"
     },
     {
       "sourceId": "starto-news",
@@ -6574,7 +6573,7 @@
       "publishedAt": "2026-05-23T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "Travis Japan2026年巡演蓝光及DVD将于8月26日发售。"
+      "summary": "Travis Japan巡回演唱会Blu-ray/DVD将于8月26日发售。"
     },
     {
       "sourceId": "starto-news",
@@ -6583,7 +6582,7 @@
       "publishedAt": "2026-05-22T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "浪花男子新曲《Celebrate》先行配信，同时举办艺人关注活动。"
+      "summary": "浪花男子新曲《Celebrate》先行配信，纪念艺人关注活动举办。"
     },
     {
       "sourceId": "starto-news",
@@ -6592,7 +6591,7 @@
       "publishedAt": "2026-05-22T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "浪花男子新专辑《ND⁵》主打曲《Celebrate》将于5月29日先行配信。"
+      "summary": "浪花男子新专辑《ND⁵》主打曲《Celebrate》将于5月29日开始先行配信。"
     },
     {
       "sourceId": "starto-news",
@@ -6601,7 +6600,7 @@
       "publishedAt": "2026-05-22T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "King & Prince首张EP《So Honey EP》将于9月2日发售。"
+      "summary": "King & Prince首张EP《So Honey EP》将于9月2日发行。"
     },
     {
       "sourceId": "starto-news",
@@ -6610,7 +6609,7 @@
       "publishedAt": "2026-05-22T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "小山庆一郎「CHOI集会 -Play Back-」京都公演周边商品销售信息公布。"
+      "summary": "小山庆一郎「CHOI集会 -Play Back-」京都公演周边商品销售信息。"
     },
     {
       "sourceId": "starto-news",
@@ -6619,7 +6618,7 @@
       "publishedAt": "2026-05-22T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "King & Prince为纪念出道8周年，于5月23日起将所有未配信78首歌曲一次性开放配信。"
+      "summary": "King & Prince出道8周年纪念日5月23日起，未配信78首歌曲全部开始配信。"
     },
     {
       "sourceId": "starto-news",
@@ -6628,7 +6627,7 @@
       "publishedAt": "2026-05-21T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "Aぇ! group巡演「Runway」北海道公演周边商品销售信息公布。"
+      "summary": "Aぇ! group巡演「Runway」北海道公演周边商品销售信息。"
     },
     {
       "sourceId": "starto-news",
@@ -6637,7 +6636,7 @@
       "publishedAt": "2026-05-21T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "20th Century巡演「唄う人 踊る人」周边商品信息公布。"
+      "summary": "20th Century巡演「唄う人 踊る人」周边商品信息。"
     },
     {
       "sourceId": "starto-news",
@@ -6646,7 +6645,7 @@
       "publishedAt": "2026-05-21T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "WEST.巡演「唯一無二」爱知公演周边商品销售信息公布。"
+      "summary": "WEST.巡演「唯一無二」爱知公演周边商品销售信息。"
     },
     {
       "sourceId": "starto-news",
@@ -6655,7 +6654,7 @@
       "publishedAt": "2026-05-21T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "京本大我主演、宫田俊哉出演的《憧れの作家は人間じゃありませんでした》蓝光/DVD BOX将于11月18日发售。"
+      "summary": "京本大我主演、宫田俊哉出演的《憧憬的作家不是人类》Blu-ray/DVD BOX将于11月18日发售。"
     },
     {
       "sourceId": "starto-news",
@@ -6664,7 +6663,7 @@
       "publishedAt": "2026-05-20T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "timelesz巡演「MOMENTUM」静冈公演周边商品销售信息公布。"
+      "summary": "timelesz巡演「MOMENTUM」静冈公演周边商品销售信息。"
     },
     {
       "sourceId": "starto-news",
@@ -6673,7 +6672,7 @@
       "publishedAt": "2026-05-20T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "藤井直树确定于5月23日参加「アサデス。フェス in JR博多シティ」活动。"
+      "summary": "藤井直树确定出演5月23日的「アサデス。フェス」活动。"
     },
     {
       "sourceId": "starto-news",
@@ -6682,7 +6681,7 @@
       "publishedAt": "2026-05-19T15:00:00.000Z",
       "category": "entertainment",
       "source": "STARTO",
-      "summary": "户塚祥太「GUERRILLA LOVE TOUR 2026 40END」大阪公演门票信息公布。"
+      "summary": "户塚祥太游击爱情巡演2026「40END」大阪公演门票信息。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6692,7 +6691,7 @@
       "publishedAt": "2026-05-30T06:03:35.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "仓田保昭回顾与洪金宝合作《七福星》以来的动作戏，并表示导演非坂本浩一、下村勇二、谷垣健治不可。"
+      "summary": "倉田保昭回忆与洪金宝在《七福星》后的合作，并指出导演必须是“坂本浩一、下村勇二、谷垣健治”。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6702,7 +6701,7 @@
       "publishedAt": "2026-05-30T05:28:30.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "中国电视剧《深情眼》在日本首次播出，讲述相互吸引的男女与母亲之死背后隐藏的秘密，是一部悬疑剧。"
+      "summary": "中国电视剧《深情眼》将在日本首次播出，讲述一对互相吸引的男女与母亲死亡背后隐藏的秘密的悬疑故事。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6712,7 +6711,7 @@
       "publishedAt": "2026-05-30T04:03:25.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "锦织敦史与CloverWorks合作的动画电影公布14名演员阵容，包括星野源、南沙良等。"
+      "summary": "锦织敦史与CloverWorks制作的动画电影公布14名演员阵容，包括星野源、南沙良等。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6722,7 +6721,7 @@
       "publishedAt": "2026-05-30T04:02:36.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "锦织敦史动画电影追加安济知佳、市之濑加那、星野源等，乃木坂46有4人参与。"
+      "summary": "锦织敦史的动画电影演员阵容包括安济知佳、市之濑加那、星野源等，乃木坂46有4人参与。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6732,7 +6731,7 @@
       "publishedAt": "2026-05-30T03:08:41.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "电影《巴格达·梅西：独腿足球少年》上映，讲述失去一条腿仍不放弃梦想的少年故事。"
+      "summary": "电影《巴格达·梅西：独腿足球少年》即将上映，讲述一名失去腿仍不放弃梦想的少年故事。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6742,7 +6741,7 @@
       "publishedAt": "2026-05-30T03:01:38.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "Saucy Dog首次单独巨蛋公演将在全国影院上映，首日有成员登台致谢。"
+      "summary": "Saucy Dog首次单独巨蛋公演将在全国影院上映，首日舞台问候有成员登台。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6752,7 +6751,7 @@
       "publishedAt": "2026-05-30T02:38:22.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "电影《箱中之羊》中，大悟谈及绫濑遥的膝枕场景，称「能在那种场合不偷笑相当厉害」。"
+      "summary": "大悟在《箱中之羊》中谈及绫濑遥的膝枕场景，称“那种情况下还不笑很厉害”。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6762,7 +6761,7 @@
       "publishedAt": "2026-05-30T01:08:29.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "《魔法小天使》新作OVA将于11月发布，前系列总导演汤山邦彦发表期待评论。"
+      "summary": "《魔法少女明琪桃子》新作OVA将于11月公开，前系列总导演汤山邦彦发表期待评论。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6772,7 +6771,7 @@
       "publishedAt": "2026-05-29T15:18:16.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "庄司浩平主演《余命3个月的绿帽丈夫》衍生剧，饰演怪咖新员工的指导负责人。"
+      "summary": "庄司浩平主演《余命3个月的绿帽夫》衍生剧，饰演新员工的指导角色。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6782,7 +6781,7 @@
       "publishedAt": "2026-05-29T12:03:42.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "内田有纪探访东京国分寺的冲本家住宅，为寻找理想居所而参观著名建筑。"
+      "summary": "内田有纪探访东京国分寺的沖本家住宅，寻找理想住宅并参观著名建筑。"
     },
     {
       "sourceId": "natalie-drama",
@@ -6792,27 +6791,37 @@
       "publishedAt": "2026-05-29T10:13:14.000Z",
       "category": "entertainment",
       "source": "Natalie 日剧",
-      "summary": "望月步与林芽亚里感受到电影《Erica》的反响，新影像展示美少女猎奇的一面。"
+      "summary": "望月步与林芽亚里感受《Erica》反响，新影像展现美少女的猎奇一面。"
     },
     {
-      "sourceId": "natalie-drama",
-      "title": "水上恒司が「TOKYO BURST-犯罪都市-」続編を熱望、ユンホは「この映画すごいよ！」",
-      "url": "https://natalie.mu/eiga/news/674017",
-      "excerpt": "【 #映画ナタリー #RSSfeed 】 水上恒司が「TOKYO BURST-犯罪都市-」続編を熱望、ユンホは「この映画すごいよ！」 https://natalie.mu/eiga/news/674017",
-      "publishedAt": "2026-05-29T09:53:10.000Z",
+      "sourceId": "modelpress",
+      "title": "元AKB48メンバー、長女リクエストのサンドイッチ弁当披露「お店レベル」「料理上手ですね」と反響",
+      "url": "https://mdpr.jp/news/detail/4789773",
+      "excerpt": "【モデルプレス＝2026/05/30】元AKB48・SDN48でタレントの大堀恵が、5月29日、自身のInstagramストーリーズを更新。手作り弁当を公開した。",
+      "publishedAt": "2026-05-30T07:44:15.000Z",
       "category": "entertainment",
-      "source": "Natalie 日剧",
-      "summary": "水上恒司热切期望《TOKYO BURST-犯罪都市-》推出续集，允浩表示「这部电影很厉害！」"
+      "source": "Modelpress",
+      "summary": "前AKB48成员大堀惠在Instagram展示基于大女儿要求制作的三明治便当，获网友称赞“像餐厅级”“料理高手”。"
     },
     {
-      "sourceId": "natalie-drama",
-      "title": "賀来賢人プロデュース「Never After Dark」は日本ホラー映画の革命、試写会感想まとめ",
-      "url": "https://natalie.mu/eiga/film_preview/670900",
-      "excerpt": "【 #映画ナタリー #RSSfeed 】 賀来賢人プロデュース「Never After Dark」は日本ホラー映画の革命、試写会感想まとめ https://natalie.mu/eiga/film_preview/670900",
-      "publishedAt": "2026-05-29T09:43:16.000Z",
+      "sourceId": "modelpress",
+      "title": "アンガールズ田中卓志、手作りうどん公開「冷凍のネギに親近感」「色味が綺麗」と反響",
+      "url": "https://mdpr.jp/news/detail/4789770",
+      "excerpt": "【モデルプレス＝2026/05/30】お笑いコンビ・アンガールズの田中卓志が5月29日、自身のInstagramを更新。手作りのうどんを公開した。",
+      "publishedAt": "2026-05-30T07:40:46.000Z",
       "category": "entertainment",
-      "source": "Natalie 日剧",
-      "summary": "贺来贤人制作的《Never After Dark》被视为日本恐怖片革命，试映会感想汇总。"
+      "source": "Modelpress",
+      "summary": "搞笑组合“UNGAIRLS”田中卓志在Instagram展示自制乌冬面，网友评论“冷冻葱有亲切感”“颜色漂亮”。"
+    },
+    {
+      "sourceId": "modelpress",
+      "title": "山下美月、膝丈スカートからスラリ美脚際立つ「膝下が長くて綺麗」「透明感半端ない」の声",
+      "url": "https://mdpr.jp/news/detail/4789769",
+      "excerpt": "【モデルプレス＝2026/05/30】女優の山下美月が5月29日、自身のInstagramを更新。ユニフォームに膝丈スカートを合わせたコーディネートを公開した。",
+      "publishedAt": "2026-05-30T07:40:09.000Z",
+      "category": "entertainment",
+      "source": "Modelpress",
+      "summary": "女演员山下美月更新Instagram，展示制服搭配膝上裙的造型，露出修长美腿，获赞“膝下纤细”“透明感十足”。"
     },
     {
       "sourceId": "modelpress",
@@ -6822,7 +6831,7 @@
       "publishedAt": "2026-05-30T07:18:25.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "IVE成员李瑞分享短裙穿搭，展示纤细美腿，网友称赞「身材绝佳」「透明感惊人」。"
+      "summary": "女团IVE成员李瑞在Instagram晒露肩上衣配迷你裙装，展露纤细美腿，网友称“身材比例出色”“透明感强”。"
     },
     {
       "sourceId": "modelpress",
@@ -6832,7 +6841,7 @@
       "publishedAt": "2026-05-30T07:13:52.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "Travis Japan松仓海斗发布在环球影城的快照，头套造型获赞「选择绝妙」「私服感满分」。"
+      "summary": "Travis Japan成员松仓海斗在Instagram分享环球影城游玩照片，网友评论“头饰选择绝佳”“私人感十足”。"
     },
     {
       "sourceId": "modelpress",
@@ -6842,7 +6851,7 @@
       "publishedAt": "2026-05-30T07:11:19.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "超特急成员Aloha和Haru在写真集发售活动上互相告白彼此喜欢的优点，并谈及感受到「男子气概」的瞬间。"
+      "summary": "超特急成员AROHA和HARU在写真集发售活动中互相告白对方优点，提到感到对方“帅气”的瞬间。"
     },
     {
       "sourceId": "modelpress",
@@ -6852,7 +6861,7 @@
       "publishedAt": "2026-05-30T07:00:20.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "三个孩子的母亲近藤千寻分享女儿点餐的手工晚餐，网友称赞「菜品丰富豪华」「搭配绝妙」。"
+      "summary": "模特近藤千寻在Instagram展示根据女儿要求制作的晚餐，网友称赞“品种丰富”“营养均衡”。"
     },
     {
       "sourceId": "modelpress",
@@ -6862,7 +6871,7 @@
       "publishedAt": "2026-05-30T06:57:42.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "一位孩子的母亲冈副麻希晒出亲子远足便当，获赞「用心可爱」「色彩完美」。"
+      "summary": "自由主播冈副麻希在Instagram展示亲子远足便当，网友称赞“用心又可爱”“色彩完美”。"
     },
     {
       "sourceId": "modelpress",
@@ -6872,7 +6881,7 @@
       "publishedAt": "2026-05-30T06:54:25.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "参加《今日喜欢》的村谷春奈晒海边露肩照，网友称赞「肩线优美」「如画般美丽」。"
+      "summary": "参与《今天喜欢上你了》的村谷春奈在Instagram上传露肩海边照片，引发“肩线优美”“画面美”的称赞。"
     },
     {
       "sourceId": "modelpress",
@@ -6882,7 +6891,7 @@
       "publishedAt": "2026-05-30T06:50:54.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "真野惠里菜为丈夫鹿岛鹿角球员柴崎岳准备生日晚餐，网友称赞「健康美味」「营养均衡完美」。"
+      "summary": "女演员真野惠里菜5月28日在Instagram Stories上晒出为丈夫鹿岛鹿角队球员柴崎岳准备的生日晚餐，健康美味、营养均衡，引发网友热议。"
     },
     {
       "sourceId": "modelpress",
@@ -6892,7 +6901,7 @@
       "publishedAt": "2026-05-30T06:48:21.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "超特急成员アロ哈和ハル在写真集发售活动上透露了队形“大移动”走红的幕后故事，包括当初排练时的趣事。"
+      "summary": "超特急成员阿洛哈和哈尔5月30日在东京出席写真集「アイハヨルノイロ」发售活动，透露引起热议的队形大移动编排的幕后故事。"
     },
     {
       "sourceId": "modelpress",
@@ -6902,7 +6911,7 @@
       "publishedAt": "2026-05-30T06:38:46.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "恋爱真人秀《今日喜欢》中诞生的情侣相場星音与河村叶翔公开了车内亲密合照，被赞“美男美女”。"
+      "summary": "出演恋爱真人秀《今天，我喜欢上了你》的相塲星音5月28日在Instagram晒出与恋人河村叶翔在拍摄巴士上的亲密合照，引发粉丝称赞「俊男美女」。"
     },
     {
       "sourceId": "modelpress",
@@ -6912,7 +6921,7 @@
       "publishedAt": "2026-05-30T06:32:57.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "人气创作者おさき公开了与弟弟今井暖大（《今日喜欢》参与者）及妹妹的亲密合照，网友称赞一家都是“美男美女”。"
+      "summary": "创作者おさき5月28日在Instagram分享与弟弟今井暖大（出演《今天，我喜欢上了你》）及妹妹的合照，引发「美男美女」热议。"
     },
     {
       "sourceId": "modelpress",
@@ -6922,7 +6931,7 @@
       "publishedAt": "2026-05-30T06:19:58.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "超特急成员アロ哈和ハル在活动上向因流感疗养的リョウガ送祝福，并感叹今年流感季时间反常。"
+      "summary": "超特急成员哈尔5月30日在活动中向因流感疗养的成员リョウガ留言，感叹其感染时机与往年不同，「难道已经过年了吗」。"
     },
     {
       "sourceId": "modelpress",
@@ -6932,7 +6941,7 @@
       "publishedAt": "2026-05-30T06:13:36.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "网红すなずりかりん公开了模仿人气动漫角色的妆容视频，被赞“像从画面跳出来一样”逼真。"
+      "summary": "网红すなずりかりん5月28日前在Instagram发布模仿人气动画角色的妆容视频，被赞「像从屏幕里跳出来」一样逼真。"
     },
     {
       "sourceId": "modelpress",
@@ -6942,7 +6951,7 @@
       "publishedAt": "2026-05-30T06:08:25.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "女演员真飛聖公开了在东京迪士尼乐园游玩的照片，粉丝称赞其休闲风格也很出色。"
+      "summary": "女演员真飞圣5月28日在Instagram分享在东京迪士尼乐园游玩的照片，被赞「无论哪个角度都很上镜」。"
     },
     {
       "sourceId": "modelpress",
@@ -6952,7 +6961,7 @@
       "publishedAt": "2026-05-30T06:03:26.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "产后复出的日テレ主播郡司恭子公开了多款自制料理（中餐、西餐等），粉丝赞叹“像餐厅一样”。"
+      "summary": "日本电视台主播郡司恭子5月29日在Instagram晒出一系列中西式手料理，网友惊叹「什么都会做，像餐厅」。"
     },
     {
       "sourceId": "modelpress",
@@ -6962,7 +6971,7 @@
       "publishedAt": "2026-05-30T05:58:36.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "艺人辻希美公开了次女和三男熟睡的照片，兄妹睡姿同步率极高被称“不愧是兄妹”。"
+      "summary": "艺人辻希美5月30日在Instagram Stories分享次女梦空和三男幸空熟睡姿态，网友直呼「同步率惊人」。"
     },
     {
       "sourceId": "modelpress",
@@ -6972,7 +6981,7 @@
       "publishedAt": "2026-05-30T05:26:38.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "超特急アロ哈和ハル在活动中透露写真集拍摄期间，深夜1点左右还拉着工作人员聊天。"
+      "summary": "超特急成员阿洛哈和哈尔5月30日在活动上透露写真集拍摄间隙的移动中，凌晨1点左右拉上工作人员一起交流。"
     },
     {
       "sourceId": "modelpress",
@@ -6982,37 +6991,7 @@
       "publishedAt": "2026-05-30T05:02:13.000Z",
       "category": "entertainment",
       "source": "Modelpress",
-      "summary": "艺人村重杏奈在写真集发售会见上分享身体塑形秘诀，并表示继“胸部大先生”后想被叫“屁股番长”。"
-    },
-    {
-      "sourceId": "modelpress",
-      "title": "元AKB48メンバー、20cmばっさりカットの新ヘア公開「雰囲気が全然違う」「大人っぽさと透明感が増してる」と反響",
-      "url": "https://mdpr.jp/news/detail/4789510",
-      "excerpt": "【モデルプレス＝2026/05/30】元AKB48でタレントの高城亜樹が5月28日、自身のInstagramを更新。新しいヘアスタイルを公開した。",
-      "publishedAt": "2026-05-30T04:49:06.000Z",
-      "category": "entertainment",
-      "source": "Modelpress",
-      "summary": "前AKB48成员高城亚树公开了剪短20厘米的新发型，被赞“沉稳与透明感增加”。"
-    },
-    {
-      "sourceId": "modelpress",
-      "title": "中山秀征の妻・白城あやか、三男との母校訪問ショット公開「イケメン」「どっちにも似てる」と反響",
-      "url": "https://mdpr.jp/news/detail/4789500",
-      "excerpt": "【モデルプレス＝2026/05/30】タレントの中山秀征の妻で元宝塚歌劇団星組トップ娘役の白城あやかが5月29日、自身のInstagramを更新。三男との2ショットを公開し、反響を呼んでいる。",
-      "publishedAt": "2026-05-30T04:47:19.000Z",
-      "category": "entertainment",
-      "source": "Modelpress",
-      "summary": "中山秀征妻子白城あやか公开了与三男访问母校的合照，网友称赞儿子帅气。"
-    },
-    {
-      "sourceId": "modelpress",
-      "title": "2児の母・西山茉希、2日分の食事調理風景＆パスタ食卓公開「パスタとカレー同時進行すごい」「品数豊富で豪華」と反響",
-      "url": "https://mdpr.jp/news/detail/4789499",
-      "excerpt": "【モデルプレス＝2026/05/30】モデルの西山茉希が5月29日、自身のInstagramを更新。料理風景やパスタメインの食卓を公開した。",
-      "publishedAt": "2026-05-30T04:23:28.000Z",
-      "category": "entertainment",
-      "source": "Modelpress",
-      "summary": "模特西山茉希公开了2天的烹饪过程及意面等菜肴，粉丝称赞同时做意面和咖喱很厉害。"
+      "summary": "艺人村重杏奈5月30日在东京出席写真集「あんな」发售记者会，透露身体塑形方法，并表示继「胸部大先生」后想被称作「屁股番长」。"
     },
     {
       "sourceId": "natalie-starto",
@@ -7022,7 +7001,7 @@
       "publishedAt": "2026-05-29T21:06:17.000Z",
       "category": "entertainment",
       "source": "Natalie STARTO",
-      "summary": "なにわ男子西畑大吾向Snow Man佐久间大介介绍自己最爱的咖喱连锁店CoCo壹番屋。"
+      "summary": "なにわ男子成员西畑大吾大爱CoCo壱番屋咖喱，向Snow Man成员佐久间大介推荐其最爱咖喱。"
     }
   ]
 }
