@@ -801,15 +801,16 @@
     "id": "google-news-kr-ent",
     "name": "Google News 韩娱",
     "type": "rss",
-    "url": "https://news.google.com/rss/search?q=K-pop&hl=en&gl=US&ceid=US:en",
+    "url": "https://news.google.com/rss/search?q=K-pop&hl=en-US&gl=US&ceid=US:en",
     "category": "entertainment",
     "subcategory": "kpop-news",
     "enabled": true,
+    "useCurl": true,
     "is_private": false,
     "locales": [
       "zh"
     ],
-    "notes": "Google News K-pop 英文新闻（RSS 约 100 条，新鲜度高）"
+    "notes": "Google News K-pop 英文新闻（RSS 约 100 条，新鲜度高）。useCurl：Google News 对 IrisNexusBot UA 返回空 body，需用 Chrome UA。"
   },
   {
     "id": "theqoo-hot",

@@ -18,8 +18,11 @@ export async function fetchStartoNews(
   const articles: RawArticle[] = [];
   const seen = new Set<string>();
 
-  for (let page = 1; page <= 3 && articles.length < limit; page++) {
-    const url = `${baseUrl}&page=${page}`;
+  // Page 0 = default (latest), page 1+ = &page=N.
+  // The STARTO site treats the default URL as page 1 of latest news;
+  // appending &page=1 actually returns page 2 (older content).
+  for (let page = 0; page < 3 && articles.length < limit; page++) {
+    const url = page === 0 ? baseUrl : `${baseUrl}&page=${page}`;
     const resp = await fetch(url, {
       headers: {
         "User-Agent":
