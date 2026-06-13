@@ -28,14 +28,8 @@ name: Iris Nexus Brief
 
 on:
   schedule:
-    # Four hourly triggers — GitHub Actions drops a non-trivial fraction of
-    # scheduled runs; two per hour was still losing entire 2-3h windows (e.g.
-    # BJ 00-05 UTC). Four substantially lowers the all-dropped probability.
-    # The gate prevents duplicate builds; catchup handles any residual misses.
-    - cron: '7 * * * *'
-    - cron: '22 * * * *'
-    - cron: '37 * * * *'
-    - cron: '52 * * * *'
+    # 每天北京时间 8:00 触发（UTC 0:00）
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
